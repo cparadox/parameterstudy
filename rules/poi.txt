@@ -1,0 +1,3444 @@
+org.apache.poi.ddf.EscherContainerRecord#setChildRecords(Ljava/util/List;)V
+  childRecords
+    +c:"Child records private data member has escaped".
+
+org.apache.poi.ddf.EscherPropertyFactory#createProperties([BIS)Ljava/util/List;
+  data
+    +c:
+  offset
+    +c:
+
+org.apache.poi.ddf.DefaultEscherRecordFactory#recordsToMap([Ljava/lang/Class;)Ljava/util/Map;
+  recClasses
+    +c:
+
+org.apache.poi.ddf.EscherOptRecord#setVersion(S)V
+  value
+    +c:can have only '0x3' version.
+
+org.apache.poi.ddf.EscherColorRef#<init>([BII)V
+  len
+    +c:.
+
+org.apache.poi.ddf.EscherMetafileBlip#setUID([B)V
+  uid
+    +c:"uid must be byte[16]".
+
+org.apache.poi.ddf.EscherMetafileBlip#setPrimaryUID([B)V
+  primaryUID
+    +c:"primaryUID must be byte[16]".
+
+org.apache.poi.ddf.EscherDump#outHex(ILjava/io/InputStream;Ljava/io/PrintStream;)V
+  bytes
+    +c:"Unable to output variable of that width".
+
+org.apache.poi.ddf.EscherPictBlip#setUID([B)V
+  uid
+    +c:"uid must be byte[16]".
+
+org.apache.poi.ddf.EscherBlipRecord#setPictureData([BII)V
+  pictureData
+    +c:"picture data can't be null".
+
+org.apache.poi.ddf.EscherComplexProperty#<init>(S[B)V
+  complexData
+    +c:"complexData can't be null".
+
+org.apache.poi.ddf.EscherComplexProperty#<init>(SZ[B)V
+  complexData
+    +c:"complexData can't be null".
+
+org.apache.poi.ddf.EscherTextboxRecord#serialize(I[BLorg/apache/poi/ddf/EscherSerializationListener;)I
+  offset
+    +c:
+
+org.apache.poi.ddf.EscherBitmapBlip#setUID([B)V
+  field_1_UID
+    +c:"field_1_UID must be byte[16]".
+
+org.apache.poi.ddf.EscherBSERecord#setUid([B)V
+  uid
+    +c:"uid must be byte[16]".
+
+org.apache.poi.extractor.OLE2ExtractorFactory#createExtractor(Lorg/apache/poi/poifs/filesystem/DirectoryNode;)Lorg/apache/poi/extractor/POITextExtractor;
+  poifsDir
+    +c:Old Excel Spreadsheet format (1-95)  found. Please call OldExcelExtractor directly for basic text extraction.
+
+org.apache.poi.extractor.OLE2ExtractorFactory#getEmbededDocsTextExtractors(Lorg/apache/poi/extractor/POIOLE2TextExtractor;)[Lorg/apache/poi/extractor/POITextExtractor;
+  ext
+    +c:"Error checking for Scratchpad embedded resources".
+
+org.apache.poi.hpsf.Vector#read(Lorg/apache/poi/util/LittleEndianByteArrayInputStream;)V
+  lei
+    +c:
+
+org.apache.poi.hpsf.Property#<init>(J[BJII)V
+  id
+    +c:"Dictionary not allowed here".
+
+org.apache.poi.hpsf.Property#<init>(JLorg/apache/poi/util/LittleEndianByteArrayInputStream;II)V
+  id
+    +c:"Dictionary not allowed here".
+
+org.apache.poi.hpsf.ClassID#write([BI)V
+  dst
+    +c:Destination byte[] must have room for at least 16 bytes,  but has a length of only    .
+
+org.apache.poi.hpsf.Section#setProperty(ILjava/lang/Object;)V
+  value
+    +d: The property's value. The value's class must be one of those supported by HPSF.
+    +c:HPSF does not support properties of type     .
+
+org.apache.poi.hpsf.Section#getPropertyIntValue(J)I
+  id
+    +c:
+
+org.apache.poi.hpsf.DocumentSummaryInformation#notYetImplemented(Ljava/lang/String;)V
+  msg
+    +c:is not yet implemented.
+
+org.apache.poi.hpsf.VariantSupport#read([BIIJI)Ljava/lang/Object;
+  type
+    +c:
+
+org.apache.poi.hpsf.VariantSupport#read(Lorg/apache/poi/util/LittleEndianByteArrayInputStream;IJI)Ljava/lang/Object;
+  type
+    +c:..
+
+org.apache.poi.hpsf.VariantSupport#write(Ljava/io/OutputStream;JLjava/lang/Object;I)I
+  type
+    +c:.
+  value
+    +c:.
+
+org.apache.poi.hpsf.PropertySet#<init>(Ljava/io/InputStream;)V
+  stream
+    +c:.
+
+org.apache.poi.hpsf.PropertySet#isPropertySetStream(Ljava/io/InputStream;)Z
+  stream
+    +d: The InputStream to check. In order to perform the check, the method reads the first bytes from the stream. After reading, the stream is reset to the position it had before reading. The InputStream must support the InputStream#mark method.
+
+org.apache.poi.hpsf.CustomProperties#put(Ljava/lang/String;Lorg/apache/poi/hpsf/CustomProperty;)Lorg/apache/poi/hpsf/CustomProperty;
+  name
+    +c:Parameter \name\ (  ) and custom property's name (   ) do not match.
+
+org.apache.poi.hpsf.CustomProperties#put(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+  value
+    +c:"unsupported datatype - currently String,Short,Integer,Long,Float,Double,Boolean,BigInteger(unsigned long),Date can be processed.".
+
+org.apache.poi.hssf.dev.FormulaViewer#throwInvalidRVAToken(Lorg/apache/poi/ss/formula/ptg/Ptg;)V
+  token
+    +c:Invalid RVA type (   ). This should never happen.
+
+org.apache.poi.hssf.dev.BiffDrawingToXml#main([Ljava/lang/String;)V
+  params
+    +c:
+
+org.apache.poi.hssf.dev.BiffDrawingToXml#writeToFile(Ljava/io/OutputStream;Ljava/io/InputStream;Z[Ljava/lang/String;)V
+  params
+    +c:
+
+org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener#formatNumberDateCell(Lorg/apache/poi/hssf/record/CellValueRecordInterface;)Ljava/lang/String;
+  cell
+    +c:Unsupported CellValue Record passed in.
+
+org.apache.poi.hssf.model.DrawingManager2#allocateShapeId(S)I
+  drawingGroupId
+    +c:Drawing group id    doesn't exist.
+
+org.apache.poi.hssf.model.RowBlocksReader#<init>(Lorg/apache/poi/hssf/model/RecordStream;)V
+  rs
+    +c:"Failed to find end of row/cell records".
+
+org.apache.poi.hssf.model.InternalWorkbook#getFontRecordAt(I)Lorg/apache/poi/hssf/record/FontRecord;
+  idx
+    +c:There are only    font records, you asked for.
+
+org.apache.poi.hssf.model.InternalWorkbook#getFontIndex(Lorg/apache/poi/hssf/record/FontRecord;)I
+  font
+    +c:
+
+org.apache.poi.hssf.model.InternalWorkbook#setSheetName(ILjava/lang/String;)V
+  sheetnum
+    +c:
+
+org.apache.poi.hssf.model.InternalWorkbook#createBuiltInName(BI)Lorg/apache/poi/hssf/record/NameRecord;
+  builtInName
+    +c:Builtin (  ) already exists for sheet (  ).
+  sheetNumber
+    +c:Sheet number [  ]is not valid.
+
+org.apache.poi.hssf.model.InternalSheet#<init>(Lorg/apache/poi/hssf/model/RecordStream;)V
+  rs
+    +c:"BOF record expected".
+
+org.apache.poi.hssf.model.InternalSheet#addMergedRegion(IIII)I
+  rowTo
+    +c:The 'to' row (  ) must not be less than the 'from' row (  ).
+  colTo
+    +c:The 'to' col (  ) must not be less than the 'from' col (  ).
+
+org.apache.poi.hssf.model.InternalSheet#setColumnWidth(II)V
+  width
+    +c:"The maximum column width for an individual cell is 255 characters.".
+
+org.apache.poi.hssf.record.NoteStructureSubRecord#<init>(Lorg/apache/poi/util/LittleEndianInput;I)V
+  size
+    +d: the provided size - must be 22
+    +c:Unexpected size (  ).
+
+org.apache.poi.hssf.record.FormatRecord#readStringCommon(Lorg/apache/poi/hssf/record/RecordInputStream;IZ)Ljava/lang/String;
+  requestedLength
+    +c:Bad requested string length (  ).
+
+org.apache.poi.hssf.record.TextObjectRecord#<init>(Lorg/apache/poi/hssf/record/RecordInputStream;)V
+  in
+    +c:"Not enough remaining data for a link formula".Unused     bytes at end of record.
+
+org.apache.poi.hssf.record.TextObjectRecord#processFontRuns(Lorg/apache/poi/hssf/record/RecordInputStream;Lorg/apache/poi/hssf/usermodel/HSSFRichTextString;I)V
+  formattingRunDataLength
+    +c:Bad format run data length   ).
+
+org.apache.poi.hssf.record.DrawingRecord#setData([B)V
+  thedata
+    +c:"data must not be null".
+
+org.apache.poi.hssf.record.ColumnInfoRecord#<init>(Lorg/apache/poi/hssf/record/RecordInputStream;)V
+  in
+    +c:Unusual record size remaining=(   ).
+
+org.apache.poi.hssf.record.FtPioGrbitSubRecord#<init>(Lorg/apache/poi/util/LittleEndianInput;I)V
+  size
+    +c:Unexpected size (  ).
+
+org.apache.poi.hssf.record.FtCfSubRecord#<init>(Lorg/apache/poi/util/LittleEndianInput;I)V
+  size
+    +c:Unexpected size (  ).
+
+org.apache.poi.hssf.record.EndSubRecord#<init>(Lorg/apache/poi/util/LittleEndianInput;I)V
+  size
+    +c:Unexpected size (  ).
+
+org.apache.poi.hssf.record.WriteAccessRecord#<init>(Lorg/apache/poi/hssf/record/RecordInputStream;)V
+  in
+    +c:Expected data size (  ) but got (   ).
+
+org.apache.poi.hssf.record.WriteAccessRecord#setUsername(Ljava/lang/String;)V
+  username
+    +c:Name is too long:.
+
+org.apache.poi.hssf.record.InterfaceEndRecord#create(Lorg/apache/poi/hssf/record/RecordInputStream;)Lorg/apache/poi/hssf/record/Record;
+  in
+    +c:Invalid record data size:.
+
+org.apache.poi.hssf.record.PaletteRecord#getColor(I)[B
+  byteIndex
+    +d: palette index, must be >= 0x8
+
+org.apache.poi.hssf.record.DVRecord#<init>(IIIZZZZLjava/lang/String;Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Lorg/apache/poi/ss/formula/ptg/Ptg;[Lorg/apache/poi/ss/formula/ptg/Ptg;Lorg/apache/poi/ss/util/CellRangeAddressList;)V
+  promptTitle
+    +c:Prompt-title cannot be longer than 32 characters, but had:.
+  promptText
+    +c:Prompt-text cannot be longer than 255 characters, but had:.
+  errorTitle
+    +c:Error-title cannot be longer than 32 characters, but had:.
+  errorText
+    +c:Error-text cannot be longer than 255 characters, but had:.
+
+org.apache.poi.hssf.record.ExternSheetRecord#addRef(III)I
+  firstSheetIndex
+    +d:  the scope, must be -2 for add-in references
+  lastSheetIndex
+    +d:   the scope, must be -2 for add-in references
+
+org.apache.poi.hssf.record.EscherAggregate#writeDataIntoDrawingRecord([BII[BI)I
+  writtenEscherBytes
+    +d: - count of bytes already saved into drawing records (we should know it to decide create drawing or continue record)
+
+org.apache.poi.hssf.record.RecordInputStream#read([BII)I
+  off
+    +c:
+  len
+    +c:
+
+org.apache.poi.hssf.record.RecordInputStream#readPlain([BII)V
+  buf
+    +c:
+  off
+    +c:
+  len
+    +c:
+
+org.apache.poi.hssf.record.RecordInputStream#readFully([B)V
+  buf
+    +c:
+
+org.apache.poi.hssf.record.RecordInputStream#readFully([BII)V
+  buf
+    +c:
+  off
+    +c:
+  len
+    +c:
+
+org.apache.poi.hssf.record.RecordInputStream#readFully([BIIZ)V
+  buf
+    +c:.
+  off
+    +c:
+  len
+    +c:Can't read the remaining     bytes of the requested     bytes. No further record exists.
+
+org.apache.poi.hssf.record.RecordInputStream#readUnicodeLEString(I)Ljava/lang/String;
+  requestedLength
+    +c:
+
+org.apache.poi.hssf.record.RecordInputStream#readCompressedUnicode(I)Ljava/lang/String;
+  requestedLength
+    +c:
+
+org.apache.poi.hssf.record.BoolErrRecord#<init>(Lorg/apache/poi/hssf/record/RecordInputStream;)V
+  in
+    +c:Unexpected size (   ) for BOOLERR record.
+
+org.apache.poi.hssf.record.BoolErrRecord#setValue(B)V
+  value
+    +d:     error representing the error value this value can only be 0,7,15,23,29,36 or 42 see bugzilla bug 16560 for an explanation
+
+org.apache.poi.hssf.record.BoolErrRecord#setValue(Lorg/apache/poi/ss/usermodel/FormulaError;)V
+  value
+    +d:     error representing the error value this value can only be 0,7,15,23,29,36 or 42 see bugzilla bug 16560 for an explanation
+    +c:Error Value can only be 0,7,15,23,29,36 or 42. It cannot be     (  ).
+
+org.apache.poi.hssf.record.DConRefRecord#<init>([B)V
+  data
+    +c:"incompatible sid.".
+
+org.apache.poi.hssf.record.DConRefRecord#<init>(Lorg/apache/poi/hssf/record/RecordInputStream;)V
+  inStream
+    +c:Wrong sid:.
+
+org.apache.poi.hssf.record.EmbeddedObjectRefSubRecord#<init>(Lorg/apache/poi/util/LittleEndianInput;I)V
+  size
+    +c:
+
+org.apache.poi.hssf.record.RowRecord#<init>(I)V
+  rowNumber
+    +c:Invalid row number (  ).
+
+org.apache.poi.hssf.record.CommonObjectDataSubRecord#<init>(Lorg/apache/poi/util/LittleEndianInput;I)V
+  size
+    +c:Expected size 18 but got (  ).
+
+org.apache.poi.hssf.record.OldStringRecord#getString([BLorg/apache/poi/hssf/record/CodepageRecord;)Ljava/lang/String;
+  codepage
+    +c:
+
+org.apache.poi.hssf.record.FtCblsSubRecord#<init>(Lorg/apache/poi/util/LittleEndianInput;I)V
+  size
+    +c:Unexpected size (  ).
+
+org.apache.poi.hssf.record.RecordFactoryInputStream#<init>(Ljava/io/InputStream;Z)V
+  shouldIncludeContinueRecords
+    +d: caller can pass false if loose ContinueRecord s should be skipped (this is sometimes useful in event based processing).
+
+org.apache.poi.hssf.record.aggregates.CustomViewSettingsRecordAggregate#<init>(Lorg/apache/poi/hssf/model/RecordStream;)V
+  rs
+    +c:Found more than one PageSettingsBlock in chart sub-stream, had sid:.
+
+org.apache.poi.hssf.record.aggregates.FormulaRecordAggregate#<init>(Lorg/apache/poi/hssf/record/FormulaRecord;Lorg/apache/poi/hssf/record/StringRecord;Lorg/apache/poi/hssf/record/aggregates/SharedValueManager;)V
+  stringRec
+    +c:"Formula record flag is set but String record was not found".
+  svm
+    +c:"sfm must not be null".
+
+org.apache.poi.hssf.record.aggregates.ConditionalFormattingTable#checkIndex(I)V
+  index
+    +c:Specified CF index    is outside the allowable range (0..   ).
+
+org.apache.poi.hssf.record.aggregates.CFRecordsAggregate#getRule(I)Lorg/apache/poi/hssf/record/CFRuleBase;
+  idx
+    +c:
+
+org.apache.poi.hssf.record.aggregates.CFRecordsAggregate#setRule(ILorg/apache/poi/hssf/record/CFRuleBase;)V
+  idx
+    +c:
+  r
+    +c:"r must not be null".
+
+org.apache.poi.hssf.record.aggregates.CFRecordsAggregate#addRule(Lorg/apache/poi/hssf/record/CFRuleBase;)V
+  r
+    +c:"r must not be null".
+
+org.apache.poi.hssf.record.aggregates.RowRecordsAggregate#removeRow(Lorg/apache/poi/hssf/record/RowRecord;)V
+  row
+    +c:"Attempt to remove row that does not belong to this sheet".
+
+org.apache.poi.hssf.record.aggregates.RowRecordsAggregate#getRow(I)Lorg/apache/poi/hssf/record/RowRecord;
+  rowIndex
+    +c:The row number must be between 0 and    , but had:.
+
+org.apache.poi.hssf.record.aggregates.WorksheetProtectionBlock#checkNotPresent(Lorg/apache/poi/hssf/record/Record;)V
+  rec
+    +c:Duplicate PageSettingsBlock record (sid=0x     ).
+
+org.apache.poi.hssf.record.aggregates.ChartSubstreamRecordAggregate#<init>(Lorg/apache/poi/hssf/model/RecordStream;)V
+  rs
+    +c:Found more than one PageSettingsBlock in chart sub-stream, had sid:.
+
+org.apache.poi.hssf.record.aggregates.PageSettingsBlock#getMargin(S)D
+  margin
+    +c:Unknown margin constant:.
+
+org.apache.poi.hssf.record.aggregates.PageSettingsBlock#setMargin(SD)V
+  margin
+    +c:Unknown margin constant:.
+
+org.apache.poi.hssf.record.aggregates.PageSettingsBlock#addLateHeaderFooter(Lorg/apache/poi/hssf/record/HeaderFooterRecord;)V
+  rec
+    +c:Unexpected header-footer record sid: 0x.
+
+org.apache.poi.hssf.record.aggregates.MergedCellsTable#checkIndex(I)V
+  index
+    +c:Specified CF index    is outside the allowable range (0..   ).
+
+org.apache.poi.hssf.record.aggregates.ValueRecordsAggregate#removeCell(Lorg/apache/poi/hssf/record/CellValueRecordInterface;)V
+  cell
+    +c:"cell must not be null".
+
+org.apache.poi.hssf.record.aggregates.ValueRecordsAggregate#removeAllCellsValuesForRow(I)V
+  rowIndex
+    +c:Specified rowIndex    is outside the allowable range (0..  ).
+
+org.apache.poi.hssf.record.aggregates.ValueRecordsAggregate#visitCellsForRow(ILorg/apache/poi/hssf/record/aggregates/RecordAggregate$RecordVisitor;)V
+  rowIndex
+    +c:Row [  ] is empty.
+
+org.apache.poi.hssf.record.chart.SeriesTextRecord#setText(Ljava/lang/String;)V
+  text
+    +c:Text is too long (   >  ).
+
+org.apache.poi.hssf.record.common.ExtendedColor#setTint(D)V
+  tint
+    +c:"Tint/Shade must be between -1 and +1".
+
+org.apache.poi.hssf.record.pivottable.ExtendedPivotTableViewFieldsRecord#<init>(Lorg/apache/poi/hssf/record/RecordInputStream;)V
+  in
+    +c:Unexpected remaining size (   ).
+
+org.apache.poi.hssf.usermodel.FontDetails#create(Ljava/lang/String;Ljava/util/Properties;)Lorg/apache/poi/hssf/usermodel/FontDetails;
+  fontName
+    +c:The supplied FontMetrics doesn't know about the font '  ', so we can't use it. Please add it to your font metrics file (see StaticFontMetrics.getFontDetails.Number of characters does not number of widths for font.
+
+org.apache.poi.hssf.usermodel.HSSFDataValidation#createPromptBox(Ljava/lang/String;Ljava/lang/String;)V
+  title
+    +c:Prompt-title cannot be longer than 32 characters, but had:.
+  text
+    +c:Prompt-text cannot be longer than 255 characters, but had:.
+
+org.apache.poi.hssf.usermodel.HSSFDataValidation#createErrorBox(Ljava/lang/String;Ljava/lang/String;)V
+  title
+    +c:Error-title cannot be longer than 32 characters, but had:.
+  text
+    +c:Error-text cannot be longer than 255 characters, but had:.
+
+org.apache.poi.hssf.usermodel.HSSFCellStyle#setRotation(S)V
+  rotation
+    +c:"The rotation must be between -90 and 90 degrees, or 0xff".
+
+org.apache.poi.hssf.usermodel.HSSFCellStyle#verifyBelongsToWorkbook(Lorg/apache/poi/hssf/usermodel/HSSFWorkbook;)V
+  wb
+    +c:"This Style does not belong to the supplied Workbook. Are you trying to assign a style from one workbook to the cell of a differnt workbook?".
+
+org.apache.poi.hssf.usermodel.HSSFCellStyle#cloneStyleFrom(Lorg/apache/poi/ss/usermodel/CellStyle;)V
+  source
+    +c:"Can only clone from one HSSFCellStyle to another, not between HSSFCellStyle and XSSFCellStyle".
+
+org.apache.poi.hssf.usermodel.HSSFRow#removeCell(Lorg/apache/poi/ss/usermodel/Cell;)V
+  cell
+    +c:"cell must not be null".
+
+org.apache.poi.hssf.usermodel.HSSFRow#setRowNum(I)V
+  rowIndex
+    +c:Invalid row number (  ) outside allowable range (0..   ).
+
+org.apache.poi.hssf.usermodel.HSSFRow#moveCell(Lorg/apache/poi/hssf/usermodel/HSSFCell;S)V
+  cell
+    +c:"Asked to move a cell, but it didn't belong to our row".
+  newColumn
+    +c:Asked to move cell to column    but there's already a cell there.
+
+org.apache.poi.hssf.usermodel.HSSFRow#getCell(ILorg/apache/poi/ss/usermodel/Row$MissingCellPolicy;)Lorg/apache/poi/hssf/usermodel/HSSFCell;
+  policy
+    +c:Illegal policy.
+
+org.apache.poi.hssf.usermodel.HSSFRow#compareTo(Lorg/apache/poi/hssf/usermodel/HSSFRow;)I
+  other
+    +c:"The compared rows must belong to the same sheet".
+
+org.apache.poi.hssf.usermodel.HSSFRow#shiftCellsRight(III)V
+  lastShiftColumnIndex
+    +c:Incorrect shifting range : %d-%d.
+  step
+    +c:"Shifting step may not be negative ".
+
+org.apache.poi.hssf.usermodel.HSSFRow#shiftCellsLeft(III)V
+  firstShiftColumnIndex
+    +c:Column index less than zero :.
+  lastShiftColumnIndex
+    +c:Incorrect shifting range : %d-%d.
+  step
+    +c:"Shifting step may not be negative ".
+
+org.apache.poi.hssf.usermodel.HSSFWorkbook#getWorkbookDirEntryName(Lorg/apache/poi/poifs/filesystem/DirectoryNode;)Ljava/lang/String;
+  directory
+    +c:The supplied POIFSFileSystem does not contain a BIFF8 'Workbook' entry.  Is it really an excel file? Had:.
+
+org.apache.poi.hssf.usermodel.HSSFWorkbook#<init>(Lorg/apache/poi/poifs/filesystem/DirectoryNode;Z)V
+  directory
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFWorkbook#setSelectedTab(I)V
+  index
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFWorkbook#setActiveSheet(I)V
+  index
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFWorkbook#setSheetName(ILjava/lang/String;)V
+  name
+    +c:"sheetName must not be null".The workbook already contains a sheet named '  '.
+
+org.apache.poi.hssf.usermodel.HSSFWorkbook#cloneSheet(I)Lorg/apache/poi/hssf/usermodel/HSSFSheet;
+  sheetIndex
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFWorkbook#createSheet(Ljava/lang/String;)Lorg/apache/poi/hssf/usermodel/HSSFSheet;
+  sheetname
+    +c:"sheetName must not be null".The workbook already contains a sheet named '  '.
+
+org.apache.poi.hssf.usermodel.HSSFWorkbook#getSheetAt(I)Lorg/apache/poi/hssf/usermodel/HSSFSheet;
+  index
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFWorkbook#removeSheetAt(I)V
+  index
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFWorkbook#findExistingBuiltinNameRecordIdx(IB)I
+  sheetIndex
+    +c:
+  builtinCode
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFWorkbook#getBuiltInName(BI)Lorg/apache/poi/hssf/usermodel/HSSFName;
+  builtinCode
+    +c:
+  sheetIndex
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFWorkbook#encryptBytes([B)V
+  buf
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFWorkbook#getNameAt(I)Lorg/apache/poi/hssf/usermodel/HSSFName;
+  nameIndex
+    +c:Specified name index    is outside the allowable range (0..   ).
+
+org.apache.poi.hssf.usermodel.HSSFWorkbook#addPicture([BI)I
+  format
+    +c:Unexpected picture format:.
+
+org.apache.poi.hssf.usermodel.DVConstraint#createNumericConstraint(IILjava/lang/String;Ljava/lang/String;)Lorg/apache/poi/hssf/usermodel/DVConstraint;
+  validationType
+    +c:Validation Type (  ) not supported with this method.
+  expr1
+    +c:"expr1 and expr2 must be null for validation type 'any'"."expr1 must be supplied".
+
+org.apache.poi.hssf.usermodel.DVConstraint#createTimeConstraint(ILjava/lang/String;Ljava/lang/String;)Lorg/apache/poi/hssf/usermodel/DVConstraint;
+  expr1
+    +c:"expr1 must be supplied".
+
+org.apache.poi.hssf.usermodel.DVConstraint#createDateConstraint(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/apache/poi/hssf/usermodel/DVConstraint;
+  expr1
+    +c:"expr1 must be supplied".
+  dateFormat
+    +c:
+
+org.apache.poi.hssf.usermodel.DVConstraint#createCustomFormulaConstraint(Ljava/lang/String;)Lorg/apache/poi/hssf/usermodel/DVConstraint;
+  formula
+    +c:"formula must be supplied".
+
+org.apache.poi.hssf.usermodel.DVConstraint#createDVConstraint(Lorg/apache/poi/hssf/record/DVRecord;Lorg/apache/poi/ss/formula/FormulaRenderingWorkbook;)Lorg/apache/poi/hssf/usermodel/DVConstraint;
+  dvRecord
+    +c:validationType=.
+
+org.apache.poi.hssf.usermodel.HSSFComment#setShapeId(I)V
+  shapeId
+    +c:Cannot add more than   shapes.
+
+org.apache.poi.hssf.usermodel.HSSFConditionalFormatting#<init>(Lorg/apache/poi/hssf/usermodel/HSSFSheet;Lorg/apache/poi/hssf/record/aggregates/CFRecordsAggregate;)V
+  sheet
+    +c:"sheet must not be null".
+  cfAggregate
+    +c:"cfAggregate must not be null".
+
+org.apache.poi.hssf.usermodel.HSSFName#setNameName(Ljava/lang/String;)V
+  nameName
+    +c:The  workbook sheet  already contains this name:.
+
+org.apache.poi.hssf.usermodel.HSSFName#validateName(Ljava/lang/String;)V
+  name
+    +c:"Name cannot be blank".Invalid name: '  ': cannot exceed 255 characters in length.Invalid name: '  ': cannot be special shorthand R or C.Invalid name: '  ': first character must be underscore or a letter.Invalid name: '  ': name must be letter, digit, period, or underscore.Invalid name: '  ': cannot be $A$1-style cell reference.Invalid name: '  ': cannot be R1C1-style cell reference.
+
+org.apache.poi.hssf.usermodel.HSSFName#setSheetIndex(I)V
+  index
+    +c:Sheet index (  ) is out of range     (0..   ).
+
+org.apache.poi.hssf.usermodel.HSSFSheet#removeRow(Lorg/apache/poi/ss/usermodel/Row;)V
+  row
+    +c:"Specified row does not belong to this sheet"."Specified row does not belong to this sheet".
+
+org.apache.poi.hssf.usermodel.HSSFSheet#addValidationData(Lorg/apache/poi/ss/usermodel/DataValidation;)V
+  dataValidation
+    +c:"objValidation must not be null".
+
+org.apache.poi.hssf.usermodel.HSSFSheet#addMergedRegion(Lorg/apache/poi/ss/util/CellRangeAddress;)I
+  region
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFSheet#addMergedRegionUnsafe(Lorg/apache/poi/ss/util/CellRangeAddress;)I
+  region
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFSheet#setZoom(II)V
+  numerator
+    +c:"Numerator must be greater than 0 and less than 65536".
+  denominator
+    +c:"Denominator must be greater than 0 and less than 65536".
+
+org.apache.poi.hssf.usermodel.HSSFSheet#showInPane(II)V
+  toprow
+    +c:Maximum row number is.
+
+org.apache.poi.hssf.usermodel.HSSFSheet#shiftRows(III)V
+  endRow
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFSheet#shiftRows(IIIZZ)V
+  endRow
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFSheet#shiftRows(IIIZZZ)V
+  endRow
+    +c:"startRow must be less than or equal to endRow. To shift rows up, use n<0.".
+
+org.apache.poi.hssf.usermodel.HSSFSheet#createFreezePane(IIII)V
+  leftmostColumn
+    +c:"leftmostColumn parameter must not be less than colSplit parameter".
+  topRow
+    +c:"topRow parameter must not be less than leftmostColumn parameter".
+
+org.apache.poi.hssf.usermodel.HSSFSheet#setRowBreak(I)V
+  row
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFSheet#setColumnBreak(I)V
+  column
+    +c:
+
+org.apache.poi.hssf.usermodel.HSSFSheet#validateRow(I)V
+  row
+    +c:Maximum row number is."Minumum row number is 0".
+
+org.apache.poi.hssf.usermodel.HSSFSheet#validateColumn(I)V
+  column
+    +c:Maximum column number is."Minimum column number is 0".
+
+org.apache.poi.hssf.usermodel.HSSFSheet#removeArrayFormula(Lorg/apache/poi/ss/usermodel/Cell;)Lorg/apache/poi/ss/usermodel/CellRange;
+  cell
+    +c:"Specified cell does not belong to this sheet.".
+
+org.apache.poi.hssf.usermodel.HSSFConditionalFormattingRule#<init>(Lorg/apache/poi/hssf/usermodel/HSSFSheet;Lorg/apache/poi/hssf/record/CFRuleBase;)V
+  pSheet
+    +c:"pSheet must not be null".
+  pRuleRecord
+    +c:"pRuleRecord must not be null".
+
+org.apache.poi.hssf.usermodel.HSSFConditionalFormattingRule#getCFRule12Record(Z)Lorg/apache/poi/hssf/record/CFRule12Record;
+  create
+    +c:"Can't convert a CF into a CF12 record".
+
+org.apache.poi.hssf.usermodel.HSSFCell#determineType(Lorg/apache/poi/hssf/record/CellValueRecordInterface;)Lorg/apache/poi/ss/usermodel/CellType;
+  cval
+    +c:Bad cell value rec (    ).
+
+org.apache.poi.hssf.usermodel.HSSFCell#setCellType(Lorg/apache/poi/ss/usermodel/CellType;ZISS)V
+  cellType
+    +c:Invalid cell type:.
+
+org.apache.poi.hssf.usermodel.HSSFCell#setCellValue(Lorg/apache/poi/ss/usermodel/RichTextString;)V
+  value
+    +c:"The maximum length of cell contents (text) is 32,767 characters".
+
+org.apache.poi.hssf.usermodel.HSSFCell#checkBounds(I)V
+  cellIndex
+    +c:Invalid column index (  ).  Allowable column range for    is (0..  ) or ('A'..'  ').
+
+org.apache.poi.hssf.usermodel.HSSFCell#notifyArrayFormulaChanging(Ljava/lang/String;)V
+  msg
+    +c:.
+
+org.apache.poi.hssf.usermodel.HSSFCell#applyUserCellStyle(Lorg/apache/poi/hssf/usermodel/HSSFCellStyle;)S
+  style
+    +c:"Expected user-defined style".
+
+org.apache.poi.hssf.usermodel.HSSFSheetConditionalFormatting#addConditionalFormatting([Lorg/apache/poi/ss/util/CellRangeAddress;[Lorg/apache/poi/hssf/usermodel/HSSFConditionalFormattingRule;)I
+  regions
+    +c:"regions must not be null".
+  cfRules
+    +c:"cfRules must not be null"."cfRules must not be empty"."Number of rules must not exceed 3".
+
+org.apache.poi.hssf.usermodel.HSSFRichTextString#applyFont(IIS)V
+  endIndex
+    +c:"Start index must be less than end index."."Start and end index not in range.".
+
+org.apache.poi.hssf.usermodel.HSSFHyperlink#<init>(Lorg/apache/poi/common/usermodel/HyperlinkType;)V
+  type
+    +c:Invalid type:.
+
+org.apache.poi.hssf.usermodel.HSSFClientAnchor#checkRange(IIILjava/lang/String;)V
+  minRange
+    +c:must be between    and   , but was:.
+
+org.apache.poi.hssf.util.HSSFColor#toHSSFColor(Lorg/apache/poi/ss/usermodel/Color;)Lorg/apache/poi/hssf/util/HSSFColor;
+  color
+    +c:Only HSSFColor objects are supported, but had.
+
+org.apache.poi.hssf.util.LazilyConcatenatedByteArray#concatenate([B)V
+  array
+    +c:"array cannot be null".
+
+org.apache.poi.hssf.util.CellRangeAddress8Bit#readUShortAndCheck(Lorg/apache/poi/util/LittleEndianInput;)I
+  in
+    +c:"Ran out of data reading CellRangeAddress".
+
+org.apache.poi.poifs.crypt.CryptoFunctions#hashPassword(Ljava/lang/String;Lorg/apache/poi/poifs/crypt/HashAlgorithm;[BI)[B
+  hashAlgorithm
+    +c:
+
+org.apache.poi.poifs.crypt.CryptoFunctions#hashPassword(Ljava/lang/String;Lorg/apache/poi/poifs/crypt/HashAlgorithm;[BIZ)[B
+  hashAlgorithm
+    +c:
+
+org.apache.poi.poifs.crypt.CryptoFunctions#generateIv(Lorg/apache/poi/poifs/crypt/HashAlgorithm;[B[BI)[B
+  hashAlgorithm
+    +c:
+
+org.apache.poi.poifs.crypt.CryptoFunctions#generateKey([BLorg/apache/poi/poifs/crypt/HashAlgorithm;[BI)[B
+  hashAlgorithm
+    +c:
+
+org.apache.poi.poifs.crypt.CryptoFunctions#getCipher(Ljavax/crypto/SecretKey;Lorg/apache/poi/poifs/crypt/CipherAlgorithm;Lorg/apache/poi/poifs/crypt/ChainingMode;[BI)Ljavax/crypto/Cipher;
+  cipherAlgorithm
+    +c:
+  vec
+    +d: the initialization vector (IV), can be null
+    +c:
+
+org.apache.poi.poifs.crypt.CryptoFunctions#getCipher(Ljava/security/Key;Lorg/apache/poi/poifs/crypt/CipherAlgorithm;Lorg/apache/poi/poifs/crypt/ChainingMode;[BILjava/lang/String;)Ljavax/crypto/Cipher;
+  cipherAlgorithm
+    +c:"Export Restrictions in place - please install JCE Unlimited Strength Jurisdiction Policy files".
+  vec
+    +d: the initialization vector (IV), can be null
+    +c:
+
+org.apache.poi.poifs.crypt.CryptoFunctions#getMessageDigest(Lorg/apache/poi/poifs/crypt/HashAlgorithm;)Ljava/security/MessageDigest;
+  hashAlgorithm
+    +c:
+
+org.apache.poi.poifs.crypt.CryptoFunctions#getMac(Lorg/apache/poi/poifs/crypt/HashAlgorithm;)Ljavax/crypto/Mac;
+  hashAlgorithm
+    +c:
+
+org.apache.poi.poifs.crypt.CryptoFunctions#createXorVerifier1(Ljava/lang/String;)I
+  password
+    +c:"Password cannot be null".
+
+org.apache.poi.poifs.crypt.CryptoFunctions#createXorVerifier2(Ljava/lang/String;)I
+  password
+    +c:"Password cannot be null".
+
+org.apache.poi.poifs.crypt.CryptoFunctions#xorHashPassword(Ljava/lang/String;)Ljava/lang/String;
+  password
+    +c:
+
+org.apache.poi.poifs.crypt.CryptoFunctions#xorHashPasswordReversed(Ljava/lang/String;)Ljava/lang/String;
+  password
+    +c:
+
+org.apache.poi.poifs.crypt.CryptoFunctions#createXorKey1(Ljava/lang/String;)I
+  password
+    +c:
+
+org.apache.poi.poifs.crypt.CryptoFunctions#createXorArray1(Ljava/lang/String;)[B
+  password
+    +c:
+
+org.apache.poi.poifs.crypt.binaryrc4.BinaryRC4EncryptionVerifier#setSalt([B)V
+  salt
+    +c:"invalid verifier salt".
+
+org.apache.poi.poifs.crypt.binaryrc4.BinaryRC4EncryptionInfoBuilder#initialize(Lorg/apache/poi/poifs/crypt/EncryptionInfo;Lorg/apache/poi/util/LittleEndianInput;)V
+  info
+    +c:
+
+org.apache.poi.poifs.crypt.cryptoapi.CryptoAPIEncryptionInfoBuilder#initialize(Lorg/apache/poi/poifs/crypt/EncryptionInfo;Lorg/apache/poi/poifs/crypt/CipherAlgorithm;Lorg/apache/poi/poifs/crypt/HashAlgorithm;IILorg/apache/poi/poifs/crypt/ChainingMode;)V
+  cipherAlgorithm
+    +c:
+  hashAlgorithm
+    +c:
+
+org.apache.poi.poifs.crypt.cryptoapi.CryptoAPIEncryptor#confirmPassword(Ljava/lang/String;[B[B[B[B[B)V
+  verifier
+    +c:
+  verifierSalt
+    +c:
+
+org.apache.poi.poifs.crypt.cryptoapi.CryptoAPIEncryptionHeader#setKeySize(I)V
+  keyBits
+    +c:invalid keysize    for cipher algorithm.
+
+org.apache.poi.poifs.crypt.standard.StandardEncryptionVerifier#setSalt([B)V
+  salt
+    +c:"invalid verifier salt".
+
+org.apache.poi.poifs.crypt.standard.StandardEncryptionInfoBuilder#initialize(Lorg/apache/poi/poifs/crypt/EncryptionInfo;Lorg/apache/poi/poifs/crypt/CipherAlgorithm;Lorg/apache/poi/poifs/crypt/HashAlgorithm;IILorg/apache/poi/poifs/crypt/ChainingMode;)V
+  cipherAlgorithm
+    +c:"Standard encryption only supports AES128/192/256.".
+  hashAlgorithm
+    +c:"Standard encryption only supports SHA-1.".
+  keyBits
+    +c:KeySize     not allowed for Cipher.
+  chainingMode
+    +c:"Standard encryption only supports ECB chaining.".
+
+org.apache.poi.poifs.eventfilesystem.POIFSReader#registerListener(Lorg/apache/poi/poifs/eventfilesystem/POIFSReaderListener;)V
+  listener
+    +c:.
+
+org.apache.poi.poifs.eventfilesystem.POIFSReader#registerListener(Lorg/apache/poi/poifs/eventfilesystem/POIFSReaderListener;Ljava/lang/String;)V
+  listener
+    +c:
+  name
+    +c:
+
+org.apache.poi.poifs.eventfilesystem.POIFSReader#registerListener(Lorg/apache/poi/poifs/eventfilesystem/POIFSReaderListener;Lorg/apache/poi/poifs/filesystem/POIFSDocumentPath;Ljava/lang/String;)V
+  listener
+    +c:
+  name
+    +c:
+
+org.apache.poi.poifs.filesystem.DocumentInputStream#<init>(Lorg/apache/poi/poifs/filesystem/DocumentEntry;)V
+  document
+    +c:Cannot open internal document storage,    not a Document Node.
+
+org.apache.poi.poifs.filesystem.DocumentInputStream#read([B)I
+  b
+    +c:
+
+org.apache.poi.poifs.filesystem.DocumentInputStream#read([BII)I
+  b
+    +c:"buffer must not be null".
+  off
+    +c:"can't read past buffer boundaries".
+  len
+    +c:
+
+org.apache.poi.poifs.filesystem.DocumentInputStream#readFully([BII)V
+  len
+    +c:"Can't read negative number of bytes".
+
+org.apache.poi.poifs.filesystem.DocumentInputStream#readPlain([BII)V
+  len
+    +c:
+
+org.apache.poi.poifs.filesystem.POIFSFileSystem#<init>(Ljava/nio/channels/FileChannel;Ljava/io/File;ZZ)V
+  srcFile
+    +c:.
+
+org.apache.poi.poifs.filesystem.POIFSFileSystem#closeInputStream(Ljava/io/InputStream;Z)V
+  success
+    +c:.
+
+org.apache.poi.poifs.filesystem.POIFSFileSystem#sanityCheckBlockCount(I)V
+  block_count
+    +c:Illegal block count; minimum count is 1, got    instead.Block count    is too high. POI maximum is   .
+
+org.apache.poi.poifs.filesystem.DocumentDescriptor#<init>(Lorg/apache/poi/poifs/filesystem/POIFSDocumentPath;Ljava/lang/String;)V
+  path
+    +c:"path must not be null".
+  name
+    +c:"name must not be null"."name cannot be empty".
+
+org.apache.poi.poifs.filesystem.DocumentFactoryHelper#getDecryptedStream(Lorg/apache/poi/poifs/filesystem/POIFSFileSystem;Ljava/lang/String;)Ljava/io/InputStream;
+  password
+    +c:
+
+org.apache.poi.poifs.filesystem.DocumentFactoryHelper#getDecryptedStream(Lorg/apache/poi/poifs/filesystem/DirectoryNode;Ljava/lang/String;)Ljava/io/InputStream;
+  password
+    +c:"Password incorrect"."The supplied spreadsheet is protected, but no password was supplied".
+
+org.apache.poi.poifs.filesystem.DocumentOutputStream#<init>(Lorg/apache/poi/poifs/filesystem/DirectoryEntry;Ljava/lang/String;)V
+  parent
+    +c:
+
+org.apache.poi.poifs.filesystem.DocumentOutputStream#<init>(Lorg/apache/poi/poifs/filesystem/DocumentEntry;J)V
+  document
+    +c:
+
+org.apache.poi.poifs.filesystem.DocumentOutputStream#write([BII)V
+  len
+    +c:"tried to write too much data".
+
+org.apache.poi.poifs.filesystem.Ole10Native#<init>([BI)V
+  data
+    +c:"data is too small"."Invalid Ole10Native: declared data length > available data".
+
+org.apache.poi.poifs.filesystem.POIFSWriterEvent#<init>(Lorg/apache/poi/poifs/filesystem/DocumentOutputStream;Lorg/apache/poi/poifs/filesystem/POIFSDocumentPath;Ljava/lang/String;I)V
+  limit
+    +d: the limit, in bytes, that can be written to the stream
+
+org.apache.poi.poifs.filesystem.POIFSDocumentPath#<init>([Ljava/lang/String;)V
+  components
+    +d: the Strings making up the path to a document. The Strings must be ordered as they appear in the directory hierarchy of the the document -- the first string must be the name of a directory in the root of the POIFSFileSystem, and every Nth (for N > 1) string thereafter must be the name of a directory in the directory identified by the (N-1)th string. <p> If the components parameter is null or has zero length, the POIFSDocumentPath is appropriate for a document that is in the root of a POIFSFileSystem
+    +c:"components cannot contain null or empty strings".
+
+org.apache.poi.poifs.filesystem.POIFSDocumentPath#<init>(Lorg/apache/poi/poifs/filesystem/POIFSDocumentPath;[Ljava/lang/String;)V
+  components
+    +c:"components cannot contain null".
+
+org.apache.poi.poifs.filesystem.DirectoryNode#createDocumentInputStream(Lorg/apache/poi/poifs/filesystem/Entry;)Lorg/apache/poi/poifs/filesystem/DocumentInputStream;
+  document
+    +c:Entry '   ' is not a DocumentEntry.
+
+org.apache.poi.poifs.filesystem.DirectoryNode#getEntry(Ljava/lang/String;)Lorg/apache/poi/poifs/filesystem/Entry;
+  name
+    +c:no such entry: \  \, had:.
+
+org.apache.poi.poifs.filesystem.DirectoryNode#createOrUpdateDocument(Ljava/lang/String;Ljava/io/InputStream;)Lorg/apache/poi/poifs/filesystem/DocumentEntry;
+  name
+    +c:
+
+org.apache.poi.poifs.filesystem.FilteringDirectoryNode#getEntry(Ljava/lang/String;)Lorg/apache/poi/poifs/filesystem/Entry;
+  name
+    +c:.
+
+org.apache.poi.poifs.macros.VBAMacroExtractor#extract(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
+  input
+    +c:.
+  outputDir
+    +c:Output directory    could not be created.
+
+org.apache.poi.poifs.nio.FileBackedDataSource#read(IJ)Ljava/nio/ByteBuffer;
+  position
+    +c:Position    past the end of the file.Position    past the end of the file.
+
+org.apache.poi.poifs.nio.FileBackedDataSource#newSrcFile(Ljava/io/File;Ljava/lang/String;)Ljava/io/RandomAccessFile;
+  file
+    +c:.
+
+org.apache.poi.poifs.nio.ByteArrayBackedDataSource#read(IJ)Ljava/nio/ByteBuffer;
+  position
+    +c:Unable to read    bytes from    in stream of length.
+
+org.apache.poi.poifs.property.DirectoryProperty#addChild(Lorg/apache/poi/poifs/property/Property;)V
+  property
+    +d: the new child to be added; must not be null
+
+org.apache.poi.poifs.storage.BATBlock#getValueAt(I)I
+  relativeOffset
+    +c:Unable to fetch offset    as the  BAT only contains     entries.
+
+org.apache.poi.sl.draw.DrawFactory#getDrawable(Lorg/apache/poi/sl/usermodel/Shape;)Lorg/apache/poi/sl/draw/Drawable;
+  shape
+    +c:Unsupported shape type:.
+
+org.apache.poi.sl.draw.DrawPaint#getGradientPaint(Lorg/apache/poi/sl/usermodel/PaintStyle$GradientPaint;Ljava/awt/Graphics2D;)Ljava/awt/Paint;
+  fill
+    +c:gradient fill of type    not supported.
+
+org.apache.poi.sl.draw.DrawPaint#getTexturePaint(Lorg/apache/poi/sl/usermodel/PaintStyle$TexturePaint;Ljava/awt/Graphics2D;)Ljava/awt/Paint;
+  graphics
+    +c:.
+
+org.apache.poi.sl.draw.DrawPaint#HSL2RGB(DDDD)Ljava/awt/Color;
+  alpha
+    +c:Color parameter outside of expected range - Alpha:.
+
+org.apache.poi.sl.usermodel.SlideShowFactory#create(Ljava/io/File;)Lorg/apache/poi/sl/usermodel/SlideShow;
+  file
+    +c:
+
+org.apache.poi.sl.usermodel.SlideShowFactory#create(Ljava/io/File;Ljava/lang/String;)Lorg/apache/poi/sl/usermodel/SlideShow;
+  file
+    +c:
+
+org.apache.poi.sl.usermodel.SlideShowFactory#create(Ljava/io/File;Ljava/lang/String;Z)Lorg/apache/poi/sl/usermodel/SlideShow;
+  file
+    +c:.
+
+org.apache.poi.ss.extractor.EmbeddedExtractor#extract(Lorg/apache/poi/poifs/filesystem/DirectoryNode;)Lorg/apache/poi/ss/extractor/EmbeddedData;
+  dn
+    +c:.
+
+org.apache.poi.ss.format.CellElapsedFormatter#factorFor(CI)D
+  type
+    +c:Uknown elapsed time spec:.
+
+org.apache.poi.ss.format.CellElapsedFormatter#modFor(CI)D
+  type
+    +c:Uknown elapsed time spec:.
+
+org.apache.poi.ss.format.CellFormatResult#<init>(ZLjava/lang/String;Ljava/awt/Color;)V
+  text
+    +c:"CellFormatResult text may not be null".
+
+org.apache.poi.ss.format.SimpleFraction#buildFractionMaxDenominator(DDII)Lorg/apache/poi/ss/format/SimpleFraction;
+  value
+    +c:Overflow trying to convert    to fraction (    / ).Overflow trying to convert    to fraction (   /   ).
+  maxIterations
+    +c:Unable to convert    to fraction after    iterations.
+
+org.apache.poi.ss.format.CellFormatPart#<init>(Ljava/util/Locale;Ljava/lang/String;)V
+  desc
+    +c:Unrecognized format:.
+
+org.apache.poi.ss.format.CellFormatPart#applies(Ljava/lang/Object;)Z
+  valueObject
+    +c:"valueObject".
+
+org.apache.poi.ss.format.CellFormat#apply(Ljava/lang/Object;)Lorg/apache/poi/ss/format/CellFormatResult;
+  value
+    +c:value     of date    is not a valid Excel date.
+
+org.apache.poi.ss.format.CellFormat#getApplicableFormatPart(Ljava/lang/Object;)Lorg/apache/poi/ss/format/CellFormatPart;
+  value
+    +c:"value must be a Number".
+
+org.apache.poi.ss.formula.SheetNameFormatter#format(Ljava/lang/String;)Ljava/lang/String;
+  rawSheetName
+    +c:
+
+org.apache.poi.ss.formula.SheetNameFormatter#appendFormat(Ljava/lang/StringBuffer;Ljava/lang/String;)V
+  rawSheetName
+    +c:
+
+org.apache.poi.ss.formula.SheetNameFormatter#appendFormat(Ljava/lang/StringBuffer;Ljava/lang/String;Ljava/lang/String;)V
+  rawSheetName
+    +c:
+
+org.apache.poi.ss.formula.SheetNameFormatter#appendFormat(Ljava/lang/StringBuilder;Ljava/lang/String;)V
+  rawSheetName
+    +c:
+
+org.apache.poi.ss.formula.SheetNameFormatter#appendFormat(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+  rawSheetName
+    +c:
+
+org.apache.poi.ss.formula.SheetNameFormatter#isSpecialChar(C)Z
+  ch
+    +c:Illegal character (0x    ) found in sheet name.
+
+org.apache.poi.ss.formula.WorkbookEvaluator#evaluate(Lorg/apache/poi/ss/formula/EvaluationCell;)Lorg/apache/poi/ss/formula/eval/ValueEval;
+  srcCell
+    +c:
+
+org.apache.poi.ss.formula.WorkbookEvaluator#evaluateFormula(Lorg/apache/poi/ss/formula/OperationEvaluationContext;[Lorg/apache/poi/ss/formula/ptg/Ptg;)Lorg/apache/poi/ss/formula/eval/ValueEval;
+  ec
+    +c:
+  ptgs
+    +c:
+
+org.apache.poi.ss.formula.WorkbookEvaluator#evaluateNameFormula([Lorg/apache/poi/ss/formula/ptg/Ptg;Lorg/apache/poi/ss/formula/OperationEvaluationContext;)Lorg/apache/poi/ss/formula/eval/ValueEval;
+  ptgs
+    +c:
+  ec
+    +c:
+
+org.apache.poi.ss.formula.WorkbookEvaluator#evaluate(Ljava/lang/String;Lorg/apache/poi/ss/util/CellReference;Lorg/apache/poi/ss/util/CellRangeAddressBase;)Lorg/apache/poi/ss/formula/eval/ValueEval;
+  target
+    +c:
+  region
+    +c:
+
+org.apache.poi.ss.formula.WorkbookEvaluator#evaluateList(Ljava/lang/String;Lorg/apache/poi/ss/util/CellReference;Lorg/apache/poi/ss/util/CellRangeAddressBase;)Lorg/apache/poi/ss/formula/eval/ValueEval;
+  target
+    +c:
+  region
+    +c:
+
+org.apache.poi.ss.formula.WorkbookEvaluator#adjustRegionRelativeReference([Lorg/apache/poi/ss/formula/ptg/Ptg;Lorg/apache/poi/ss/util/CellReference;Lorg/apache/poi/ss/util/CellRangeAddressBase;)Z
+  target
+    +c:
+  region
+    +c:is not within.
+
+org.apache.poi.ss.formula.CacheAreaEval#getRow(I)Lorg/apache/poi/ss/formula/TwoDEval;
+  rowIndex
+    +c:Invalid rowIndex   .  Allowable range is (0..  ).
+
+org.apache.poi.ss.formula.CacheAreaEval#getColumn(I)Lorg/apache/poi/ss/formula/TwoDEval;
+  columnIndex
+    +c:Invalid columnIndex   .  Allowable range is (0..  ).
+
+org.apache.poi.ss.formula.FormulaRenderer#toFormulaString(Lorg/apache/poi/ss/formula/FormulaRenderingWorkbook;[Lorg/apache/poi/ss/formula/ptg/Ptg;)Ljava/lang/String;
+  ptgs
+    +c:"ptgs must not be null".
+
+org.apache.poi.ss.formula.OperationEvaluationContext#createExternSheetRefEvaluator(Lorg/apache/poi/ss/formula/EvaluationWorkbook$ExternalSheet;)Lorg/apache/poi/ss/formula/SheetRangeEvaluator;
+  externalSheet
+    +c:.Invalid sheet name '   ' in bool '   '.
+
+org.apache.poi.ss.formula.OperationEvaluationContext#getDynamicReference(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Lorg/apache/poi/ss/formula/eval/ValueEval;
+  sheetName
+    +c:
+  refStrPart1
+    +c:Specified name '  ' is not a range as expected.Cannot evaluate '  '. Indirect evaluation of defined names not supported yet.Unexpected reference classification of '  '.
+  refStrPart2
+    +d: the second part of the area reference. For single cell references this parameter must be null
+    +c:Unexpected reference classification of '  '.
+  isA1Style
+    +c:"R1C1 style not supported yet".
+
+org.apache.poi.ss.formula.CollaboratingWorkbooksEnvironment#setup([Ljava/lang/String;[Lorg/apache/poi/ss/formula/WorkbookEvaluator;)V
+  workbookNames
+    +c:
+  evaluators
+    +c:Number of workbook names is     but number of evaluators is.
+
+org.apache.poi.ss.formula.CollaboratingWorkbooksEnvironment#setup(Ljava/util/Map;)V
+  evaluatorsByName
+    +c:"Must provide at least one collaborating worbook".
+
+org.apache.poi.ss.formula.atp.AnalysisToolPak#registerFunction(Ljava/lang/String;Lorg/apache/poi/ss/formula/functions/FreeRefFunction;)V
+  name
+    +c:is a built-in Excel function.  Use FunctoinEval.registerFunction(String name, Function func) instead.is not a function from the Excel Analysis Toolpack.POI already implememts   . You cannot override POI's implementations of Excel functions.
+
+org.apache.poi.ss.formula.atp.DateParser#parseDate(Ljava/lang/String;)Ljava/util/Calendar;
+  strVal
+    +c:Unable to determine date format for text '  '.
+
+org.apache.poi.ss.formula.eval.FunctionEval#getBasicFunction(I)Lorg/apache/poi/ss/formula/functions/Function;
+  functionIndex
+    +c:FuncIx=.
+
+org.apache.poi.ss.formula.eval.FunctionEval#registerFunction(Ljava/lang/String;Lorg/apache/poi/ss/formula/functions/Function;)V
+  name
+    +c:is a function from the Excel Analysis Toolpack.  Use AnalysisToolpack.registerFunction(String name, FreeRefFunction func) instead.Unknown function:.POI already implememts   . You cannot override POI's implementations of Excel functions.
+
+org.apache.poi.ss.formula.eval.ErrorEval#valueOf(I)Lorg/apache/poi/ss/formula/eval/ErrorEval;
+  errorCode
+    +c:Unhandled error type for code.
+
+org.apache.poi.ss.formula.eval.IntersectionEval#evaluateRef(Lorg/apache/poi/ss/formula/eval/ValueEval;)Lorg/apache/poi/ss/formula/eval/AreaEval;
+  arg
+    +c:.Unexpected ref arg class (    ).
+
+org.apache.poi.ss.formula.eval.NumberEval#<init>(Lorg/apache/poi/ss/formula/ptg/Ptg;)V
+  ptg
+    +c:"ptg must not be null".bad argument type (    ).
+
+org.apache.poi.ss.formula.eval.RangeEval#evaluateRef(Lorg/apache/poi/ss/formula/eval/ValueEval;)Lorg/apache/poi/ss/formula/eval/AreaEval;
+  arg
+    +c:.Unexpected ref arg class (    ).
+
+org.apache.poi.ss.formula.eval.ConcatEval#getText(Lorg/apache/poi/ss/formula/eval/ValueEval;)Ljava/lang/Object;
+  ve
+    +c:Unexpected value type (    ).
+
+org.apache.poi.ss.formula.eval.OperandResolver#getSingleValue(Lorg/apache/poi/ss/formula/eval/ValueEval;II)Lorg/apache/poi/ss/formula/eval/ValueEval;
+  arg
+    +c:
+
+org.apache.poi.ss.formula.eval.OperandResolver#coerceValueToInt(Lorg/apache/poi/ss/formula/eval/ValueEval;)I
+  ev
+    +c:
+
+org.apache.poi.ss.formula.eval.OperandResolver#coerceValueToDouble(Lorg/apache/poi/ss/formula/eval/ValueEval;)D
+  ev
+    +c:Unexpected arg eval type (    ).
+
+org.apache.poi.ss.formula.eval.OperandResolver#coerceValueToString(Lorg/apache/poi/ss/formula/eval/ValueEval;)Ljava/lang/String;
+  ve
+    +c:Unexpected eval class (    ).
+
+org.apache.poi.ss.formula.eval.OperandResolver#coerceValueToBoolean(Lorg/apache/poi/ss/formula/eval/ValueEval;Z)Ljava/lang/Boolean;
+  ve
+    +c:..Unexpected eval (    ).
+
+org.apache.poi.ss.formula.eval.StringEval#<init>(Ljava/lang/String;)V
+  value
+    +c:"value must not be null".
+
+org.apache.poi.ss.formula.eval.forked.ForkedEvaluator#create(Lorg/apache/poi/ss/usermodel/Workbook;Lorg/apache/poi/ss/formula/IStabilityClassifier;Lorg/apache/poi/ss/formula/udf/UDFFinder;)Lorg/apache/poi/ss/formula/eval/forked/ForkedEvaluator;
+  wb
+    +c:
+
+org.apache.poi.ss.formula.functions.Mirr#evaluate([D)D
+  values
+    +c:
+
+org.apache.poi.ss.formula.functions.DateFunc#evaluate(III)D
+  year
+    +c:.
+
+org.apache.poi.ss.formula.functions.IPMT#eval([Lorg/apache/poi/ss/formula/eval/ValueEval;II)D
+  args
+    +c:.
+
+org.apache.poi.ss.formula.functions.Index#evaluate(IILorg/apache/poi/ss/formula/eval/ValueEval;Lorg/apache/poi/ss/formula/eval/ValueEval;)Lorg/apache/poi/ss/formula/eval/ValueEval;
+  arg0
+    +c:
+
+org.apache.poi.ss.formula.functions.Index#evaluate(IILorg/apache/poi/ss/formula/eval/ValueEval;Lorg/apache/poi/ss/formula/eval/ValueEval;Lorg/apache/poi/ss/formula/eval/ValueEval;)Lorg/apache/poi/ss/formula/eval/ValueEval;
+  arg0
+    +c:
+
+org.apache.poi.ss.formula.functions.Countblank#evaluate(IILorg/apache/poi/ss/formula/eval/ValueEval;)Lorg/apache/poi/ss/formula/eval/ValueEval;
+  arg0
+    +c:Bad range arg type (    ).
+
+org.apache.poi.ss.formula.functions.PPMT#eval([Lorg/apache/poi/ss/formula/eval/ValueEval;II)D
+  args
+    +c:.
+
+org.apache.poi.ss.formula.functions.Address#evaluate([Lorg/apache/poi/ss/formula/eval/ValueEval;II)Lorg/apache/poi/ss/formula/eval/ValueEval;
+  args
+    +c:
+
+org.apache.poi.ss.formula.functions.BaseNumberUtils#convertToDecimal(Ljava/lang/String;II)D
+  base
+    +c:"character not allowed".
+  maxNumberOfPlaces
+    +c:.
+
+org.apache.poi.ss.formula.functions.Mode#evaluate([D)D
+  v
+    +c:.
+
+org.apache.poi.ss.formula.functions.Sumproduct#evaluate([Lorg/apache/poi/ss/formula/eval/ValueEval;II)Lorg/apache/poi/ss/formula/eval/ValueEval;
+  args
+    +c:
+
+org.apache.poi.ss.formula.functions.Errortype#translateErrorCodeToErrorTypeValue(I)I
+  errorCode
+    +c:Invalid error code (  ).
+
+org.apache.poi.ss.formula.functions.Rate#checkValue(D)V
+  result
+    +c:.
+
+org.apache.poi.ss.formula.functions.Subtotal#findFunction(I)Lorg/apache/poi/ss/formula/functions/Function;
+  functionCode
+    +c:"STDEVP"."VAR"."VARP"."SUBTOTAL - with 'exclude hidden values' option".
+
+org.apache.poi.ss.formula.ptg.ArrayPtg#getValueIndex(II)I
+  colIx
+    +c:Specified colIx (  ) is outside the allowed range (0..  ).
+  rowIx
+    +c:Specified rowIx (  ) is outside the allowed range (0..  ).
+
+org.apache.poi.ss.formula.ptg.ArrayPtg#getConstantText(Ljava/lang/Object;)Ljava/lang/String;
+  o
+    +c:"Array item cannot be null".Unexpected constant class (    ).
+
+org.apache.poi.ss.formula.ptg.IntPtg#<init>(I)V
+  value
+    +c:value is out of range:.
+
+org.apache.poi.ss.formula.ptg.StringPtg#<init>(Ljava/lang/String;)V
+  value
+    +c:"String literals in formulas can't be bigger than 255 characters ASCII".
+
+org.apache.poi.ss.formula.ptg.ErrPtg#<init>(I)V
+  errorCode
+    +c:Invalid error code (  ).
+
+org.apache.poi.ss.formula.ptg.ErrPtg#valueOf(I)Lorg/apache/poi/ss/formula/ptg/ErrPtg;
+  code
+    +c:Unexpected error code (  ).
+
+org.apache.poi.ss.formula.ptg.FuncPtg#create(I)Lorg/apache/poi/ss/formula/ptg/FuncPtg;
+  functionIndex
+    +c:Invalid built-in function index (  ).
+
+org.apache.poi.ss.formula.udf.DefaultUDFFinder#<init>([Ljava/lang/String;[Lorg/apache/poi/ss/formula/functions/FreeRefFunction;)V
+  functionImpls
+    +c:"Mismatch in number of function names and implementations".
+
+org.apache.poi.ss.usermodel.WorkbookFactory#create(Ljava/io/File;)Lorg/apache/poi/ss/usermodel/Workbook;
+  file
+    +c:
+
+org.apache.poi.ss.usermodel.WorkbookFactory#create(Ljava/io/File;Ljava/lang/String;)Lorg/apache/poi/ss/usermodel/Workbook;
+  file
+    +c:
+
+org.apache.poi.ss.usermodel.WorkbookFactory#create(Ljava/io/File;Ljava/lang/String;Z)Lorg/apache/poi/ss/usermodel/Workbook;
+  file
+    +c:.
+
+org.apache.poi.ss.usermodel.DateUtil#convertTime(Ljava/lang/String;)D
+  timeStr
+    +c:
+
+org.apache.poi.ss.usermodel.DataFormatter#formatCellValue(Lorg/apache/poi/ss/usermodel/Cell;Lorg/apache/poi/ss/usermodel/FormulaEvaluator;)Ljava/lang/String;
+  cell
+    +d: The cell (can be null)
+  evaluator
+    +d: The FormulaEvaluator (can be null)
+
+org.apache.poi.ss.usermodel.DataFormatter#formatCellValue(Lorg/apache/poi/ss/usermodel/Cell;Lorg/apache/poi/ss/usermodel/FormulaEvaluator;Lorg/apache/poi/ss/formula/ConditionalFormattingEvaluator;)Ljava/lang/String;
+  cell
+    +d: The cell (can be null)
+  evaluator
+    +d: The FormulaEvaluator (can be null)
+  cfEvaluator
+    +d: ConditionalFormattingEvaluator (can be null)
+
+org.apache.poi.ss.util.SSCellRange#create(IIIILjava/util/List;Ljava/lang/Class;)Lorg/apache/poi/ss/util/SSCellRange;
+  width
+    +c:"Array size mismatch.".
+
+org.apache.poi.ss.util.SSCellRange#getCell(II)Lorg/apache/poi/ss/usermodel/Cell;
+  relativeRowIndex
+    +c:Specified row    is outside the allowable range (0..  ).
+  relativeColumnIndex
+    +c:Specified colummn    is outside the allowable range (0..  ).
+
+org.apache.poi.ss.util.NumberComparer#compare(DD)I
+  a
+    +c:Special double values are not allowed:.Special double values are not allowed:.
+
+org.apache.poi.ss.util.CellUtil#setFont(Lorg/apache/poi/ss/usermodel/Cell;Lorg/apache/poi/ss/usermodel/Font;)V
+  font
+    +c:"Font does not belong to this workbook".
+
+org.apache.poi.ss.util.CellReference#<init>(Ljava/lang/String;)V
+  cellRef
+    +c:Cell reference invalid:.
+
+org.apache.poi.ss.util.CellReference#<init>(Ljava/lang/String;IIZZ)V
+  pRow
+    +c:row index may not be negative, but had.
+  pCol
+    +c:column index may not be negative, but had.
+
+org.apache.poi.ss.util.CellReference#convertColStringToIndex(Ljava/lang/String;)I
+  ref
+    +c:Bad col ref format '  '.
+
+org.apache.poi.ss.util.CellReference#classifyCellReference(Ljava/lang/String;Lorg/apache/poi/ss/SpreadsheetVersion;)Lorg/apache/poi/ss/util/CellReference$NameType;
+  str
+    +c:
+
+org.apache.poi.ss.util.PropertyTemplate#drawOutsideBorders(Lorg/apache/poi/ss/util/CellRangeAddress;Lorg/apache/poi/ss/usermodel/BorderStyle;Lorg/apache/poi/ss/usermodel/BorderExtent;)V
+  extent
+    +c:"Unsupported PropertyTemplate.Extent, valid Extents are ALL, HORIZONTAL, and VERTICAL".
+
+org.apache.poi.ss.util.PropertyTemplate#drawHorizontalBorders(Lorg/apache/poi/ss/util/CellRangeAddress;Lorg/apache/poi/ss/usermodel/BorderStyle;Lorg/apache/poi/ss/usermodel/BorderExtent;)V
+  extent
+    +c:"Unsupported PropertyTemplate.Extent, valid Extents are ALL and INSIDE".
+
+org.apache.poi.ss.util.PropertyTemplate#drawVerticalBorders(Lorg/apache/poi/ss/util/CellRangeAddress;Lorg/apache/poi/ss/usermodel/BorderStyle;Lorg/apache/poi/ss/usermodel/BorderExtent;)V
+  extent
+    +c:"Unsupported PropertyTemplate.Extent, valid Extents are ALL and INSIDE".
+
+org.apache.poi.ss.util.PropertyTemplate#drawOutsideBorderColors(Lorg/apache/poi/ss/util/CellRangeAddress;SLorg/apache/poi/ss/usermodel/BorderExtent;)V
+  extent
+    +c:"Unsupported PropertyTemplate.Extent, valid Extents are ALL, HORIZONTAL, and VERTICAL".
+
+org.apache.poi.ss.util.PropertyTemplate#drawHorizontalBorderColors(Lorg/apache/poi/ss/util/CellRangeAddress;SLorg/apache/poi/ss/usermodel/BorderExtent;)V
+  extent
+    +c:"Unsupported PropertyTemplate.Extent, valid Extents are ALL and INSIDE".
+
+org.apache.poi.ss.util.PropertyTemplate#drawVerticalBorderColors(Lorg/apache/poi/ss/util/CellRangeAddress;SLorg/apache/poi/ss/usermodel/BorderExtent;)V
+  extent
+    +c:"Unsupported PropertyTemplate.Extent, valid Extents are ALL and INSIDE".
+
+org.apache.poi.ss.util.CellRangeAddress#<init>(IIII)V
+  lastRow
+    +d: Index of last row (inclusive), must be equal to or larger than  firstRow
+    +c:Invalid cell range, having lastRow < firstRow || lastCol < firstCol,  had rows    >=    or cells    >=.
+  lastCol
+    +d: Index of last column (inclusive), must be equal to or larger than  firstCol
+
+org.apache.poi.ss.util.CellRangeAddress#readUShortAndCheck(Lorg/apache/poi/hssf/record/RecordInputStream;)I
+  in
+    +c:"Ran out of data reading CellRangeAddress".
+
+org.apache.poi.ss.util.WorkbookUtil#validateSheetName(Ljava/lang/String;)V
+  sheetName
+    +c:"sheetName must not be null".sheetName '  ' is invalid - character count MUST be greater than or equal to 1 and less than or equal to 31.Invalid char (   ) found at index (   ) in sheet name '  '.Invalid sheet name '  '. Sheet names must not begin or end with (').
+
+org.apache.poi.ss.util.CellRangeAddressList#remove(I)Lorg/apache/poi/ss/util/CellRangeAddress;
+  rangeIndex
+    +c:Range index (  ) is outside allowable range (0..   ).
+
+org.apache.poi.ss.util.AreaReference#<init>(Ljava/lang/String;Lorg/apache/poi/ss/SpreadsheetVersion;)V
+  reference
+    +c:References passed to the AreaReference must be contiguous,  use generateContiguous(ref) if you have non-contiguous references.Bad area ref '  '.Bad area ref '  '.
+
+org.apache.poi.ss.util.AreaReference#separateAreaRefs(Ljava/lang/String;)[Ljava/lang/String;
+  reference
+    +c:More than one cell delimiter '  ' appears in area reference '  '.Area reference '  ' ends with special name delimiter '  '.Unexpected    in second cell reference of '  '.
+
+org.apache.poi.util.IOUtils#toByteArray(Ljava/io/InputStream;I)[B
+  length
+    +c:
+
+org.apache.poi.util.IOUtils#toByteArray(Ljava/io/InputStream;JI)[B
+  length
+    +c:"Can't allocate an array of length < 0".Can't allocate an array >.
+  maxLength
+    +c:MaxLength (  ) reached - stream seems to be invalid.
+
+org.apache.poi.util.IOUtils#skipFully(Ljava/io/InputStream;J)J
+  toSkip
+    +c:Skip count must be non-negative, actual:.
+
+org.apache.poi.util.IOUtils#safelyAllocate(JI)[B
+  length
+    +c:"Can't allocate an array of length < 0".Can't allocate an array >.
+
+org.apache.poi.util.ShortField#<init>(I)V
+  offset
+    +c:Illegal offset:.
+
+org.apache.poi.util.IntList#add(II)V
+  index
+    +c:.
+
+org.apache.poi.util.IntList#addAll(ILorg/apache/poi/util/IntList;)Z
+  index
+    +c:.
+
+org.apache.poi.util.IntList#get(I)I
+  index
+    +c:not accessible in a list of length.
+
+org.apache.poi.util.IntList#remove(I)I
+  index
+    +c:.
+
+org.apache.poi.util.IntList#set(II)I
+  index
+    +c:.
+
+org.apache.poi.util.ReplacingInputStream#<init>(Ljava/io/InputStream;[B[B)V
+  pattern
+    +c:"pattern length should be > 0".
+
+org.apache.poi.util.ReplacingInputStream#read([BII)I
+  b
+    +c:.
+  off
+    +c:
+  len
+    +c:
+
+org.apache.poi.util.ReplacingInputStream#read([B)I
+  b
+    +c:
+
+org.apache.poi.util.LittleEndianByteArrayInputStream#checkPosition(I)V
+  i
+    +c:Buffer overrun, having    bytes in the stream and position is at   , but trying to increment position by.
+
+org.apache.poi.util.LittleEndianByteArrayInputStream#setReadIndex(I)V
+  pos
+    +c:.
+
+org.apache.poi.util.LittleEndian#getByteArray([BIII)[B
+  maxSize
+    +d: Size must be <= maxSize or an exception is thrown. Use this to avoid potential OOMs on corrupt data.
+
+org.apache.poi.util.LittleEndian#readInt(Ljava/io/InputStream;)I
+  stream
+    +c:
+
+org.apache.poi.util.LittleEndian#readUInt(Ljava/io/InputStream;)J
+  stream
+    +c:
+
+org.apache.poi.util.LittleEndian#readLong(Ljava/io/InputStream;)J
+  stream
+    +c:
+
+org.apache.poi.util.LittleEndian#readShort(Ljava/io/InputStream;)S
+  stream
+    +c:
+
+org.apache.poi.util.LittleEndian#readUShort(Ljava/io/InputStream;)I
+  stream
+    +c:
+
+org.apache.poi.util.LongField#<init>(I)V
+  offset
+    +c:Illegal offset:.
+
+org.apache.poi.util.HexRead#readData(Ljava/io/InputStream;Ljava/lang/String;)[B
+  section
+    +c:Section '  ' not found.
+
+org.apache.poi.util.HexRead#readData(Ljava/lang/String;Ljava/lang/String;)[B
+  section
+    +c:
+
+org.apache.poi.util.TempFile#setTempFileCreationStrategy(Lorg/apache/poi/util/TempFileCreationStrategy;)V
+  strategy
+    +c:"strategy == null".
+
+org.apache.poi.util.ByteField#<init>(IB)V
+  offset
+    +c:"offset cannot be negative".
+
+org.apache.poi.util.ByteField#readFromStream(Ljava/io/InputStream;)V
+  stream
+    +c:
+
+org.apache.poi.util.LittleEndianByteArrayOutputStream#<init>([BII)V
+  buf
+    +c:calculated end index (   ) is out of allowable range (   ..   ).
+  startOffset
+    +c:Specified startOffset (  ) is out of allowable range (0..   ).
+
+org.apache.poi.util.LittleEndianByteArrayOutputStream#checkPosition(I)V
+  i
+    +c:"Buffer overrun".
+
+org.apache.poi.util.DefaultTempFileCreationStrategy#createTempDirectory(Ljava/io/File;)V
+  directory
+    +c:Could not create temporary directory '  '.Could not create temporary directory. '  ' exists but is not a directory.
+
+org.apache.poi.util.StringUtil#getFromUnicodeLE([BII)Ljava/lang/String;
+  offset
+    +c:Illegal offset    (String data is of length    ).
+  len
+    +c:Illegal length.
+
+org.apache.poi.util.StringUtil#putUnicodeLE(Ljava/lang/String;[BI)V
+  output
+    +d: the byte array to hold the uncompressed unicode, should be twice the length of the String
+
+org.apache.poi.util.StringUtil#getFromUnicodeLE0Terminated([BII)Ljava/lang/String;
+  offset
+    +c:Illegal offset    (String data is of length    ).
+  len
+    +c:Illegal length.
+
+org.apache.poi.util.ArrayUtil#arraycopy([BI[BII)V
+  src
+    +c:src_position was greater than src array size.  Tried to write starting at position    but the array length is.
+  src_position
+    +c:src_position was less than 0.  Actual value.
+  dst
+    +c:dst_position was greater than dst array size.  Tried to write starting at position    but the array length is.
+  dst_position
+    +c:dst_position was less than 0.  Actual value.
+  length
+    +c:src_position + length would overrun the src array.  Expected end at     actual end at.dst_position + length would overrun the dst array.  Expected end at     actual end at.
+
+org.apache.poi.util.ArrayUtil#arrayMoveWithin([Ljava/lang/Object;III)V
+  array
+    +c:"Asked to move more entries than the array has".
+  moveFrom
+    +c:"The moveFrom must be a valid array index".
+  moveTo
+    +c:"The moveTo must be a valid array index"."Asked to move to a position that doesn't have enough space".
+
+org.apache.poi.util.IntegerField#<init>(I)V
+  offset
+    +c:"negative offset".
+
+org.apache.poi.util.DocumentFormatException#check(ZLjava/lang/String;)V
+  assertTrue
+    +c:.
+
+org.apache.poi.util.RecordFormatException#check(ZLjava/lang/String;)V
+  assertTrue
+    +c:.
+
+org.apache.poi.util.CodePageUtil#codepageToEncoding(IZ)Ljava/lang/String;
+  codepage
+    +c:Codepage number may not be.
+
+org.apache.poi.util.HexDump#dump([BJLjava/io/OutputStream;II)V
+  stream
+    +c:"cannot write to nullstream".
+
+org.apache.poi.util.HexDump#dump([BJII)Ljava/lang/String;
+  index
+    +c:illegal index:   into array of length.
+
+org.apache.poi.TestPOIDocumentMain#readPropertiesHelper(Lorg/apache/poi/POIDocument;)V
+  docWB
+    +c:.."Administrator"..
+
+org.apache.poi.POITestCase#assertStartsWith(Ljava/lang/String;Ljava/lang/String;)V
+  string
+    +c:.
+  prefix
+    +c:.
+
+org.apache.poi.POITestCase#assertEndsWith(Ljava/lang/String;Ljava/lang/String;)V
+  string
+    +c:.
+  suffix
+    +c:.
+
+org.apache.poi.POITestCase#assertContains(Ljava/lang/String;Ljava/lang/String;)V
+  haystack
+    +c:.
+  needle
+    +c:.
+
+org.apache.poi.POITestCase#assertContainsIgnoreCase(Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;)V
+  haystack
+    +c:.
+  needle
+    +c:.Unable to find expected text '  ' in text:\n.
+
+org.apache.poi.POITestCase#assertContainsIgnoreCase(Ljava/lang/String;Ljava/lang/String;)V
+  haystack
+    +c:
+  needle
+    +c:
+
+org.apache.poi.POITestCase#assertNotContained(Ljava/lang/String;Ljava/lang/String;)V
+  haystack
+    +c:.
+  needle
+    +c:.
+
+org.apache.poi.POITestCase#assertContains(Ljava/util/Map;Ljava/lang/Object;)V
+  map
+    +c:Unable to find    in.
+
+org.apache.poi.POITestCase#getFieldValue(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+  clazz
+    +c:"Reflection of private fields is only allowed for POI classes."     org.apache.poi.
+
+org.apache.poi.POITestCase#callMethod(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
+  clazz
+    +c:"Reflection of private methods is only allowed for POI classes."     org.apache.poi.
+
+org.apache.poi.POITestCase#testPassesNow(I)V
+  bug
+    +c:This test passes now. Please update the unit test and bug   .
+
+org.apache.poi.POITestCase#assertBetween(Ljava/lang/String;III)V
+  value
+    +c::    is less than the minimum value of.:    is greater than the maximum value of.
+
+org.apache.poi.POITestCase#assertStrictlyBetween(Ljava/lang/String;III)V
+  value
+    +c::    is less than or equal to the minimum value of.:    is greater than or equal to the maximum value of.
+
+org.apache.poi.POIDataSamples#openResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
+  sampleFileName
+    +c:specified test sample file '  ' not found on the classpath.
+
+org.apache.poi.POIDataSamples#getFile(Ljava/lang/String;)Ljava/io/File;
+  sampleFileName
+    +c:Sample file '  ' not found in data dir '   '.
+
+org.apache.poi.hpsf.basic.TestWrite#check(JLjava/lang/Object;I)V
+  value
+    +c:..
+
+org.apache.poi.hssf.HSSFITestDataProvider#writeOutAndReadBack(Lorg/apache/poi/ss/usermodel/Workbook;)Lorg/apache/poi/hssf/usermodel/HSSFWorkbook;
+  original
+    +c:"Expected an instance of HSSFWorkbook".
+
+org.apache.poi.hssf.model.TestOperandClassTransformer#confirmTokenClass([Lorg/apache/poi/ss/formula/ptg/Ptg;IB)V
+  i
+    +c:ptg[  ] is a base token.
+  operandClass
+    +c:Wrong operand class for ptg (   ). Expected     but got.
+
+org.apache.poi.hssf.model.TestOperandClassTransformer#getOperandClassName(B)Ljava/lang/String;
+  ptgClass
+    +c:Unknown operand class (  ).
+
+org.apache.poi.hssf.model.TestFormulaParser#confirmTokenClasses(Ljava/lang/String;[Ljava/lang/Class;)[Lorg/apache/poi/ss/formula/ptg/Ptg;
+  expectedClasses
+    +c:
+
+org.apache.poi.hssf.model.TestFormulaParserIf#confirmAttrData([Lorg/apache/poi/ss/formula/ptg/Ptg;II)V
+  i
+    +c:Token[  ] was not AttrPtg as expected.
+
+org.apache.poi.hssf.record.TestCFRuleRecord#testCFRuleRecord(Lorg/apache/poi/hssf/record/CFRuleRecord;)V
+  record
+    +c:..................
+
+org.apache.poi.hssf.record.TestCFRuleRecord#testCFRule12Record(Lorg/apache/poi/hssf/record/CFRule12Record;)V
+  record
+    +c:."A1".
+
+org.apache.poi.hssf.record.TestCFRuleRecord#testCFRuleBase(Lorg/apache/poi/hssf/record/CFRuleBase;)V
+  record
+    +c:......
+
+org.apache.poi.hssf.record.TestCFRuleRecord#testPatternFormattingAccessors(Lorg/apache/poi/hssf/record/cf/PatternFormatting;)V
+  patternFormatting
+    +c:...
+
+org.apache.poi.hssf.record.TestCFRuleRecord#testBorderFormattingAccessors(Lorg/apache/poi/hssf/record/cf/BorderFormatting;)V
+  borderFormatting
+    +c:..............
+
+org.apache.poi.hssf.record.TestCFRuleRecord#testFontFormattingAccessors(Lorg/apache/poi/hssf/record/cf/FontFormatting;)V
+  fontFormatting
+    +c:...............................................
+
+org.apache.poi.hssf.record.TestEmbeddedObjectRefSubRecord#confirmData([B[B)V
+  expectedData
+    +c:Difference at offset (   ).
+
+org.apache.poi.hssf.record.TestBoundSheetRecord#confirmValid(Ljava/lang/String;Z)V
+  expectedResult
+    +c:Expected sheet name '  ' to be invalid.Expected sheet name '  ' to be valid.
+
+org.apache.poi.hssf.record.TestcaseRecordInputStream#confirmRecordEncoding(I[B[B)V
+  actualRecordBytes
+    +c:
+
+org.apache.poi.hssf.record.TestcaseRecordInputStream#confirmRecordEncoding(Ljava/lang/String;I[B[B)V
+  actualRecordBytes
+    +c:"Size of encode data mismatch"..
+
+org.apache.poi.hssf.record.common.TestUnicodeString#confirmSize(ILorg/apache/poi/hssf/record/common/UnicodeString;I)V
+  expectedSize
+    +c:.
+
+org.apache.poi.hssf.usermodel.TestFormulas#areaFunctionTest(Ljava/lang/String;)V
+  function
+    +c:function =  (A2:A3)   (A2:A3)   (A2:A3).
+
+org.apache.poi.hssf.usermodel.TestFormulas#refArrayFunctionTest(Ljava/lang/String;)V
+  function
+    +c:function =  (A2,A3)   (A2,A3).
+
+org.apache.poi.hssf.usermodel.TestFormulas#refAreaArrayFunctionTest(Ljava/lang/String;)V
+  function
+    +c:function =  (A2:A4,B2:B4)   (A2:A4,B2:B4).function =  ($A$2:$A4,B$2:B4)   ($A$2:$A4,B$2:B4).
+
+org.apache.poi.hssf.usermodel.FormulaExtractor#getPtgs(Lorg/apache/poi/hssf/usermodel/HSSFCell;)[Lorg/apache/poi/ss/formula/ptg/Ptg;
+  cell
+    +c:
+
+org.apache.poi.hssf.usermodel.TestHSSFConditionalFormatting#assertColour(Ljava/lang/String;Lorg/apache/poi/ss/usermodel/Color;)V
+  hexExpected
+    +c:...
+  actual
+    +c:"Colour must be given".
+
+org.apache.poi.hssf.usermodel.StreamUtility#diffStreams(Ljava/io/InputStream;Ljava/io/InputStream;[I)[I
+  allowableDifferenceRegions
+    +c:"allowableDifferenceRegions length is odd".
+
+org.apache.poi.hssf.util.TestCellReference#confirmCell(Lorg/apache/poi/ss/util/CellReference;Ljava/lang/String;IIZZLjava/lang/String;)V
+  expRow
+    +c:"row index is wrong".
+  expCol
+    +c:"col index is wrong".
+  expIsRowAbs
+    +c:"isRowAbsolute is wrong".
+  expIsColAbs
+    +c:"isColAbsolute is wrong".
+  expText
+    +c:"text is wrong".
+
+org.apache.poi.poifs.dev.TestPOIFSDump#deleteDirectory(Ljava/io/File;)V
+  directory
+    +c:Unable to delete directory  .
+
+org.apache.poi.poifs.dev.TestPOIFSDump#cleanDirectory(Ljava/io/File;)V
+  directory
+    +c:is not a directory.Failed to list contents of.
+
+org.apache.poi.poifs.dev.TestPOIFSDump#forceDelete(Ljava/io/File;)V
+  file
+    +c:File does not exist:.Unable to delete file:.
+
+org.apache.poi.poifs.filesystem.TestOfficeXMLException#confirmIsPOIFS(Ljava/lang/String;Lorg/apache/poi/poifs/filesystem/FileMagic;)V
+  expected
+    +c:.
+
+org.apache.poi.poifs.filesystem.TestDocumentOutputStream#compare(Lorg/apache/poi/poifs/filesystem/POIFSWriterListener;[B)V
+  expected
+    +c:.
+
+org.apache.poi.poifs.storage.RawDataUtil#confirmEqual([B[Ljava/lang/String;)V
+  expected
+    +c:"different".
+
+org.apache.poi.ss.format.CellFormatTestBase#tryColor(Ljava/lang/String;Ljava/lang/String;Lorg/apache/poi/ss/format/CellFormatTestBase$CellValue;Ljava/lang/Object;Ljava/lang/String;Ljava/awt/Color;)Ljava/lang/String;
+  expectedColor
+    +c:no color color.
+
+org.apache.poi.ss.formula.TestEvaluationCache#confirmLog(Lorg/apache/poi/ss/formula/TestEvaluationCache$MySheet;[Ljava/lang/String;)V
+  expectedLog
+    +c:"Log lengths mismatch".Log entry mismatch at index.
+
+org.apache.poi.ss.formula.eval.TestFormulaBugs#checkFormulaValue(Lorg/apache/poi/ss/usermodel/Workbook;Lorg/apache/poi/ss/usermodel/Cell;Ljava/lang/String;D)V
+  expectedValue
+    +c:.
+
+org.apache.poi.ss.formula.eval.TestFormulaBugs#checkFormulaValue(Lorg/apache/poi/ss/usermodel/Workbook;Lorg/apache/poi/ss/usermodel/Cell;Ljava/lang/String;Ljava/lang/String;)V
+  expectedValue
+    +c:.
+
+org.apache.poi.ss.formula.functions.TestCountFuncs#testCountFunctionFromSpreadsheet(Ljava/lang/String;IIILjava/lang/String;)V
+  functionName
+    +c:evaluations failed. See stderr for more details.
+
+org.apache.poi.ss.formula.functions.NumericFunctionInvoker#invoke(Lorg/apache/poi/ss/formula/functions/Function;[Lorg/apache/poi/ss/formula/eval/ValueEval;)D
+  f
+    +c:
+
+org.apache.poi.ss.formula.functions.NumericFunctionInvoker#invoke(Lorg/apache/poi/ss/formula/functions/Function;[Lorg/apache/poi/ss/formula/eval/ValueEval;II)D
+  f
+    +c:Evaluation of function (    ) failed:.
+
+org.apache.poi.ss.formula.functions.TestEDate#checkValue(IID)V
+  expectedResult
+    +c:.
+
+org.apache.poi.ss.formula.functions.TestEOMonth#checkValue(DID)V
+  expectedResult
+    +c:.
+
+org.apache.poi.ss.formula.functions.EvalFactory#createAreaEval(Lorg/apache/poi/ss/formula/ptg/AreaPtg;[Lorg/apache/poi/ss/formula/eval/ValueEval;)Lorg/apache/poi/ss/formula/eval/AreaEval;
+  values
+    +c:Expected     values but got.
+
+org.apache.poi.ss.formula.functions.TestSumif#confirmDouble(DLorg/apache/poi/ss/formula/eval/ValueEval;)V
+  actualEval
+    +c:"Expected numeric result".
+
+org.apache.poi.ss.formula.functions.TestSumifs#confirmDouble(DLorg/apache/poi/ss/formula/eval/ValueEval;)V
+  actualEval
+    +c:"Expected numeric result".
+
+org.apache.poi.ss.formula.ptg.TestExternalFunctionFormulas#confirmCellEval(Lorg/apache/poi/hssf/usermodel/HSSFSheet;IILorg/apache/poi/hssf/usermodel/HSSFFormulaEvaluator;Ljava/lang/String;D)V
+  expectedFormula
+    +c:.
+  expectedResult
+    +c:.
+
+org.apache.poi.ss.usermodel.TestDataFormatter#assertFormatsTo(Ljava/lang/String;D)V
+  expected
+    +c:.
+
+org.apache.poi.ss.usermodel.BaseTestBorderStyle#assertBorderStyleEquals(Lorg/apache/poi/ss/usermodel/BorderStyle;Lorg/apache/poi/ss/usermodel/Cell;)V
+  expected
+    +c:....
+
+org.apache.poi.ss.util.TestDateFormatConverter#outputLocaleDataFormats(Ljava/util/Date;ZZILjava/lang/String;)V
+  style
+    +c:Failed for locale:    and style   \n Having locales:.
+
+org.apache.poi.ss.util.TestCellReference#confirmCrInRange(ZLjava/lang/String;Ljava/lang/String;Lorg/apache/poi/ss/SpreadsheetVersion;)V
+  expResult
+    +c:expected (c='  ', r='  ' to be   within out of  bounds for version.
+
+org.apache.poi.util.TestLocaleUtil#assertCalendarNotEquals(Ljava/util/Calendar;Ljava/util/Calendar;)V
+  actual
+    +c:"time zone".
+
+org.apache.poi.util.TestLocaleUtil#assertCalendarEquals(Ljava/util/Calendar;Ljava/util/Calendar;)V
+  actual
+    +c:"time zone".
+
+org.apache.poi.ooxml.POIXMLDocumentPart#<init>(Lorg/apache/poi/openxml4j/opc/OPCPackage;Ljava/lang/String;)V
+  pkg
+    +c:
+
+org.apache.poi.ooxml.POIXMLDocumentPart#removeRelation(Lorg/apache/poi/ooxml/POIXMLDocumentPart;Z)Z
+  removeUnusedParts
+    +c:
+
+org.apache.poi.ooxml.POIXMLDocumentPart#createRelationship(Lorg/apache/poi/ooxml/POIXMLRelation;Lorg/apache/poi/ooxml/POIXMLFactory;IZ)Lorg/apache/poi/ooxml/POIXMLDocumentPart$RelationPart;
+  noRelation
+    +c:
+
+org.apache.poi.ooxml.extractor.ExtractorFactory#getEmbededDocsTextExtractors(Lorg/apache/poi/extractor/POIOLE2TextExtractor;)[Lorg/apache/poi/extractor/POITextExtractor;
+  ext
+    +c:
+
+org.apache.poi.ooxml.extractor.ExtractorFactory#getEmbeddedDocsTextExtractors(Lorg/apache/poi/extractor/POIOLE2TextExtractor;)[Lorg/apache/poi/extractor/POITextExtractor;
+  ext
+    +c:
+
+org.apache.poi.ooxml.util.IdentifierManager#<init>(JJ)V
+  lowerbound
+    +d: the lower limit of the id-range to manage. Must be greater than or equal to #MIN_ID .
+    +c:lowerbound must not be greater than upperbound, had    and.lowerbound must be greater than or equal to.
+  upperbound
+    +d: the upper limit of the id-range to manage. Must be less then or equal #MAX_ID .
+    +c:upperbound must be less than or equal to      but had.
+
+org.apache.poi.ooxml.util.IdentifierManager#reserve(J)J
+  id
+    +c:Value for parameter 'id' was out of bounds, had   , but should be within [  :  ].
+
+org.apache.poi.ooxml.util.IdentifierManager#release(J)Z
+  id
+    +d: the identifier to release. Must be greater than or equal to #lowerbound and must be less than or equal to #upperbound
+    +c:Value for parameter 'id' was out of bounds, had   , but should be within [  :  ].
+
+org.apache.poi.openxml4j.opc.PackagePartName#<init>(Ljava/net/URI;Z)V
+  uri
+    +c:"OCP conformance must be check for ALL part name except special cases : ['/']".
+
+org.apache.poi.openxml4j.opc.PackagingURIHelper#isRelationshipPartURI(Ljava/net/URI;)Z
+  partUri
+    +c:"partUri".
+
+org.apache.poi.openxml4j.opc.PackagingURIHelper#relativizeURI(Ljava/net/URI;Ljava/net/URI;Z)Ljava/net/URI;
+  msCompatible
+    +d: if true then remove leading slash from the relativized URI. This flag violates [M1.4]: A part name shall start with a forward slash ('/') character, but allows generating URIs compatible with MS Office and OpenOffice.
+
+org.apache.poi.openxml4j.opc.PackagingURIHelper#resolvePartUri(Ljava/net/URI;Ljava/net/URI;)Ljava/net/URI;
+  sourcePartUri
+    +c:sourcePartUri invalid -.
+  targetUri
+    +c:targetUri invalid -.
+
+org.apache.poi.openxml4j.opc.PackagingURIHelper#getSourcePartUriFromRelationshipPartUri(Ljava/net/URI;)Ljava/net/URI;
+  relationshipPartUri
+    +c:"Must not be null"."Must be a relationship part".
+
+org.apache.poi.openxml4j.opc.PackagingURIHelper#createPartName(Ljava/net/URI;)Lorg/apache/poi/openxml4j/opc/PackagePartName;
+  partUri
+    +c:"partName".
+
+org.apache.poi.openxml4j.opc.PackagingURIHelper#isValidPartName(Ljava/net/URI;)Z
+  partUri
+    +c:"partUri".
+
+org.apache.poi.openxml4j.opc.PackagingURIHelper#getRelationshipPartName(Lorg/apache/poi/openxml4j/opc/PackagePartName;)Lorg/apache/poi/openxml4j/opc/PackagePartName;
+  partName
+    +c:"partName"."Can't be a relationship part".
+
+org.apache.poi.openxml4j.opc.PackageRelationship#<init>(Lorg/apache/poi/openxml4j/opc/OPCPackage;Lorg/apache/poi/openxml4j/opc/PackagePart;Ljava/net/URI;Lorg/apache/poi/openxml4j/opc/TargetMode;Ljava/lang/String;Ljava/lang/String;)V
+  pkg
+    +c:"pkg".
+  targetUri
+    +c:"targetUri".
+  relationshipType
+    +c:"relationshipType".
+  id
+    +c:"id".
+
+org.apache.poi.openxml4j.opc.PackagePartCollection#getUnusedPartIndex(Ljava/lang/String;)I
+  nameTemplate
+    +c:"name template must not be null and contain an index char (#)".
+
+org.apache.poi.openxml4j.opc.PackageRelationshipCollection#<init>(Lorg/apache/poi/openxml4j/opc/OPCPackage;Lorg/apache/poi/openxml4j/opc/PackagePart;)V
+  container
+    +c:"container needs to be specified".
+  part
+    +c:"part".
+
+org.apache.poi.openxml4j.opc.PackageRelationshipCollection#addRelationship(Lorg/apache/poi/openxml4j/opc/PackageRelationship;)V
+  relPart
+    +c:"invalid relationship part/id".
+
+org.apache.poi.openxml4j.opc.PackageRelationshipCollection#getRelationship(I)Lorg/apache/poi/openxml4j/opc/PackageRelationship;
+  index
+    +d: Must be a value between [0-relationships_count-1]
+    +c:"index".
+
+org.apache.poi.openxml4j.opc.ZipPackage#<init>(Ljava/io/File;Lorg/apache/poi/openxml4j/opc/PackageAccess;)V
+  file
+    +c:
+  access
+    +c:Can't open the specified file: '  '.
+
+org.apache.poi.openxml4j.opc.ZipPackage#createPartImpl(Lorg/apache/poi/openxml4j/opc/PackagePartName;Ljava/lang/String;Z)Lorg/apache/poi/openxml4j/opc/PackagePart;
+  partName
+    +c:"partName".
+  contentType
+    +c:"contentType".
+
+org.apache.poi.openxml4j.opc.ZipPackage#removePartImpl(Lorg/apache/poi/openxml4j/opc/PackagePartName;)V
+  partName
+    +c:"partUri".
+
+org.apache.poi.openxml4j.opc.ZipPackage#saveImpl(Ljava/io/OutputStream;)V
+  outputStream
+    +c:
+
+org.apache.poi.openxml4j.opc.internal.ContentType#<init>(Ljava/lang/String;)V
+  contentType
+    +c:The specified content type '  ' is not compliant with RFC 2616: malformed content type.
+
+org.apache.poi.openxml4j.opc.internal.ZipHelper#getOPCNameFromZipItemName(Ljava/lang/String;)Ljava/lang/String;
+  zipItemName
+    +c:"zipItemName cannot be null".
+
+org.apache.poi.openxml4j.opc.internal.ZipHelper#getZipItemNameFromOPCName(Ljava/lang/String;)Ljava/lang/String;
+  opcItemName
+    +c:"opcItemName cannot be null".
+
+org.apache.poi.openxml4j.opc.internal.ZipHelper#getZipURIFromOPCName(Ljava/lang/String;)Ljava/net/URI;
+  opcItemName
+    +c:"opcItemName".
+
+org.apache.poi.openxml4j.opc.internal.ZipHelper#openZipFile(Ljava/io/File;)Lorg/apache/poi/openxml4j/util/ZipSecureFile;
+  file
+    +c:"File does not exist"."File is a directory".
+
+org.apache.poi.openxml4j.opc.internal.PackagePropertiesPart#setCreatedProperty(Ljava/lang/String;)V
+  created
+    +c:Date for created could not be parsed:.
+
+org.apache.poi.openxml4j.opc.internal.marshallers.PackagePropertiesMarshaller#marshall(Lorg/apache/poi/openxml4j/opc/PackagePart;Ljava/io/OutputStream;)Z
+  part
+    +c:"'part' must be a PackagePropertiesPart instance.".
+
+org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller#marshall(Lorg/apache/poi/openxml4j/opc/PackagePart;Ljava/io/OutputStream;)Z
+  os
+    +c:"ZipOutputStream expected !".
+
+org.apache.poi.openxml4j.opc.internal.marshallers.ZipPackagePropertiesMarshaller#marshall(Lorg/apache/poi/openxml4j/opc/PackagePart;Ljava/io/OutputStream;)Z
+  out
+    +c:"ZipOutputStream expected!".
+
+org.apache.poi.openxml4j.opc.internal.unmarshallers.PackagePropertiesUnmarshaller#unmarshall(Lorg/apache/poi/openxml4j/opc/internal/unmarshallers/UnmarshallContext;Ljava/io/InputStream;)Lorg/apache/poi/openxml4j/opc/PackagePart;
+  context
+    +c:"Error while trying to get the part input stream.".
+  in
+    +c:
+
+org.apache.poi.openxml4j.opc.internal.unmarshallers.PackagePropertiesUnmarshaller#checkElementForOPCCompliance(Lorg/w3c/dom/Element;)V
+  el
+    +c:"OPC Compliance error [M4.4]: Producers shall not create a document element that contains the xml:lang attribute. Consumers shall consider a document element that violates this constraint to be an error.".The element '   ' must have the 'xsi:type' attribute with the value '   :W3CDTF', but had '   type  ' !.
+
+org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource#getInputStream(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;)Ljava/io/InputStream;
+  zipEntry
+    +c:.
+
+org.apache.poi.openxml4j.util.ZipSecureFile#setMaxEntrySize(J)V
+  maxEntrySize
+    +c:Max entry size is bounded [0-4GB], but had.
+
+org.apache.poi.openxml4j.util.ZipSecureFile#setMaxTextSize(J)V
+  maxTextSize
+    +c:Max text size is bounded [0-4GB], but had.
+
+org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream#<init>(Ljava/io/InputStream;)V
+  is
+    +c:InputStream of class     is not implementing InputStreamStatistics.
+
+org.apache.poi.poifs.crypt.agile.AgileEncryptionHeader#setKeySalt([B)V
+  salt
+    +c:"invalid verifier salt".
+
+org.apache.poi.poifs.crypt.agile.AgileEncryptionInfoBuilder#initialize(Lorg/apache/poi/poifs/crypt/EncryptionInfo;Lorg/apache/poi/poifs/crypt/CipherAlgorithm;Lorg/apache/poi/poifs/crypt/HashAlgorithm;IILorg/apache/poi/poifs/crypt/ChainingMode;)V
+  cipherAlgorithm
+    +c:"RC4 must not be used with agile encryption.".
+  keyBits
+    +c:KeySize     not allowed for Cipher.
+  chainingMode
+    +c:"Agile encryption only supports CBC/CFB chaining.".
+
+org.apache.poi.poifs.crypt.agile.AgileEncryptionVerifier#setSalt([B)V
+  salt
+    +c:"invalid verifier salt".
+
+org.apache.poi.poifs.crypt.agile.AgileEncryptionVerifier#setKeySize(I)V
+  keyBits
+    +c:KeySize    not allowed for cipher.
+
+org.apache.poi.poifs.crypt.dsig.KeyInfoKeySelector#select(Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;Ljavax/xml/crypto/KeySelector$Purpose;Ljavax/xml/crypto/AlgorithmMethod;Ljavax/xml/crypto/XMLCryptoContext;)Ljavax/xml/crypto/KeySelectorResult;
+  keyInfo
+    +c:"no ds:KeyInfo present".
+
+org.apache.poi.poifs.crypt.dsig.SignatureConfig#setSigningCertificateChain(Ljava/util/List;)V
+  signingCertificateChain
+    +d: the certificate chain, index 0 should be the certificate matching the private key
+
+org.apache.poi.poifs.crypt.dsig.SignatureConfig#setCanonicalizationMethod(Ljava/lang/String;)V
+  canonicalizationMethod
+    +c:
+
+org.apache.poi.poifs.crypt.dsig.SignatureConfig#getDigestMethodUri(Lorg/apache/poi/poifs/crypt/HashAlgorithm;)Ljava/lang/String;
+  digestAlgo
+    +c:Hash algorithm    not supported for signing.
+
+org.apache.poi.poifs.crypt.dsig.SignatureConfig#setSignatureMethodFromUri(Ljava/lang/String;)V
+  signatureMethodUri
+    +c:Hash algorithm    not supported.
+
+org.apache.poi.poifs.crypt.dsig.SignatureInfo#signDigest(Ljavax/xml/crypto/dsig/dom/DOMSignContext;Lorg/apache/jcp/xml/dsig/internal/dom/DOMSignedInfo;)Ljava/lang/String;
+  xmlSignContext
+    +c:
+  signedInfo
+    +c:
+
+org.apache.poi.poifs.crypt.dsig.OOXMLURIDereferencer#dereference(Ljavax/xml/crypto/URIReference;Ljavax/xml/crypto/XMLCryptoContext;)Ljavax/xml/crypto/Data;
+  uriReference
+    +c:"URIReference cannot be null".could not URL decode the uri:.
+  context
+    +c:"XMLCrytoContext cannot be null".
+
+org.apache.poi.poifs.crypt.dsig.services.RelationshipTransformService#init(Ljavax/xml/crypto/dsig/spec/TransformParameterSpec;)V
+  params
+    +c:.
+
+org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService#mapDigestAlgoToOID(Lorg/apache/poi/poifs/crypt/HashAlgorithm;)Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
+  digestAlgo
+    +c:unsupported digest algo:.
+
+org.apache.poi.xddf.usermodel.XDDFPositiveSize2D#<init>(JJ)V
+  x
+    +c:"x and y must be positive".
+
+org.apache.poi.xddf.usermodel.chart.XDDFManualLayout#<init>(Lorg/openxmlformats/schemas/drawingml/x2006/chart/CTLayout;)V
+  ctLayout
+    +d: a DrawingML layout that should be used as base.
+
+org.apache.poi.xddf.usermodel.text.XDDFParagraphProperties#setLevel(Ljava/lang/Integer;)V
+  level
+    +c:"Minimum inclusive: 1. Maximum inclusive: 9.".
+
+org.apache.poi.xddf.usermodel.text.XDDFParagraphProperties#setIndentation(Ljava/lang/Double;)V
+  points
+    +c:"Minimum inclusive = -4032. Maximum inclusive = 4032.".
+
+org.apache.poi.xddf.usermodel.text.XDDFParagraphProperties#setMarginLeft(Ljava/lang/Double;)V
+  points
+    +c:"Minimum inclusive = 0. Maximum inclusive = 4032.".
+
+org.apache.poi.xddf.usermodel.text.XDDFParagraphProperties#setMarginRight(Ljava/lang/Double;)V
+  points
+    +c:"Minimum inclusive = 0. Maximum inclusive = 4032.".
+
+org.apache.poi.xddf.usermodel.text.XDDFRunProperties#setFontSize(Ljava/lang/Double;)V
+  size
+    +c:"Minimum inclusive = 1. Maximum inclusive = 400.".
+
+org.apache.poi.xddf.usermodel.text.XDDFRunProperties#setCharacterKerning(Ljava/lang/Double;)V
+  kerning
+    +c:"Minimum inclusive = 0. Maximum inclusive = 4000.".
+
+org.apache.poi.xddf.usermodel.text.XDDFRunProperties#setCharacterSpacing(Ljava/lang/Double;)V
+  spacing
+    +c:"Minimum inclusive = -4000. Maximum inclusive = 4000.".
+
+org.apache.poi.xdgf.usermodel.XDGFCell#parseDoubleValue(Lcom/microsoft/schemas/office/visio/x2012/main/CellType;)Ljava/lang/Double;
+  cell
+    +c:Invalid float value for '   ':.
+
+org.apache.poi.xdgf.usermodel.XDGFCell#parseIntegerValue(Lcom/microsoft/schemas/office/visio/x2012/main/CellType;)Ljava/lang/Integer;
+  cell
+    +c:Invalid integer value for '   ':.
+
+org.apache.poi.xdgf.usermodel.XDGFCell#parseVLength(Lcom/microsoft/schemas/office/visio/x2012/main/CellType;)Ljava/lang/Double;
+  cell
+    +c:Invalid float value for '   ':.
+
+org.apache.poi.xdgf.util.ObjectFactory#load(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+  name
+    +c:Invalid '   ' name '  '.
+
+org.apache.poi.xslf.usermodel.XSLFTable#mergeCells(IIII)V
+  firstRow
+    +c:Cannot merge, first row > last row :    >.
+  firstCol
+    +c:Cannot merge, first column > last column :    >.
+
+org.apache.poi.xslf.usermodel.XSLFTextRun#<init>(Lorg/apache/xmlbeans/XmlObject;Lorg/apache/poi/xslf/usermodel/XSLFTextParagraph;)V
+  r
+    +c:unsupported text run of type.
+
+org.apache.poi.xslf.usermodel.XSLFTextRun#setFontSize(Ljava/lang/Double;)V
+  fontSize
+    +c:Minimum font size is 1pt but was.
+
+org.apache.poi.xslf.usermodel.XSLFTableRow#mergeCells(II)V
+  firstCol
+    +c:Cannot merge, first column >= last column :    >=.
+
+org.apache.poi.xslf.usermodel.XSLFTableCell#removeBorder(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;)V
+  edge
+    +c:.
+
+org.apache.poi.xslf.usermodel.XSLFTableCell#getBorderStyle(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;)Lorg/apache/poi/sl/usermodel/StrokeStyle;
+  edge
+    +c:
+
+org.apache.poi.xslf.usermodel.XSLFTableCell#setBorderStyle(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;Lorg/apache/poi/sl/usermodel/StrokeStyle;)V
+  edge
+    +c:
+  style
+    +c:"StrokeStyle needs to be specified.".
+
+org.apache.poi.xslf.usermodel.XSLFTableCell#getBorderWidth(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;)Ljava/lang/Double;
+  edge
+    +c:
+
+org.apache.poi.xslf.usermodel.XSLFTableCell#setBorderWidth(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;D)V
+  edge
+    +c:
+
+org.apache.poi.xslf.usermodel.XSLFTableCell#setBorderColor(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;Ljava/awt/Color;)V
+  edge
+    +c:
+  color
+    +c:"Colors need to be specified.".
+
+org.apache.poi.xslf.usermodel.XSLFTableCell#getBorderColor(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;)Ljava/awt/Color;
+  edge
+    +c:
+
+org.apache.poi.xslf.usermodel.XSLFTableCell#getBorderCompound(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;)Lorg/apache/poi/sl/usermodel/StrokeStyle$LineCompound;
+  edge
+    +c:
+
+org.apache.poi.xslf.usermodel.XSLFTableCell#setBorderCompound(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;Lorg/apache/poi/sl/usermodel/StrokeStyle$LineCompound;)V
+  edge
+    +c:
+  compound
+    +c:"LineCompound need to be specified.".
+
+org.apache.poi.xslf.usermodel.XSLFTableCell#getBorderDash(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;)Lorg/apache/poi/sl/usermodel/StrokeStyle$LineDash;
+  edge
+    +c:
+
+org.apache.poi.xslf.usermodel.XSLFTableCell#setBorderDash(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;Lorg/apache/poi/sl/usermodel/StrokeStyle$LineDash;)V
+  edge
+    +c:
+  dash
+    +c:"LineDash need to be specified.".
+
+org.apache.poi.xslf.usermodel.XSLFTableCell#getBorderCap(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;)Lorg/apache/poi/sl/usermodel/StrokeStyle$LineCap;
+  edge
+    +c:
+
+org.apache.poi.xslf.usermodel.XSLFTableCell#setBorderCap(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;Lorg/apache/poi/sl/usermodel/StrokeStyle$LineCap;)V
+  edge
+    +c:
+  cap
+    +c:"LineCap need to be specified.".
+
+org.apache.poi.xslf.usermodel.XSLFObjectShape#updateObjectData(Lorg/apache/poi/sl/usermodel/ObjectMetaData$Application;Lorg/apache/poi/sl/usermodel/ObjectMetaData;)Ljava/io/OutputStream;
+  application
+    +c:
+  metaData
+    +c:
+
+org.apache.poi.xslf.usermodel.XSLFGroupShape#removeShape(Lorg/apache/poi/xslf/usermodel/XSLFShape;)Z
+  xShape
+    +c:Unsupported shape:.
+
+org.apache.poi.xslf.usermodel.XSLFGroupShape#createPicture(Lorg/apache/poi/sl/usermodel/PictureData;)Lorg/apache/poi/xslf/usermodel/XSLFPictureShape;
+  pictureData
+    +c:"pictureData needs to be of type XSLFPictureData".
+
+org.apache.poi.xslf.usermodel.XSLFGroupShape#createOleShape(Lorg/apache/poi/sl/usermodel/PictureData;)Lorg/apache/poi/xslf/usermodel/XSLFObjectShape;
+  pictureData
+    +c:"pictureData needs to be of type XSLFPictureData".
+
+org.apache.poi.xslf.usermodel.XSLFGroupShape#createTable(II)Lorg/apache/poi/xslf/usermodel/XSLFTable;
+  numRows
+    +c:"numRows and numCols must be greater than 0".
+
+org.apache.poi.xslf.usermodel.XMLSlideShow#addPicture([BLorg/apache/poi/sl/usermodel/PictureData$PictureType;)Lorg/apache/poi/xslf/usermodel/XSLFPictureData;
+  pictureData
+    +c:
+  format
+    +c:Picture type    is not supported.
+
+org.apache.poi.xslf.usermodel.XMLSlideShow#addPicture(Ljava/io/InputStream;Lorg/apache/poi/sl/usermodel/PictureData$PictureType;)Lorg/apache/poi/xslf/usermodel/XSLFPictureData;
+  format
+    +c:
+
+org.apache.poi.xslf.usermodel.XMLSlideShow#addPicture(Ljava/io/File;Lorg/apache/poi/sl/usermodel/PictureData$PictureType;)Lorg/apache/poi/xslf/usermodel/XSLFPictureData;
+  format
+    +c:
+
+org.apache.poi.xslf.usermodel.XSLFTextParagraph#setBulletFontColor(Lorg/apache/poi/sl/usermodel/PaintStyle;)V
+  color
+    +c:"Currently XSLF only supports SolidPaint".
+
+org.apache.poi.xslf.usermodel.XSLFTextParagraph#setBulletAutoNumber(Lorg/apache/poi/sl/usermodel/AutoNumberingScheme;I)V
+  startAt
+    +c:"Start Number must be greater or equal that 1".
+
+org.apache.poi.xslf.usermodel.XSLFSlide#setNotes(Lorg/apache/poi/sl/usermodel/Notes;)V
+  notes
+    +c:.
+
+org.apache.poi.xslf.usermodel.XSLFComment#setAuthor(Ljava/lang/String;)V
+  author
+    +c:"author must not be null".
+
+org.apache.poi.xslf.usermodel.XSLFColor#<init>(Lorg/apache/xmlbeans/XmlObject;Lorg/apache/poi/xslf/usermodel/XSLFTheme;Lorg/openxmlformats/schemas/drawingml/x2006/main/CTSchemeColor;)V
+  theme
+    +c:
+
+org.apache.poi.xssf.binary.XSSFBStylesTable#handleRecord(I[B)V
+  data
+    +c:
+
+org.apache.poi.xssf.binary.XSSFBUtils#readXLNullableWideString([BILjava/lang/StringBuilder;)I
+  data
+    +c:
+  offset
+    +c:trying to read beyond data length:  offset=   , numBytes=    , data.length=.
+  sb
+    +d: buffer to which to write.  You must setLength(0) before calling!
+
+org.apache.poi.xssf.binary.XSSFBUtils#readXLWideString([BILjava/lang/StringBuilder;)I
+  data
+    +c:"trying to read beyond data length".
+  offset
+    +c:
+  sb
+    +d: buffer to which to write.  You must setLength(0) before calling!
+
+org.apache.poi.xssf.binary.XSSFBUtils#castToInt(J)I
+  val
+    +c:val (  ) can't be cast to int.
+
+org.apache.poi.xssf.binary.XSSFBUtils#castToShort(I)S
+  val
+    +c:val (  ) can't be cast to short.
+
+org.apache.poi.xssf.eventusermodel.XSSFReader#<init>(Lorg/apache/poi/openxml4j/opc/OPCPackage;)V
+  pkg
+    +c:"Strict OOXML isn't currently supported, please see bug #57699".
+
+org.apache.poi.xssf.eventusermodel.XSSFReader#getSheet(Ljava/lang/String;)Ljava/io/InputStream;
+  relId
+    +c:No Sheet found with r:id.No data found for Sheet with r:id.
+
+org.apache.poi.xssf.eventusermodel.XSSFSheetXMLHandler#checkForEmptyCellComments(Lorg/apache/poi/xssf/eventusermodel/XSSFSheetXMLHandler$EmptyCellCommentsCheckType;)V
+  type
+    +c:Cell ref should be null only if there are only empty cells in the row; rowNum:.
+
+org.apache.poi.xssf.extractor.XSSFImportFromXML#setCellValue(Ljava/lang/String;Lorg/apache/poi/xssf/usermodel/XSSFCell;Lorg/openxmlformats/schemas/spreadsheetml/x2006/main/STXmlDataType$Enum;)V
+  value
+    +c:Unable to format value '%s' as %s for cell %s.
+
+org.apache.poi.xssf.model.SharedStringsTable#addSharedStringItem(Lorg/apache/poi/ss/usermodel/RichTextString;)I
+  string
+    +c:"Only XSSFRichTextString argument is supported".
+
+org.apache.poi.xssf.streaming.SXSSFWorkbook#<init>(Lorg/apache/poi/xssf/usermodel/XSSFWorkbook;IZZ)V
+  rowAccessWindowSize
+    +c:
+
+org.apache.poi.xssf.streaming.SXSSFWorkbook#write(Ljava/io/OutputStream;)V
+  stream
+    +c:
+
+org.apache.poi.xssf.streaming.SXSSFCell#setCellValue(Ljava/lang/String;)V
+  value
+    +c:"The maximum length of cell contents (text) is 32,767 characters".
+
+org.apache.poi.xssf.streaming.SXSSFCell#setProperty(ILjava/lang/Object;)V
+  type
+    +c:Invalid type:.
+
+org.apache.poi.xssf.streaming.SXSSFCell#ensureType(Lorg/apache/poi/ss/usermodel/CellType;)V
+  type
+    +c:
+
+org.apache.poi.xssf.streaming.SXSSFCell#ensureFormulaType(Lorg/apache/poi/ss/usermodel/CellType;)V
+  type
+    +c:
+
+org.apache.poi.xssf.streaming.SXSSFCell#ensureTypeOrFormulaType(Lorg/apache/poi/ss/usermodel/CellType;)V
+  type
+    +c:
+
+org.apache.poi.xssf.streaming.SXSSFCell#setType(Lorg/apache/poi/ss/usermodel/CellType;)V
+  type
+    +c:Illegal type.
+
+org.apache.poi.xssf.streaming.SXSSFCell#setFormulaType(Lorg/apache/poi/ss/usermodel/CellType;)V
+  type
+    +c:Illegal type.
+
+org.apache.poi.xssf.streaming.SXSSFRow#getCell(ILorg/apache/poi/ss/usermodel/Row$MissingCellPolicy;)Lorg/apache/poi/xssf/streaming/SXSSFCell;
+  policy
+    +c:Illegal policy.
+
+org.apache.poi.xssf.streaming.SXSSFRow#compareTo(Lorg/apache/poi/xssf/streaming/SXSSFRow;)I
+  other
+    +c:"The compared rows must belong to the same sheet".
+
+org.apache.poi.xssf.streaming.SXSSFFormulaEvaluator#toEvaluationCell(Lorg/apache/poi/ss/usermodel/Cell;)Lorg/apache/poi/ss/formula/EvaluationCell;
+  cell
+    +c:Unexpected type of cell:    .  Only SXSSFCells can be evaluated.
+
+org.apache.poi.xssf.streaming.SXSSFFormulaEvaluator#evaluateAllFormulaCells(Lorg/apache/poi/xssf/streaming/SXSSFWorkbook;Z)V
+  skipOutOfWindow
+    +c:.
+
+org.apache.poi.xssf.streaming.SXSSFSheet#createRow(I)Lorg/apache/poi/xssf/streaming/SXSSFRow;
+  rownum
+    +c:Invalid row number (  ) outside allowable range (0..   ).Attempting to write a row[  ]  in the range [0,   ] that is already written to disk.Attempting to write a row[  ]  in the range [0,   ] that is already written to disk.
+
+org.apache.poi.xssf.streaming.SXSSFSheet#removeRow(Lorg/apache/poi/ss/usermodel/Row;)V
+  row
+    +c:"Specified row does not belong to this sheet".
+
+org.apache.poi.xssf.streaming.SXSSFSheet#setRowGroupCollapsed(IZ)V
+  collapse
+    +c:"Unable to expand row: Not Implemented".
+
+org.apache.poi.xssf.streaming.SXSSFSheet#setRandomAccessWindowSize(I)V
+  value
+    +c:"RandomAccessWindowSize must be either -1 or a positive integer".
+
+org.apache.poi.xssf.streaming.SXSSFSheet#changeRowNum(Lorg/apache/poi/xssf/streaming/SXSSFRow;I)V
+  row
+    +c:
+
+org.apache.poi.xssf.streaming.SXSSFSheet#setTabColor(I)V
+  colorIndex
+    +d:  the indexed color to set, must be a constant from IndexedColors
+
+org.apache.poi.xssf.streaming.SXSSFPicture#resize(D)V
+  scale
+    +c:
+
+org.apache.poi.xssf.streaming.SXSSFPicture#getPreferredSize(D)Lorg/apache/poi/xssf/usermodel/XSSFClientAnchor;
+  scale
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFTextRun#setFontSize(D)V
+  fontSize
+    +c:Minimum font size is 1pt but was.
+
+org.apache.poi.xssf.usermodel.XSSFHyperlink#<init>(Lorg/openxmlformats/schemas/spreadsheetml/x2006/main/CTHyperlink;Lorg/apache/poi/openxml4j/opc/PackageRelationship;)V
+  ctHyperlink
+    +c:The hyperlink for cell     references relation    , but that didn't exist!.
+
+org.apache.poi.xssf.usermodel.XSSFDrawing#createCellComment(Lorg/apache/poi/ss/usermodel/ClientAnchor;)Lorg/apache/poi/xssf/usermodel/XSSFComment;
+  anchor
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFConditionalFormatting#setFormattingRanges([Lorg/apache/poi/ss/util/CellRangeAddress;)V
+  ranges
+    +c:"cellRanges must not be null".
+
+org.apache.poi.xssf.usermodel.XSSFFont#setTypeOffset(S)V
+  offset
+    +c:Invalid type offset:.
+
+org.apache.poi.xssf.usermodel.XSSFPivotTable#addRowLabel(I)V
+  columnIndex
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFPivotTable#addColLabel(ILjava/lang/String;)V
+  columnIndex
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFPivotTable#addColLabel(I)V
+  columnIndex
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFPivotTable#addColumnLabel(Lorg/apache/poi/ss/usermodel/DataConsolidateFunction;ILjava/lang/String;Ljava/lang/String;)V
+  columnIndex
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFPivotTable#addColumnLabel(Lorg/apache/poi/ss/usermodel/DataConsolidateFunction;ILjava/lang/String;)V
+  columnIndex
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFPivotTable#addColumnLabel(Lorg/apache/poi/ss/usermodel/DataConsolidateFunction;I)V
+  columnIndex
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFPivotTable#addDataColumn(IZ)V
+  columnIndex
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFPivotTable#addReportFilter(I)V
+  columnIndex
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFFormulaEvaluator#toEvaluationCell(Lorg/apache/poi/ss/usermodel/Cell;)Lorg/apache/poi/ss/formula/EvaluationCell;
+  cell
+    +c:Unexpected type of cell:    .  Only XSSFCells can be evaluated.
+
+org.apache.poi.xssf.usermodel.XSSFRichTextString#applyFont(IILorg/apache/poi/ss/usermodel/Font;)V
+  endIndex
+    +c:Start index must be less than end index, but had    and.Start and end index not in range, but had    and.
+
+org.apache.poi.xssf.usermodel.XSSFRichTextString#buildCTRst(Ljava/lang/String;Ljava/util/TreeMap;)Lorg/openxmlformats/schemas/spreadsheetml/x2006/main/CTRst;
+  formats
+    +c:Text length was     but the last format index was.
+
+org.apache.poi.xssf.usermodel.XSSFCell#copyCellFrom(Lorg/apache/poi/ss/usermodel/Cell;Lorg/apache/poi/ss/usermodel/CellCopyPolicy;)V
+  srcCell
+    +c:Invalid cell type.
+
+org.apache.poi.xssf.usermodel.XSSFCell#setCellValue(Ljava/lang/String;)V
+  str
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFCell#setCellValue(Lorg/apache/poi/ss/usermodel/RichTextString;)V
+  str
+    +c:"The maximum length of cell contents (text) is 32,767 characters".
+
+org.apache.poi.xssf.usermodel.XSSFCell#setCellType(Lorg/apache/poi/ss/usermodel/CellType;)V
+  cellType
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFCell#setCellType(Lorg/apache/poi/ss/usermodel/CellType;Lorg/apache/poi/xssf/usermodel/BaseXSSFEvaluationWorkbook;)V
+  cellType
+    +c:Illegal cell type:.
+
+org.apache.poi.xssf.usermodel.XSSFCell#notifyArrayFormulaChanging(Ljava/lang/String;)V
+  msg
+    +c:.
+
+org.apache.poi.xssf.usermodel.XSSFCell#updateCellReferencesForShifting(Ljava/lang/String;)V
+  msg
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFDataValidation#createErrorBox(Ljava/lang/String;Ljava/lang/String;)V
+  title
+    +c:Error-title cannot be longer than 32 characters, but had:.
+  text
+    +c:Error-text cannot be longer than 255 characters, but had:.
+
+org.apache.poi.xssf.usermodel.XSSFDataValidation#createPromptBox(Ljava/lang/String;Ljava/lang/String;)V
+  title
+    +c:Error-title cannot be longer than 32 characters, but had:.
+  text
+    +c:Error-text cannot be longer than 255 characters, but had:.
+
+org.apache.poi.xssf.usermodel.XSSFRow#compareTo(Lorg/apache/poi/xssf/usermodel/XSSFRow;)I
+  other
+    +c:"The compared rows must belong to the same sheet".
+
+org.apache.poi.xssf.usermodel.XSSFRow#getCell(ILorg/apache/poi/ss/usermodel/Row$MissingCellPolicy;)Lorg/apache/poi/xssf/usermodel/XSSFCell;
+  cellnum
+    +c:"Cell index must be >= 0".
+  policy
+    +c:Illegal policy.
+
+org.apache.poi.xssf.usermodel.XSSFRow#setRowNum(I)V
+  rowIndex
+    +c:Invalid row number (  ) outside allowable range (0..   ).
+
+org.apache.poi.xssf.usermodel.XSSFRow#removeCell(Lorg/apache/poi/ss/usermodel/Cell;)V
+  cell
+    +c:"Specified cell does not belong to this row".
+
+org.apache.poi.xssf.usermodel.XSSFRow#shiftCellsRight(III)V
+  lastShiftColumnIndex
+    +c:Incorrect shifting range : %d-%d.
+  step
+    +c:"Shifting step may not be negative ".
+
+org.apache.poi.xssf.usermodel.XSSFRow#shiftCellsLeft(III)V
+  firstShiftColumnIndex
+    +c:Column index less than zero :.
+  lastShiftColumnIndex
+    +c:Incorrect shifting range : %d-%d.
+  step
+    +c:"Shifting step may not be negative ".
+
+org.apache.poi.xssf.usermodel.XSSFRow#shiftCell(II)V
+  columnIndex
+    +c:Column index less than zero :.
+
+org.apache.poi.xssf.usermodel.XSSFPrintSetup#setScale(S)V
+  scale
+    +c:"Scale value not accepted: you must choose a value between 10 and 400.".
+
+org.apache.poi.xssf.usermodel.XSSFSheetConditionalFormatting#createConditionalFormattingRule(BLjava/lang/String;Ljava/lang/String;)Lorg/apache/poi/xssf/usermodel/XSSFConditionalFormattingRule;
+  comparisonOperation
+    +c:Unknown comparison operator:.
+
+org.apache.poi.xssf.usermodel.XSSFSheetConditionalFormatting#addConditionalFormatting([Lorg/apache/poi/ss/util/CellRangeAddress;[Lorg/apache/poi/ss/usermodel/ConditionalFormattingRule;)I
+  regions
+    +c:"regions must not be null".
+  cfRules
+    +c:"cfRules must not be null"."cfRules must not be empty"."Number of rules must not exceed 3".
+
+org.apache.poi.xssf.usermodel.XSSFSheetConditionalFormatting#checkIndex(I)V
+  index
+    +c:Specified CF index    is outside the allowable range (0..   ).
+
+org.apache.poi.xssf.usermodel.XSSFDataValidationConstraint#<init>([Ljava/lang/String;)V
+  explicitListOfValues
+    +c:"List validation with explicit values must specify at least one value".
+
+org.apache.poi.xssf.usermodel.XSSFColor#toXSSFColor(Lorg/apache/poi/ss/usermodel/Color;)Lorg/apache/poi/xssf/usermodel/XSSFColor;
+  color
+    +c:Only XSSFColor objects are supported, but had.
+
+org.apache.poi.xssf.usermodel.XSSFWorkbook#addPicture([BI)I
+  pictureData
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFWorkbook#createSheet(Ljava/lang/String;)Lorg/apache/poi/xssf/usermodel/XSSFSheet;
+  sheetname
+    +c:"sheetName must not be null".
+
+org.apache.poi.xssf.usermodel.XSSFWorkbook#createDialogsheet(Ljava/lang/String;Lorg/openxmlformats/schemas/spreadsheetml/x2006/main/CTDialogsheet;)Lorg/apache/poi/xssf/usermodel/XSSFDialogsheet;
+  sheetname
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFWorkbook#getNameAt(I)Lorg/apache/poi/xssf/usermodel/XSSFName;
+  nameIndex
+    +c:Specified name index    is outside the allowable range (0..   ).
+
+org.apache.poi.xssf.usermodel.XSSFWorkbook#getSheetAt(I)Lorg/apache/poi/xssf/usermodel/XSSFSheet;
+  index
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFWorkbook#removeName(I)V
+  nameIndex
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFWorkbook#removeName(Ljava/lang/String;)V
+  name
+    +c:Named range was not found:.
+
+org.apache.poi.xssf.usermodel.XSSFWorkbook#removeName(Lorg/apache/poi/ss/usermodel/Name;)V
+  name
+    +c:Name was not found:.
+
+org.apache.poi.xssf.usermodel.XSSFWorkbook#updateName(Lorg/apache/poi/xssf/usermodel/XSSFName;Ljava/lang/String;)V
+  name
+    +c:Name was not found:.
+
+org.apache.poi.xssf.usermodel.XSSFWorkbook#removeSheetAt(I)V
+  index
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFWorkbook#setActiveSheet(I)V
+  index
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFWorkbook#createBuiltInName(Ljava/lang/String;I)Lorg/apache/poi/xssf/usermodel/XSSFName;
+  builtInName
+    +c:Builtin (  ) already exists for sheet (  ).
+
+org.apache.poi.xssf.usermodel.XSSFWorkbook#setSheetName(ILjava/lang/String;)V
+  sheetname
+    +c:"sheetName must not be null"."The workbook already contains a sheet of this name".
+
+org.apache.poi.xssf.usermodel.XSSFWorkbook#setSheetVisibility(ILorg/apache/poi/ss/usermodel/SheetVisibility;)V
+  visibility
+    +c:"This should never happen".
+
+org.apache.poi.xssf.usermodel.XSSFCellStyle#<init>(IILorg/apache/poi/xssf/model/StylesTable;Lorg/apache/poi/xssf/model/ThemesTable;)V
+  cellXfId
+    +d: The main XF for the cell. Must be a valid 0-based index into the XF table
+
+org.apache.poi.xssf.usermodel.XSSFCellStyle#verifyBelongsToStylesSource(Lorg/apache/poi/xssf/model/StylesTable;)V
+  src
+    +c:"This Style does not belong to the supplied Workbook Styles Source. Are you trying to assign a style from one workbook to the cell of a different workbook?".
+
+org.apache.poi.xssf.usermodel.XSSFCellStyle#cloneStyleFrom(Lorg/apache/poi/ss/usermodel/CellStyle;)V
+  source
+    +c:"Can only clone from one XSSFCellStyle to another, not between HSSFCellStyle and XSSFCellStyle".
+
+org.apache.poi.xssf.usermodel.XSSFCellStyle#getBorderColor(Lorg/apache/poi/xssf/usermodel/extensions/XSSFCellBorder$BorderSide;)Lorg/apache/poi/xssf/usermodel/XSSFColor;
+  side
+    +c:Unknown border:.
+
+org.apache.poi.xssf.usermodel.XSSFTable#createColumn(Ljava/lang/String;)Lorg/apache/poi/xssf/usermodel/XSSFTableColumn;
+  columnName
+    +d: the unique name of the column, must not be  null
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFTable#createColumn(Ljava/lang/String;I)Lorg/apache/poi/xssf/usermodel/XSSFTableColumn;
+  columnName
+    +c:Column '  ' already exists. Column names must be unique per table.
+  columnIndex
+    +c:"Column index out of bounds".
+
+org.apache.poi.xssf.usermodel.XSSFTable#removeColumn(I)V
+  columnIndex
+    +c:"Column index out of bounds".
+
+org.apache.poi.xssf.usermodel.XSSFTable#setArea(Lorg/apache/poi/ss/util/AreaReference;)V
+  tableArea
+    +c:"AreaReference must not be null".
+
+org.apache.poi.xssf.usermodel.XSSFTable#setDataRowCount(I)V
+  newDataRowCount
+    +c:"Table must have at least one data row".
+
+org.apache.poi.xssf.usermodel.XSSFComment#setString(Lorg/apache/poi/ss/usermodel/RichTextString;)V
+  string
+    +c:"Only XSSFRichTextString argument is supported".
+
+org.apache.poi.xssf.usermodel.XSSFSheet#addMergedRegion(Lorg/apache/poi/ss/util/CellRangeAddress;)I
+  region
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFSheet#addMergedRegionUnsafe(Lorg/apache/poi/ss/util/CellRangeAddress;)I
+  region
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFSheet#getMargin(S)D
+  margin
+    +c:Unknown margin constant:.
+
+org.apache.poi.xssf.usermodel.XSSFSheet#setMargin(SD)V
+  margin
+    +c:Unknown margin constant:.
+
+org.apache.poi.xssf.usermodel.XSSFSheet#removeMergedRegion(I)V
+  index
+    +c:.
+
+org.apache.poi.xssf.usermodel.XSSFSheet#removeRow(Lorg/apache/poi/ss/usermodel/Row;)V
+  row
+    +c:"Specified row does not belong to this sheet".
+
+org.apache.poi.xssf.usermodel.XSSFSheet#setColumnWidth(II)V
+  width
+    +c:"The maximum column width for an individual cell is 255 characters.".
+
+org.apache.poi.xssf.usermodel.XSSFSheet#setZoom(I)V
+  scale
+    +c:"Valid scale values range from 10 to 400".
+
+org.apache.poi.xssf.usermodel.XSSFSheet#copyRows(Ljava/util/List;ILorg/apache/poi/ss/usermodel/CellCopyPolicy;)V
+  srcRows
+    +c:"No rows to copy".
+
+org.apache.poi.xssf.usermodel.XSSFSheet#getSheetTypeSheetViews(Z)Lorg/openxmlformats/schemas/spreadsheetml/x2006/main/CTSheetViews;
+  create
+    +c:.
+
+org.apache.poi.xssf.usermodel.XSSFSheet#removeArrayFormula(Lorg/apache/poi/ss/usermodel/Cell;)Lorg/apache/poi/ss/usermodel/CellRange;
+  cell
+    +c:"Specified cell does not belong to this sheet.".
+
+org.apache.poi.xssf.usermodel.XSSFSheet#createPivotTable(Lorg/apache/poi/ss/util/AreaReference;Lorg/apache/poi/ss/util/CellReference;Lorg/apache/poi/ss/usermodel/Sheet;)Lorg/apache/poi/xssf/usermodel/XSSFPivotTable;
+  sourceSheet
+    +c:The area is referenced in another sheet than the  defined source sheet    .
+
+org.apache.poi.xssf.usermodel.XSSFSheet#createPivotTable(Lorg/apache/poi/ss/usermodel/Name;Lorg/apache/poi/ss/util/CellReference;Lorg/apache/poi/ss/usermodel/Sheet;)Lorg/apache/poi/xssf/usermodel/XSSFPivotTable;
+  source
+    +c:The named range references another sheet than the  defined source sheet    .
+
+org.apache.poi.xssf.usermodel.XSSFSheet#createPivotTable(Lorg/apache/poi/ss/usermodel/Name;Lorg/apache/poi/ss/util/CellReference;)Lorg/apache/poi/xssf/usermodel/XSSFPivotTable;
+  source
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFTextParagraph#setBullet(Lorg/apache/poi/xssf/usermodel/ListAutoNumber;I)V
+  startAt
+    +c:"Start Number must be greater or equal that 1".
+
+org.apache.poi.xssf.usermodel.XSSFName#setNameName(Ljava/lang/String;)V
+  name
+    +c:
+
+org.apache.poi.xssf.usermodel.XSSFName#setSheetIndex(I)V
+  index
+    +c:Sheet index (  ) is out of range     (0..   ).
+
+org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#<init>(Lorg/openxmlformats/schemas/drawingml/x2006/chart/CTLayout;)V
+  ctLayout
+    +d: a Spreadsheet ML layout that should be used as base.
+
+org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#fromLayoutMode(Lorg/apache/poi/ss/usermodel/charts/LayoutMode;)Lorg/openxmlformats/schemas/drawingml/x2006/chart/STLayoutMode$Enum;
+  mode
+    +c:.
+
+org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#toLayoutMode(Lorg/openxmlformats/schemas/drawingml/x2006/chart/CTLayoutMode;)Lorg/apache/poi/ss/usermodel/charts/LayoutMode;
+  ctLayoutMode
+    +c:.
+
+org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#fromLayoutTarget(Lorg/apache/poi/ss/usermodel/charts/LayoutTarget;)Lorg/openxmlformats/schemas/drawingml/x2006/chart/STLayoutTarget$Enum;
+  target
+    +c:.
+
+org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#toLayoutTarget(Lorg/openxmlformats/schemas/drawingml/x2006/chart/CTLayoutTarget;)Lorg/apache/poi/ss/usermodel/charts/LayoutTarget;
+  ctLayoutTarget
+    +c:.
+
+org.apache.poi.xssf.usermodel.charts.XSSFChartLegend#fromLegendPosition(Lorg/apache/poi/ss/usermodel/charts/LegendPosition;)Lorg/openxmlformats/schemas/drawingml/x2006/chart/STLegendPos$Enum;
+  position
+    +c:.
+
+org.apache.poi.xssf.usermodel.charts.XSSFChartLegend#toLegendPosition(Lorg/openxmlformats/schemas/drawingml/x2006/chart/CTLegendPos;)Lorg/apache/poi/ss/usermodel/charts/LegendPosition;
+  ctLegendPos
+    +c:.
+
+org.apache.poi.xssf.usermodel.charts.XSSFLineChartData#addSeries(Lorg/apache/poi/ss/usermodel/charts/ChartDataSource;Lorg/apache/poi/ss/usermodel/charts/ChartDataSource;)Lorg/apache/poi/ss/usermodel/charts/LineChartSeries;
+  values
+    +c:"Value data source must be numeric.".
+
+org.apache.poi.xssf.usermodel.charts.XSSFLineChartData#fillChart(Lorg/apache/poi/ss/usermodel/Chart;[Lorg/apache/poi/ss/usermodel/charts/ChartAxis;)V
+  chart
+    +c:"Chart must be instance of XSSFChart".
+
+org.apache.poi.xssf.usermodel.charts.XSSFValueAxis#fromCrossBetween(Lorg/apache/poi/ss/usermodel/charts/AxisCrossBetween;)Lorg/openxmlformats/schemas/drawingml/x2006/chart/STCrossBetween$Enum;
+  crossBetween
+    +c:.
+
+org.apache.poi.xssf.usermodel.charts.XSSFValueAxis#toCrossBetween(Lorg/openxmlformats/schemas/drawingml/x2006/chart/STCrossBetween$Enum;)Lorg/apache/poi/ss/usermodel/charts/AxisCrossBetween;
+  ctCrossBetween
+    +c:.
+
+org.apache.poi.xssf.usermodel.charts.XSSFScatterChartData#addSerie(Lorg/apache/poi/ss/usermodel/charts/ChartDataSource;Lorg/apache/poi/ss/usermodel/charts/ChartDataSource;)Lorg/apache/poi/ss/usermodel/charts/ScatterChartSeries;
+  ys
+    +c:"Y axis data source must be numeric.".
+
+org.apache.poi.xssf.usermodel.charts.XSSFScatterChartData#fillChart(Lorg/apache/poi/ss/usermodel/Chart;[Lorg/apache/poi/ss/usermodel/charts/ChartAxis;)V
+  chart
+    +c:"Chart must be instance of XSSFChart".
+
+org.apache.poi.xwpf.usermodel.XWPFRun#setText(Ljava/lang/String;I)V
+  pos
+    +c:"Value too large for the parameter position in XWPFRun.setText(String value,int pos)".
+
+org.apache.poi.xwpf.usermodel.XWPFSettings#setEnforcementEditValue(Lorg/openxmlformats/schemas/wordprocessingml/x2006/main/STDocProtect$Enum;Ljava/lang/String;Lorg/apache/poi/poifs/crypt/HashAlgorithm;)V
+  hashAlgo
+    +c:Hash algorithm '   ' is not supported for document write protection.
+
+org.apache.poi.xwpf.usermodel.XWPFTable#setWidth(Ljava/lang/String;)V
+  widthValue
+    +c:
+
+org.apache.poi.xwpf.usermodel.XWPFTable#setWidthValue(Ljava/lang/String;Lorg/openxmlformats/schemas/wordprocessingml/x2006/main/CTTblWidth;)V
+  widthValue
+    +c:Table width value \  \  must match regular expression \  \.
+
+org.apache.poi.xwpf.usermodel.XWPFTable#setWidthPercentage(Lorg/openxmlformats/schemas/wordprocessingml/x2006/main/CTTblWidth;Ljava/lang/String;)V
+  widthValue
+    +c:setWidthPercentage(): Width value must be a percentage (\33.3%\ or an integer, was \  \.
+
+org.apache.poi.extractor.ole2.OLE2ScratchpadExtractorFactory#createExtractor(Lorg/apache/poi/poifs/filesystem/DirectoryNode;)Lorg/apache/poi/extractor/POITextExtractor;
+  poifsDir
+    +c:
+
+org.apache.poi.extractor.ole2.OLE2ScratchpadExtractorFactory#identifyEmbeddedResources(Lorg/apache/poi/extractor/POIOLE2TextExtractor;Ljava/util/List;Ljava/util/List;)V
+  ext
+    +c:
+
+org.apache.poi.hemf.record.HemfCommentRecord#init(Lorg/apache/poi/util/LittleEndianInputStream;JJ)J
+  recordSize
+    +c:
+
+org.apache.poi.hemf.record.HemfHeader#init(Lorg/apache/poi/util/LittleEndianInputStream;JJ)J
+  recordId
+    +c:Not a valid EMF header. Record type:.
+
+org.apache.poi.hemf.record.UnimplementedHemfRecord#init(Lorg/apache/poi/util/LittleEndianInputStream;JJ)J
+  recordSize
+    +c:"End of stream reached before record read".
+
+org.apache.poi.hmef.attribute.MAPIAttribute#create(Lorg/apache/poi/hmef/attribute/TNEFAttribute;)Ljava/util/List;
+  parent
+    +c:Can only create from a MAPIProperty attribute,  instead received a     one.
+
+org.apache.poi.hmef.attribute.MAPIStringAttribute#<init>(Lorg/apache/poi/hsmf/datatypes/MAPIProperty;I[B)V
+  type
+    +c:Not a string type.
+
+org.apache.poi.hmef.dev.HMEFDumper#main([Ljava/lang/String;)V
+  args
+    +c:"Filename must be given".
+
+org.apache.poi.hslf.blip.JPEG#setSignature(I)V
+  signature
+    +c:is not a valid instance/signature value for JPEG.
+
+org.apache.poi.hslf.blip.PNG#setSignature(I)V
+  signature
+    +c:is not a valid instance/signature value for PNG.
+
+org.apache.poi.hslf.blip.EMF#setSignature(I)V
+  signature
+    +c:is not a valid instance/signature value for EMF.
+
+org.apache.poi.hslf.blip.PICT#setSignature(I)V
+  signature
+    +c:is not a valid instance/signature value for PICT.
+
+org.apache.poi.hslf.blip.WMF#setSignature(I)V
+  signature
+    +c:is not a valid instance/signature value for WMF.
+
+org.apache.poi.hslf.blip.DIB#setSignature(I)V
+  signature
+    +c:is not a valid instance/signature value for DIB.
+
+org.apache.poi.hslf.model.textproperties.IndentProp#setIndentLevel(I)V
+  indentLevel
+    +c:"Indent must be between 0 and 4".
+
+org.apache.poi.hslf.model.textproperties.TextPropCollection#addWithName(Ljava/lang/String;)Lorg/apache/poi/hslf/model/textproperties/TextProp;
+  name
+    +c:
+
+org.apache.poi.hslf.model.textproperties.TextPropCollection#addProp(Lorg/apache/poi/hslf/model/textproperties/TextProp;)V
+  textProp
+    +c:"TextProp must not be null".
+
+org.apache.poi.hslf.model.textproperties.TextPropCollection#copy(Lorg/apache/poi/hslf/model/textproperties/TextPropCollection;)V
+  other
+    +c:"trying to copy null TextPropCollection".
+
+org.apache.poi.hslf.record.FontCollection#addFont(Lorg/apache/poi/common/usermodel/fonts/FontInfo;)Lorg/apache/poi/hslf/usermodel/HSLFFontInfo;
+  fontInfo
+    +d: the FontInfo configuration, can be a instance of HSLFFontInfo , HSLFFontInfoPredefined or a custom implementation
+
+org.apache.poi.hslf.record.TextHeaderAtom#<init>([BII)V
+  source
+    +c:Not enough data to form a TextHeaderAtom (always 12 bytes long) - found.
+
+org.apache.poi.hslf.record.TextSpecInfoAtom#setParentSize(I)V
+  size
+    +c:.
+
+org.apache.poi.hslf.record.PersistPtrHolder#addSlideLookup(II)V
+  slideID
+    +c:A record with persistId    already exists.
+
+org.apache.poi.hslf.record.TextSpecInfoRun#writeOut(Ljava/io/OutputStream;)V
+  out
+    +c:
+
+org.apache.poi.hslf.record.SSSlideInfoAtom#writeOut(Ljava/io/OutputStream;)V
+  out
+    +c:
+
+org.apache.poi.hslf.record.SlideAtomLayout#<init>([B)V
+  data
+    +c:SSlideLayoutAtom created with byte array not 12 bytes long - was     bytes in size.
+
+org.apache.poi.hslf.record.FontEntityAtom#setFontName(Ljava/lang/String;)V
+  name
+    +c:
+
+org.apache.poi.hslf.record.ColorSchemeAtom#<init>([BII)V
+  source
+    +c:Not enough data to form a ColorSchemeAtom (always 40 bytes long) - found.
+
+org.apache.poi.hslf.record.ColorSchemeAtom#joinRGB([B)I
+  rgb
+    +c:joinRGB accepts a byte array of 3 values, but got one of     values!.
+
+org.apache.poi.hslf.record.StyleTextPropAtom#<init>([BII)V
+  source
+    +c:Not enough data to form a StyleTextPropAtom (min size 18 bytes long) - found.
+
+org.apache.poi.hslf.usermodel.HSLFSlideShowImpl#updateAndWriteDependantRecords(Ljava/io/OutputStream;Ljava/util/Map;)V
+  os
+    +c:
+  interestingRecords
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFSlide#setNotes(Lorg/apache/poi/sl/usermodel/Notes;)V
+  notes
+    +c:"notes needs to be of type HSLFNotes".
+
+org.apache.poi.hslf.usermodel.HSLFSlideShow#reorderSlide(II)V
+  oldSlideNumber
+    +c:
+  newSlideNumber
+    +c:"Old and new slide numbers must be greater than 0".Old and new slide numbers must not exceed the number of slides (   ).
+
+org.apache.poi.hslf.usermodel.HSLFSlideShow#removeSlide(I)Lorg/apache/poi/hslf/usermodel/HSLFSlide;
+  index
+    +c:Slide index (  ) is out of range (0..   ).
+
+org.apache.poi.hslf.usermodel.HSLFSlideShow#addPicture([BLorg/apache/poi/sl/usermodel/PictureData$PictureType;)Lorg/apache/poi/hslf/usermodel/HSLFPictureData;
+  format
+    +c:Unsupported picture format:.
+
+org.apache.poi.hslf.usermodel.HSLFSlideShow#addPicture(Ljava/io/InputStream;Lorg/apache/poi/sl/usermodel/PictureData$PictureType;)Lorg/apache/poi/hslf/usermodel/HSLFPictureData;
+  format
+    +c:Unsupported picture format:.
+
+org.apache.poi.hslf.usermodel.HSLFSlideShow#addPicture(Ljava/io/File;Lorg/apache/poi/sl/usermodel/PictureData$PictureType;)Lorg/apache/poi/hslf/usermodel/HSLFPictureData;
+  format
+    +c:Unsupported picture format:.
+
+org.apache.poi.hslf.usermodel.HSLFSlideShow#addMovie(Ljava/lang/String;I)I
+  type
+    +c:Unsupported Movie:.
+
+org.apache.poi.hslf.usermodel.HSLFObjectShape#updateObjectData(Lorg/apache/poi/sl/usermodel/ObjectMetaData$Application;Lorg/apache/poi/sl/usermodel/ObjectMetaData;)Ljava/io/OutputStream;
+  application
+    +c:
+  metaData
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFAutoShape#getAdjustmentValue(I)I
+  idx
+    +c:"The index of an adjustment value must be in the [0, 9] range".
+
+org.apache.poi.hslf.usermodel.HSLFAutoShape#setAdjustmentValue(II)V
+  idx
+    +c:"The index of an adjustment value must be in the [0, 9] range".
+
+org.apache.poi.hslf.usermodel.HSLFShapePlaceholderDetails#setPlaceholder(Lorg/apache/poi/sl/usermodel/Placeholder;)V
+  placeholder
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFHyperlink#linkToSlide(Lorg/apache/poi/sl/usermodel/Slide;)V
+  slide
+    +c:.
+
+org.apache.poi.hslf.usermodel.HSLFTableCell#getBorderStyle(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;)Lorg/apache/poi/sl/usermodel/StrokeStyle;
+  edge
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFTableCell#setBorderStyle(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;Lorg/apache/poi/sl/usermodel/StrokeStyle;)V
+  edge
+    +c:
+  style
+    +c:"StrokeStyle needs to be specified.".
+
+org.apache.poi.hslf.usermodel.HSLFTableCell#getBorderWidth(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;)Ljava/lang/Double;
+  edge
+    +c:.
+
+org.apache.poi.hslf.usermodel.HSLFTableCell#setBorderWidth(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;D)V
+  edge
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFTableCell#getBorderColor(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;)Ljava/awt/Color;
+  edge
+    +c:.
+
+org.apache.poi.hslf.usermodel.HSLFTableCell#setBorderColor(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;Ljava/awt/Color;)V
+  edge
+    +c:
+  color
+    +c:"BorderEdge and/or Color need to be specified.".
+
+org.apache.poi.hslf.usermodel.HSLFTableCell#getBorderDash(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;)Lorg/apache/poi/sl/usermodel/StrokeStyle$LineDash;
+  edge
+    +c:.
+
+org.apache.poi.hslf.usermodel.HSLFTableCell#setBorderDash(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;Lorg/apache/poi/sl/usermodel/StrokeStyle$LineDash;)V
+  edge
+    +c:"BorderEdge and/or LineDash need to be specified.".
+
+org.apache.poi.hslf.usermodel.HSLFTableCell#getBorderCompound(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;)Lorg/apache/poi/sl/usermodel/StrokeStyle$LineCompound;
+  edge
+    +c:.
+
+org.apache.poi.hslf.usermodel.HSLFTableCell#setBorderCompound(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;Lorg/apache/poi/sl/usermodel/StrokeStyle$LineCompound;)V
+  edge
+    +c:
+  compound
+    +c:"BorderEdge and/or LineCompound need to be specified.".
+
+org.apache.poi.hslf.usermodel.HSLFTableCell#addLine(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;)Lorg/apache/poi/hslf/usermodel/HSLFLine;
+  edge
+    +c:.
+
+org.apache.poi.hslf.usermodel.HSLFTableCell#removeBorder(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;)V
+  edge
+    +c:.
+
+org.apache.poi.hslf.usermodel.HSLFTableCell#applyLineProperties(Lorg/apache/poi/sl/usermodel/TableCell$BorderEdge;Lorg/apache/poi/hslf/usermodel/HSLFLine;)V
+  edge
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFTextParagraph#<init>(Lorg/apache/poi/hslf/record/TextHeaderAtom;Lorg/apache/poi/hslf/record/TextBytesAtom;Lorg/apache/poi/hslf/record/TextCharsAtom;Ljava/util/List;)V
+  tha
+    +c:"TextHeaderAtom must be set.".
+
+org.apache.poi.hslf.usermodel.HSLFTextParagraph#supplySheet(Ljava/util/List;Lorg/apache/poi/hslf/usermodel/HSLFSheet;)V
+  sheet
+    +c:.
+
+org.apache.poi.hslf.usermodel.HSLFTextParagraph#setBulletStyle([Ljava/lang/Object;)V
+  styles
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFTextParagraph#appendText(Ljava/util/List;Ljava/lang/String;Z)Lorg/apache/poi/hslf/usermodel/HSLFTextRun;
+  paragraphs
+    +c:.
+
+org.apache.poi.hslf.usermodel.HSLFTextParagraph#setText(Ljava/util/List;Ljava/lang/String;)Lorg/apache/poi/hslf/usermodel/HSLFTextRun;
+  paragraphs
+    +c:.
+
+org.apache.poi.hslf.usermodel.HSLFTextParagraph#getText(Ljava/util/List;)Ljava/lang/String;
+  paragraphs
+    +c:.
+
+org.apache.poi.hslf.usermodel.HSLFTextParagraph#findTextParagraphs(Lorg/apache/poi/hslf/record/PPDrawing;Lorg/apache/poi/hslf/usermodel/HSLFSheet;)Ljava/util/List;
+  sheet
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFTextParagraph#findTextParagraphs(Lorg/apache/poi/hslf/record/EscherTextboxWrapper;Lorg/apache/poi/hslf/usermodel/HSLFSheet;)Ljava/util/List;
+  sheet
+    +c:"Outline atom reference can't be solved without a sheet record".
+
+org.apache.poi.hslf.usermodel.HSLFTextParagraph#findTextParagraphs([Lorg/apache/poi/hslf/record/Record;)Ljava/util/List;
+  records
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFFontInfo#setTypeface(Ljava/lang/String;)V
+  typeface
+    +c:"typeface can't be null nor empty".
+
+org.apache.poi.hslf.usermodel.HSLFTable#<init>(IILorg/apache/poi/sl/usermodel/ShapeContainer;)V
+  numRows
+    +c:"The number of rows must be greater than 1".
+  numCols
+    +c:"The number of columns must be greater than 1".
+
+org.apache.poi.hslf.usermodel.HSLFTable#getRowHeight(I)D
+  row
+    +c:Row index '  ' is not within range [0-   ].
+
+org.apache.poi.hslf.usermodel.HSLFTable#setRowHeight(ID)V
+  row
+    +c:Row index '  ' is not within range [0-   ].
+
+org.apache.poi.hslf.usermodel.HSLFTable#getColumnWidth(I)D
+  col
+    +c:Column index '  ' is not within range [0-   ].
+
+org.apache.poi.hslf.usermodel.HSLFTable#setColumnWidth(ID)V
+  col
+    +c:Column index '  ' is not within range [0-   ].
+
+org.apache.poi.hslf.usermodel.HSLFSlideShowEncrypted#decryptRecord([BII)V
+  docstream
+    +c:
+  persistId
+    +c:
+  offset
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFSlideShowEncrypted#decryptPicture([BI)V
+  offset
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFSlideShowEncrypted#encryptPicture([BI)V
+  pictstream
+    +c:
+  offset
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFSlideShowEncrypted#updateEncryptionRecord([Lorg/apache/poi/hslf/record/Record;)[Lorg/apache/poi/hslf/record/Record;
+  records
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFSlideShowEncrypted#normalizeRecords([Lorg/apache/poi/hslf/record/Record;)[Lorg/apache/poi/hslf/record/Record;
+  records
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFSlideShowEncrypted#removeEncryptionRecord([Lorg/apache/poi/hslf/record/Record;)[Lorg/apache/poi/hslf/record/Record;
+  records
+    +c:
+
+org.apache.poi.hslf.usermodel.HSLFSlideShowEncrypted#addEncryptionRecord([Lorg/apache/poi/hslf/record/Record;Lorg/apache/poi/hslf/record/DocumentEncryptionAtom;)[Lorg/apache/poi/hslf/record/Record;
+  records
+    +c:
+  dea
+    +c:.
+
+org.apache.poi.hslf.usermodel.HSLFGroupShape#createPicture(Lorg/apache/poi/sl/usermodel/PictureData;)Lorg/apache/poi/hslf/usermodel/HSLFPictureShape;
+  pictureData
+    +c:"pictureData needs to be of type HSLFPictureData".
+
+org.apache.poi.hslf.usermodel.HSLFGroupShape#createTable(II)Lorg/apache/poi/hslf/usermodel/HSLFTable;
+  numRows
+    +c:"numRows and numCols must be greater than 0".
+
+org.apache.poi.hslf.usermodel.HSLFGroupShape#createOleShape(Lorg/apache/poi/sl/usermodel/PictureData;)Lorg/apache/poi/hslf/usermodel/HSLFObjectShape;
+  pictureData
+    +c:"pictureData needs to be of type HSLFPictureData".
+
+org.apache.poi.hsmf.MAPIMessage#getStringFromChunk(Lorg/apache/poi/hsmf/datatypes/StringChunk;)Ljava/lang/String;
+  chunk
+    +c:
+
+org.apache.poi.hsmf.datatypes.MAPIProperty#<init>(ILorg/apache/poi/hsmf/datatypes/Types$MAPIType;Ljava/lang/String;Ljava/lang/String;)V
+  id
+    +c:Duplicate MAPI Property with ID    :    vs.
+
+org.apache.poi.hwmf.draw.HwmfGraphics#applyObjectTableEntry(I)V
+  index
+    +c:WMF reference exception - object table entry on index    was deleted before.
+
+org.apache.poi.hwmf.draw.HwmfSLImageRenderer#loadImage(Ljava/io/InputStream;Ljava/lang/String;)V
+  contentType
+    +c:"Invalid picture type".
+
+org.apache.poi.hwmf.draw.HwmfSLImageRenderer#loadImage([BLjava/lang/String;)V
+  contentType
+    +c:"Invalid picture type".
+
+org.apache.poi.hwmf.record.HwmfBitmap16#init(Lorg/apache/poi/util/LittleEndianInputStream;)I
+  leis
+    +c:
+
+org.apache.poi.hwpf.HWPFDocument#<init>(Lorg/apache/poi/poifs/filesystem/DirectoryNode;)V
+  directory
+    +c:Table Stream '   ' wasn't found - Either the document is corrupt, or is Word95 (or earlier).
+
+org.apache.poi.hwpf.converter.WordToFoUtils#setBorder(Lorg/w3c/dom/Element;Lorg/apache/poi/hwpf/usermodel/BorderCode;Ljava/lang/String;)V
+  element
+    +c:"element is null".
+
+org.apache.poi.hwpf.converter.NumberFormatter#toLetters(I)Ljava/lang/String;
+  number
+    +c:Unsupported number:.
+
+org.apache.poi.hwpf.converter.NumberFormatter#toRoman(I)Ljava/lang/String;
+  number
+    +c:Unsupported number:.
+
+org.apache.poi.hwpf.converter.AbstractWordUtils#getBorderType(Lorg/apache/poi/hwpf/usermodel/BorderCode;)Ljava/lang/String;
+  borderCode
+    +c:"borderCode is null".
+
+org.apache.poi.hwpf.converter.AbstractWordUtils#getColor24(I)Ljava/lang/String;
+  argbValue
+    +c:"This colorref is empty".
+
+org.apache.poi.hwpf.model.ListTables#addList(Lorg/apache/poi/hwpf/model/ListData;Lorg/apache/poi/hwpf/model/LFO;Lorg/apache/poi/hwpf/model/LFOData;)I
+  lfoData
+    +c:"LFO and LFOData should be specified both or noone".
+
+org.apache.poi.hwpf.model.ComplexFileTable#<init>([B[BIILjava/nio/charset/Charset;)V
+  tableStream
+    +c:"The text piece table is corrupted".
+
+org.apache.poi.hwpf.model.TextPieceTable#getCharIndex(II)I
+  startBytePos
+    +c:
+
+org.apache.poi.hwpf.model.TextPieceTable#lookIndexForward(I)I
+  startBytePos
+    +c:..
+
+org.apache.poi.hwpf.model.FibRgLw97#getSubdocumentTextStreamLength(Lorg/apache/poi/hwpf/model/SubdocumentType;)I
+  subdocumentType
+    +c:Unsupported:.
+
+org.apache.poi.hwpf.model.FibRgLw97#setSubdocumentTextStreamLength(Lorg/apache/poi/hwpf/model/SubdocumentType;I)V
+  subdocumentType
+    +c:Unsupported:.
+
+org.apache.poi.hwpf.model.TextPiece#<init>(II[BLorg/apache/poi/hwpf/model/PieceDescriptor;)V
+  start
+    +c:Told we're for characters    ->   , but actually covers     characters!.
+  end
+    +c:Told we're of negative size! start=   end=.
+
+org.apache.poi.hwpf.model.TextPiece#substring(II)Ljava/lang/String;
+  start
+    +c:Can't request a substring before 0 - asked for.
+  end
+    +c:Index    out of range 0 ->.Asked for text from    to   , which has an end before the start!.
+
+org.apache.poi.hwpf.model.PlfLfo#getIlfoByLsid(I)I
+  lsid
+    +c:LFO with lsid    not found.
+
+org.apache.poi.hwpf.model.PlfLfo#getLfo(I)Lorg/apache/poi/hwpf/model/LFO;
+  ilfo
+    +c:LFO with ilfo    not found. lfoMac is.
+
+org.apache.poi.hwpf.model.PlfLfo#getLfoData(I)Lorg/apache/poi/hwpf/model/LFOData;
+  ilfo
+    +c:LFOData with ilfo    not found. lfoMac is.
+
+org.apache.poi.hwpf.model.UnhandledDataStructure#<init>([BII)V
+  offset
+    +c:Offset and Length must both be >= 0, negative  indicies are not permitted - code is tried to read    from offset.
+  length
+    +c:Buffer Length is      but code is tried to read     from offset    to.
+
+org.apache.poi.hwpf.model.StyleSheet#createPap(I)V
+  istd
+    +c:Pap style    claimed to have itself as its parent, which isn't allowed.
+
+org.apache.poi.hwpf.usermodel.Section#setMarginBottom(I)V
+  marginWidth
+    +d: A primitive int whose value will indciate how high the margin should be - in twips.
+
+org.apache.poi.hwpf.usermodel.Section#setMarginLeft(I)V
+  marginWidth
+    +d: A primitive int whose value will indciate how high the margin should be - in twips.
+
+org.apache.poi.hwpf.usermodel.Section#setMarginRight(I)V
+  marginWidth
+    +d: A primitive int whose value will indciate how high the margin should be - in twips.
+
+org.apache.poi.hwpf.usermodel.Section#setMarginTop(I)V
+  marginWidth
+    +d: A primitive int whose value will indciate how high the margin should be - in twips.
+
+org.apache.poi.hwpf.usermodel.Range#getCharacterRun(I)Lorg/apache/poi/hwpf/usermodel/CharacterRun;
+  index
+    +c:CHPX #   (   ) not in range [  ;   ).
+
+org.apache.poi.hwpf.usermodel.Range#getParagraph(I)Lorg/apache/poi/hwpf/usermodel/Paragraph;
+  index
+    +c:Paragraph #   (   ) not in range [  ;   ).
+
+org.apache.poi.hwpf.usermodel.Range#getTable(Lorg/apache/poi/hwpf/usermodel/Paragraph;)Lorg/apache/poi/hwpf/usermodel/Table;
+  paragraph
+    +c:"This paragraph doesn't belong to a table".
+
+org.apache.poi.hwpf.usermodel.HWPFList#<init>(Lorg/apache/poi/hwpf/model/StyleSheet;Lorg/apache/poi/hwpf/model/ListTables;I)V
+  ilfo
+    +c:"Paragraph not in list".Incorrect ilfo:.
+
+org.apache.poi.hwpf.usermodel.HWPFList#getLVL(C)Lorg/apache/poi/hwpf/model/ListLevel;
+  level
+    +c:Required level    is more than number of level for list (   ).
+
+org.apache.poi.crypt.examples.EncryptionUtils#decrypt(Ljava/io/InputStream;Ljava/lang/String;)Ljava/io/InputStream;
+  pwd
+    +c:"incorrect password".
+
+org.apache.poi.hpsf.examples.WriteAuthorAndTitle#main([Ljava/lang/String;)V
+  args
+    +d: Command-line arguments. The first command-line argument must be the name of a POI filesystem to read.
+
+org.apache.poi.hpsf.examples.ReadTitle#main([Ljava/lang/String;)V
+  args
+    +d: Command-line arguments. The first command-line argument must be the name of a POI filesystem to read.
+
+org.apache.poi.hssf.usermodel.examples.AddDimensionedImage#addImageToSheet(Ljava/lang/String;Lorg/apache/poi/hssf/usermodel/HSSFSheet;Ljava/lang/String;DDI)V
+  cellNumber
+    +d: A String that contains the location of the cell whose top left hand corner should be aligned with the top left hand corner of the image; for example "A1", "A2" etc. This is to support the familiar Excel syntax. Whilst images are are not actually inserted into cells this provides a convenient method of indicating where the image should be positioned on the sheet.
+  resizeBehaviour
+    +d: A primitive int whose value will determine how the code should react if the image is larger than the cell referenced by the cellNumber parameter. Four constants are provided to determine what should happen; AddDimensionedImage.EXPAND_ROW AddDimensionedImage.EXPAND_COLUMN AddDimensionedImage.EXPAND_ROW_AND_COLUMN AddDimensionedImage.OVERLAY_ROW_AND_COLUMN
+
+org.apache.poi.hssf.usermodel.examples.AddDimensionedImage#addImageToSheet(IILorg/apache/poi/hssf/usermodel/HSSFSheet;Ljava/lang/String;DDI)V
+  resizeBehaviour
+    +d: A primitive int whose value will determine how the code should react if the image is larger than the cell referenced by the colNumber and rowNumber parameters. Four constants are provided to determine what should happen; AddDimensionedImage.EXPAND_ROW AddDimensionedImage.EXPAND_COLUMN AddDimensionedImage.EXPAND_ROW_AND_COLUMN AddDimensionedImage.OVERLAY_ROW_AND_COLUMN
+    +c:Invalid value passed to the  resizeBehaviour parameter of AddDimensionedImage.addImageToSheet().
+
+org.apache.poi.hssf.usermodel.examples.AddDimensionedImage#fitImageToColumns(Lorg/apache/poi/hssf/usermodel/HSSFSheet;IDI)Lorg/apache/poi/hssf/usermodel/examples/AddDimensionedImage$ClientAnchorDetail;
+  resizeBehaviour
+    +d: A primitve int whose value will indicate how the width of the column should be adjusted if the required width of the image is greater than the width of the column.
+
+org.apache.poi.hssf.usermodel.examples.AddDimensionedImage#fitImageToRows(Lorg/apache/poi/hssf/usermodel/HSSFSheet;IDI)Lorg/apache/poi/hssf/usermodel/examples/AddDimensionedImage$ClientAnchorDetail;
+  resizeBehaviour
+    +d: A primitve int whose value will indicate how the height of the row should be adjusted if the required height of the image is greater than the height of the row.
+
+org.apache.poi.hssf.usermodel.examples.AddDimensionedImage#calculateColumnLocation(Lorg/apache/poi/hssf/usermodel/HSSFSheet;ID)Lorg/apache/poi/hssf/usermodel/examples/AddDimensionedImage$ClientAnchorDetail;
+  startingColumn
+    +d: A primitive int whose value is the index of the column that contains the cell whose top left hand corner should be aligned with the top left hand corner of the image.
+
+org.apache.poi.hssf.usermodel.examples.AddDimensionedImage#calculateRowLocation(Lorg/apache/poi/hssf/usermodel/HSSFSheet;ID)Lorg/apache/poi/hssf/usermodel/examples/AddDimensionedImage$ClientAnchorDetail;
+  startingRow
+    +d: A primitive int whose value is the index of the row that contains the cell whose top left hand corner should be aligned with the top left hand corner of the image.
+
+org.apache.poi.hssf.view.SVFractionalFormat#format(Ljava/lang/Object;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+  obj
+    +c:
+
+org.apache.poi.hssf.view.SViewer#main([Ljava/lang/String;)V
+  args
+    +c:"A filename to view must be supplied as the first argument, but none was given".
+
+org.apache.poi.hssf.view.SViewerPanel#main([Ljava/lang/String;)V
+  args
+    +c:"A filename to view must be supplied as the first argument, but none was given".
+
+org.apache.poi.poifs.poibrowser.TreeReaderListener#processPOIFSReaderEvent(Lorg/apache/poi/poifs/eventfilesystem/POIFSReaderEvent;)V
+  event
+    +c:Unexpected exception while processing     in.
+
+org.apache.poi.poifs.poibrowser.ExtendableTreeCellRenderer#unregister(Ljava/lang/Class;)V
+  c
+    +c:"Renderer for Object cannot be unregistered.".
+
+org.apache.poi.ss.examples.ToCSV#convertExcelToCSV(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+  formattingConvention
+    +c:The value passed to the  formattingConvention parameter is out of range.
+
+org.apache.poi.ss.examples.AddDimensionedImage#addImageToSheet(Ljava/lang/String;Lorg/apache/poi/ss/usermodel/Sheet;Lorg/apache/poi/ss/usermodel/Drawing;Ljava/net/URL;DDI)V
+  cellNumber
+    +d: A String that contains the location of the cell whose top left hand corner should be aligned with the top left hand corner of the image; for example "A1", "A2" etc. This is to support the familiar Excel syntax. Whilst images are are not actually inserted into cells this provides a convenient method of indicating where the image should be positioned on the sheet.
+  resizeBehaviour
+    +d: A primitive int whose value will determine how the code should react if the image is larger than the cell referenced by the cellNumber parameter. Four constants are provided to determine what should happen; AddDimensionedImage.EXPAND_ROW AddDimensionedImage.EXPAND_COLUMN AddDimensionedImage.EXPAND_ROW_AND_COLUMN AddDimensionedImage.OVERLAY_ROW_AND_COLUMN
+    +c:
+
+org.apache.poi.ss.examples.AddDimensionedImage#addImageToSheet(IILorg/apache/poi/ss/usermodel/Sheet;Lorg/apache/poi/ss/usermodel/Drawing;Ljava/net/URL;DDI)V
+  resizeBehaviour
+    +d: A primitive int whose value will determine how the code should react if the image is larger than the cell referenced by the colNumber and rowNumber parameters. Four constants are provided to determine what should happen; AddDimensionedImage.EXPAND_ROW AddDimensionedImage.EXPAND_COLUMN AddDimensionedImage.EXPAND_ROW_AND_COLUMN AddDimensionedImage.OVERLAY_ROW_AND_COLUMN
+    +c:Invalid value passed to the  resizeBehaviour parameter of AddDimensionedImage.addImageToSheet().
+
+org.apache.poi.ss.examples.CellStyleDetails#main([Ljava/lang/String;)V
+  args
+    +c:"Filename must be given".
+
+org.apache.poi.ss.examples.LoadEmbedded#loadEmbedded(Lorg/apache/poi/ss/usermodel/Workbook;)V
+  wb
+    +c:.
+
+org.apache.poi.ss.examples.formula.CalculateMortgage#checkValue(D)V
+  result
+    +c:.
+
+org.apache.poi.ss.examples.html.ToHtml#<init>(Lorg/apache/poi/ss/usermodel/Workbook;Ljava/lang/Appendable;)V
+  wb
+    +c:"wb".
+  output
+    +c:"output".
+
+org.apache.poi.xssf.eventusermodel.examples.LoadPasswordProtectedXlsxStreaming#main([Ljava/lang/String;)V
+  args
+    +c:"Expected 2 params: filename and password".
+
+org.apache.poi.xssf.streaming.examples.SavePasswordProtectedXlsx#main([Ljava/lang/String;)V
+  args
+    +c:"Expected 2 params: filename and password".
+
+org.apache.poi.xssf.usermodel.examples.LoadPasswordProtectedXlsx#main([Ljava/lang/String;)V
+  args
+    +c:"Expected 2 params: filename and password".
+
+org.apache.poi.xwpf.usermodel.examples.UpdateEmbeddedDoc#<init>(Ljava/lang/String;)V
+  filename
+    +c:The Word document    does not exist.
+
+org.apache.poi.ss.examples.formula.CalculateMortgageFunction#checkValue(D)V
+  result
+    +c:.
+
+org.apache.poi.stress.POIXMLDocumentHandler#handlePOIXMLDocument(Lorg/apache/poi/ooxml/POIXMLDocument;)V
+  doc
+    +c:.....
+
+org.apache.poi.stress.POIXMLDocumentHandler#isEncrypted(Ljava/io/InputStream;)Z
+  stream
+    +c:"Wrong file format or file extension for OO XML file".
+
+org.apache.poi.stress.XSSFFileHandler#handleAdditional(Ljava/io/File;)V
+  file
+    +c:Expected Extraction to fail for file    and handler  , but did not fail!       /.
+

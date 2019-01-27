@@ -1,0 +1,2166 @@
+com.itextpdf.awt.geom.FlatteningPathIterator#<init>(Lcom/itextpdf/awt/geom/PathIterator;DI)V
+  path
+    +c:awt.208.
+  flatness
+    +c:awt.206.
+  limit
+    +c:awt.207.
+
+com.itextpdf.awt.geom.GeneralPath#setWindingRule(I)V
+  rule
+    +c:awt.209.
+
+com.itextpdf.awt.geom.GeneralPath#checkBuf(IZ)V
+  checkMove
+    +c:awt.20A.
+
+com.itextpdf.awt.geom.misc.RenderingHints#<init>(Lcom/itextpdf/awt/geom/misc/RenderingHints$Key;Ljava/lang/Object;)V
+  key
+    +c:
+  value
+    +c:
+
+com.itextpdf.awt.geom.misc.RenderingHints#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  key
+    +c:
+  value
+    +c:
+
+com.itextpdf.awt.geom.misc.RenderingHints#containsKey(Ljava/lang/Object;)Z
+  key
+    +c:.
+
+com.itextpdf.testutils.CompareTool#compareContentStreamsByParsing(Lcom/itextpdf/text/pdf/PdfObject;Lcom/itextpdf/text/pdf/PdfObject;)Z
+  outObj
+    +c:
+  cmpObj
+    +c:
+
+com.itextpdf.testutils.CompareTool#compareContentStreamsByParsing(Lcom/itextpdf/text/pdf/PdfObject;Lcom/itextpdf/text/pdf/PdfObject;Lcom/itextpdf/text/pdf/PdfDictionary;Lcom/itextpdf/text/pdf/PdfDictionary;)Z
+  outObj
+    +c:
+  cmpObj
+    +c:
+
+com.itextpdf.text.ImgRaw#<init>(IIII[B)V
+  components
+    +c:components.must.be.1.3.or.4.
+  bpc
+    +c:bits.per.component.must.be.1.2.4.or.8.
+
+com.itextpdf.text.ImgTemplate#<init>(Lcom/itextpdf/text/pdf/PdfTemplate;)V
+  template
+    +c:the.template.can.not.be.null.a.pattern.can.not.be.used.as.a.template.to.create.an.image.
+
+com.itextpdf.text.Chunk#<init>(Lcom/itextpdf/text/pdf/draw/DrawInterface;FZ)V
+  tabPosition
+    +c:a.tab.position.may.not.be.lower.than.0.yours.is.1.
+
+com.itextpdf.text.Chunk#<init>(Ljava/lang/Float;Z)V
+  tabInterval
+    +c:a.tab.position.may.not.be.lower.than.0.yours.is.1.
+
+com.itextpdf.text.Chunk#setTextRenderMode(IFLcom/itextpdf/text/BaseColor;)Lcom/itextpdf/text/Chunk;
+  mode
+    +d: the text rendering mode. It can be <CODE> PdfContentByte.TEXT_RENDER_MODE_FILL</CODE>,<CODE> PdfContentByte.TEXT_RENDER_MODE_STROKE</CODE>,<CODE> PdfContentByte.TEXT_RENDER_MODE_FILL_STROKE</CODE> and <CODE> PdfContentByte.TEXT_RENDER_MODE_INVISIBLE</CODE>.
+
+com.itextpdf.text.Document#add(Lcom/itextpdf/text/Element;)Z
+  element
+    +c:the.document.is.not.open.yet.you.can.only.add.meta.information.
+
+com.itextpdf.text.Phrase#add(ILcom/itextpdf/text/Element;)V
+  element
+    +c:insertion.of.illegal.element.1.
+
+com.itextpdf.text.Phrase#add(Lcom/itextpdf/text/Element;)Z
+  element
+    +c:.
+
+com.itextpdf.text.ImgCCITT#<init>(IIZII[B)V
+  typeCCITT
+    +d: the type of compression in data. It can be CCITTG4, CCITTG31D, CCITTG32D
+    +c:the.ccitt.compression.type.must.be.ccittg4.ccittg3.1d.or.ccittg3.2d.
+
+com.itextpdf.text.FontFactory#setFontImp(Lcom/itextpdf/text/FontFactoryImp;)V
+  fontImp
+    +c:fontfactoryimp.cannot.be.null.
+
+com.itextpdf.text.Section#add(ILcom/itextpdf/text/Element;)V
+  element
+    +c:you.can.t.add.a.1.to.a.section.
+
+com.itextpdf.text.Section#add(Lcom/itextpdf/text/Element;)Z
+  element
+    +c:you.can.t.add.a.1.to.a.section.
+
+com.itextpdf.text.BaseColor#validate(I)V
+  value
+    +c:color.value.outside.range.0.255.
+
+com.itextpdf.text.PageSize#getRectangle(Ljava/lang/String;)Lcom/itextpdf/text/Rectangle;
+  name
+    +c:can.t.find.page.size.1.1.is.not.a.valid.page.size.format.2.
+
+com.itextpdf.text.Utilities#copyOfRange([CII)[C
+  from
+    +c:
+  to
+    +c:
+
+com.itextpdf.text.error_messages.MessageLocalization#getLanguageMessages(Ljava/lang/String;Ljava/lang/String;)Ljava/util/HashMap;
+  language
+    +c:"The language cannot be null.".
+
+com.itextpdf.text.factories.RomanAlphabetFactory#getString(I)Ljava/lang/String;
+  index
+    +c:you.can.t.translate.a.negative.number.into.an.alphabetical.value.
+
+com.itextpdf.text.io.RandomAccessSourceFactory#createByReadingToMemory(Ljava/lang/String;)Lcom/itextpdf/text/io/RandomAccessSource;
+  filename
+    +c:1.not.found.as.file.or.resource.
+
+com.itextpdf.text.io.FileChannelRandomAccessSource#<init>(Ljava/nio/channels/FileChannel;)V
+  channel
+    +c:"File size is 0 bytes".
+
+com.itextpdf.text.pdf.BidiOrder#<init>([B)V
+  types
+    +c:
+
+com.itextpdf.text.pdf.BidiOrder#<init>([BB)V
+  types
+    +c:
+  paragraphEmbeddingLevel
+    +c:
+
+com.itextpdf.text.pdf.BidiOrder#<init>([CIIB)V
+  paragraphEmbeddingLevel
+    +c:
+
+com.itextpdf.text.pdf.BidiOrder#getLevels([I)[B
+  linebreaks
+    +c:
+
+com.itextpdf.text.pdf.BidiOrder#getReordering([I)[I
+  linebreaks
+    +c:
+
+com.itextpdf.text.pdf.RandomAccessFileOrArray#readFully([B)V
+  b
+    +c:
+
+com.itextpdf.text.pdf.RandomAccessFileOrArray#readFully([BII)V
+  b
+    +c:
+  off
+    +c:
+  len
+    +c:
+
+com.itextpdf.text.pdf.VerticalText#go(Z)I
+  simulate
+    +c:verticaltext.go.with.simulate.eq.eq.false.and.text.eq.eq.null.
+
+com.itextpdf.text.pdf.PdfNumber#<init>(Ljava/lang/String;)V
+  content
+    +c:1.is.not.a.valid.number.2.
+
+com.itextpdf.text.pdf.PdfPRow#writeCells(IIFF[Lcom/itextpdf/text/pdf/PdfContentByte;Z)V
+  reusable
+    +d: if set to false, the content in the cells is "consumed"; if true, you can reuse the cells, the row, the parent table as many times you want.
+
+com.itextpdf.text.pdf.PdfPRow#splitRowspans(Lcom/itextpdf/text/pdf/PdfPTable;ILcom/itextpdf/text/pdf/PdfPTable;I)V
+  original
+    +c:
+  part
+    +c:
+
+com.itextpdf.text.pdf.RadioCheckField#<init>(Lcom/itextpdf/text/pdf/PdfWriter;Lcom/itextpdf/text/Rectangle;Ljava/lang/String;Ljava/lang/String;)V
+  fieldName
+    +d: the field name. It must not be <CODE>null</CODE>
+
+com.itextpdf.text.pdf.RadioCheckField#getRadioGroup(ZZ)Lcom/itextpdf/text/pdf/PdfFormField;
+  noToggleToOff
+    +d: if <CODE>true</CODE>, exactly one radio button must be selected at all times; clicking the currently selected button has no effect. If <CODE>false</CODE>, clicking the selected button deselects it, leaving no button selected.
+
+com.itextpdf.text.pdf.BarcodeEANSUPP#placeBarcode(Lcom/itextpdf/text/pdf/PdfContentByte;Lcom/itextpdf/text/BaseColor;Lcom/itextpdf/text/BaseColor;)Lcom/itextpdf/text/Rectangle;
+  barColor
+    +d: the color of the bars. It can be <CODE>null</CODE>
+  textColor
+    +d: the color of the text. It can be <CODE>null</CODE>
+
+com.itextpdf.text.pdf.ByteBuffer#setSize(I)V
+  size
+    +c:the.new.size.must.be.positive.and.lt.eq.of.the.current.size.
+
+com.itextpdf.text.pdf.PdfEncryption#setCryptoMode(II)V
+  mode
+    +c:no.valid.encryption.mode.
+
+com.itextpdf.text.pdf.LZWDecoder#decode([BLjava/io/OutputStream;)V
+  data
+    +c:lzw.flavour.not.supported.
+
+com.itextpdf.text.pdf.BarcodePostnet#placeBarcode(Lcom/itextpdf/text/pdf/PdfContentByte;Lcom/itextpdf/text/BaseColor;Lcom/itextpdf/text/BaseColor;)Lcom/itextpdf/text/Rectangle;
+  barColor
+    +d: the color of the bars. It can be <CODE>null</CODE>
+  textColor
+    +d: the color of the text. It can be <CODE>null</CODE>
+
+com.itextpdf.text.pdf.PdfArtifact#setType(Lcom/itextpdf/text/pdf/PdfString;)V
+  type
+    +c:the.artifact.type.1.is.invalid.
+
+com.itextpdf.text.pdf.PdfBorderDictionary#<init>(FILcom/itextpdf/text/pdf/PdfDashPattern;)V
+  borderStyle
+    +c:invalid.border.style.
+
+com.itextpdf.text.pdf.PdfSignatureAppearance#setCertificationLevel(I)V
+  certificationLevel
+    +d: the values can be: NOT_CERTIFIED, CERTIFIED_NO_CHANGES_ALLOWED, CERTIFIED_FORM_FILLING and CERTIFIED_FORM_FILLING_AND_ANNOTATIONS
+
+com.itextpdf.text.pdf.PdfSignatureAppearance#setVisibleSignature(Lcom/itextpdf/text/Rectangle;ILjava/lang/String;)V
+  page
+    +c:invalid.page.number.1.
+  fieldName
+    +c:field.names.cannot.contain.a.dot.the.field.1.already.exists.
+
+com.itextpdf.text.pdf.PdfSignatureAppearance#setVisibleSignature(Ljava/lang/String;)V
+  fieldName
+    +c:the.field.1.does.not.exist.the.field.1.is.not.a.signature.field.
+
+com.itextpdf.text.pdf.PdfSignatureAppearance#setRunDirection(I)V
+  runDirection
+    +c:invalid.run.direction.1.
+
+com.itextpdf.text.pdf.PdfSignatureAppearance#preClose(Ljava/util/HashMap;)V
+  exclusionSizes
+    +d: a <CODE>HashMap</CODE> with names and sizes to be excluded in the signature calculation. The key is a <CODE>PdfName</CODE> and the value an <CODE>Integer</CODE>. At least the <CODE>PdfName.CONTENTS</CODE> must be present
+
+com.itextpdf.text.pdf.PdfSignatureAppearance#close(Lcom/itextpdf/text/pdf/PdfDictionary;)V
+  update
+    +c:the.update.dictionary.has.less.keys.than.required.
+
+com.itextpdf.text.pdf.BarcodeQRCode#<init>(Ljava/lang/String;IILjava/util/Map;)V
+  hints
+    +d: modifiers to change the way the barcode is create. They can be EncodeHintType.ERROR_CORRECTION and EncodeHintType.CHARACTER_SET. For EncodeHintType.ERROR_CORRECTION the values can be ErrorCorrectionLevel.L, M, Q, H. For EncodeHintType.CHARACTER_SET the values are strings and can be Cp437, Shift_JIS and ISO-8859-1 to ISO-8859-16. You can also use UTF-8, but correct behaviour is not guaranteed as Unicode is not supported in QRCodes. The default value is ISO-8859-1.
+
+com.itextpdf.text.pdf.PdfLayer#createTitle(Ljava/lang/String;Lcom/itextpdf/text/pdf/PdfWriter;)Lcom/itextpdf/text/pdf/PdfLayer;
+  title
+    +c:title.cannot.be.null.
+
+com.itextpdf.text.pdf.PdfLayer#addChild(Lcom/itextpdf/text/pdf/PdfLayer;)V
+  child
+    +c:the.layer.1.already.has.a.parent.
+
+com.itextpdf.text.pdf.PdfLayer#setZoom(FF)V
+  min
+    +d: the minimum recommended magnification factors at which the group should be ON. A negative value will set the default to 0
+  max
+    +d: the maximum recommended magnification factor at which the group should be ON. A negative value will set the largest possible magnification supported by the viewer application
+
+com.itextpdf.text.pdf.BarcodeCodabar#getBarsCodabar(Ljava/lang/String;)[B
+  text
+    +c:codabar.must.have.one.of.abcd.as.start.stop.character.the.character.1.is.illegal.in.codabar.
+
+com.itextpdf.text.pdf.BarcodeCodabar#placeBarcode(Lcom/itextpdf/text/pdf/PdfContentByte;Lcom/itextpdf/text/BaseColor;Lcom/itextpdf/text/BaseColor;)Lcom/itextpdf/text/Rectangle;
+  barColor
+    +d: the color of the bars. It can be <CODE>null</CODE>
+  textColor
+    +d: the color of the text. It can be <CODE>null</CODE>
+
+com.itextpdf.text.pdf.PdfStamper#setEncryption([B[BII)V
+  encryptionType
+    +d: the type of encryption. It can be one of STANDARD_ENCRYPTION_40, STANDARD_ENCRYPTION_128, ENCRYPTION_AES128 or ENCRYPTION_AES256. Optionally DO_NOT_ENCRYPT_METADATA can be ored to output the metadata in cleartext
+
+com.itextpdf.text.pdf.PdfStamper#setEncryption(ILjava/lang/String;Ljava/lang/String;I)V
+  encryptionType
+    +d: the type of encryption. It can be one of STANDARD_ENCRYPTION_40, STANDARD_ENCRYPTION_128 or ENCRYPTION_AES128. Optionally DO_NOT_ENCRYPT_METADATA can be ored to output the metadata in cleartext
+
+com.itextpdf.text.pdf.PdfStamper#setEncryption([Ljava/security/cert/Certificate;[II)V
+  encryptionType
+    +d: the type of encryption. It can be one of STANDARD_ENCRYPTION_40, STANDARD_ENCRYPTION_128, ENCRYPTION_AES128 or ENCRYPTION_AES256.
+
+com.itextpdf.text.pdf.PdfStamper#setPageAction(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfAction;I)V
+  actionType
+    +d: the action type. It can be <CODE>PdfWriter.PAGE_OPEN</CODE> or <CODE>PdfWriter.PAGE_CLOSE</CODE>
+
+com.itextpdf.text.pdf.PdfStamper#createSignature(Lcom/itextpdf/text/pdf/PdfReader;Ljava/io/OutputStream;CLjava/io/File;Z)Lcom/itextpdf/text/pdf/PdfStamper;
+  tempFile
+    +d: location of the temporary file. If it's a directory a temporary file will be created there. If it's a file it will be used directly. The file will be deleted on exit unless <CODE>os</CODE> is null. In that case the document can be retrieved directly from the temporary file. If it's <CODE>null</CODE> no temporary file will be created and memory will be used
+
+com.itextpdf.text.pdf.PdfStamper#createSignature(Lcom/itextpdf/text/pdf/PdfReader;Ljava/io/OutputStream;CLjava/io/File;)Lcom/itextpdf/text/pdf/PdfStamper;
+  tempFile
+    +d: location of the temporary file. If it's a directory a temporary file will be created there. If it's a file it will be used directly. The file will be deleted on exit unless <CODE>os</CODE> is null. In that case the document can be retrieved directly from the temporary file. If it's <CODE>null</CODE> no temporary file will be created and memory will be used
+
+com.itextpdf.text.pdf.ColumnText#addElement(Lcom/itextpdf/text/Element;)V
+  element
+    +c:element.not.allowed.
+
+com.itextpdf.text.pdf.ColumnText#convertColumn([F)Ljava/util/ArrayList;
+  cLine
+    +c:no.valid.column.line.found.
+
+com.itextpdf.text.pdf.ColumnText#go(Z)I
+  simulate
+    +c:
+
+com.itextpdf.text.pdf.ColumnText#go(ZLcom/itextpdf/text/pdf/interfaces/IAccessibleElement;)I
+  simulate
+    +c:columntext.go.with.simulate.eq.eq.false.and.text.eq.eq.null.
+
+com.itextpdf.text.pdf.ColumnText#setRunDirection(I)V
+  runDirection
+    +c:invalid.run.direction.1.
+
+com.itextpdf.text.pdf.ColumnText#showTextAligned(Lcom/itextpdf/text/pdf/PdfContentByte;ILcom/itextpdf/text/Phrase;FFFII)V
+  runDirection
+    +c:
+
+com.itextpdf.text.pdf.ColumnText#fitText(Lcom/itextpdf/text/Font;Ljava/lang/String;Lcom/itextpdf/text/Rectangle;FI)F
+  runDirection
+    +c:
+
+com.itextpdf.text.pdf.ColumnText#goComposite(Z)I
+  simulate
+    +c:
+
+com.itextpdf.text.pdf.PdfPageLabels#addPageLabel(IILjava/lang/String;I)V
+  page
+    +c:in.a.page.label.the.page.numbers.must.be.greater.or.equal.to.1.
+
+com.itextpdf.text.pdf.PdfPageLabels#addPageLabel(IILjava/lang/String;IZ)V
+  page
+    +c:in.a.page.label.the.page.numbers.must.be.greater.or.equal.to.1.
+
+com.itextpdf.text.pdf.PdfPageLabels#addPageLabel(IILjava/lang/String;)V
+  page
+    +c:
+
+com.itextpdf.text.pdf.PdfPageLabels#addPageLabel(II)V
+  page
+    +c:
+
+com.itextpdf.text.pdf.BarcodeInter25#getBarsInter25(Ljava/lang/String;)[B
+  text
+    +d: the text. It can contain non numeric characters
+    +c:the.text.length.must.be.even.
+
+com.itextpdf.text.pdf.BarcodeInter25#placeBarcode(Lcom/itextpdf/text/pdf/PdfContentByte;Lcom/itextpdf/text/BaseColor;Lcom/itextpdf/text/BaseColor;)Lcom/itextpdf/text/Rectangle;
+  barColor
+    +d: the color of the bars. It can be <CODE>null</CODE>
+  textColor
+    +d: the color of the text. It can be <CODE>null</CODE>
+
+com.itextpdf.text.pdf.SimpleNamedDestination#endElement(Ljava/lang/String;)V
+  tag
+    +c:invalid.end.tag.1.
+
+com.itextpdf.text.pdf.SimpleNamedDestination#startElement(Ljava/lang/String;Ljava/util/Map;)V
+  tag
+    +c:root.element.is.not.destination.tag.1.not.allowed.
+
+com.itextpdf.text.pdf.Barcode128#getRawText(Ljava/lang/String;ZLcom/itextpdf/text/pdf/Barcode128$Barcode128CodeSet;)Ljava/lang/String;
+  text
+    +c:there.are.illegal.characters.for.barcode.128.in.1.
+  codeSet
+    +c:there.are.illegal.characters.for.barcode.128.in.1.there.are.illegal.characters.for.barcode.128.in.1.
+
+com.itextpdf.text.pdf.Barcode128#getRawText(Ljava/lang/String;Z)Ljava/lang/String;
+  text
+    +c:
+
+com.itextpdf.text.pdf.Barcode128#placeBarcode(Lcom/itextpdf/text/pdf/PdfContentByte;Lcom/itextpdf/text/BaseColor;Lcom/itextpdf/text/BaseColor;)Lcom/itextpdf/text/Rectangle;
+  barColor
+    +d: the color of the bars. It can be <CODE>null</CODE>
+  textColor
+    +d: the color of the text. It can be <CODE>null</CODE>
+
+com.itextpdf.text.pdf.Barcode128#setCode(Ljava/lang/String;)V
+  code
+    +c:badly.formed.ucc.string.1.
+
+com.itextpdf.text.pdf.Type3Font#defineGlyph(CFFFFF)Lcom/itextpdf/text/pdf/PdfContentByte;
+  c
+    +c:the.char.1.doesn.t.belong.in.this.type3.font.
+
+com.itextpdf.text.pdf.Type3Font#writeFont(Lcom/itextpdf/text/pdf/PdfWriter;Lcom/itextpdf/text/pdf/PdfIndirectReference;[Ljava/lang/Object;)V
+  writer
+    +c:type3.font.used.with.the.wrong.pdfwriter.
+
+com.itextpdf.text.pdf.Type3Font#getWidth(I)I
+  char1
+    +c:the.char.1.is.not.defined.in.a.type3.font.
+
+com.itextpdf.text.pdf.PdfName#<init>(Ljava/lang/String;Z)V
+  lengthCheck
+    +d: if <CODE>true</CODE> check the length validity, if <CODE>false</CODE> the name can have any length
+    +c:the.name.1.is.too.long.2.characters.
+
+com.itextpdf.text.pdf.PRTokeniser#throwError(Ljava/lang/String;)V
+  error
+    +c:1.at.file.pointer.2.
+
+com.itextpdf.text.pdf.LongHashtable#<init>(IF)V
+  initialCapacity
+    +c:illegal.capacity.1.
+  loadFactor
+    +c:illegal.load.1.
+
+com.itextpdf.text.pdf.PdfContentByte#add(Lcom/itextpdf/text/pdf/PdfContentByte;)V
+  other
+    +c:inconsistent.writers.are.you.mixing.two.documents.
+
+com.itextpdf.text.pdf.PdfContentByte#setLineDash(FFF)V
+  unitsOn
+    +d:     the number of units that must be 'on'
+
+com.itextpdf.text.pdf.PdfContentByte#setLineDash(DDD)V
+  unitsOn
+    +d:     the number of units that must be 'on'
+
+com.itextpdf.text.pdf.PdfContentByte#addImage(Lcom/itextpdf/text/Image;)V
+  image
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addImage(Lcom/itextpdf/text/Image;Z)V
+  image
+    +c:the.image.must.have.absolute.positioning.
+
+com.itextpdf.text.pdf.PdfContentByte#addImage(Lcom/itextpdf/text/Image;FFFFFF)V
+  image
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addImage(Lcom/itextpdf/text/Image;DDDDDD)V
+  image
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addImage(Lcom/itextpdf/text/Image;Lcom/itextpdf/awt/geom/AffineTransform;)V
+  image
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addImage(Lcom/itextpdf/text/Image;FFFFFFZ)V
+  image
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addImage(Lcom/itextpdf/text/Image;DDDDDDZ)V
+  image
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addImage(Lcom/itextpdf/text/Image;DDDDDDZZ)V
+  image
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#setFontAndSize(Lcom/itextpdf/text/pdf/BaseFont;F)V
+  size
+    +c:font.size.too.small.1.
+
+com.itextpdf.text.pdf.PdfContentByte#showTextAligned(ILjava/lang/String;FFF)V
+  alignment
+    +d: the alignment can be ALIGN_CENTER, ALIGN_RIGHT or ALIGN_LEFT
+
+com.itextpdf.text.pdf.PdfContentByte#showTextAlignedKerned(ILjava/lang/String;FFF)V
+  alignment
+    +d: the alignment can be ALIGN_CENTER, ALIGN_RIGHT or ALIGN_LEFT
+
+com.itextpdf.text.pdf.PdfContentByte#createPattern(FFFF)Lcom/itextpdf/text/pdf/PdfPatternPainter;
+  xstep
+    +c:xstep.or.ystep.can.not.be.zero.
+
+com.itextpdf.text.pdf.PdfContentByte#createPattern(FFFFLcom/itextpdf/text/BaseColor;)Lcom/itextpdf/text/pdf/PdfPatternPainter;
+  xstep
+    +c:xstep.or.ystep.can.not.be.zero.
+
+com.itextpdf.text.pdf.PdfContentByte#addTemplate(Lcom/itextpdf/text/pdf/PdfTemplate;FFFFFF)V
+  template
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addTemplate(Lcom/itextpdf/text/pdf/PdfTemplate;DDDDDD)V
+  template
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addTemplate(Lcom/itextpdf/text/pdf/PdfTemplate;FFFFFFZ)V
+  template
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addTemplate(Lcom/itextpdf/text/pdf/PdfTemplate;DDDDDDZ)V
+  template
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addTemplate(Lcom/itextpdf/text/pdf/PdfTemplate;Lcom/itextpdf/awt/geom/AffineTransform;)V
+  template
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addTemplate(Lcom/itextpdf/text/pdf/PdfTemplate;Lcom/itextpdf/awt/geom/AffineTransform;Z)V
+  template
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addTemplate(Lcom/itextpdf/text/pdf/PdfTemplate;FF)V
+  template
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addTemplate(Lcom/itextpdf/text/pdf/PdfTemplate;DD)V
+  template
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addTemplate(Lcom/itextpdf/text/pdf/PdfTemplate;FFZ)V
+  template
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#addTemplate(Lcom/itextpdf/text/pdf/PdfTemplate;DDZ)V
+  template
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#setPatternFill(Lcom/itextpdf/text/pdf/PdfPatternPainter;)V
+  p
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#setPatternFill(Lcom/itextpdf/text/pdf/PdfPatternPainter;Lcom/itextpdf/text/BaseColor;)V
+  p
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#setPatternFill(Lcom/itextpdf/text/pdf/PdfPatternPainter;Lcom/itextpdf/text/BaseColor;F)V
+  p
+    +c:an.uncolored.pattern.was.expected.
+
+com.itextpdf.text.pdf.PdfContentByte#setPatternStroke(Lcom/itextpdf/text/pdf/PdfPatternPainter;Lcom/itextpdf/text/BaseColor;)V
+  p
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#setPatternStroke(Lcom/itextpdf/text/pdf/PdfPatternPainter;Lcom/itextpdf/text/BaseColor;F)V
+  p
+    +c:an.uncolored.pattern.was.expected.
+
+com.itextpdf.text.pdf.PdfContentByte#setPatternStroke(Lcom/itextpdf/text/pdf/PdfPatternPainter;)V
+  p
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#checkNoPattern(Lcom/itextpdf/text/pdf/PdfTemplate;)V
+  t
+    +c:invalid.use.of.a.pattern.a.template.was.expected.
+
+com.itextpdf.text.pdf.PdfContentByte#drawButton(FFFFLjava/lang/String;Lcom/itextpdf/text/pdf/BaseFont;F)V
+  size
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#drawButton(DDDDLjava/lang/String;Lcom/itextpdf/text/pdf/BaseFont;F)V
+  size
+    +c:
+
+com.itextpdf.text.pdf.PdfContentByte#beginLayer(Lcom/itextpdf/text/pdf/PdfOCG;)V
+  layer
+    +c:a.title.is.not.a.layer.
+
+com.itextpdf.text.pdf.PdfContentByte#setDefaultColorspace(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfObject;)V
+  name
+    +d: the name of the colorspace. It can be <CODE>PdfName.DEFAULTGRAY</CODE>, <CODE>PdfName.DEFAULTRGB</CODE> or <CODE>PdfName.DEFAULTCMYK</CODE>
+
+com.itextpdf.text.pdf.PdfContentByte#beginMarkedContentSequence(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfDictionary;Z)V
+  inline
+    +c:.
+
+com.itextpdf.text.pdf.PdfCopy#addDocument(Lcom/itextpdf/text/pdf/PdfReader;Ljava/util/List;)V
+  reader
+    +c:document.1.has.already.been.added.
+
+com.itextpdf.text.pdf.PdfCopy#copyDocumentFields(Lcom/itextpdf/text/pdf/PdfReader;)V
+  reader
+    +c:document.1.has.already.been.added.pdfreader.not.opened.with.owner.password.
+
+com.itextpdf.text.pdf.PdfCopy#addDocument(Lcom/itextpdf/text/pdf/PdfReader;)V
+  reader
+    +c:document.1.has.already.been.added.pdfreader.not.opened.with.owner.password.
+
+com.itextpdf.text.pdf.PdfReader#readOneObjStm(Lcom/itextpdf/text/pdf/PRStream;I)Lcom/itextpdf/text/pdf/PdfObject;
+  idx
+    +c:
+
+com.itextpdf.text.pdf.PdfReader#ASCII85Decode([B)[B
+  in
+    +c:
+
+com.itextpdf.text.pdf.PdfPTable#<init>([F)V
+  relativeWidths
+    +c:the.widths.array.in.pdfptable.constructor.can.not.be.null.the.widths.array.in.pdfptable.constructor.can.not.have.zero.length.
+
+com.itextpdf.text.pdf.PdfPTable#<init>(I)V
+  numColumns
+    +c:the.number.of.columns.in.pdfptable.constructor.must.be.greater.than.zero.
+
+com.itextpdf.text.pdf.PdfPTable#setWidths([F)V
+  relativeWidths
+    +c:wrong.number.of.columns.
+
+com.itextpdf.text.pdf.PdfPTable#setWidths([I)V
+  relativeWidths
+    +c:
+
+com.itextpdf.text.pdf.PdfPTable#setTotalWidth([F)V
+  columnWidth
+    +c:wrong.number.of.columns.
+
+com.itextpdf.text.pdf.PdfPTable#setWidthPercentage([FLcom/itextpdf/text/Rectangle;)V
+  columnWidth
+    +c:wrong.number.of.columns.
+
+com.itextpdf.text.pdf.PdfPTable#resetColumnCount(I)V
+  newColCount
+    +c:the.number.of.columns.in.pdfptable.constructor.must.be.greater.than.zero.
+
+com.itextpdf.text.pdf.PdfPTable#writeSelectedRows(IIIIFF[Lcom/itextpdf/text/pdf/PdfContentByte;Z)F
+  reusable
+    +d: if set to false, the content in the cells is "consumed"; if true, you can reuse the cells, the row, the parent table as many times you want.
+
+com.itextpdf.text.pdf.PdfPTable#writeSelectedRows(IIIIFFLcom/itextpdf/text/pdf/PdfContentByte;Z)F
+  reusable
+    +d: if set to false, the content in the cells is "consumed"; if true, you can reuse the cells, the row, the parent table as many times you want.
+
+com.itextpdf.text.pdf.PdfPTable#setRunDirection(I)V
+  runDirection
+    +c:invalid.run.direction.1.
+
+com.itextpdf.text.pdf.PdfPTable#getFittingRows(FI)Lcom/itextpdf/text/pdf/PdfPTable$FittingRows;
+  startIdx
+    +c:.
+
+com.itextpdf.text.pdf.PdfStructureElement#init(Lcom/itextpdf/text/pdf/PdfDictionary;Lcom/itextpdf/text/pdf/PdfName;)V
+  structureType
+    +c:unknown.structure.element.role.1.
+
+com.itextpdf.text.pdf.CMapAwareDocumentFont#decode([BII)Ljava/lang/String;
+  offset
+    +c:
+  len
+    +c:
+
+com.itextpdf.text.pdf.CMapAwareDocumentFont#encode([BII)Ljava/lang/String;
+  offset
+    +c:
+  len
+    +c:
+
+com.itextpdf.text.pdf.PdfVisibilityExpression#<init>(I)V
+  type
+    +c:illegal.ve.value.
+
+com.itextpdf.text.pdf.PdfVisibilityExpression#add(Lcom/itextpdf/text/pdf/PdfObject;)Z
+  object
+    +c:
+
+com.itextpdf.text.pdf.XfdfReader#startElement(Ljava/lang/String;Ljava/util/Map;)V
+  tag
+    +c:root.element.is.not.xfdf.1.
+
+com.itextpdf.text.pdf.Type3Glyph#addImage(Lcom/itextpdf/text/Image;FFFFFFZ)V
+  image
+    +c:not.colorized.typed3.fonts.only.accept.mask.images.
+
+com.itextpdf.text.pdf.PushbuttonField#setLayout(I)V
+  layout
+    +c:layout.out.of.bounds.
+
+com.itextpdf.text.pdf.DeviceNColor#<init>(Lcom/itextpdf/text/pdf/PdfDeviceNColor;[F)V
+  pdfDeviceNColor
+    +c:devicen.color.shall.have.the.same.number.of.colorants.as.the.destination.DeviceN.color.space.
+
+com.itextpdf.text.pdf.PdfAction#<init>(I)V
+  named
+    +c:invalid.named.action.
+
+com.itextpdf.text.pdf.PdfAction#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  parameters
+    +d: (Windows-specific) A parameter string to be passed to the application. It can be <CODE>null</CODE>.
+  operation
+    +d: (Windows-specific) the operation to perform: "open" - Open a document, "print" - Print a document. It can be <CODE>null</CODE>.
+  defaultDir
+    +d: (Windows-specific) the default directory in standard DOS syntax. It can be <CODE>null</CODE>.
+
+com.itextpdf.text.pdf.PdfAction#createLaunch(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/itextpdf/text/pdf/PdfAction;
+  parameters
+    +d: (Windows-specific) A parameter string to be passed to the application. It can be <CODE>null</CODE>.
+  operation
+    +d: (Windows-specific) the operation to perform: "open" - Open a document, "print" - Print a document. It can be <CODE>null</CODE>.
+  defaultDir
+    +d: (Windows-specific) the default directory in standard DOS syntax. It can be <CODE>null</CODE>.
+
+com.itextpdf.text.pdf.PdfAction#buildArray([Ljava/lang/Object;)Lcom/itextpdf/text/pdf/PdfArray;
+  names
+    +c:
+
+com.itextpdf.text.pdf.PdfAction#createHide([Ljava/lang/Object;Z)Lcom/itextpdf/text/pdf/PdfAction;
+  names
+    +c:
+
+com.itextpdf.text.pdf.PdfAction#createSubmitForm(Ljava/lang/String;[Ljava/lang/Object;I)Lcom/itextpdf/text/pdf/PdfAction;
+  names
+    +c:
+
+com.itextpdf.text.pdf.PdfAction#createResetForm([Ljava/lang/Object;I)Lcom/itextpdf/text/pdf/PdfAction;
+  names
+    +c:
+
+com.itextpdf.text.pdf.PdfAction#gotoEmbedded(Ljava/lang/String;Lcom/itextpdf/text/pdf/collection/PdfTargetDictionary;Lcom/itextpdf/text/pdf/PdfObject;Z)Lcom/itextpdf/text/pdf/PdfAction;
+  dest
+    +d: 		the destination inside the target document, can be of type PdfDestination, PdfName, or PdfString
+  newWindow
+    +d: 	if true, the destination document should be opened in a new window
+
+com.itextpdf.text.pdf.PdfAction#setOCGstate(Ljava/util/ArrayList;Z)Lcom/itextpdf/text/pdf/PdfAction;
+  state
+    +c:
+  preserveRB
+    +d: if <CODE>true</CODE>, indicates that radio-button state relationships between optional content groups (as specified by the RBGroups entry in the current configuration dictionary) should be preserved when the states in the <CODE>state</CODE> array are applied. That is, if a group is set to ON (either by ON or Toggle) during processing of the <CODE>state</CODE> array, any other groups belong to the same radio-button group are turned OFF. If a group is set to OFF, there is no effect on other groups.<br> If <CODE>false</CODE>, radio-button state relationships, if any, are ignored
+
+com.itextpdf.text.pdf.PdfEncryptor#encrypt(Lcom/itextpdf/text/pdf/PdfReader;Ljava/io/OutputStream;ILjava/lang/String;Ljava/lang/String;ILjava/util/HashMap;)V
+  type
+    +d: the type of encryption. It can be one of STANDARD_ENCRYPTION_40, STANDARD_ENCRYPTION_128 or ENCRYPTION_AES128. Optionally DO_NOT_ENCRYPT_METADATA can be ored to output the metadata in cleartext
+
+com.itextpdf.text.pdf.PdfEncryptor#encrypt(Lcom/itextpdf/text/pdf/PdfReader;Ljava/io/OutputStream;ILjava/lang/String;Ljava/lang/String;I)V
+  type
+    +d: the type of encryption. It can be one of STANDARD_ENCRYPTION_40, STANDARD_ENCRYPTION_128 or ENCRYPTION_AES128. Optionally DO_NOT_ENCRYPT_METADATA can be ored to output the metadata in cleartext
+
+com.itextpdf.text.pdf.PdfShadingPattern#setMatrix([F)V
+  matrix
+    +c:the.matrix.size.must.be.6.
+
+com.itextpdf.text.pdf.PdfWriter#reorderPages([I)I
+  order
+    +d: an array with the new page sequence. It must have the same size as the number of pages.
+
+com.itextpdf.text.pdf.PdfWriter#getPageReference(I)Lcom/itextpdf/text/pdf/PdfIndirectReference;
+  page
+    +c:the.page.number.must.be.gt.eq.1.
+
+com.itextpdf.text.pdf.PdfWriter#setTabs(Lcom/itextpdf/text/pdf/PdfName;)V
+  tabs
+    +d: 	Can be PdfName.R, PdfName.C or PdfName.S. Since the Adobe Extensions Level 3, it can also be PdfName.A or PdfName.W
+
+com.itextpdf.text.pdf.PdfWriter#addNamedDestination(Ljava/lang/String;ILcom/itextpdf/text/pdf/PdfDestination;)V
+  page
+    +c:
+
+com.itextpdf.text.pdf.PdfWriter#setAdditionalAction(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfAction;)V
+  actionType
+    +c:invalid.additional.action.type.1.
+
+com.itextpdf.text.pdf.PdfWriter#setPDFXConformance(I)V
+  pdfx
+    +c:
+
+com.itextpdf.text.pdf.PdfWriter#setEncryption(ILjava/lang/String;Ljava/lang/String;I)V
+  encryptionType
+    +d: the type of encryption. It can be one of STANDARD_ENCRYPTION_40, STANDARD_ENCRYPTION_128 or ENCRYPTION_AES128. Optionally DO_NOT_ENCRYPT_METADATA can be ored to output the metadata in cleartext
+
+com.itextpdf.text.pdf.PdfWriter#checkElementRole(Lcom/itextpdf/text/pdf/interfaces/IAccessibleElement;Lcom/itextpdf/text/pdf/interfaces/IAccessibleElement;)V
+  element
+    +c:inline.elements.with.role.null.are.not.allowed.
+
+com.itextpdf.text.pdf.PdfWriter#registerLayer(Lcom/itextpdf/text/pdf/PdfOCG;)V
+  layer
+    +c:only.pdflayer.is.accepted.
+
+com.itextpdf.text.pdf.PdfWriter#setPageAction(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfAction;)V
+  actionType
+    +c:invalid.page.additional.action.type.1.
+
+com.itextpdf.text.pdf.PdfWriter#setRunDirection(I)V
+  runDirection
+    +c:invalid.run.direction.1.
+
+com.itextpdf.text.pdf.PdfWriter#setUserunit(F)V
+  userunit
+    +c:userunit.should.be.a.value.between.1.and.75000.
+
+com.itextpdf.text.pdf.PdfWriter#setDefaultColorspace(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfObject;)V
+  key
+    +d: the name of the colorspace. It can be <CODE>PdfName.DEFAULTGRAY</CODE>, <CODE>PdfName.DEFAULTRGB</CODE> or <CODE>PdfName.DEFAULTCMYK</CODE>
+
+com.itextpdf.text.pdf.PdfWriter#addDirectImageSimple(Lcom/itextpdf/text/Image;)Lcom/itextpdf/text/pdf/PdfName;
+  image
+    +c:
+
+com.itextpdf.text.pdf.PdfWriter#addDirectImageSimple(Lcom/itextpdf/text/Image;Lcom/itextpdf/text/pdf/PdfIndirectReference;)Lcom/itextpdf/text/pdf/PdfName;
+  image
+    +c:.
+
+com.itextpdf.text.pdf.PdfWriter#add(Lcom/itextpdf/text/pdf/PdfImage;Lcom/itextpdf/text/pdf/PdfIndirectReference;)Lcom/itextpdf/text/pdf/PdfIndirectReference;
+  pdfImage
+    +c:.
+
+com.itextpdf.text.pdf.PdfImage#<init>(Lcom/itextpdf/text/Image;Ljava/lang/String;Lcom/itextpdf/text/pdf/PdfIndirectReference;)V
+  image
+    +c:1.is.an.unknown.image.format    Byte array.
+
+com.itextpdf.text.pdf.PdfPCell#setRotation(I)V
+  rotation
+    +c:rotation.must.be.a.multiple.of.90.
+
+com.itextpdf.text.pdf.PdfPage#<init>(Lcom/itextpdf/text/pdf/PdfRectangle;Ljava/util/HashMap;Lcom/itextpdf/text/pdf/PdfDictionary;I)V
+  mediaBox
+    +c:the.page.size.must.be.smaller.than.14400.by.14400.its.1.by.2.
+
+com.itextpdf.text.pdf.BarcodePDF417#numberCompaction(II)V
+  length
+    +c:
+
+com.itextpdf.text.pdf.BarcodePDF417#byteCompaction(II)V
+  length
+    +c:
+
+com.itextpdf.text.pdf.PdfFileSpecification#fileEmbedded(Lcom/itextpdf/text/pdf/PdfWriter;Ljava/lang/String;Ljava/lang/String;[BLjava/lang/String;Lcom/itextpdf/text/pdf/PdfDictionary;I)Lcom/itextpdf/text/pdf/PdfFileSpecification;
+  filePath
+    +c:1.not.found.as.file.or.resource.
+
+com.itextpdf.text.pdf.ICC_Profile#getInstance([BI)Lcom/itextpdf/text/pdf/ICC_Profile;
+  data
+    +c:invalid.icc.profile.
+  numComponents
+    +c:ICC profile contains     component(s), the image data contains    component(s).
+
+com.itextpdf.text.pdf.ICC_Profile#getInstance([B)Lcom/itextpdf/text/pdf/ICC_Profile;
+  data
+    +c:
+
+com.itextpdf.text.pdf.ICC_Profile#getInstance(Ljava/io/InputStream;)Lcom/itextpdf/text/pdf/ICC_Profile;
+  file
+    +c:
+
+com.itextpdf.text.pdf.IntHashtable#<init>(IF)V
+  initialCapacity
+    +c:illegal.capacity.1.
+  loadFactor
+    +c:illegal.load.1.
+
+com.itextpdf.text.pdf.AcroFields#setListOption(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)Z
+  displayValues
+    +c:the.export.and.the.display.array.must.have.the.same.size.
+
+com.itextpdf.text.pdf.PdfStructTreeController#<init>(Lcom/itextpdf/text/pdf/PdfReader;Lcom/itextpdf/text/pdf/PdfCopy;)V
+  writer
+    +c:no.structtreeroot.found.
+
+com.itextpdf.text.pdf.PdfStructTreeController#copyStructTreeForPage(Lcom/itextpdf/text/pdf/PdfNumber;I)V
+  sourceArrayNumber
+    +c:invalid.structparent.
+
+com.itextpdf.text.pdf.PdfStructTreeController#addClass(Lcom/itextpdf/text/pdf/PdfObject;)V
+  object
+    +c:conflict.in.classmap.
+
+com.itextpdf.text.pdf.PdfStructTreeController#addRole(Lcom/itextpdf/text/pdf/PdfName;)V
+  structType
+    +c:conflict.in.rolemap.
+
+com.itextpdf.text.pdf.PdfShading#checkCompatibleColors(Lcom/itextpdf/text/BaseColor;Lcom/itextpdf/text/BaseColor;)V
+  c1
+    +c:the.spot.color.must.be.the.same.only.the.tint.can.vary.
+  c2
+    +c:
+
+com.itextpdf.text.pdf.PdfShading#setBBox([F)V
+  bBox
+    +c:bbox.must.be.a.4.element.array.
+
+com.itextpdf.text.pdf.PdfDictionary#put(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfObject;)V
+  key
+    +c:key.is.null.
+
+com.itextpdf.text.pdf.PdfDictionary#putEx(Lcom/itextpdf/text/pdf/PdfName;Lcom/itextpdf/text/pdf/PdfObject;)V
+  key
+    +c:key.is.null.
+
+com.itextpdf.text.pdf.PRStream#setData([BZI)V
+  compress
+    +c:.
+
+com.itextpdf.text.pdf.SimpleBookmark#shiftPageNumbers(Ljava/util/List;I[I)V
+  pageRange
+    +d: the page ranges, always in pairs. It can be <CODE>null</CODE> to include all the pages
+
+com.itextpdf.text.pdf.SimpleBookmark#endElement(Ljava/lang/String;)V
+  tag
+    +c:invalid.end.tag.1.
+
+com.itextpdf.text.pdf.SimpleBookmark#startElement(Ljava/lang/String;Ljava/util/Map;)V
+  tag
+    +c:root.element.is.not.bookmark.1.tag.1.not.allowed.
+
+com.itextpdf.text.pdf.BarcodeEAN#convertUPCAtoUPCE(Ljava/lang/String;)Ljava/lang/String;
+  text
+    +d: the code to convert. It must have 12 numeric characters
+
+com.itextpdf.text.pdf.BarcodeEAN#placeBarcode(Lcom/itextpdf/text/pdf/PdfContentByte;Lcom/itextpdf/text/BaseColor;Lcom/itextpdf/text/BaseColor;)Lcom/itextpdf/text/Rectangle;
+  barColor
+    +d: the color of the bars. It can be <CODE>null</CODE>
+  textColor
+    +d: the color of the text. It can be <CODE>null</CODE>
+
+com.itextpdf.text.pdf.Barcode39#getBarsCode39(Ljava/lang/String;)[B
+  text
+    +c:the.character.1.is.illegal.in.code.39   * *.
+
+com.itextpdf.text.pdf.Barcode39#getCode39Ex(Ljava/lang/String;)Ljava/lang/String;
+  text
+    +c:
+
+com.itextpdf.text.pdf.Barcode39#getChecksum(Ljava/lang/String;)C
+  text
+    +c:the.character.1.is.illegal.in.code.39.
+
+com.itextpdf.text.pdf.Barcode39#placeBarcode(Lcom/itextpdf/text/pdf/PdfContentByte;Lcom/itextpdf/text/BaseColor;Lcom/itextpdf/text/BaseColor;)Lcom/itextpdf/text/Rectangle;
+  barColor
+    +d: the color of the bars. It can be <CODE>null</CODE>
+  textColor
+    +d: the color of the text. It can be <CODE>null</CODE>
+
+com.itextpdf.text.pdf.PdfLabColor#<init>([F)V
+  whitePoint
+    +c:lab.cs.white.point.
+
+com.itextpdf.text.pdf.PdfDocument#addJavaScript(Lcom/itextpdf/text/pdf/PdfAction;)V
+  js
+    +c:only.javascript.actions.are.allowed.
+
+com.itextpdf.text.pdf.PdfDocument#addJavaScript(Ljava/lang/String;Lcom/itextpdf/text/pdf/PdfAction;)V
+  js
+    +c:only.javascript.actions.are.allowed.
+
+com.itextpdf.text.pdf.PdfPages#reorderPages([I)I
+  order
+    +c:page.reordering.requires.an.array.with.the.same.size.as.the.number.of.pages.
+
+com.itextpdf.text.pdf.PdfBoolean#<init>(Ljava/lang/String;)V
+  value
+    +c:the.value.has.to.be.true.of.false.instead.of.1.
+
+com.itextpdf.text.pdf.codec.TiffImage#getTiffImage(Lcom/itextpdf/text/pdf/RandomAccessFileOrArray;ZIZ)Lcom/itextpdf/text/Image;
+  page
+    +c:the.page.number.must.be.gt.eq.1.
+
+com.itextpdf.text.pdf.codec.TiffImage#getTiffImage(Lcom/itextpdf/text/pdf/RandomAccessFileOrArray;ZI)Lcom/itextpdf/text/Image;
+  page
+    +c:
+
+com.itextpdf.text.pdf.codec.TiffImage#getTiffImage(Lcom/itextpdf/text/pdf/RandomAccessFileOrArray;I)Lcom/itextpdf/text/Image;
+  page
+    +c:
+
+com.itextpdf.text.pdf.codec.TiffImage#getTiffImage(Lcom/itextpdf/text/pdf/RandomAccessFileOrArray;IZ)Lcom/itextpdf/text/Image;
+  page
+    +c:
+
+com.itextpdf.text.pdf.codec.TiffImage#getTiffImageColor(Lcom/itextpdf/text/pdf/codec/TIFFDirectory;Lcom/itextpdf/text/pdf/RandomAccessFileOrArray;)Lcom/itextpdf/text/Image;
+  dir
+    +c:planar.images.are.not.supported.missing.tag.s.for.ojpeg.compression.
+
+com.itextpdf.text.pdf.codec.TiffImage#ProcessExtraSamples(Ljava/util/zip/DeflaterOutputStream;Ljava/util/zip/DeflaterOutputStream;[BIIII)Lcom/itextpdf/text/Image;
+  bitsPerSample
+    +c:extra.samples.are.not.supported.
+
+com.itextpdf.text.pdf.codec.JBIG2Image#getJbig2Image(Lcom/itextpdf/text/pdf/RandomAccessFileOrArray;I)Lcom/itextpdf/text/Image;
+  page
+    +c:the.page.number.must.be.gt.eq.1.
+
+com.itextpdf.text.pdf.codec.TIFFField#compareTo(Lcom/itextpdf/text/pdf/codec/TIFFField;)I
+  o
+    +c:.
+
+com.itextpdf.text.pdf.codec.TIFFLZWDecoder#decode([B[BI)[B
+  data
+    +c:tiff.5.0.style.lzw.codes.are.not.supported.
+
+com.itextpdf.text.pdf.codec.JBIG2SegmentReader#readSegment(Lcom/itextpdf/text/pdf/codec/JBIG2SegmentReader$JBIG2Segment;)V
+  s
+    +c:referring.to.widht.height.of.page.we.havent.seen.yet.1.
+
+com.itextpdf.text.pdf.codec.LZWStringTable#expandCode([BISI)I
+  code
+    +d: the code to expand to the byte array it represents. PRECONDITION This code must already be in the LZSS
+
+com.itextpdf.text.pdf.codec.wmf.MetaDo#wrapBMP(Lcom/itextpdf/text/Image;)[B
+  image
+    +c:only.bmp.can.be.wrapped.in.wmf.
+
+com.itextpdf.text.pdf.collection.PdfCollectionSort#setSortOrder([Z)V
+  ascending
+    +c:the.number.of.booleans.in.this.array.doesn.t.correspond.with.the.number.of.fields.
+
+com.itextpdf.text.pdf.collection.PdfCollectionField#getValue(Ljava/lang/String;)Lcom/itextpdf/text/pdf/PdfObject;
+  v
+    +c:1.is.not.an.acceptable.value.for.the.field.2.
+
+com.itextpdf.text.pdf.crypto.AESCipherCBCnoPad#processBlock([BII)[B
+  inpLen
+    +c:Not multiple of block:.
+
+com.itextpdf.text.pdf.hyphenation.HyphenationTree#addPattern(Ljava/lang/String;Ljava/lang/String;)V
+  ivalue
+    +d: interletter weight values indicating the desirability and priority of hyphenating at a given point within the pattern. It should contain only digit characters. (i.e. '0' to '9').
+
+com.itextpdf.text.pdf.internal.PdfXConformanceImp#checkPdfIsoConformance(ILjava/lang/Object;)V
+  key
+    +c:layers.are.not.allowed.
+  obj1
+    +c:colorspace.rgb.is.not.allowed.all.the.fonts.must.be.embedded.this.one.isn.t.1.
+
+com.itextpdf.text.pdf.parser.ContentByteUtils#getContentBytesFromContentObject(Lcom/itextpdf/text/pdf/PdfObject;)[B
+  contentObject
+    +c:Unable to handle Content of type.
+
+com.itextpdf.text.pdf.parser.TextRenderInfo#getWidthAndWordSpacing(Lcom/itextpdf/text/pdf/PdfString;Z)[F
+  singleCharString
+    +c:.
+
+com.itextpdf.text.pdf.qrcode.QRCodeWriter#encode(Ljava/lang/String;IILjava/util/Map;)Lcom/itextpdf/text/pdf/qrcode/ByteMatrix;
+  contents
+    +c:"Found empty contents".
+  height
+    +c:Requested dimensions are too small:.
+
+com.itextpdf.text.pdf.qrcode.BitMatrix#<init>(II)V
+  width
+    +c:"Both dimensions must be greater than 0".
+
+com.itextpdf.text.pdf.qrcode.BitMatrix#setRegion(IIII)V
+  top
+    +c:"Left and top must be nonnegative".
+  width
+    +c:"Height and width must be at least 1"."The region must fit inside the matrix".
+
+com.itextpdf.text.pdf.qrcode.BitVector#at(I)I
+  index
+    +c:Bad index:.
+
+com.itextpdf.text.pdf.qrcode.BitVector#appendBit(I)V
+  bit
+    +c:"Bad bit".
+
+com.itextpdf.text.pdf.qrcode.BitVector#appendBits(II)V
+  numBits
+    +c:"Num bits must be between 0 and 32".
+
+com.itextpdf.text.pdf.qrcode.BitVector#xor(Lcom/itextpdf/text/pdf/qrcode/BitVector;)V
+  other
+    +c:"BitVector sizes don't match".
+
+com.itextpdf.text.pdf.qrcode.Version#getProvisionalVersionForDimension(I)Lcom/itextpdf/text/pdf/qrcode/Version;
+  dimension
+    +c:.
+
+com.itextpdf.text.pdf.qrcode.Version#getVersionForNumber(I)Lcom/itextpdf/text/pdf/qrcode/Version;
+  versionNumber
+    +c:.
+
+com.itextpdf.text.pdf.qrcode.ReedSolomonEncoder#<init>(Lcom/itextpdf/text/pdf/qrcode/GF256;)V
+  field
+    +c:"Only QR Code is supported at this time".
+
+com.itextpdf.text.pdf.qrcode.ReedSolomonEncoder#encode([II)V
+  toEncode
+    +c:
+  ecBytes
+    +c:"No error correction bytes".
+
+com.itextpdf.text.pdf.qrcode.QRCode#at(II)I
+  x
+    +c:
+  y
+    +c:
+
+com.itextpdf.text.pdf.qrcode.Encoder#encode(Ljava/lang/String;Lcom/itextpdf/text/pdf/qrcode/ErrorCorrectionLevel;Lcom/itextpdf/text/pdf/qrcode/QRCode;)V
+  qrCode
+    +c:
+
+com.itextpdf.text.pdf.qrcode.Encoder#encode(Ljava/lang/String;Lcom/itextpdf/text/pdf/qrcode/ErrorCorrectionLevel;Ljava/util/Map;Lcom/itextpdf/text/pdf/qrcode/QRCode;)V
+  qrCode
+    +c:Invalid QR code:.
+
+com.itextpdf.text.pdf.qrcode.Encoder#terminateBits(ILcom/itextpdf/text/pdf/qrcode/BitVector;)V
+  bits
+    +c:data bits cannot fit in the QR Code    >."Number of bits is not a multiple of 8"."Bits size does not equal capacity".
+
+com.itextpdf.text.pdf.qrcode.Encoder#getNumDataBytesAndNumECBytesForBlockID(IIII[I[I)V
+  numTotalBytes
+    +c:"Total bytes mismatch".
+  numDataBytes
+    +c:
+  numRSBlocks
+    +c:"RS blocks mismatch".
+  blockID
+    +c:"Block ID too large".
+
+com.itextpdf.text.pdf.qrcode.Encoder#interleaveWithECBytes(Lcom/itextpdf/text/pdf/qrcode/BitVector;IIILcom/itextpdf/text/pdf/qrcode/BitVector;)V
+  bits
+    +c:"Number of bits and data bytes does not match".
+  numTotalBytes
+    +c:
+  numDataBytes
+    +c:"Data bytes does not match offset".
+  numRSBlocks
+    +c:
+  result
+    +c:Interleaving error:    and     differ.
+
+com.itextpdf.text.pdf.qrcode.Encoder#appendLengthInfo(IILcom/itextpdf/text/pdf/qrcode/Mode;Lcom/itextpdf/text/pdf/qrcode/BitVector;)V
+  numLetters
+    +c:is bigger than.
+
+com.itextpdf.text.pdf.qrcode.Encoder#appendBytes(Ljava/lang/String;Lcom/itextpdf/text/pdf/qrcode/Mode;Lcom/itextpdf/text/pdf/qrcode/BitVector;Ljava/lang/String;)V
+  mode
+    +c:Invalid mode:.
+  bits
+    +c:
+
+com.itextpdf.text.pdf.qrcode.Encoder#appendKanjiBytes(Ljava/lang/String;Lcom/itextpdf/text/pdf/qrcode/BitVector;)V
+  bits
+    +c:
+
+com.itextpdf.text.pdf.qrcode.ErrorCorrectionLevel#forBits(I)Lcom/itextpdf/text/pdf/qrcode/ErrorCorrectionLevel;
+  bits
+    +c:.
+
+com.itextpdf.text.pdf.qrcode.MaskUtil#getDataMaskBit(III)Z
+  maskPattern
+    +c:"Invalid mask pattern".Invalid mask pattern:.
+
+com.itextpdf.text.pdf.qrcode.Mode#forBits(I)Lcom/itextpdf/text/pdf/qrcode/Mode;
+  bits
+    +c:.
+
+com.itextpdf.text.pdf.qrcode.GF256#buildMonomial(II)Lcom/itextpdf/text/pdf/qrcode/GF256Poly;
+  degree
+    +c:.
+
+com.itextpdf.text.pdf.qrcode.GF256#log(I)I
+  a
+    +c:.
+
+com.itextpdf.text.pdf.qrcode.GF256#inverse(I)I
+  a
+    +c:.
+
+com.itextpdf.text.pdf.qrcode.MatrixUtil#buildMatrix(Lcom/itextpdf/text/pdf/qrcode/BitVector;Lcom/itextpdf/text/pdf/qrcode/ErrorCorrectionLevel;IILcom/itextpdf/text/pdf/qrcode/ByteMatrix;)V
+  dataBits
+    +c:
+  maskPattern
+    +c:
+  matrix
+    +c:
+
+com.itextpdf.text.pdf.qrcode.MatrixUtil#embedBasicPatterns(ILcom/itextpdf/text/pdf/qrcode/ByteMatrix;)V
+  matrix
+    +c:
+
+com.itextpdf.text.pdf.qrcode.MatrixUtil#embedTypeInfo(Lcom/itextpdf/text/pdf/qrcode/ErrorCorrectionLevel;ILcom/itextpdf/text/pdf/qrcode/ByteMatrix;)V
+  maskPattern
+    +c:
+
+com.itextpdf.text.pdf.qrcode.MatrixUtil#embedDataBits(Lcom/itextpdf/text/pdf/qrcode/BitVector;ILcom/itextpdf/text/pdf/qrcode/ByteMatrix;)V
+  dataBits
+    +c:Not all bits consumed:.
+
+com.itextpdf.text.pdf.qrcode.MatrixUtil#makeTypeInfoBits(Lcom/itextpdf/text/pdf/qrcode/ErrorCorrectionLevel;ILcom/itextpdf/text/pdf/qrcode/BitVector;)V
+  maskPattern
+    +c:"Invalid mask pattern".
+  bits
+    +c:should not happen but we got:.
+
+com.itextpdf.text.pdf.qrcode.MatrixUtil#makeVersionInfoBits(ILcom/itextpdf/text/pdf/qrcode/BitVector;)V
+  bits
+    +c:should not happen but we got:.
+
+com.itextpdf.text.pdf.qrcode.BitArray#<init>(I)V
+  size
+    +c:"size must be at least 1".
+
+com.itextpdf.text.pdf.qrcode.BitArray#isRange(IIZ)Z
+  start
+    +c:
+  end
+    +c:
+
+com.itextpdf.text.pdf.security.BouncyCastleDigest#getMessageDigest(Ljava/lang/String;)Ljava/security/MessageDigest;
+  hashAlgorithm
+    +c:..
+
+com.itextpdf.text.pdf.security.SignaturePolicyInfo#<init>(Ljava/lang/String;[BLjava/lang/String;Ljava/lang/String;)V
+  policyIdentifier
+    +c:"Policy identifier cannot be null".
+  policyHash
+    +c:"Policy hash cannot be null".
+  policyDigestAlgorithm
+    +c:"Policy digest algorithm cannot be null".
+
+com.itextpdf.text.pdf.security.CRLVerifier#verify(Ljava/security/cert/X509CRL;Ljava/security/cert/X509Certificate;Ljava/security/cert/X509Certificate;Ljava/util/Date;)Z
+  issuerCert
+    +c:"The certificate has been revoked.".
+
+com.itextpdf.text.pdf.security.MakeSignature#signDetached(Lcom/itextpdf/text/pdf/PdfSignatureAppearance;Lcom/itextpdf/text/pdf/security/ExternalDigest;Lcom/itextpdf/text/pdf/security/ExternalSignature;[Ljava/security/cert/Certificate;Ljava/util/Collection;Lcom/itextpdf/text/pdf/security/OcspClient;Lcom/itextpdf/text/pdf/security/TSAClient;ILcom/itextpdf/text/pdf/security/MakeSignature$CryptoStandard;)V
+  estimatedSize
+    +c:
+
+com.itextpdf.text.pdf.security.MakeSignature#signDetached(Lcom/itextpdf/text/pdf/PdfSignatureAppearance;Lcom/itextpdf/text/pdf/security/ExternalDigest;Lcom/itextpdf/text/pdf/security/ExternalSignature;[Ljava/security/cert/Certificate;Ljava/util/Collection;Lcom/itextpdf/text/pdf/security/OcspClient;Lcom/itextpdf/text/pdf/security/TSAClient;ILcom/itextpdf/text/pdf/security/MakeSignature$CryptoStandard;Lcom/itextpdf/text/pdf/security/SignaturePolicyInfo;)V
+  estimatedSize
+    +c:
+
+com.itextpdf.text.pdf.security.MakeSignature#signDetached(Lcom/itextpdf/text/pdf/PdfSignatureAppearance;Lcom/itextpdf/text/pdf/security/ExternalDigest;Lcom/itextpdf/text/pdf/security/ExternalSignature;[Ljava/security/cert/Certificate;Ljava/util/Collection;Lcom/itextpdf/text/pdf/security/OcspClient;Lcom/itextpdf/text/pdf/security/TSAClient;ILcom/itextpdf/text/pdf/security/MakeSignature$CryptoStandard;Lorg/bouncycastle/asn1/esf/SignaturePolicyIdentifier;)V
+  estimatedSize
+    +c:"Not enough space".
+
+com.itextpdf.text.pdf.security.MakeSignature#signExternalContainer(Lcom/itextpdf/text/pdf/PdfSignatureAppearance;Lcom/itextpdf/text/pdf/security/ExternalSignatureContainer;I)V
+  estimatedSize
+    +c:"Not enough space".
+
+com.itextpdf.text.pdf.security.MakeSignature#signDeferred(Lcom/itextpdf/text/pdf/PdfReader;Ljava/lang/String;Ljava/io/OutputStream;Lcom/itextpdf/text/pdf/security/ExternalSignatureContainer;)V
+  fieldName
+    +d: the field to sign. It must be the last field
+    +c:"Not the last signature".
+
+com.itextpdf.text.pdf.security.MakeXmlSignature#signXmlDSig(Lcom/itextpdf/text/pdf/XmlSignatureAppearance;Lcom/itextpdf/text/pdf/security/ExternalSignature;Ljavax/xml/crypto/dsig/keyinfo/KeyInfo;)V
+  sap
+    +c:
+  externalSignature
+    +c:
+
+com.itextpdf.text.pdf.security.MakeXmlSignature#signXmlDSig(Lcom/itextpdf/text/pdf/XmlSignatureAppearance;Lcom/itextpdf/text/pdf/security/ExternalSignature;[Ljava/security/cert/Certificate;)V
+  sap
+    +c:
+  externalSignature
+    +c:
+
+com.itextpdf.text.pdf.security.MakeXmlSignature#signXmlDSig(Lcom/itextpdf/text/pdf/XmlSignatureAppearance;Lcom/itextpdf/text/pdf/security/ExternalSignature;Ljava/security/PublicKey;)V
+  sap
+    +c:
+  externalSignature
+    +c:
+
+com.itextpdf.text.pdf.security.MakeXmlSignature#signXades(Lcom/itextpdf/text/pdf/XmlSignatureAppearance;Lcom/itextpdf/text/pdf/security/ExternalSignature;[Ljava/security/cert/Certificate;Z)V
+  sap
+    +c:
+  externalSignature
+    +c:
+
+com.itextpdf.text.pdf.security.MakeXmlSignature#signXadesBes(Lcom/itextpdf/text/pdf/XmlSignatureAppearance;Lcom/itextpdf/text/pdf/security/ExternalSignature;[Ljava/security/cert/Certificate;)V
+  sap
+    +c:
+  externalSignature
+    +c:
+
+com.itextpdf.text.pdf.security.MakeXmlSignature#signXadesEpes(Lcom/itextpdf/text/pdf/XmlSignatureAppearance;Lcom/itextpdf/text/pdf/security/ExternalSignature;[Ljava/security/cert/Certificate;)V
+  sap
+    +c:
+  externalSignature
+    +c:
+
+com.itextpdf.text.pdf.security.OCSPVerifier#isValidResponse(Lorg/bouncycastle/cert/ocsp/BasicOCSPResp;Ljava/security/cert/X509Certificate;)V
+  issuerCert
+    +c:"OCSP response could not be verified"."OCSP response could not be verified".
+
+com.itextpdf.text.pdf.security.CrlClientOnline#getEncoded(Ljava/security/cert/X509Certificate;Ljava/lang/String;)Ljava/util/Collection;
+  url
+    +c:.
+
+com.itextpdf.text.pdf.security.PdfPKCS7#<init>(Ljava/security/PrivateKey;[Ljava/security/cert/Certificate;Ljava/lang/String;Ljava/lang/String;Lcom/itextpdf/text/pdf/security/ExternalDigest;Z)V
+  hashAlgorithm
+    +c:unknown.hash.algorithm.1.
+
+com.itextpdf.text.pdf.security.PdfPKCS7#setExternalDigest([B[BLjava/lang/String;)V
+  digestEncryptionAlgorithm
+    +d: the encryption algorithm. It may must be <CODE>null</CODE> if the <CODE>digest</CODE> is also <CODE>null</CODE>. If the <CODE>digest</CODE> is not <CODE>null</CODE> then it may be "RSA" or "DSA"
+    +c:unknown.key.algorithm.1.
+
+com.itextpdf.text.xml.simpleparser.SimpleXMLParser#parse(Lcom/itextpdf/text/xml/simpleparser/SimpleXMLDocHandler;Ljava/io/InputStream;)V
+  in
+    +c:
+
+com.itextpdf.text.xml.xmp.XmpWriter#<init>(Ljava/io/OutputStream;Lcom/itextpdf/text/pdf/PdfDictionary;)V
+  info
+    +c:.
+
+com.itextpdf.text.xml.xmp.XmpWriter#<init>(Ljava/io/OutputStream;Ljava/util/Map;)V
+  info
+    +c:.
+
+com.itextpdf.text.xml.xmp.XmpWriter#appendArrayItem(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  arrayName
+    +d: The name of the array. May be a general path expression, must not be null or the empty string.
+
+com.itextpdf.text.xml.xmp.XmpWriter#appendOrderedArrayItem(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  arrayName
+    +d: The name of the array. May be a general path expression, must not be null or the empty string.
+
+com.itextpdf.text.xml.xmp.XmpWriter#appendAlternateArrayItem(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  arrayName
+    +d: The name of the array. May be a general path expression, must not be null or the empty string.
+
+com.itextpdf.xmp.XMPUtils#catenateArrayItems(Lcom/itextpdf/xmp/XMPMeta;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
+  arrayName
+    +d: The name of the array. May be a general path expression, must not be null or the empty string. Each item in the array must be a simple string value.
+
+com.itextpdf.xmp.XMPUtils#separateArrayItems(Lcom/itextpdf/xmp/XMPMeta;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/itextpdf/xmp/options/PropertyOptions;Z)V
+  arrayName
+    +d: The name of the array. May be a general path expression, must not be null or the empty string. Each item in the array must be a simple string value.
+
+com.itextpdf.xmp.XMPUtils#convertToBoolean(Ljava/lang/String;)Z
+  value
+    +c:"Empty convert-string".
+
+com.itextpdf.xmp.XMPUtils#convertToInteger(Ljava/lang/String;)I
+  rawValue
+    +c:"Empty convert-string".
+
+com.itextpdf.xmp.XMPUtils#convertToLong(Ljava/lang/String;)J
+  rawValue
+    +c:"Empty convert-string".
+
+com.itextpdf.xmp.XMPUtils#convertToDouble(Ljava/lang/String;)D
+  rawValue
+    +c:"Empty convert-string".
+
+com.itextpdf.xmp.XMPUtils#convertToDate(Ljava/lang/String;)Lcom/itextpdf/xmp/XMPDateTime;
+  rawValue
+    +c:"Empty convert-string".
+
+com.itextpdf.xmp.XMPMetaFactory#assertImplementation(Lcom/itextpdf/xmp/XMPMeta;)V
+  xmp
+    +c:The serializing service works only with the XMPMeta implementation of this library.
+
+com.itextpdf.xmp.XMPPathFactory#composeArrayItemPath(Ljava/lang/String;I)Ljava/lang/String;
+  arrayName
+    +d: The name of the array. May be a general path expression, must not be null or the empty string.
+  itemIndex
+    +c:"Array index must be larger than zero".
+
+com.itextpdf.xmp.XMPPathFactory#composeStructFieldPath(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  fieldNS
+    +c:
+  fieldName
+    +c:
+
+com.itextpdf.xmp.XMPPathFactory#composeQualifierPath(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  qualNS
+    +c:
+  qualName
+    +c:
+
+com.itextpdf.xmp.XMPPathFactory#composeLangSelector(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  arrayName
+    +d: The name of the array. May be a general path expression, must not be null or the empty string.
+
+com.itextpdf.xmp.XMPPathFactory#composeFieldSelector(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  arrayName
+    +d: The name of the array. May be a general path expression, must not be null or the empty string.
+  fieldName
+    +d: The name of the field used as the selector. Must be a simple XML name, must not be null or the empty string. It must be the name of a field that is itself simple.
+
+com.itextpdf.xmp.impl.XMPSchemaRegistryImpl#registerNamespace(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  namespaceURI
+    +c:.
+  suggestedPrefix
+    +c:."The prefix is a bad XML name".
+
+com.itextpdf.xmp.impl.XMPSchemaRegistryImpl#registerAlias(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/itextpdf/xmp/options/AliasOptions;)V
+  aliasNS
+    +c:.
+  aliasProp
+    +d: The name of the alias. Must be a simple name, not null or the empty string and not a general path expression.
+    +c:.
+  actualNS
+    +c:.
+  actualProp
+    +d: The name of the actual. Must be a simple name, not null or the empty string and not a general path expression.
+    +c:."Alias and actual property names must be simple"."Actual property is already an alias, use the base property".
+
+com.itextpdf.xmp.impl.XMPNodeUtils#findSchemaNode(Lcom/itextpdf/xmp/impl/XMPNode;Ljava/lang/String;Z)Lcom/itextpdf/xmp/impl/XMPNode;
+  tree
+    +c:
+  createNodes
+    +d: a flag indicating if the node shall be created if not found. <em>Note:</em> The namespace must be registered prior to this call.
+
+com.itextpdf.xmp.impl.XMPNodeUtils#findSchemaNode(Lcom/itextpdf/xmp/impl/XMPNode;Ljava/lang/String;Ljava/lang/String;Z)Lcom/itextpdf/xmp/impl/XMPNode;
+  tree
+    +c:.
+  suggestedPrefix
+    +c:"Unregistered schema namespace URI".
+  createNodes
+    +d: a flag indicating if the node shall be created if not found. <em>Note:</em> The namespace must be registered prior to this call.
+
+com.itextpdf.xmp.impl.XMPNodeUtils#findChildNode(Lcom/itextpdf/xmp/impl/XMPNode;Ljava/lang/String;Z)Lcom/itextpdf/xmp/impl/XMPNode;
+  parent
+    +c:"Named children only allowed for schemas and structs"."Named children not allowed for arrays".
+  createNodes
+    +c:.
+
+com.itextpdf.xmp.impl.XMPNodeUtils#findNode(Lcom/itextpdf/xmp/impl/XMPNode;Lcom/itextpdf/xmp/impl/xpath/XMPPath;ZLcom/itextpdf/xmp/options/PropertyOptions;)Lcom/itextpdf/xmp/impl/XMPNode;
+  xpath
+    +c:"Empty XMPPath".
+  createNodes
+    +d: flag if nodes shall be created (when called by setProperty())
+    +c:
+
+com.itextpdf.xmp.impl.XMPNodeUtils#verifySetOptions(Lcom/itextpdf/xmp/options/PropertyOptions;Ljava/lang/Object;)Lcom/itextpdf/xmp/options/PropertyOptions;
+  itemValue
+    +c:"Structs and arrays can't have values".
+
+com.itextpdf.xmp.impl.XMPNodeUtils#normalizeLangArray(Lcom/itextpdf/xmp/impl/XMPNode;)V
+  arrayNode
+    +c:
+
+com.itextpdf.xmp.impl.XMPNodeUtils#detectAltText(Lcom/itextpdf/xmp/impl/XMPNode;)V
+  arrayNode
+    +c:
+
+com.itextpdf.xmp.impl.XMPNodeUtils#chooseLocalizedText(Lcom/itextpdf/xmp/impl/XMPNode;Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/Object;
+  arrayNode
+    +c:"Localized text array is not alt-text".
+
+com.itextpdf.xmp.impl.XMPNodeUtils#lookupLanguageItem(Lcom/itextpdf/xmp/impl/XMPNode;Ljava/lang/String;)I
+  arrayNode
+    +c:"Language item must be used on array".
+
+com.itextpdf.xmp.impl.ParseRDF#rdf_RDF(Lcom/itextpdf/xmp/impl/XMPMetaImpl;Lorg/w3c/dom/Node;)V
+  rdfRdfNode
+    +c:"Invalid attributes of rdf:RDF element".
+
+com.itextpdf.xmp.impl.XMPMetaParser#parse(Ljava/lang/Object;Lcom/itextpdf/xmp/options/ParseOptions;)Lcom/itextpdf/xmp/XMPMeta;
+  input
+    +d: the input can be an InputStream, a String or a byte buffer containing the XMP packet.
+    +c:.
+  options
+    +c:
+
+com.itextpdf.xmp.impl.ByteBuffer#<init>([BI)V
+  length
+    +c:"Valid length exceeds the buffer length.".
+
+com.itextpdf.xmp.impl.ByteBuffer#<init>([BII)V
+  length
+    +c:"Valid length exceeds the buffer length.".
+
+com.itextpdf.xmp.impl.ByteBuffer#byteAt(I)B
+  index
+    +c:"The index exceeds the valid buffer area".
+
+com.itextpdf.xmp.impl.ByteBuffer#charAt(I)I
+  index
+    +c:"The index exceeds the valid buffer area".
+
+com.itextpdf.xmp.impl.XMPSerializerHelper#serialize(Lcom/itextpdf/xmp/impl/XMPMetaImpl;Ljava/io/OutputStream;Lcom/itextpdf/xmp/options/SerializeOptions;)V
+  options
+    +d: serialization options, can be null for default.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#appendArrayItem(Ljava/lang/String;Ljava/lang/String;Lcom/itextpdf/xmp/options/PropertyOptions;Ljava/lang/String;Lcom/itextpdf/xmp/options/PropertyOptions;)V
+  schemaNS
+    +c:.
+  arrayName
+    +c:.
+  arrayOptions
+    +c:"Only array form flags allowed for arrayOptions"."Explicit arrayOptions required to create new array".
+
+com.itextpdf.xmp.impl.XMPMetaImpl#appendArrayItem(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  schemaNS
+    +c:
+  arrayName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#countArrayItems(Ljava/lang/String;Ljava/lang/String;)I
+  schemaNS
+    +c:.
+  arrayName
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#deleteArrayItem(Ljava/lang/String;Ljava/lang/String;I)V
+  schemaNS
+    +c:.
+  arrayName
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#deleteProperty(Ljava/lang/String;Ljava/lang/String;)V
+  schemaNS
+    +c:.
+  propName
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#deleteQualifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  schemaNS
+    +c:.
+  propName
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#deleteStructField(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  schemaNS
+    +c:.
+  structName
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#doesPropertyExist(Ljava/lang/String;Ljava/lang/String;)Z
+  schemaNS
+    +c:.
+  propName
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#doesArrayItemExist(Ljava/lang/String;Ljava/lang/String;I)Z
+  schemaNS
+    +c:.
+  arrayName
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#doesStructFieldExist(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+  schemaNS
+    +c:.
+  structName
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#doesQualifierExist(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+  schemaNS
+    +c:.
+  propName
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getArrayItem(Ljava/lang/String;Ljava/lang/String;I)Lcom/itextpdf/xmp/properties/XMPProperty;
+  schemaNS
+    +c:.
+  arrayName
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getLocalizedText(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/itextpdf/xmp/properties/XMPProperty;
+  schemaNS
+    +c:.
+  altTextName
+    +c:.
+  specificLang
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setLocalizedText(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/itextpdf/xmp/options/PropertyOptions;)V
+  schemaNS
+    +c:.
+  altTextName
+    +c:.
+  specificLang
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setLocalizedText(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  schemaNS
+    +c:
+  altTextName
+    +c:
+  specificLang
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getProperty(Ljava/lang/String;Ljava/lang/String;)Lcom/itextpdf/xmp/properties/XMPProperty;
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getProperty(Ljava/lang/String;Ljava/lang/String;I)Lcom/itextpdf/xmp/properties/XMPProperty;
+  schemaNS
+    +c:.
+  propName
+    +c:.
+  valueType
+    +c:"Property must be simple when a value type is requested".
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getPropertyObject(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/Object;
+  schemaNS
+    +c:.
+  propName
+    +c:.
+  valueType
+    +c:"Property must be simple when a value type is requested".
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getPropertyBoolean(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setPropertyBoolean(Ljava/lang/String;Ljava/lang/String;ZLcom/itextpdf/xmp/options/PropertyOptions;)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setPropertyBoolean(Ljava/lang/String;Ljava/lang/String;Z)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getPropertyInteger(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Integer;
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setPropertyInteger(Ljava/lang/String;Ljava/lang/String;ILcom/itextpdf/xmp/options/PropertyOptions;)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setPropertyInteger(Ljava/lang/String;Ljava/lang/String;I)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getPropertyLong(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Long;
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setPropertyLong(Ljava/lang/String;Ljava/lang/String;JLcom/itextpdf/xmp/options/PropertyOptions;)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setPropertyLong(Ljava/lang/String;Ljava/lang/String;J)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getPropertyDouble(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Double;
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setPropertyDouble(Ljava/lang/String;Ljava/lang/String;DLcom/itextpdf/xmp/options/PropertyOptions;)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setPropertyDouble(Ljava/lang/String;Ljava/lang/String;D)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getPropertyDate(Ljava/lang/String;Ljava/lang/String;)Lcom/itextpdf/xmp/XMPDateTime;
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setPropertyDate(Ljava/lang/String;Ljava/lang/String;Lcom/itextpdf/xmp/XMPDateTime;Lcom/itextpdf/xmp/options/PropertyOptions;)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setPropertyDate(Ljava/lang/String;Ljava/lang/String;Lcom/itextpdf/xmp/XMPDateTime;)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getPropertyCalendar(Ljava/lang/String;Ljava/lang/String;)Ljava/util/Calendar;
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setPropertyCalendar(Ljava/lang/String;Ljava/lang/String;Ljava/util/Calendar;Lcom/itextpdf/xmp/options/PropertyOptions;)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setPropertyCalendar(Ljava/lang/String;Ljava/lang/String;Ljava/util/Calendar;)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getPropertyBase64(Ljava/lang/String;Ljava/lang/String;)[B
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getPropertyString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setPropertyBase64(Ljava/lang/String;Ljava/lang/String;[BLcom/itextpdf/xmp/options/PropertyOptions;)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setPropertyBase64(Ljava/lang/String;Ljava/lang/String;[B)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getQualifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/itextpdf/xmp/properties/XMPProperty;
+  schemaNS
+    +c:.
+  propName
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#getStructField(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/itextpdf/xmp/properties/XMPProperty;
+  schemaNS
+    +c:.
+  structName
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setArrayItem(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Lcom/itextpdf/xmp/options/PropertyOptions;)V
+  schemaNS
+    +c:.
+  arrayName
+    +c:.
+  itemIndex
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setArrayItem(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+  schemaNS
+    +c:
+  arrayName
+    +c:
+  itemIndex
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#insertArrayItem(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Lcom/itextpdf/xmp/options/PropertyOptions;)V
+  schemaNS
+    +c:.
+  arrayName
+    +c:.
+  itemIndex
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#insertArrayItem(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+  schemaNS
+    +c:
+  arrayName
+    +c:
+  itemIndex
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setProperty(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Lcom/itextpdf/xmp/options/PropertyOptions;)V
+  schemaNS
+    +c:.
+  propName
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setProperty(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setQualifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/itextpdf/xmp/options/PropertyOptions;)V
+  schemaNS
+    +c:.
+  propName
+    +c:."Specified property does not exist!".
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setQualifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  schemaNS
+    +c:
+  propName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setStructField(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/itextpdf/xmp/options/PropertyOptions;)V
+  schemaNS
+    +c:.
+  structName
+    +c:.
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setStructField(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  schemaNS
+    +c:
+  structName
+    +c:
+
+com.itextpdf.xmp.impl.XMPMetaImpl#setNode(Lcom/itextpdf/xmp/impl/XMPNode;Ljava/lang/Object;Lcom/itextpdf/xmp/options/PropertyOptions;Z)V
+  value
+    +d: the node value, can be null
+    +c:"Composite nodes can't have values".
+  newOptions
+    +d: options for the new node, must not be null.
+
+com.itextpdf.xmp.impl.XMPUtilsImpl#catenateArrayItems(Lcom/itextpdf/xmp/XMPMeta;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
+  xmp
+    +c:.
+  schemaNS
+    +c:.
+  arrayName
+    +d: The name of the array. May be a general path expression, must not be null or the empty string. Each item in the array must be a simple string value.
+    +c:.
+  separator
+    +c:
+  quotes
+    +c:
+
+com.itextpdf.xmp.impl.XMPUtilsImpl#separateArrayItems(Lcom/itextpdf/xmp/XMPMeta;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/itextpdf/xmp/options/PropertyOptions;Z)V
+  xmp
+    +c:.
+  schemaNS
+    +c:.
+  arrayName
+    +d: The name of the array. May be a general path expression, must not be null or the empty string. Each item in the array must be a simple string value.
+    +c:.
+  catedStr
+    +c:"Parameter must not be null".
+  arrayOptions
+    +c:
+
+com.itextpdf.xmp.impl.XMPUtilsImpl#removeProperties(Lcom/itextpdf/xmp/XMPMeta;Ljava/lang/String;Ljava/lang/String;ZZ)V
+  xmp
+    +c:.
+  schemaNS
+    +c:"Property name requires schema namespace".
+
+com.itextpdf.xmp.impl.XMPUtilsImpl#appendProperties(Lcom/itextpdf/xmp/XMPMeta;Lcom/itextpdf/xmp/XMPMeta;ZZZ)V
+  source
+    +c:.
+  destination
+    +c:.
+
+com.itextpdf.xmp.impl.Base64#decode([B)[B
+  src
+    +c:
+
+com.itextpdf.xmp.impl.Base64#decode(Ljava/lang/String;)Ljava/lang/String;
+  src
+    +c:
+
+com.itextpdf.xmp.impl.ISO8601Converter#parse(Ljava/lang/String;)Lcom/itextpdf/xmp/XMPDateTime;
+  iso8601String
+    +c:
+
+com.itextpdf.xmp.impl.ISO8601Converter#parse(Ljava/lang/String;Lcom/itextpdf/xmp/XMPDateTime;)Lcom/itextpdf/xmp/XMPDateTime;
+  iso8601String
+    +c:"Parameter must not be null".
+
+com.itextpdf.xmp.impl.xpath.XMPPathParser#expandXPath(Ljava/lang/String;Ljava/lang/String;)Lcom/itextpdf/xmp/impl/xpath/XMPPath;
+  schemaNS
+    +c:
+  path
+    +c:"Parameter must not be null".
+
+com.itextpdf.xmp.options.PropertyOptions#assertConsistency(I)V
+  options
+    +c:"IsStruct and IsArray options are mutually exclusive"."Structs and arrays can't have \"value\" options".
+
+com.itextpdf.text.io.PagedChannelRandomAccessSourceTest#assertArrayEqual([BI[BII)V
+  a
+    +c:Differ at index      and.
+
+com.itextpdf.text.io.GroupedRandomAccessSourceTest#assertArrayEqual([BI[BII)V
+  a
+    +c:Differ at index      and      ->       !=.
+
+com.itextpdf.text.io.FileChannelRandomAccessSourceTest#assertArrayEqual([BI[BII)V
+  a
+    +c:Differ at index      and.
+
+com.itextpdf.text.io.ArrayRandomAccessSourceTest#assertArrayEqual([BI[BII)V
+  a
+    +c:Differ at index      and.
+
+com.itextpdf.text.pdf.FreeTextFlatteningTest#checkAnnotationSize(Ljava/io/InputStream;I)V
+  expectedAnnotationsSize
+    +c:.
+
+com.itextpdf.text.pdf.TaggedPdfTest#compareResults(Ljava/lang/String;)V
+  name
+    +c:./src/test/resources/com/itextpdf/text/pdf/TaggedPdfTest/test  .xml ./target/com/itextpdf/test/pdf/TaggedPdfTest/test  .xml.
+
+com.itextpdf.text.pdf.TaggedPdfCopyTest#verifyArraySize(Lcom/itextpdf/text/pdf/PdfObject;Ljava/lang/Integer;Ljava/lang/String;Z)Lcom/itextpdf/text/pdf/PdfArray;
+  message
+    +c:is not array.has wrong size.
+
+com.itextpdf.text.pdf.TaggedPdfCopyTest#verifyIsDictionary(Lcom/itextpdf/text/pdf/PdfObject;Ljava/lang/String;)Lcom/itextpdf/text/pdf/PdfDictionary;
+  message
+    +c:.
+
+com.itextpdf.text.pdf.TaggedPdfCopyTest#compareResults(Ljava/lang/String;)V
+  name
+    +c:./src/test/resources/com/itextpdf/text/pdf/TaggedPdfCopyTest/xml/test  .xml ./target/com/itextpdf/test/pdf/TaggedPdfCopyTest/test  .xml.
+
+com.itextpdf.text.pdf.AcroFieldsTest#checkOrderOfAppearanceStates(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
+  expected
+    +c:..
+
+com.itextpdf.text.pdf.fonts.cmaps.CMapTest#checkInsertAndRetrieval([BLjava/lang/String;)V
+  uni
+    +c:.
+
+com.itextpdf.text.pdf.parser.PdfContentStreamProcessorTest#readContentBytes(Lcom/itextpdf/text/pdf/PdfObject;)[B
+  contentObject
+    +c:Unable to handle Content of type.
+
+com.itextpdf.text.pdf.PdfAStamper#createSignature(Lcom/itextpdf/text/pdf/PdfReader;Ljava/io/OutputStream;CLjava/io/File;ZLcom/itextpdf/text/pdf/PdfAConformanceLevel;)Lcom/itextpdf/text/pdf/PdfAStamper;
+  tempFile
+    +d: location of the temporary file. If it's a directory a temporary file will be created there. If it's a file it will be used directly. The file will be deleted on exit unless <CODE>os</CODE> is null. In that case the document can be retrieved directly from the temporary file. If it's <CODE>null</CODE> no temporary file will be created and memory will be used
+
+com.itextpdf.text.pdf.PdfAStamper#createSignature(Lcom/itextpdf/text/pdf/PdfReader;Ljava/io/OutputStream;CLjava/io/File;Lcom/itextpdf/text/pdf/PdfAConformanceLevel;)Lcom/itextpdf/text/pdf/PdfAStamper;
+  tempFile
+    +d: location of the temporary file. If it's a directory a temporary file will be created there. If it's a file it will be used directly. The file will be deleted on exit unless <CODE>os</CODE> is null. In that case the document can be retrieved directly from the temporary file. If it's <CODE>null</CODE> no temporary file will be created and memory will be used
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkFont(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:all.the.fonts.must.be.embedded.this.one.isn.t.1.all.the.fonts.must.be.embedded.this.one.isn.t.1.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkGState(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:an.extgstate.dictionary.shall.not.contain.the.tr.key.an.extgstate.dictionary.shall.not.contain.the.TR2.key.with.a.value.other.than.default.an.extgstate.dictionary.shall.not.contain.the.htp.key.halftones.shall.not.contains.halftonename.all.halftones.shall.have.halftonetype.1.or.5.1.value.of.ri.key.is.not.allowed.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkImage(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:an.image.dictionary.shall.not.contain.opi.key.the.value.of.interpolate.key.shall.not.be.true.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkInlineImage(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:the.value.of.interpolate.key.shall.not.be.true.lzwdecode.filter.is.not.permitted.crypt.filter.is.not.permitted.inline.image.lzwdecode.filter.is.not.permitted.crypt.filter.is.not.permitted.inline.image.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkTrailer(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:keyword.encrypt.shall.not.be.used.in.the.trailer.dictionary.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkStream(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:stream.object.dictionary.shall.not.contain.the.f.ffilter.or.fdecodeparams.keys.lzwdecode.filter.is.not.permitted.not.identity.crypt.filter.is.not.permitted.lzwdecode.filter.is.not.permitted.not.identity.crypt.filter.is.not.permitted.a.form.xobject.dictionary.shall.not.contain.opi.key.a.form.xobject.dictionary.shall.not.contain.ps.key.postscript.xobjects.are.not.allowed.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkFileSpec(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:file.specification.dictionary.shall.contain.f.uf.and.desc.entries.ef.key.of.file.specification.dictionary.shall.contain.dictionary.with.valid.f.key.ef.key.of.file.specification.dictionary.shall.contain.dictionary.with.valid.f.key.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkEmbeddedFile(Lcom/itextpdf/text/pdf/PdfDictionary;)V
+  embeddedFile
+    +c:embedded.file.shall.contain.pdf.mime.type.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkPdfObject(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:real.number.is.out.of.range.pdf.string.is.too.long.the.document.catalog.dictionary.shall.contain.metadata.the.document.catalog.dictionary.shall.not.include.an.aa.entry.the.document.catalog.dictionary.shall.not.include.a.requirements.entry.the.document.catalog.dictionary.shall.not.include.a.needrendering.entry.the.document.catalog.dictionary.shall.not.include.acroform.xfa.entry.the.document.catalog.dictionary.shall.not.include.alternatepresentation.names.entry.signature.references.dictionary.shall.not.contain.digestlocation.digestmethod.digestvalue.no.keys.other.than.UR3.and.DocMDP.shall.be.present.in.a.permissions.dictionary.document.catalog.dictionary.shall.include.a.markinfo.dictionary.whose.entry.marked.shall.have.a.value.of.true.the.page.less.3.units.nor.greater.14400.in.either.direction.page.dictionary.shall.not.include.aa.entry.page.dictionary.shall.not.include.pressteps.entry.if.outputintents.array.more.than.one.entry.the.same.indirect.object.a.pdfa.file.may.have.only.one.pdfa.outputintent.outputintent.shall.be.prtr.or.mntr.outputintent.shall.have.gtspdfa1.and.destoutputintent.an.extgstate.dictionary.shall.contain.the.halftonetype.key.of.value.1.or.5.an.extgstate.dictionary.shall.not.contain.the.halftonename.key.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkCanvas(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:graphics.state.stack.depth.is.greater.than.28.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkAnnotation(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:widget.annotation.dictionary.or.field.dictionary.shall.not.include.a.or.aa.entry.annotation.type.1.not.allowed null.annotation.type.1.not.allowed.an.annotation.dictionary.shall.contain.the.f.key.the.f.keys.print.flag.bit.shall.be.set.to.1.and.its.hidden.invisible.noview.and.togglenoview.flag.bits.shall.be.set.to.0.text.annotations.should.set.the.nozoom.and.norotate.flag.bits.of.the.f.key.to.1.widget.annotation.dictionary.or.field.dictionary.shall.not.include.a.or.aa.entry.annotation.of.type.1.should.have.contents.key.appearance.dictionary.shall.contain.only.the.n.key.with.stream.value.appearance.dictionary.of.widget.subtype.and.btn.field.type.shall.contain.only.the.n.key.with.dictionary.value.appearance.dictionary.shall.contain.only.the.n.key.with.stream.value.every.annotation.shall.have.at.least.one.appearance.dictionary.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkAction(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:deprecated.setstate.and.noop.actions.are.not.allowed.launch.sound.movie.resetform.importdata.and.javascript.actions.are.not.allowed.named.action.type.1.not.allowed.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkForm(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:needappearances.flag.of.the.interactive.form.dictionary.shall.either.not.be.present.or.shall.be.false.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkStructElem(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:alt.entry.should.specify.alternate.description.for.1.element.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#checkOutputIntent(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  writer
+    +c:outputintent.shall.not.be.updated.
+
+com.itextpdf.text.pdf.internal.PdfA2Checker#close(Lcom/itextpdf/text/pdf/PdfWriter;)V
+  writer
+    +c:devicecmyk.shall.only.be.used.if.defaultcmyk.pdfa.or.outputintent.devicergb.shall.only.be.used.if.defaultrgb.pdfa.or.outputintent.devicergb.shall.only.be.used.if.defaultrgb.pdfa.or.outputintent.devicecmyk.shall.only.be.used.if.defaultcmyk.pdfa.or.outputintent.devicergb.shall.only.be.used.if.defaultrgb.pdfa.or.outputintent.devicecmyk.shall.only.be.used.if.defaultcmyk.pdfa.or.outputintent.devicegray.shall.only.be.used.if.defaultgray.pdfa.or.outputintent.
+
+com.itextpdf.text.pdf.internal.PdfA3Checker#checkFileSpec(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:file.specification.dictionary.shall.contain.f.uf.and.desc.entries.file.specification.dictionary.shall.contain.correct.afrelationship.key.ef.key.of.file.specification.dictionary.shall.contain.dictionary.with.valid.f.key.ef.key.of.file.specification.dictionary.shall.contain.dictionary.with.valid.f.key.
+
+com.itextpdf.text.pdf.internal.PdfA3Checker#checkEmbeddedFile(Lcom/itextpdf/text/pdf/PdfDictionary;)V
+  embeddedFile
+    +c:embedded.file.shall.contain.valid.params.key.embedded.file.shall.contain.params.key.with.valid.moddate.key.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkFont(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:all.the.fonts.must.be.embedded.this.one.isn.t.1.all.the.fonts.must.be.embedded.this.one.isn.t.1.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkImage(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:the.smask.key.is.not.allowed.in.images.an.image.dictionary.shall.not.contain.alternates.key.an.image.dictionary.shall.not.contain.opi.key.the.value.of.interpolate.key.shall.not.be.true.1.value.of.intent.key.is.not.allowed.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkGState(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:blend.mode.1.not.allowed.transparency.is.not.allowed.ca.eq.1.transparency.is.not.allowed.ca.eq.1.an.extgstate.dictionary.shall.not.contain.the.tr.key.an.extgstate.dictionary.shall.not.contain.the.TR2.key.with.a.value.other.than.default.1.value.of.ri.key.is.not.allowed.the.smask.key.is.not.allowed.in.extgstate.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkLayer(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:layers.are.not.allowed.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkTrailer(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:keyword.encrypt.shall.not.be.used.in.the.trailer.dictionary.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkStream(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:stream.object.dictionary.shall.not.contain.the.f.ffilter.or.fdecodeparams.keys.lzwdecode.filter.is.not.permitted.lzwdecode.filter.is.not.permitted.a.form.xobject.dictionary.shall.not.contain.opi.key.a.form.xobject.dictionary.shall.not.contain.ps.key.a.group.object.with.an.s.key.with.a.value.of.transparency.shall.not.be.included.in.a.form.xobject.postscript.xobjects.are.not.allowed.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkFileSpec(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:embedded.files.are.not.permitted.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkPdfObject(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:real.number.is.out.of.range.pdf.string.is.too.long.pdf.array.exceeds.length.set.by.PDFA1.standard.pdf.dictionary.is.out.of.bounds.the.document.catalog.dictionary.shall.contain.metadata.the.document.catalog.dictionary.shall.not.include.an.aa.entry.the.document.catalog.dictionary.shall.not.include.embeddedfiles.names.entry.document.catalog.dictionary.shall.include.a.markinfo.dictionary.whose.entry.marked.shall.have.a.value.of.true.page.dictionary.shall.not.include.aa.entry.if.outputintents.array.more.than.one.entry.the.same.indirect.object.a.pdfa.file.may.have.only.one.pdfa.outputintent.outputintent.shall.have.gtspdfa1.and.destoutputintent.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkCanvas(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:graphics.state.stack.depth.is.greater.than.28.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkColor(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:devicergb.and.devicecmyk.colorspaces.cannot.be.used.both.in.one.file.devicergb.and.devicecmyk.colorspaces.cannot.be.used.both.in.one.file.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkAnnotation(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:widget.annotation.dictionary.or.field.dictionary.shall.not.include.a.or.aa.entry.annotation.type.1.not.allowed null.annotation.type.1.not.allowed.an.annotation.dictionary.shall.not.contain.the.ca.key.with.a.value.other.than.1.an.annotation.dictionary.shall.contain.the.f.key.the.f.keys.print.flag.bit.shall.be.set.to.1.and.its.hidden.invisible.and.noview.flag.bits.shall.be.set.to.0.text.annotations.should.set.the.nozoom.and.norotate.flag.bits.of.the.f.key.to.1.destoutputprofile.in.the.pdfa1.outputintent.dictionary.shall.be.rgb.appearance.dictionary.shall.contain.only.the.n.key.with.stream.value.appearance.dictionary.shall.contain.only.the.n.key.with.stream.value.widget.annotation.dictionary.or.field.dictionary.shall.not.include.a.or.aa.entry.annotation.of.type.1.should.have.contents.key.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkAction(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:deprecated.setstate.and.noop.actions.are.not.allowed.launch.sound.movie.resetform.importdata.and.javascript.actions.are.not.allowed.named.action.type.1.not.allowed.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkForm(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:needappearances.flag.of.the.interactive.form.dictionary.shall.either.not.be.present.or.shall.be.false.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkStructElem(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  obj1
+    +c:alt.entry.should.specify.alternate.description.for.1.element.
+
+com.itextpdf.text.pdf.internal.PdfA1Checker#checkOutputIntent(Lcom/itextpdf/text/pdf/PdfWriter;ILjava/lang/Object;)V
+  writer
+    +c:outputintent.shall.not.be.updated.
+
+com.itextpdf.text.zugferd.InvoiceDOM#<init>(Lcom/itextpdf/text/zugferd/profiles/BasicProfile;)V
+  data
+    +c:
+
+com.itextpdf.text.zugferd.InvoiceDOM#importIncludedNotes(Lorg/w3c/dom/Element;I[[Ljava/lang/String;[Ljava/lang/String;)V
+  notesCodes
+    +c:"Number of included notes is not equal to number of codes for included notes.".
+
+com.itextpdf.text.zugferd.InvoiceDOM#importTradeParty(Lorg/w3c/dom/Element;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
+  globalIDScheme
+    +c:"Number of global ID schemes is not equal to number of global IDs.".
+  taxRegistrationSchemeID
+    +c:"Number of tax ID schemes is not equal to number of tax IDs.".
+
+com.itextpdf.text.zugferd.InvoiceDOM#check(Ljava/lang/String;Ljava/lang/String;)V
+  s
+    +c:.
+
+com.itextpdf.text.zugferd.checkers.basic.DateFormatCode#getDateFormat(Ljava/lang/String;)Ljava/text/SimpleDateFormat;
+  format
+    +c:"date format".
+
+com.itextpdf.tool.xml.XMLWorkerHelper#getCSS(Ljava/io/InputStream;)Lcom/itextpdf/tool/xml/css/CssFile;
+  in
+    +c:..
+
+com.itextpdf.tool.xml.Tag#<init>(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;)V
+  ns
+    +c:"NS cannot be null".
+
+com.itextpdf.tool.xml.XMLWorker#endElement(Ljava/lang/String;Ljava/lang/String;)V
+  tag
+    +c:
+
+com.itextpdf.tool.xml.XMLWorker#text(Ljava/lang/String;)V
+  text
+    +c:.
+
+com.itextpdf.tool.xml.html.DefaultTagProcessorFactory#load(Ljava/lang/String;)Lcom/itextpdf/tool/xml/html/TagProcessor;
+  className
+    +c:....
+
+com.itextpdf.tool.xml.html.DefaultTagProcessorFactory#load(Ljava/lang/String;Ljava/lang/ClassLoader;)Lcom/itextpdf/tool/xml/html/TagProcessor;
+  className
+    +c:....
+
+com.itextpdf.tool.xml.html.DefaultTagProcessorFactory#getProcessor(Ljava/lang/String;Ljava/lang/String;)Lcom/itextpdf/tool/xml/html/TagProcessor;
+  tag
+    +c:.
+
+com.itextpdf.tool.xml.html.NonSanitizedTag#content(Lcom/itextpdf/tool/xml/WorkerContext;Lcom/itextpdf/tool/xml/Tag;Ljava/lang/String;)Ljava/util/List;
+  content
+    +c:.
+
+com.itextpdf.tool.xml.html.OrderedUnorderedList#end(Lcom/itextpdf/tool/xml/WorkerContext;Lcom/itextpdf/tool/xml/Tag;Ljava/util/List;)Ljava/util/List;
+  tag
+    +c:
+
+com.itextpdf.tool.xml.html.table.TableData#end(Lcom/itextpdf/tool/xml/WorkerContext;Lcom/itextpdf/tool/xml/Tag;Ljava/util/List;)Ljava/util/List;
+  ctx
+    +c:
+  tag
+    +c:
+
+com.itextpdf.tool.xml.net.ImageRetrieve#retrieveImage(Ljava/lang/String;)Lcom/itextpdf/text/Image;
+  src
+    +c:.
+
+com.itextpdf.tool.xml.net.FileRetrieveImpl#processFromStream(Ljava/io/InputStream;Lcom/itextpdf/tool/xml/net/ReadingProcessor;)V
+  in
+    +c:
+
+com.itextpdf.tool.xml.parser.XMLParser#<init>(ZLjava/nio/charset/Charset;)V
+  isHtml
+    +d:  false if this parser is not going to parse HTML and whitespace should be submitted as text too.
+
+com.itextpdf.tool.xml.parser.XMLParser#<init>(ZLcom/itextpdf/tool/xml/parser/XMLParserListener;Ljava/nio/charset/Charset;)V
+  isHtml
+    +d:   false if this parser is not going to parse HTML and whitespace should be submitted as text too.
+
+com.itextpdf.tool.xml.parser.XMLParser#parse(Ljava/io/InputStream;Z)V
+  in
+    +c:
+
+com.itextpdf.tool.xml.parser.XMLParser#detectEncoding(Ljava/io/InputStream;)Ljava/io/InputStreamReader;
+  in
+    +c:
+
+com.itextpdf.tool.xml.pipeline.ctx.WorkerContextImpl#get(Ljava/lang/String;)Lcom/itextpdf/tool/xml/CustomContext;
+  klass
+    +c:
+
+com.itextpdf.tool.xml.pipeline.html.HtmlPipeline#open(Lcom/itextpdf/tool/xml/WorkerContext;Lcom/itextpdf/tool/xml/Tag;Lcom/itextpdf/tool/xml/ProcessObject;)Lcom/itextpdf/tool/xml/Pipeline;
+  t
+    +c:.
+
+com.itextpdf.tool.xml.pipeline.html.HtmlPipeline#close(Lcom/itextpdf/tool/xml/WorkerContext;Lcom/itextpdf/tool/xml/Tag;Lcom/itextpdf/tool/xml/ProcessObject;)Lcom/itextpdf/tool/xml/Pipeline;
+  t
+    +c:.
+
+com.itextpdf.tool.xml.css.CssUtilsTest#validateKeys(Ljava/util/Map;)V
+  values
+    +c:"key not found top"    pre-top-post."key not found bottom"    pre-bottom-post."key not found left"    pre-left-post."key not found right"    pre-right-post.
+
+com.itextpdf.text.pdf.mc.StructureItems#processMCID(Lcom/itextpdf/text/pdf/PdfNumber;Lcom/itextpdf/text/pdf/PdfIndirectReference;)I
+  ref
+    +c:can.t.read.document.structure.
+
+com.itextpdf.text.pdf.mc.MCParser#dealWithMcid(Lcom/itextpdf/text/pdf/PdfNumber;)V
+  mcid
+    +c:can.t.read.document.structure.
+
+com.itextpdf.text.pdf.richmedia.CuePoint#setAction(Lcom/itextpdf/text/pdf/PdfObject;)V
+  action
+    +c:"An action should be defined as a dictionary".
+
+com.itextpdf.text.pdf.richmedia.RichMediaCommand#setArguments(Lcom/itextpdf/text/pdf/PdfObject;)V
+  args
+    +d: a PdfObject that specifies the arguments to the command. The object can be a PdfString, PdfNumber or PdfBoolean, or a PdfArray containing those objects.
+
+com.itextpdf.text.pdf.util.PdfResourceCounter#getLength(Ljava/util/Map;)J
+  res
+    +d:   the resources that can be excluded when counting the bytes
+

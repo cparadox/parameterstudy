@@ -1,0 +1,882 @@
+org.apache.pdfbox.preflight.PreflightConfiguration#getInstanceOfProcess(Ljava/lang/String;)Lorg/apache/pdfbox/preflight/process/ValidationProcess;
+  processName
+    +c:.can't be created.
+
+org.apache.pdfbox.preflight.action.ActionManagerFactory#createActionManager(Lorg/apache/pdfbox/preflight/PreflightContext;Lorg/apache/pdfbox/cos/COSDictionary;Ljava/lang/String;)Lorg/apache/pdfbox/preflight/action/AbstractActionManager;
+  action
+    +c:
+
+org.apache.pdfbox.preflight.metadata.SynchronizedMetaDataValidation#validateMetadataSynchronization(Lorg/apache/pdfbox/pdmodel/PDDocument;Lorg/apache/xmpbox/XMPMetadata;)Ljava/util/List;
+  document
+    +c:"Document provided is null".
+  metadata
+    +c:"Metadata provided are null".
+
+org.apache.pdfbox.preflight.parser.PreflightParser#parseObjectDynamically(JIZ)Lorg/apache/pdfbox/cos/COSBase;
+  requireExistingNotCompressedObj
+    +c:Object must be defined and must not be compressed object:     :.
+
+org.apache.pdfbox.preflight.process.AcroFormValidationProcess#exploreFields(Lorg/apache/pdfbox/preflight/PreflightContext;Ljava/util/List;)Z
+  lFields
+    +d: the list of fields, can be null.
+
+org.apache.pdfbox.preflight.process.BookmarkValidationProcess#toCOSObject(Lorg/apache/pdfbox/cos/COSBase;)Lorg/apache/pdfbox/cos/COSObject;
+  base
+    +c:Paremater    should be null, COSNull or a COSObject.
+
+org.apache.pdfbox.debugger.treestatus.TreeStatus#getObjectName(Ljava/lang/Object;)Ljava/lang/String;
+  treeNode
+    +c:Unknown treeNode type:.
+
+org.apache.pdfbox.debugger.ui.PDFTreeModel#getChild(Ljava/lang/Object;I)Ljava/lang/Object;
+  parent
+    +c:Unknown COS type.
+
+org.apache.pdfbox.debugger.ui.PDFTreeModel#getIndexOfChild(Ljava/lang/Object;Ljava/lang/Object;)I
+  parent
+    +c:Unknown COS type.
+
+org.apache.pdfbox.debugger.ui.LogDialog#log(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Throwable;)V
+  level
+    +c:.
+
+org.apache.pdfbox.debugger.ui.OSXAdapter#setApplicationEventHandled(Ljava/lang/Object;Z)V
+  event
+    +c:.
+
+org.apache.pdfbox.debugger.ui.RotationMenu#setRotationSelection(Ljava/lang/String;)V
+  selection
+    +c:.
+
+org.apache.pdfbox.debugger.ui.RotationMenu#getRotationDegrees(Ljava/lang/String;)I
+  actionCommand
+    +c:.
+
+org.apache.pdfbox.tools.PrintPDF#main([Ljava/lang/String;)V
+  args
+    +d: Command line arguments, should be one and a reference to a file.
+
+org.apache.pdfbox.tools.PDFMerger#main([Ljava/lang/String;)V
+  args
+    +d: Command line arguments, should be at least 3.
+
+org.apache.pdfbox.tools.ExtractText#main([Ljava/lang/String;)V
+  args
+    +d: Command line arguments, should be one and a reference to a file.
+
+org.apache.pdfbox.tools.PDFSplit#main([Ljava/lang/String;)V
+  args
+    +d: Command line arguments, should be one and a reference to a file.
+
+org.apache.pdfbox.tools.PDFToImage#main([Ljava/lang/String;)V
+  args
+    +d: Command line arguments, should be one and a reference to a file.
+
+org.apache.pdfbox.tools.TextToPDF#createPDFFromText(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/io/Reader;)V
+  doc
+    +c:
+
+org.apache.pdfbox.tools.TextToPDF#main([Ljava/lang/String;)V
+  args
+    +c:Unknown argument:.Unknown argument:.
+
+org.apache.pdfbox.tools.Encrypt#encrypt([Ljava/lang/String;)V
+  args
+    +c:Error: -keyLength is not an integer '    '.
+
+org.apache.pdfbox.contentstream.operator.Operator#<init>(Ljava/lang/String;)V
+  aOperator
+    +c:Operators are not allowed to start with / '  '.
+
+org.apache.pdfbox.contentstream.operator.DrawObject#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.graphics.LineTo#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  operands
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.graphics.CurveToReplicateInitialPoint#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  operands
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.graphics.MoveTo#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  operands
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.graphics.DrawObject#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  operands
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.graphics.CurveTo#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  operands
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.graphics.AppendRectangleToPath#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  operands
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.graphics.ShadingFill#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  operands
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.graphics.CurveToReplicateFinalPoint#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  operands
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.markedcontent.DrawObject#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.state.SetLineJoinStyle#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.state.SetRenderingIntent#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  operands
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.state.SetLineWidth#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.state.SetFlatness#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  operands
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.state.Concatenate#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.state.SetLineMiterLimit#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.state.SetGraphicsStateParameters#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.state.SetMatrix#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.state.SetLineDashPattern#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.state.SetLineCapStyle#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.text.ShowTextLineAndSpace#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.text.MoveTextSetLeading#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.text.SetFontAndSize#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.text.SetTextHorizontalScaling#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.text.MoveText#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.contentstream.operator.text.SetCharSpacing#process(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)V
+  arguments
+    +c:.
+
+org.apache.pdfbox.cos.COSFloat#<init>(Ljava/lang/String;)V
+  aFloat
+    +c:Error expected floating point number actual='  '.Error expected floating point number actual='  '.
+
+org.apache.pdfbox.cos.COSString#parseHex(Ljava/lang/String;)Lorg/apache/pdfbox/cos/COSString;
+  hex
+    +c:Invalid hex string:.
+
+org.apache.pdfbox.filter.LZWFilter#checkIndexBounds(Ljava/util/List;JLjavax/imageio/stream/MemoryCacheImageInputStream;)V
+  index
+    +c:negative array index:    near offset.array index overflow:    >=     near offset.
+
+org.apache.pdfbox.filter.Predictor#decodePredictorRow(IIII[B[B)V
+  lastline
+    +d: The previous decoded line. When decoding the first line, this parameter should be an empty byte array of the same length as actline.
+
+org.apache.pdfbox.filter.FilterFactory#getFilter(Lorg/apache/pdfbox/cos/COSName;)Lorg/apache/pdfbox/filter/Filter;
+  filterName
+    +c:Invalid filter:.
+
+org.apache.pdfbox.io.RandomAccessBuffer#seek(J)V
+  position
+    +c:Invalid position.
+
+org.apache.pdfbox.io.RandomAccessBuffer#write([BII)V
+  length
+    +c:
+
+org.apache.pdfbox.io.ScratchFile#readPage(I)[B
+  pageIdx
+    +c:Page index out of range:   . Max value:.Requested page with index    was not written before.Missing scratch file to read page with index    from.
+
+org.apache.pdfbox.io.ScratchFile#writePage(I[B)V
+  pageIdx
+    +c:Page index out of range:   . Max value:.
+  page
+    +c:Wrong page size to write:    . Expected:.
+
+org.apache.pdfbox.multipdf.LayerUtility#appendFormAsLayer(Lorg/apache/pdfbox/pdmodel/PDPage;Lorg/apache/pdfbox/pdmodel/graphics/form/PDFormXObject;Ljava/awt/geom/AffineTransform;Ljava/lang/String;)Lorg/apache/pdfbox/pdmodel/graphics/optionalcontent/PDOptionalContentGroup;
+  layerName
+    +c:Optional group (layer) already exists:.
+
+org.apache.pdfbox.multipdf.PDFMergerUtility#appendDocument(Lorg/apache/pdfbox/pdmodel/PDDocument;Lorg/apache/pdfbox/pdmodel/PDDocument;)V
+  destination
+    +c:"Error: destination PDF is closed.".
+  source
+    +c:"Error: source PDF is closed.".
+
+org.apache.pdfbox.multipdf.Splitter#setSplitAtPage(I)V
+  split
+    +c:"Number of pages is smaller than one".
+
+org.apache.pdfbox.multipdf.Splitter#setStartPage(I)V
+  start
+    +c:"Start page is smaller than one".
+
+org.apache.pdfbox.multipdf.Splitter#setEndPage(I)V
+  end
+    +c:"End page is smaller than one".
+
+org.apache.pdfbox.multipdf.Overlay#setAllPagesOverlayPDF(Lorg/apache/pdfbox/pdmodel/PDDocument;)V
+  allPagesOverlayPDF
+    +d: the all pages overlay PDF. This should not be a PDDocument that you created on the fly, it should be saved first, if it contains any fonts that are subset.
+
+org.apache.pdfbox.pdfparser.COSParser#parseObjectDynamically(Lorg/apache/pdfbox/cos/COSObject;Z)Lorg/apache/pdfbox/cos/COSBase;
+  requireExistingNotCompressedObj
+    +d: if true object to be parsed must not be contained within compressed stream
+    +c:
+
+org.apache.pdfbox.pdfparser.COSParser#parseObjectDynamically(JIZ)Lorg/apache/pdfbox/cos/COSBase;
+  requireExistingNotCompressedObj
+    +d: if true the object to be parsed must be defined in xref (comment: null objects may be missing from xref) and it must not be a compressed object within object stream (this is used to circumvent being stuck in a loop in a malicious PDF)
+    +c:Object must be defined and must not be compressed object:     :.
+
+org.apache.pdfbox.pdfwriter.ContentStreamWriter#writeObject(Ljava/lang/Object;)V
+  o
+    +c:Error:Unknown type in content stream:.
+
+org.apache.pdfbox.pdmodel.PDAppearanceContentStream#setBorderLine(FLorg/apache/pdfbox/pdmodel/interactive/annotation/PDBorderStyleDictionary;Lorg/apache/pdfbox/cos/COSArray;)V
+  border
+    +d: The border array, must have at least three entries. This is only used if the border style is null.
+
+org.apache.pdfbox.pdmodel.PDResources#<init>(Lorg/apache/pdfbox/cos/COSDictionary;)V
+  resourceDictionary
+    +c:"resourceDictionary is null".
+
+org.apache.pdfbox.pdmodel.PDResources#<init>(Lorg/apache/pdfbox/cos/COSDictionary;Lorg/apache/pdfbox/pdmodel/ResourceCache;)V
+  resourceDictionary
+    +c:"resourceDictionary is null".
+
+org.apache.pdfbox.pdmodel.PDJavascriptNameTreeNode#convertCOSToPD(Lorg/apache/pdfbox/cos/COSBase;)Lorg/apache/pdfbox/pdmodel/interactive/action/PDActionJavaScript;
+  base
+    +c:Error creating Javascript object, expected a COSDictionary and not.
+
+org.apache.pdfbox.pdmodel.PDDocumentInformation#setTrapped(Ljava/lang/String;)V
+  value
+    +c:Valid values for trapped are  'True', 'False', or 'Unknown'.
+
+org.apache.pdfbox.pdmodel.PDPageTree#<init>(Lorg/apache/pdfbox/cos/COSDictionary;Lorg/apache/pdfbox/pdmodel/PDDocument;)V
+  root
+    +c:"root cannot be null".
+
+org.apache.pdfbox.pdmodel.PDPageContentStream#<init>(Lorg/apache/pdfbox/pdmodel/PDDocument;Lorg/apache/pdfbox/pdmodel/PDPage;Lorg/apache/pdfbox/pdmodel/PDPageContentStream$AppendMode;ZZ)V
+  resetContext
+    +d: Tell if the graphic context should be reset. This is only relevant when the appendContent parameter is set to AppendMode#APPEND . You should use this when appending to an existing stream, because the existing stream may have changed graphic properties (e.g. scaling, rotation).
+
+org.apache.pdfbox.pdmodel.PDPageContentStream#setStrokingColor(IIII)V
+  m
+    +c:Parameters must be within 0..255, but are    (%d,%d,%d,%d).
+
+org.apache.pdfbox.pdmodel.PDPageContentStream#setStrokingColor(I)V
+  g
+    +c:Parameter must be within 0..255, but is.
+
+org.apache.pdfbox.pdmodel.PDPageContentStream#addPolygon([F[F)V
+  x
+    +c:
+  y
+    +c:
+
+org.apache.pdfbox.pdmodel.PDPageContentStream#drawPolygon([F[F)V
+  x
+    +c:
+  y
+    +c:
+
+org.apache.pdfbox.pdmodel.PDPageContentStream#fillPolygon([F[F)V
+  x
+    +c:
+  y
+    +c:
+
+org.apache.pdfbox.pdmodel.PDPageContentStream#fill(I)V
+  windingRule
+    +c:"Error: unknown value for winding rule".
+
+org.apache.pdfbox.pdmodel.PDPageContentStream#clipPath(I)V
+  windingRule
+    +c:"Error: unknown value for winding rule".
+
+org.apache.pdfbox.pdmodel.PDDocument#saveIncremental(Ljava/io/OutputStream;)V
+  output
+    +d: stream to write to. It will be closed when done. It should <i><b>not</b></i> point to the source file.
+
+org.apache.pdfbox.pdmodel.PDDocument#saveIncrementalForExternalSigning(Ljava/io/OutputStream;)Lorg/apache/pdfbox/pdmodel/interactive/digitalsignature/ExternalSigningSupport;
+  output
+    +d: stream to write the final PDF. It should <i><b>not</b></i> point to the source file. It will be closed when the document is closed.
+
+org.apache.pdfbox.pdmodel.PDDocument#protect(Lorg/apache/pdfbox/pdmodel/encryption/ProtectionPolicy;)V
+  policy
+    +c:No security handler for policy.
+
+org.apache.pdfbox.pdmodel.PDPage#setTransition(Lorg/apache/pdfbox/pdmodel/interactive/pagenavigation/PDTransition;F)V
+  duration
+    +d: The maximum length of time, in seconds, that the page shall be displayed during presentations before the viewer application shall automatically advance to the next page.
+
+org.apache.pdfbox.pdmodel.common.COSDictionaryMap#convertBasicTypesToMap(Lorg/apache/pdfbox/cos/COSDictionary;)Lorg/apache/pdfbox/pdmodel/common/COSDictionaryMap;
+  map
+    +c:
+
+org.apache.pdfbox.pdmodel.common.PDPageLabels#setLabelItem(ILorg/apache/pdfbox/pdmodel/common/PDPageLabelRange;)V
+  startPage
+    +c:"startPage parameter of setLabelItem may not be < 0".
+
+org.apache.pdfbox.pdmodel.common.PDPageLabelRange#setStart(I)V
+  start
+    +c:"The page numbering start value must be a positive integer".
+
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement#setAttributes(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions;)V
+  attributes
+    +c:
+
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement#setClassNames(Lorg/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/Revisions;)V
+  classNames
+    +c:
+
+org.apache.pdfbox.pdmodel.documentinterchange.logicalstructure.PDStructureElement#setRevisionNumber(I)V
+  revisionNumber
+    +c:"The revision number shall be > -1".
+
+org.apache.pdfbox.pdmodel.encryption.PublicKeySecurityHandler#prepareForDecryption(Lorg/apache/pdfbox/pdmodel/encryption/PDEncryption;Lorg/apache/pdfbox/cos/COSArray;Lorg/apache/pdfbox/pdmodel/encryption/DecryptionMaterial;)V
+  encryption
+    +d: encryption dictionary, can be retrieved via PDDocument#getEncryption()
+    +c:
+  decryptionMaterial
+    +c:"Provided decryption material is not compatible with the document".
+
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler#prepareForDecryption(Lorg/apache/pdfbox/pdmodel/encryption/PDEncryption;Lorg/apache/pdfbox/cos/COSArray;Lorg/apache/pdfbox/pdmodel/encryption/DecryptionMaterial;)V
+  encryption
+    +c:
+  decryptionMaterial
+    +c:"Decryption material is not compatible with the document".
+
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler#isOwnerPassword([B[B[BI[BIIZ)Z
+  encRevision
+    +c:
+
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler#computeEncryptedKey([B[B[B[B[BI[BIIZZ)[B
+  u
+    +c:
+
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler#computeOwnerPassword([B[BII)[B
+  length
+    +c:Expected length=5 actual=.
+
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler#isUserPassword([B[B[BI[BIIZ)Z
+  encRevision
+    +c:Unknown Encryption Revision.
+
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler#isUserPassword(Ljava/lang/String;[B[BI[BIIZ)Z
+  encRevision
+    +c:
+
+org.apache.pdfbox.pdmodel.encryption.StandardSecurityHandler#isOwnerPassword(Ljava/lang/String;[B[BI[BIIZ)Z
+  encRevision
+    +c:
+
+org.apache.pdfbox.pdmodel.encryption.SecurityHandlerFactory#registerHandler(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;)V
+  name
+    +c:"The security handler name is already registered".
+
+org.apache.pdfbox.pdmodel.fdf.FDFField#setValue(Ljava/lang/Object;)V
+  value
+    +c:Error:Unknown type for field import.
+
+org.apache.pdfbox.pdmodel.font.PDTrueTypeFont#encode(I)[B
+  unicode
+    +c:U+%04X is not available in this font's encoding: %s.No glyph for U+%04X in font %s.No glyph for U+%04X in font %s.U+%04X is not available in this font's Encoding.
+
+org.apache.pdfbox.pdmodel.font.PDCIDFontType2#encode(I)[B
+  unicode
+    +c:No glyph for U+%04X in font %s.
+
+org.apache.pdfbox.pdmodel.font.PDType1Font#encode(I)[B
+  unicode
+    +c:U+%04X ('%s') is not available in this font %s encoding: %s.No glyph for U+%04X in font %s.U+%04X ('%s') is not available in this font %s (generic: %s) encoding: %s.No glyph for U+%04X in font %s (generic: %s).
+
+org.apache.pdfbox.pdmodel.font.PDType3CharProc#parseWidth(Lorg/apache/pdfbox/contentstream/operator/Operator;Ljava/util/List;)F
+  operator
+    +c:Unexpected argument type:."First operator must be d0 or d1".
+
+org.apache.pdfbox.pdmodel.font.PDType1CFont#encode(I)[B
+  unicode
+    +c:U+%04X ('%s') is not available in this font's encoding: %s.No glyph for U+%04X in font %s.
+
+org.apache.pdfbox.pdmodel.font.encoding.DictionaryEncoding#<init>(Lorg/apache/pdfbox/cos/COSName;Lorg/apache/pdfbox/cos/COSArray;)V
+  baseEncoding
+    +c:Invalid encoding:.
+
+org.apache.pdfbox.pdmodel.font.encoding.DictionaryEncoding#<init>(Lorg/apache/pdfbox/cos/COSDictionary;ZLorg/apache/pdfbox/pdmodel/font/encoding/Encoding;)V
+  builtIn
+    +c:Symbolic fonts must have a built-in  encoding.
+
+org.apache.pdfbox.pdmodel.graphics.PDXObject#createXObject(Lorg/apache/pdfbox/cos/COSBase;Lorg/apache/pdfbox/pdmodel/PDResources;)Lorg/apache/pdfbox/pdmodel/graphics/PDXObject;
+  base
+    +c:Unexpected object type:.
+
+org.apache.pdfbox.pdmodel.graphics.blend.BlendComposite#getInstance(Lorg/apache/pdfbox/pdmodel/graphics/blend/BlendMode;F)Ljava/awt/Composite;
+  constantAlpha
+    +d: Constant alpha, must be in the inclusive range [0.0...1.0] or it will be clipped.
+
+org.apache.pdfbox.pdmodel.graphics.color.PDPattern#getPattern(Lorg/apache/pdfbox/pdmodel/graphics/color/PDColor;)Lorg/apache/pdfbox/pdmodel/graphics/pattern/PDAbstractPattern;
+  color
+    +c:pattern     was not found.
+
+org.apache.pdfbox.pdmodel.graphics.color.PDIndexed#<init>(Lorg/apache/pdfbox/cos/COSArray;Lorg/apache/pdfbox/pdmodel/PDResources;)V
+  resources
+    +d: the resources, can be null. Allows to use its cache for the colorspace.
+
+org.apache.pdfbox.pdmodel.graphics.color.PDIndexed#toRGB([F)[F
+  value
+    +c:"Indexed color spaces must have one color value".
+
+org.apache.pdfbox.pdmodel.graphics.color.PDICCBased#<init>(Lorg/apache/pdfbox/cos/COSArray;)V
+  iccArray
+    +c:"ICCBased colorspace array must have two elements"."ICCBased colorspace array must have a stream as second element".
+
+org.apache.pdfbox.pdmodel.graphics.image.JPEGFactory#createFromImage(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/awt/image/BufferedImage;)Lorg/apache/pdfbox/pdmodel/graphics/image/PDImageXObject;
+  image
+    +c:
+
+org.apache.pdfbox.pdmodel.graphics.image.JPEGFactory#createFromImage(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/awt/image/BufferedImage;F)Lorg/apache/pdfbox/pdmodel/graphics/image/PDImageXObject;
+  image
+    +c:
+
+org.apache.pdfbox.pdmodel.graphics.image.JPEGFactory#createFromImage(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/awt/image/BufferedImage;FI)Lorg/apache/pdfbox/pdmodel/graphics/image/PDImageXObject;
+  image
+    +c:
+
+org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject#createFromFileByContent(Ljava/io/File;Lorg/apache/pdfbox/pdmodel/PDDocument;)Lorg/apache/pdfbox/pdmodel/graphics/image/PDImageXObject;
+  file
+    +c:Could not determine file type:.Image type not supported:.Image type       not supported:.
+
+org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject#createFromByteArray(Lorg/apache/pdfbox/pdmodel/PDDocument;[BLjava/lang/String;)Lorg/apache/pdfbox/pdmodel/graphics/image/PDImageXObject;
+  name
+    +d: name of image file for exception messages, can be null.
+    +c:Could not determine file type:.Image type not supported:.Image type      not supported:.
+
+org.apache.pdfbox.pdmodel.graphics.image.CCITTFactory#createFromImage(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/awt/image/BufferedImage;)Lorg/apache/pdfbox/pdmodel/graphics/image/PDImageXObject;
+  image
+    +c:"Only 1-bit b/w images supported".
+
+org.apache.pdfbox.pdmodel.graphics.optionalcontent.PDOptionalContentGroup#<init>(Lorg/apache/pdfbox/cos/COSDictionary;)V
+  dict
+    +c:Provided dictionary is not of type '   '.
+
+org.apache.pdfbox.pdmodel.interactive.action.PDTargetDirectory#setRelationship(Lorg/apache/pdfbox/cos/COSName;)V
+  relationship
+    +c:The only valid are P or C, not.
+
+org.apache.pdfbox.pdmodel.interactive.action.PDActionSound#setVolume(F)V
+  volume
+    +c:"volume outside of the range ?1.0 to 1.0".
+
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationInk#setInkList([[F)V
+  inkList
+    +d: An array of arrays, each representing a stroked path. Each array shall be a series of alternating horizontal and vertical coordinates. If the parameter is null the entry will be removed.
+
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget#setHighlightingMode(Ljava/lang/String;)V
+  highlightingMode
+    +c:Valid values for highlighting mode are  'N', 'N', 'O', 'P' or 'T'.
+
+org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationWidget#setParent(Lorg/apache/pdfbox/pdmodel/interactive/form/PDTerminalField;)V
+  field
+    +c:"setParent() is not to be called for a field that shares a dictionary with its only widget".
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue#setFilterRequired(Z)V
+  flag
+    +d: if true, the specified Filter shall be used when signing.
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValue#setSubFilterRequired(Z)V
+  flag
+    +d: if true, the first supported SubFilter in the array shall be used when signing.
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueMDP#setP(I)V
+  p
+    +c:"Only values between 0 and 3 nare allowed.".
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueCertificate#setSubjectRequired(Z)V
+  flag
+    +d: if true, the specified Subject shall be enforced as a constraint.
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueCertificate#setIssuerRequired(Z)V
+  flag
+    +d: if true, the specified Issuer shall be enforced as a constraint.
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueCertificate#setOIDRequired(Z)V
+  flag
+    +d: if true, the specified OID shall be enforced as a constraint.
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueCertificate#setSubjectDNRequired(Z)V
+  flag
+    +d: if true, the specified Subject DN shall be enforced as a constraint.
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueCertificate#setKeyUsageRequired(Z)V
+  flag
+    +d: if true, the specified KeyUsage shall be enforced as a constraint.
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueCertificate#setURLRequired(Z)V
+  flag
+    +d: if true, the specified URL shall be enforced as a constraint.
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSeedValueCertificate#addKeyUsage(Ljava/lang/String;)V
+  keyUsageExtension
+    +c:"characters can only be 0, 1, X".
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner#<init>(Ljava/lang/String;Ljava/io/InputStream;I)V
+  page
+    +c:
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner#<init>(Ljava/io/InputStream;Ljava/io/InputStream;I)V
+  page
+    +c:
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner#<init>(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/io/InputStream;I)V
+  page
+    +c:
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner#<init>(Ljava/lang/String;Ljava/awt/image/BufferedImage;I)V
+  page
+    +c:
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner#<init>(Ljava/io/InputStream;Ljava/awt/image/BufferedImage;I)V
+  page
+    +c:
+
+org.apache.pdfbox.pdmodel.interactive.digitalsignature.visible.PDVisibleSignDesigner#<init>(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/awt/image/BufferedImage;I)V
+  page
+    +c:
+
+org.apache.pdfbox.pdmodel.interactive.form.FieldUtils#getPairableItems(Lorg/apache/pdfbox/cos/COSBase;I)Ljava/util/List;
+  pairIdx
+    +c:"Only 0 and 1 are allowed as an index into two-element arrays".
+
+org.apache.pdfbox.pdmodel.interactive.form.PDPushButton#setExportValues(Ljava/util/List;)V
+  values
+    +c:"A PDPushButton shall not use the Opt entry in the field dictionary".
+
+org.apache.pdfbox.pdmodel.interactive.form.PDFieldTree#<init>(Lorg/apache/pdfbox/pdmodel/interactive/form/PDAcroForm;)V
+  acroForm
+    +c:"root cannot be null".
+
+org.apache.pdfbox.pdmodel.interactive.measurement.PDNumberFormatDictionary#setFractionalDisplay(Ljava/lang/String;)V
+  fractionalDisplay
+    +c:"Value must be \"D\", \"F\", \"R\", or \"T\", (or null).".
+
+org.apache.pdfbox.pdmodel.interactive.measurement.PDNumberFormatDictionary#setLabelPositionToValue(Ljava/lang/String;)V
+  labelPositionToValue
+    +c:"Value must be \"S\", or \"P\" (or null).".
+
+org.apache.pdfbox.printing.PDFPageable#getPrintable(I)Ljava/awt/print/Printable;
+  i
+    +c:>=.
+
+org.apache.pdfbox.rendering.PageDrawer#getPaint(Lorg/apache/pdfbox/pdmodel/graphics/color/PDColor;)Ljava/awt/Paint;
+  color
+    +d: The color to get a paint for. This can be an actual color or a pattern.
+
+org.apache.pdfbox.rendering.PageDrawer#applySoftMaskToPaint(Ljava/awt/Paint;Lorg/apache/pdfbox/pdmodel/graphics/state/PDSoftMask;)Ljava/awt/Paint;
+  softMask
+    +c:"Invalid soft mask subtype.".
+
+org.apache.pdfbox.text.PDFTextStripper#isParagraphSeparation(Lorg/apache/pdfbox/text/PDFTextStripper$PositionWrapper;Lorg/apache/pdfbox/text/PDFTextStripper$PositionWrapper;Lorg/apache/pdfbox/text/PDFTextStripper$PositionWrapper;F)V
+  lastPosition
+    +d: the previous text position (should not be null).
+
+org.apache.pdfbox.util.SmallMap#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  value
+    +c:"Key or value must not be null.".
+
+org.apache.pdfbox.util.filetypedetector.FileTypeDetector#detectFileType(Ljava/io/BufferedInputStream;)Lorg/apache/pdfbox/util/filetypedetector/FileType;
+  inputStream
+    +c:"Stream must support mark/reset".
+
+org.apache.xmpbox.DateConverter#toCalendar(Ljava/lang/String;)Ljava/util/Calendar;
+  date
+    +c:Error: Invalid date format '    [-:T]   '.Error converting date:    [-:T].
+
+org.apache.xmpbox.schema.XMPSchemaFactory#createXMPSchema(Lorg/apache/xmpbox/XMPMetadata;Ljava/lang/String;)Lorg/apache/xmpbox/schema/XMPSchema;
+  prefix
+    +c:
+
+org.apache.xmpbox.schema.XMPSchema#setTextPropertyValue(Ljava/lang/String;Ljava/lang/String;)V
+  qualifiedName
+    +d: The name of the property, it must contain the namespace prefix, ie "pdf:Keywords"
+  propertyValue
+    +d: The value for the property, can be any string. Passing null will remove the property.
+    +c:
+
+org.apache.xmpbox.schema.XMPSchema#setTextPropertyValueAsSimple(Ljava/lang/String;Ljava/lang/String;)V
+  propertyValue
+    +d: The value for the property, can be any string. Passing null will remove the property.
+    +c:
+
+org.apache.xmpbox.schema.XMPSchema#getUnqualifiedTextProperty(Ljava/lang/String;)Lorg/apache/xmpbox/type/TextType;
+  name
+    +c:
+
+org.apache.xmpbox.schema.XMPSchema#getUnqualifiedTextPropertyValue(Ljava/lang/String;)Ljava/lang/String;
+  name
+    +c:
+
+org.apache.xmpbox.schema.XMPSchema#getDateProperty(Ljava/lang/String;)Lorg/apache/xmpbox/type/DateType;
+  qualifiedName
+    +d: The name of the property to get, it must include the namespace prefix, e.g. "pdf:Keywords".
+    +c:
+
+org.apache.xmpbox.schema.XMPSchema#getDatePropertyValue(Ljava/lang/String;)Ljava/util/Calendar;
+  qualifiedName
+    +c:
+
+org.apache.xmpbox.schema.XMPSchema#setDatePropertyValueAsSimple(Ljava/lang/String;Ljava/util/Calendar;)V
+  date
+    +d: The calendar value for the property, can be any string. Passing null will remove the property.
+
+org.apache.xmpbox.schema.XMPSchema#getBooleanProperty(Ljava/lang/String;)Lorg/apache/xmpbox/type/BooleanType;
+  qualifiedName
+    +c:
+
+org.apache.xmpbox.schema.XMPSchema#getBooleanPropertyValue(Ljava/lang/String;)Ljava/lang/Boolean;
+  qualifiedName
+    +c:
+
+org.apache.xmpbox.schema.XMPSchema#setBooleanPropertyValueAsSimple(Ljava/lang/String;Ljava/lang/Boolean;)V
+  bool
+    +d: The value for the property, can be any string. Passing null will remove the property.
+
+org.apache.xmpbox.schema.XMPSchema#getIntegerProperty(Ljava/lang/String;)Lorg/apache/xmpbox/type/IntegerType;
+  qualifiedName
+    +c:
+
+org.apache.xmpbox.schema.XMPSchema#getIntegerPropertyValue(Ljava/lang/String;)Ljava/lang/Integer;
+  qualifiedName
+    +c:
+
+org.apache.xmpbox.schema.XMPSchema#setIntegerPropertyValueAsSimple(Ljava/lang/String;Ljava/lang/Integer;)V
+  intValue
+    +d: The value for the property, can be any string. Passing null will remove the property.
+
+org.apache.xmpbox.schema.XMPSchema#removeUnqualifiedSequenceValue(Ljava/lang/String;Ljava/lang/String;)V
+  qualifiedSeqName
+    +d: The name of the sequence property. It must include the namespace prefix, e.g. "pdf:Keywords".
+
+org.apache.xmpbox.schema.XMPSchema#removeUnqualifiedSequenceValue(Ljava/lang/String;Lorg/apache/xmpbox/type/AbstractField;)V
+  qualifiedSeqName
+    +d: The name of the sequence property. It must include the namespace prefix, e.g. "pdf:Keywords".
+
+org.apache.xmpbox.schema.XMPSchema#addBagValue(Ljava/lang/String;Lorg/apache/xmpbox/type/AbstractField;)V
+  qualifiedSeqName
+    +d: The name of the sequence property, it must include the namespace prefix, e.g. "pdf:Keywords"
+
+org.apache.xmpbox.schema.XMPSchema#addUnqualifiedSequenceValue(Ljava/lang/String;Lorg/apache/xmpbox/type/AbstractField;)V
+  seqName
+    +d: The name of the sequence property, it must include the namespace prefix, e.g. "pdf:Keywords"
+
+org.apache.xmpbox.schema.XMPSchema#removeUnqualifiedSequenceDateValue(Ljava/lang/String;Ljava/util/Calendar;)V
+  seqName
+    +d: The name of the sequence property, it must include the namespace prefix, e.g. "pdf:Keywords"
+
+org.apache.xmpbox.schema.XMPSchema#addUnqualifiedSequenceDateValue(Ljava/lang/String;Ljava/util/Calendar;)V
+  seqName
+    +d: The name of the sequence property, it must include the namespace prefix, e.g. "pdf:Keywords"
+
+org.apache.xmpbox.schema.XMPSchema#getUnqualifiedSequenceDateValueList(Ljava/lang/String;)Ljava/util/List;
+  seqName
+    +d: The name of the sequence property, it must include the namespace prefix, e.g. "pdf:Keywords".
+
+org.apache.xmpbox.schema.XMPSchema#setUnqualifiedLanguagePropertyValue(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  name
+    +d: The name of the property, it must include the namespace prefix, e.g. "pdf:Keywords"
+
+org.apache.xmpbox.schema.XMPSchema#getUnqualifiedLanguagePropertyValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  name
+    +c:The property '  ' is not of Lang Alt type.
+
+org.apache.xmpbox.schema.XMPSchema#getUnqualifiedLanguagePropertyLanguagesValue(Ljava/lang/String;)Ljava/util/List;
+  name
+    +d: The name of the property, it must include the namespace prefix, e.g. "pdf:Keywords".
+    +c:The property '  ' is not of Lang Alt type.
+
+org.apache.xmpbox.schema.XMPSchema#merge(Lorg/apache/xmpbox/schema/XMPSchema;)V
+  xmpSchema
+    +c:"Can only merge schemas of the same type.".
+
+org.apache.xmpbox.schema.XMPSchema#getUnqualifiedArrayList(Ljava/lang/String;)Ljava/util/List;
+  name
+    +c:"Property asked is not an array".
+
+org.apache.xmpbox.schema.PDFAIdentificationSchema#setConformance(Ljava/lang/String;)V
+  value
+    +c:"The property given not seems to be a PDF/A conformance level (must be A, B or U)".
+
+org.apache.xmpbox.type.TypeMapping#instanciateStructuredType(Lorg/apache/xmpbox/type/Types;Ljava/lang/String;)Lorg/apache/xmpbox/type/AbstractStructuredType;
+  type
+    +c:Failed to instanciate structured type :.
+
+org.apache.xmpbox.type.TypeMapping#instanciateSimpleProperty(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Lorg/apache/xmpbox/type/Types;)Lorg/apache/xmpbox/type/AbstractSimpleProperty;
+  value
+    +c:Failed to instanciate      property with value.
+
+org.apache.xmpbox.type.TypeMapping#getSpecifiedPropertyType(Ljavax/xml/namespace/QName;)Lorg/apache/xmpbox/type/PropertyType;
+  name
+    +c:No descriptor found for.
+
+org.apache.xmpbox.type.TypeMapping#initializePropMapping(Ljava/lang/Class;)Lorg/apache/xmpbox/type/PropertiesDescription;
+  classSchem
+    +c:couldn't read one type declaration, please check accessibility and declaration of fields annoted in.
+
+org.apache.xmpbox.type.IntegerType#setValue(Ljava/lang/Object;)V
+  value
+    +c:Value given is not allowed for the Integer type:.
+
+org.apache.xmpbox.type.TextType#setValue(Ljava/lang/Object;)V
+  value
+    +c:Value given is not allowed for the Text type : '  '.
+
+org.apache.xmpbox.type.BooleanType#setValue(Ljava/lang/Object;)V
+  value
+    +c:Not a valid boolean value : '  '."Value given is not allowed for the Boolean type.".
+
+org.apache.xmpbox.type.DateType#setValue(Ljava/lang/Object;)V
+  value
+    +c:"Value null is not allowed for the Date type".Value given is not allowed for the Date type:    , value:.
+
+org.apache.xmpbox.type.RealType#setValue(Ljava/lang/Object;)V
+  value
+    +c:Value given is not allowed for the Real type:.
+
+org.apache.xmpbox.xml.DomHelper#getUniqueElementChild(Lorg/w3c/dom/Element;)Lorg/w3c/dom/Element;
+  description
+    +c:Found two child elements in.
+
+org.apache.fontbox.afm.AFMParser#parse(Z)Lorg/apache/fontbox/afm/FontMetrics;
+  reducedDataset
+    +c:
+
+org.apache.fontbox.afm.FontMetrics#setMetricSets(I)V
+  metricSetsValue
+    +c:The metricSets attribute must be in the  set {0,1,2} and not '  '.
+
+org.apache.fontbox.cff.CFFCIDFont#selectorToCID(Ljava/lang/String;)I
+  selector
+    +c:"Invalid selector".
+
+org.apache.fontbox.cff.Type1FontUtil#hexDecode(Ljava/lang/String;)[B
+  string
+    +c:.
+
+org.apache.fontbox.cff.DataInput#readBytes(I)[B
+  length
+    +c:.
+
+org.apache.fontbox.cff.Type2CharStringParser#parse([B[[B[[B)Ljava/util/List;
+  globalSubrIndex
+    +c:
+  localSubrIndex
+    +c:
+
+org.apache.fontbox.cmap.CMapParser#parsePredefined(Ljava/lang/String;)Lorg/apache/fontbox/cmap/CMap;
+  name
+    +c:
+
+org.apache.fontbox.cmap.CMapParser#getExternalCMap(Ljava/lang/String;)Ljava/io/InputStream;
+  name
+    +c:Error: Could not find referenced cmap stream.
+
+org.apache.fontbox.ttf.GlyphSubstitutionTable#read(Lorg/apache/fontbox/ttf/TrueTypeFont;Lorg/apache/fontbox/ttf/TTFDataStream;)V
+  data
+    +c:
+
+org.apache.fontbox.ttf.KerningSubtable#read(Lorg/apache/fontbox/ttf/TTFDataStream;I)V
+  data
+    +c:
+  version
+    +c:.
+
+org.apache.fontbox.ttf.OpenTypeScript#ensureValidCodePoint(I)V
+  codePoint
+    +c:Invalid codepoint:.
+
+org.apache.fontbox.ttf.TrueTypeFont#getUnicodeCmapImpl(Z)Lorg/apache/fontbox/ttf/CmapSubtable;
+  isStrict
+    +c:The TrueType font    does not contain a 'cmap' table."The TrueType font does not contain a Unicode cmap".
+
+org.apache.fontbox.ttf.CmapSubtable#initSubtable(Lorg/apache/fontbox/ttf/CmapTable;ILorg/apache/fontbox/ttf/TTFDataStream;)V
+  numGlyphs
+    +c:
+  data
+    +c:
+
+org.apache.fontbox.ttf.CmapSubtable#processSubtype8(Lorg/apache/fontbox/ttf/TTFDataStream;I)V
+  data
+    +c:
+  numGlyphs
+    +c:"CMap contains an invalid glyph index".
+
+org.apache.fontbox.ttf.CmapSubtable#processSubtype10(Lorg/apache/fontbox/ttf/TTFDataStream;I)V
+  data
+    +c:
+
+org.apache.fontbox.ttf.CmapSubtable#processSubtype12(Lorg/apache/fontbox/ttf/TTFDataStream;I)V
+  data
+    +c:
+
+org.apache.fontbox.ttf.CmapSubtable#processSubtype13(Lorg/apache/fontbox/ttf/TTFDataStream;I)V
+  data
+    +c:
+  numGlyphs
+    +c:
+
+org.apache.fontbox.ttf.TTFSubsetter#copyBytes(Ljava/io/InputStream;Ljava/io/OutputStream;JJI)J
+  is
+    +c:"Unexpected EOF exception parsing glyphId of hmtx table.".
+  count
+    +c:"Unexpected EOF exception parsing glyphId of hmtx table.".
+
+org.apache.fontbox.ttf.gsub.GsubWorkerFactory#getGsubWorker(Lorg/apache/fontbox/ttf/CmapLookup;Lorg/apache/fontbox/ttf/model/GsubData;)Lorg/apache/fontbox/ttf/gsub/GsubWorker;
+  gsubData
+    +c:The language     is not yet supported.
+
+org.apache.fontbox.ttf.model.MapBackedGsubData#getFeature(Ljava/lang/String;)Lorg/apache/fontbox/ttf/model/ScriptFeature;
+  featureName
+    +c:The feature    is not supported!.
+
+org.apache.fontbox.ttf.model.MapBackedScriptFeature#getReplacementForGlyphs(Ljava/util/List;)Ljava/lang/Integer;
+  glyphIds
+    +c:The glyphs    cannot be replaced.
+

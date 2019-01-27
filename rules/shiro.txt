@@ -1,0 +1,575 @@
+org.apache.shiro.cache.MapCache#<init>(Ljava/lang/String;Ljava/util/Map;)V
+  name
+    +c:"Cache name cannot be null.".
+  backingMap
+    +c:"Backing map cannot be null.".
+
+org.apache.shiro.config.Ini#<init>(Lorg/apache/shiro/config/Ini;)V
+  defaults
+    +c:"Defaults cannot be null.".
+
+org.apache.shiro.config.Ini#fromResourcePath(Ljava/lang/String;)Lorg/apache/shiro/config/Ini;
+  resourcePath
+    +c:"Resource Path argument cannot be null or empty.".
+
+org.apache.shiro.config.Ini#load(Ljava/io/InputStream;)V
+  is
+    +c:"InputStream argument cannot be null.".
+
+org.apache.shiro.config.ReflectionBuilder#getBean(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+  id
+    +c:Bean with id [  ] is not of the required type [   ].
+  requiredType
+    +c:"requiredType argument cannot be null.".
+
+org.apache.shiro.config.ReflectionBuilder#applyProperty(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V
+  key
+    +c:
+
+org.apache.shiro.config.ReflectionBuilder#applySingleProperty(Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  property
+    +c:Property keys should not contain 'class' properties since these  should already be separated out by buildObjects().
+
+org.apache.shiro.config.ReflectionBuilder#isTypedProperty(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Class;)Z
+  clazz
+    +c:"type (class) argument cannot be null.".
+
+org.apache.shiro.config.ReflectionBuilder#applyProperty(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
+  object
+    +c:
+  propertyPath
+    +c:
+  value
+    +c:
+
+org.apache.shiro.config.ReflectionBuilder#applyProperty(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)V
+  object
+    +c:
+
+org.apache.shiro.aop.DefaultAnnotationResolver#getAnnotation(Lorg/apache/shiro/aop/MethodInvocation;Ljava/lang/Class;)Ljava/lang/annotation/Annotation;
+  mi
+    +c:"method argument cannot be null".
+
+org.apache.shiro.authc.SimpleAccount#setLocked(Z)V
+  locked
+    +d: true if this Account is locked and thus cannot be used to login, false otherwise.
+
+org.apache.shiro.authc.credential.HashedCredentialsMatcher#<init>(Ljava/lang/String;)V
+  hashAlgorithmName
+    +c:"hashAlgorithmName cannot be null or empty.".
+
+org.apache.shiro.authc.pam.ModularRealmAuthenticator#doSingleRealmAuthentication(Lorg/apache/shiro/realm/Realm;Lorg/apache/shiro/authc/AuthenticationToken;)Lorg/apache/shiro/authc/AuthenticationInfo;
+  realm
+    +c:Realm [ ] does not support authentication token [ ].  Please ensure that the appropriate Realm implementation is  configured correctly or that the realm accepts AuthenticationTokens of this type.  Realm [ ] was unable to find account data for the  submitted AuthenticationToken [ ].
+
+org.apache.shiro.authc.pam.AllSuccessfulStrategy#beforeAttempt(Lorg/apache/shiro/realm/Realm;Lorg/apache/shiro/authc/AuthenticationToken;Lorg/apache/shiro/authc/AuthenticationInfo;)Lorg/apache/shiro/authc/AuthenticationInfo;
+  realm
+    +c:Realm [ ] of type [ ] does not support   the submitted AuthenticationToken [ ].  The [ ] implementation requires all configured realm(s) to support and be able to process the submitted  AuthenticationToken.
+
+org.apache.shiro.authc.pam.AllSuccessfulStrategy#afterAttempt(Lorg/apache/shiro/realm/Realm;Lorg/apache/shiro/authc/AuthenticationToken;Lorg/apache/shiro/authc/AuthenticationInfo;Lorg/apache/shiro/authc/AuthenticationInfo;Ljava/lang/Throwable;)Lorg/apache/shiro/authc/AuthenticationInfo;
+  info
+    +c:Unable to acquire account data from realm [ ].  The [  implementation requires all configured realm(s) to operate successfully  for a successful authentication.  Realm [ ] could not find any associated account data for the submitted  AuthenticationToken [ ].  The [ ] implementation requires  all configured realm(s) to acquire valid account data for a submitted token during the  log-in process.
+  t
+    +c:Unable to acquire account data from realm [ ].  The [  implementation requires all configured realm(s) to operate successfully  for a successful authentication.  Realm [ ] could not find any associated account data for the submitted  AuthenticationToken [ ].  The [ ] implementation requires  all configured realm(s) to acquire valid account data for a submitted token during the  log-in process.
+
+org.apache.shiro.authc.pam.AtLeastOneSuccessfulStrategy#afterAllAttempts(Lorg/apache/shiro/authc/AuthenticationToken;Lorg/apache/shiro/authc/AuthenticationInfo;)Lorg/apache/shiro/authc/AuthenticationInfo;
+  aggregate
+    +c:Authentication token of type [   ]  could not be authenticated by any configured realms.  Please ensure that at least one realm can  authenticate these tokens.
+
+org.apache.shiro.authz.ModularRealmAuthorizer#checkPermission(Lorg/apache/shiro/subject/PrincipalCollection;Ljava/lang/String;)V
+  permission
+    +c:Subject does not have permission [  ].
+
+org.apache.shiro.authz.ModularRealmAuthorizer#checkPermission(Lorg/apache/shiro/subject/PrincipalCollection;Lorg/apache/shiro/authz/Permission;)V
+  permission
+    +c:Subject does not have permission [  ].
+
+org.apache.shiro.authz.ModularRealmAuthorizer#checkRole(Lorg/apache/shiro/subject/PrincipalCollection;Ljava/lang/String;)V
+  role
+    +c:Subject does not have role [  ].
+
+org.apache.shiro.authz.aop.UserAnnotationHandler#assertAuthorized(Ljava/lang/annotation/Annotation;)V
+  a
+    +c:Attempting to perform a user-only operation.  The current Subject is  not a user (they haven't been authenticated or remembered from a previous login).   Access denied.
+
+org.apache.shiro.authz.aop.AuthenticatedAnnotationHandler#assertAuthorized(Ljava/lang/annotation/Annotation;)V
+  a
+    +c:"The current Subject is not authenticated.  Access denied.".
+
+org.apache.shiro.authz.aop.GuestAnnotationHandler#assertAuthorized(Ljava/lang/annotation/Annotation;)V
+  a
+    +c:Attempting to perform a guest-only operation.  The current Subject is  not a guest (they have been authenticated or remembered from a previous login).  Access  denied.
+
+org.apache.shiro.authz.permission.WildcardPermission#<init>(Ljava/lang/String;Z)V
+  wildcardString
+    +c:
+
+org.apache.shiro.authz.permission.WildcardPermission#setParts(Ljava/lang/String;)V
+  wildcardString
+    +c:
+
+org.apache.shiro.authz.permission.WildcardPermission#setParts(Ljava/lang/String;Z)V
+  wildcardString
+    +c:"Wildcard string cannot be null or empty. Make sure permission strings are properly formatted.".
+
+org.apache.shiro.authz.permission.DomainPermission#encodeParts(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  domain
+    +c:"domain argument cannot be null or empty.".
+
+org.apache.shiro.concurrent.SubjectAwareExecutor#<init>(Ljava/util/concurrent/Executor;)V
+  targetExecutor
+    +c:"target Executor instance cannot be null.".
+
+org.apache.shiro.concurrent.SubjectAwareExecutorService#setTargetExecutor(Ljava/util/concurrent/Executor;)V
+  targetExecutor
+    +c:The   implementation only accepts   target instances.
+
+org.apache.shiro.concurrent.SubjectAwareScheduledExecutorService#setTargetExecutor(Ljava/util/concurrent/Executor;)V
+  targetExecutor
+    +c:The   implementation only accepts   target instances.
+
+org.apache.shiro.concurrent.SubjectAwareScheduledExecutorService#setTargetExecutorService(Ljava/util/concurrent/ExecutorService;)V
+  targetExecutorService
+    +c:The   implementation only accepts   target instances.
+
+org.apache.shiro.config.IniSecurityManagerFactory#createInstance(Lorg/apache/shiro/config/Ini;)Lorg/apache/shiro/mgt/SecurityManager;
+  ini
+    +c:"Ini argument cannot be null or empty.".
+
+org.apache.shiro.config.IniSecurityManagerFactory#applyRealmsToSecurityManager(Ljava/util/Collection;Lorg/apache/shiro/mgt/SecurityManager;)V
+  securityManager
+    +c:
+
+org.apache.shiro.env.DefaultEnvironment#<init>(Ljava/util/Map;)V
+  seed
+    +c:"Backing map cannot be null.".
+
+org.apache.shiro.env.DefaultEnvironment#setSecurityManager(Lorg/apache/shiro/mgt/SecurityManager;)V
+  securityManager
+    +c:"Null SecurityManager instances are not allowed.".
+
+org.apache.shiro.env.DefaultEnvironment#getObject(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+  name
+    +c:"name parameter cannot be null.".
+  requiredType
+    +c:"requiredType parameter cannot be null.".Object named ' ' is not of required type [ ].
+
+org.apache.shiro.env.DefaultEnvironment#setObject(Ljava/lang/String;Ljava/lang/Object;)V
+  name
+    +c:"name parameter cannot be null.".
+
+org.apache.shiro.jndi.JndiLocator#lookup(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+  jndiName
+    +c:"jndiName argument must not be null".
+
+org.apache.shiro.jndi.JndiTemplate#lookup(Ljava/lang/String;)Ljava/lang/Object;
+  name
+    +c:JNDI object with [  ] not found: JNDI implementation returned null.
+
+org.apache.shiro.jndi.JndiTemplate#lookup(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+  requiredType
+    +c:Jndi object acquired under name ' ' is of type [ ] and not assignable to the required type [ ].
+
+org.apache.shiro.mgt.DefaultSecurityManager#logout(Lorg/apache/shiro/subject/Subject;)V
+  subject
+    +c:"Subject method argument cannot be null.".
+
+org.apache.shiro.mgt.DefaultSubjectDAO#mergePrincipals(Lorg/apache/shiro/subject/Subject;)V
+  subject
+    +c:"Unable to access DelegatingSubject principals property.".
+
+org.apache.shiro.realm.jdbc.JdbcRealm#doGetAuthenticationInfo(Lorg/apache/shiro/authc/AuthenticationToken;)Lorg/apache/shiro/authc/AuthenticationInfo;
+  token
+    +c:
+
+org.apache.shiro.realm.jdbc.JdbcRealm#doGetAuthorizationInfo(Lorg/apache/shiro/subject/PrincipalCollection;)Lorg/apache/shiro/authz/AuthorizationInfo;
+  principals
+    +c:"PrincipalCollection method argument cannot be null.".
+
+org.apache.shiro.realm.ldap.JndiLdapContextFactory#validateAuthenticationInfo(Ljava/util/Hashtable;)V
+  environment
+    +c:
+
+org.apache.shiro.realm.ldap.DefaultLdapRealm#setUserDnTemplate(Ljava/lang/String;)V
+  template
+    +c:User DN template cannot be null or empty.  User DN template must contain the ' ' replacement token to understand where to  insert the runtime authentication principal.
+
+org.apache.shiro.realm.ldap.DefaultLdapRealm#getUserDn(Ljava/lang/String;)Ljava/lang/String;
+  principal
+    +c:"User principal cannot be null or empty for User DN construction.".
+
+org.apache.shiro.realm.ldap.DefaultLdapRealm#createAuthenticationInfo(Lorg/apache/shiro/authc/AuthenticationToken;Ljava/lang/Object;Ljava/lang/Object;Ljavax/naming/ldap/LdapContext;)Lorg/apache/shiro/authc/AuthenticationInfo;
+  ldapContext
+    +d:     the LdapContext created that resulted in a successful authentication.  It can be used further by subclasses for more complex operations.  It does not need to be closed - it will be closed automatically after this method returns.
+
+org.apache.shiro.realm.ldap.DefaultLdapRealm#queryForAuthorizationInfo(Lorg/apache/shiro/subject/PrincipalCollection;Lorg/apache/shiro/realm/ldap/LdapContextFactory;)Lorg/apache/shiro/authz/AuthorizationInfo;
+  principals
+    +d:          the principals of the Subject whose AuthenticationInfo should be queried from the LDAP server.
+
+org.apache.shiro.realm.text.PropertiesRealm#setReloadIntervalSeconds(I)V
+  reloadIntervalSeconds
+    +d: the interval in seconds at which the property file should be examined for changes. If set to zero or less, reloading is disabled.
+
+org.apache.shiro.session.ProxiedSession#<init>(Lorg/apache/shiro/session/Session;)V
+  target
+    +c:"Target session to proxy cannot be null.".
+
+org.apache.shiro.session.mgt.DefaultSessionManager#retrieveSession(Lorg/apache/shiro/session/mgt/SessionKey;)Lorg/apache/shiro/session/Session;
+  sessionKey
+    +c:
+
+org.apache.shiro.session.mgt.DelegatingSession#<init>(Lorg/apache/shiro/session/mgt/NativeSessionManager;Lorg/apache/shiro/session/mgt/SessionKey;)V
+  sessionManager
+    +c:"sessionManager argument cannot be null.".
+  key
+    +c:"sessionKey argument cannot be null.".The   implementation requires that the  SessionKey argument returns a non-null sessionId to support the  Session.getId() invocations.
+
+org.apache.shiro.session.mgt.eis.MemorySessionDAO#storeSession(Ljava/io/Serializable;Lorg/apache/shiro/session/Session;)Lorg/apache/shiro/session/Session;
+  id
+    +c:"id argument cannot be null.".
+
+org.apache.shiro.session.mgt.eis.MemorySessionDAO#delete(Lorg/apache/shiro/session/Session;)V
+  session
+    +c:"session argument cannot be null.".
+
+org.apache.shiro.subject.SimplePrincipalMap#setRealmPrincipals(Ljava/lang/String;Ljava/util/Map;)Ljava/util/Map;
+  realmName
+    +c:"realmName argument cannot be null.".
+
+org.apache.shiro.subject.SimplePrincipalMap#setRealmPrincipal(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+  realmName
+    +c:"realmName argument cannot be null.".
+  principalName
+    +c:principalName argument cannot be null.
+
+org.apache.shiro.subject.SimplePrincipalMap#getRealmPrincipal(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+  realmName
+    +c:"realmName argument cannot be null.".
+  principalName
+    +c:principalName argument cannot be null.
+
+org.apache.shiro.subject.SimplePrincipalMap#removeRealmPrincipal(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+  realmName
+    +c:"realmName argument cannot be null.".
+  principalName
+    +c:principalName argument cannot be null.
+
+org.apache.shiro.subject.SimplePrincipalCollection#add(Ljava/lang/Object;Ljava/lang/String;)V
+  principal
+    +c:"principal argument cannot be null.".
+  realmName
+    +c:"realmName argument cannot be null.".
+
+org.apache.shiro.subject.SimplePrincipalCollection#addAll(Ljava/util/Collection;Ljava/lang/String;)V
+  principals
+    +c:"principals argument cannot be null."."principals argument cannot be an empty collection.".
+  realmName
+    +c:"realmName argument cannot be null.".
+
+org.apache.shiro.subject.Subject$Builder#<init>(Lorg/apache/shiro/mgt/SecurityManager;)V
+  securityManager
+    +c:"SecurityManager method argument cannot be null.".
+
+org.apache.shiro.subject.Subject$Builder#sessionCreationEnabled(Z)Lorg/apache/shiro/subject/Subject$Builder;
+  enabled
+    +d: whether or not the created Subject instance can create a new  Session if one does not already exist.
+
+org.apache.shiro.subject.Subject$Builder#contextAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/apache/shiro/subject/Subject$Builder;
+  attributeKey
+    +c:Subject context map key cannot be null.
+
+org.apache.shiro.subject.support.SubjectRunnable#<init>(Lorg/apache/shiro/util/ThreadState;Ljava/lang/Runnable;)V
+  threadState
+    +c:"ThreadState argument cannot be null.".
+  delegate
+    +c:"Runnable argument cannot be null.".
+
+org.apache.shiro.subject.support.SubjectCallable#<init>(Lorg/apache/shiro/util/ThreadState;Ljava/util/concurrent/Callable;)V
+  threadState
+    +c:"ThreadState argument cannot be null.".
+  delegate
+    +c:"Callable delegate instance cannot be null.".
+
+org.apache.shiro.subject.support.DelegatingSubject#<init>(Lorg/apache/shiro/subject/PrincipalCollection;ZLjava/lang/String;Lorg/apache/shiro/session/Session;ZLorg/apache/shiro/mgt/SecurityManager;)V
+  session
+    +c:
+  securityManager
+    +c:"SecurityManager argument cannot be null.".
+
+org.apache.shiro.subject.support.DelegatingSubject#decorate(Lorg/apache/shiro/session/Session;)Lorg/apache/shiro/session/Session;
+  session
+    +c:"session cannot be null".
+
+org.apache.shiro.subject.support.DelegatingSubject#getSession(Z)Lorg/apache/shiro/session/Session;
+  create
+    +c:
+
+org.apache.shiro.subject.support.DelegatingSubject#execute(Ljava/lang/Runnable;)V
+  runnable
+    +c:
+
+org.apache.shiro.subject.support.DelegatingSubject#associateWith(Ljava/lang/Runnable;)Ljava/lang/Runnable;
+  runnable
+    +c:This implementation does not support Thread arguments because of JDK ThreadLocal  inheritance mechanisms required by Shiro.  Instead, the method argument should be a non-Thread  Runnable and the return value from this method can then be given to an ExecutorService or  another Thread.
+
+org.apache.shiro.subject.support.DelegatingSubject#runAs(Lorg/apache/shiro/subject/PrincipalCollection;)V
+  principals
+    +c:
+
+org.apache.shiro.subject.support.SubjectThreadState#<init>(Lorg/apache/shiro/subject/Subject;)V
+  subject
+    +c:"Subject argument cannot be null.".
+
+org.apache.shiro.util.RegExPatternMatcher#matches(Ljava/lang/String;Ljava/lang/String;)Z
+  pattern
+    +c:"pattern argument cannot be null.".
+
+org.apache.shiro.util.MapContext#getTypedValue(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+  type
+    +c:Invalid object found in SubjectContext Map under key [ ].  Expected type  was [ ], but the object under that key is of type  [ ].
+
+org.apache.shiro.crypto.DefaultBlockCipherService#setStreamingModeName(Ljava/lang/String;)V
+  streamingModeName
+    +c:mode [ ] is not a valid operation mode for block cipher streaming.
+
+org.apache.shiro.crypto.SecureRandomNumberGenerator#setSecureRandom(Ljava/security/SecureRandom;)V
+  random
+    +c:"SecureRandom argument cannot be null.".
+
+org.apache.shiro.crypto.SecureRandomNumberGenerator#setDefaultNextBytesSize(I)V
+  defaultNextBytesSize
+    +c:"size value must be a positive integer (1 or larger)".
+
+org.apache.shiro.crypto.SecureRandomNumberGenerator#nextBytes(I)Lorg/apache/shiro/util/ByteSource;
+  numBytes
+    +c:"numBytes argument must be a positive integer (1 or larger)".
+
+org.apache.shiro.crypto.hash.SimpleHashRequest#<init>(Ljava/lang/String;Lorg/apache/shiro/util/ByteSource;Lorg/apache/shiro/util/ByteSource;I)V
+  algorithmName
+    +d: the name of the hash algorithm to use.  This is often null as the HashService implementation is usually configured with an appropriate algorithm name, but this can be non-null if the hash service's algorithm should be overridden with a specific one for the duration of the request.
+  source
+    +c:"source argument cannot be null".
+
+org.apache.shiro.crypto.hash.SimpleHash#<init>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;I)V
+  algorithmName
+    +c:"algorithmName argument cannot be null or empty.".
+
+org.apache.shiro.crypto.hash.HashRequest$Builder#setAlgorithmName(Ljava/lang/String;)Lorg/apache/shiro/crypto/hash/HashRequest$Builder;
+  algorithmName
+    +d: the name of the hash algorithm the  HashService should use when computing the Hash , or  null if the default algorithm configuration of the HashService should be used.
+
+org.apache.shiro.crypto.hash.DefaultHashService#combine(Lorg/apache/shiro/util/ByteSource;Lorg/apache/shiro/util/ByteSource;)Lorg/apache/shiro/util/ByteSource;
+  privateSalt
+    +c:
+  publicSalt
+    +c:
+
+org.apache.shiro.crypto.hash.format.DefaultHashFormatFactory#assertHashFormatImpl(Ljava/lang/Class;)V
+  clazz
+    +c:Discovered class [   ] is not a     implementation.
+
+org.apache.shiro.crypto.hash.format.Shiro1CryptFormat#parse(Ljava/lang/String;)Lorg/apache/shiro/crypto/hash/Hash;
+  formatted
+    +c:The argument is not a valid ' ' formatted hash.  Unable to parse formatted hash string:.
+
+org.apache.shiro.event.support.SingleArgumentMethodEventListener#<init>(Ljava/lang/Object;Ljava/lang/reflect/Method;)V
+  method
+    +c:
+
+org.apache.shiro.codec.Base64#encode([BZ)[B
+  isChunked
+    +c:
+
+org.apache.shiro.codec.Hex#decode([C)[B
+  data
+    +c:
+
+org.apache.shiro.codec.Hex#toDigit(CI)I
+  index
+    +c:Illegal hexadecimal character    at index.
+
+org.apache.shiro.io.XmlSerializer#serialize(Ljava/lang/Object;)[B
+  source
+    +c:argument cannot be null.
+
+org.apache.shiro.io.XmlSerializer#deserialize([B)Ljava/lang/Object;
+  serialized
+    +c:"Argument cannot be null.".
+
+org.apache.shiro.io.ClassResolvingObjectInputStream#resolveClass(Ljava/io/ObjectStreamClass;)Ljava/lang/Class;
+  osc
+    +c:Unable to load ObjectStreamClass [  ]:.
+
+org.apache.shiro.io.DefaultSerializer#serialize(Ljava/lang/Object;)[B
+  o
+    +c:argument cannot be null.  Unable to serialize object [ ].   In order for the DefaultSerializer to serialize this object, the [ ]  class must implement java.io.Serializable.
+
+org.apache.shiro.io.DefaultSerializer#deserialize([B)Ljava/lang/Object;
+  serialized
+    +c:argument cannot be null.  Unable to deserialize argument byte array.
+
+org.apache.shiro.io.ResourceUtils#getInputStreamForPath(Ljava/lang/String;)Ljava/io/InputStream;
+  resourcePath
+    +c:Resource [  ] could not be found.
+
+org.apache.shiro.util.ClassUtils#newInstance(Ljava/lang/Class;)Ljava/lang/Object;
+  clazz
+    +c:Class method parameter cannot be null.Unable to instantiate class [   ].
+
+org.apache.shiro.util.StringUtils#split(Ljava/lang/String;CCCZZ)[Ljava/lang/String;
+  retainQuotes
+    +d:   if the quotes themselves should be retained when constructing the corresponding token
+
+org.apache.shiro.util.ByteSource$Util#bytes(Ljava/lang/Object;)Lorg/apache/shiro/util/ByteSource;
+  source
+    +d: the byte-backed instance that should be represented as a  ByteSource instance.
+    +c:Unable to heuristically acquire bytes for object of type [ ].  If this type is indeed a byte-backed data type, you might  want to write your own ByteSource implementation to extract its bytes explicitly.Encountered unexpected byte source.  This is a bug - please notify  the Shiro developer list asap (the isCompatible implementation does not reflect this  method's implementation).
+
+org.apache.shiro.aspectj.BeforeAdviceMethodInvocationAdapter#createFrom(Lorg/aspectj/lang/JoinPoint;)Lorg/apache/shiro/aspectj/BeforeAdviceMethodInvocationAdapter;
+  aJoinPoint
+    +c:The joint point signature is invalid: expected a MethodSignature or an AdviceSignature but was.
+
+org.apache.shiro.cache.ehcache.EhCache#<init>(Lnet/sf/ehcache/Ehcache;)V
+  cache
+    +c:"Cache argument cannot be null.".
+
+org.apache.shiro.cache.ehcache.EhCache#get(Ljava/lang/Object;)Ljava/lang/Object;
+  key
+    +c:
+
+org.apache.shiro.cache.ehcache.EhCacheManager#getCache(Ljava/lang/String;)Lorg/apache/shiro/cache/Cache;
+  name
+    +c:
+
+org.apache.shiro.spring.LifecycleBeanPostProcessor#postProcessBeforeInitialization(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+  object
+    +c:Error initializing bean [  ].
+
+org.apache.shiro.spring.LifecycleBeanPostProcessor#postProcessBeforeDestruction(Ljava/lang/Object;Ljava/lang/String;)V
+  object
+    +c:Error destroying bean [  ].
+
+org.apache.shiro.web.env.DefaultWebEnvironment#assertWebSecurityManager(Lorg/apache/shiro/mgt/SecurityManager;)V
+  sm
+    +c:SecurityManager instance must be a   instance.
+
+org.apache.shiro.web.env.EnvironmentLoader#initEnvironment(Ljavax/servlet/ServletContext;)Lorg/apache/shiro/web/env/WebEnvironment;
+  servletContext
+    +c:There is already a Shiro environment associated with the current ServletContext.   Check if you have multiple EnvironmentLoader* definitions in your web.xml!.
+
+org.apache.shiro.web.env.IniWebEnvironment#createIni(Ljava/lang/String;Z)Lorg/apache/shiro/config/Ini;
+  required
+    +c:Required configuration location ' ' does not exist or did not  contain any INI configuration.
+
+org.apache.shiro.web.env.IniWebEnvironment#convertPathToIni(Ljava/lang/String;Z)Lorg/apache/shiro/config/Ini;
+  required
+    +c:.Unable to load resource path '  '.
+
+org.apache.shiro.web.filter.authz.HostFilter#setAuthorizedHosts(Ljava/lang/String;)V
+  authorizedHosts
+    +c:"authorizedHosts argument cannot be null or empty.".
+
+org.apache.shiro.web.filter.authz.HostFilter#setDeniedHosts(Ljava/lang/String;)V
+  deniedHosts
+    +c:"deniedHosts argument cannot be null or empty.".
+
+org.apache.shiro.web.filter.authz.PortFilter#toPort(Ljava/lang/Object;)I
+  mappedValue
+    +c:
+
+org.apache.shiro.web.filter.authz.PortFilter#isAccessAllowed(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/Object;)Z
+  mappedValue
+    +c:
+
+org.apache.shiro.web.filter.authz.PortFilter#onAccessDenied(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/Object;)Z
+  mappedValue
+    +c:
+
+org.apache.shiro.web.filter.mgt.SimpleNamedFilterList#<init>(Ljava/lang/String;Ljava/util/List;)V
+  backingList
+    +c:"backingList constructor argument cannot be null.".
+
+org.apache.shiro.web.filter.mgt.SimpleNamedFilterList#setName(Ljava/lang/String;)V
+  name
+    +c:"Cannot specify a null or empty name.".
+
+org.apache.shiro.web.mgt.DefaultWebSecurityManager#setSessionMode(Ljava/lang/String;)V
+  sessionMode
+    +c:
+
+org.apache.shiro.web.servlet.ProxiedFilterChain#<init>(Ljavax/servlet/FilterChain;Ljava/util/List;)V
+  orig
+    +c:"original FilterChain cannot be null.".
+
+org.apache.shiro.web.servlet.ShiroHttpSession#<init>(Lorg/apache/shiro/session/Session;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/ServletContext;)V
+  session
+    +c:Session constructor argument cannot be an instance of HttpServletSession.  This is enforced to  prevent circular dependencies and infinite loops.
+
+org.apache.shiro.web.servlet.IniShiroFilter#convertPathToIni(Ljava/lang/String;)Lorg/apache/shiro/config/Ini;
+  path
+    +c:
+
+org.apache.shiro.web.servlet.SimpleCookie#setName(Ljava/lang/String;)V
+  name
+    +c:"Name cannot be null/empty.".
+
+org.apache.shiro.web.servlet.SimpleCookie#buildHeaderValue(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIZZ)Ljava/lang/String;
+  name
+    +c:"Cookie name cannot be null/empty.".
+
+org.apache.shiro.web.session.HttpServletSession#<init>(Ljavax/servlet/http/HttpSession;Ljava/lang/String;)V
+  httpSession
+    +c:HttpSession constructor argument cannot be null.  HttpSession constructor argument cannot be an instance of ShiroHttpSession.  This  is enforced to prevent circular dependencies and infinite loops.HttpSession constructor argument cannot be null.  HttpSession constructor argument cannot be an instance of ShiroHttpSession.  This  is enforced to prevent circular dependencies and infinite loops.
+
+org.apache.shiro.web.session.HttpServletSession#getAttribute(Ljava/lang/Object;)Ljava/lang/Object;
+  key
+    +c:
+
+org.apache.shiro.web.session.HttpServletSession#setAttribute(Ljava/lang/Object;Ljava/lang/Object;)V
+  key
+    +c:
+
+org.apache.shiro.web.session.HttpServletSession#removeAttribute(Ljava/lang/Object;)Ljava/lang/Object;
+  key
+    +c:
+
+org.apache.shiro.web.session.mgt.ServletContainerSessionManager#getSession(Lorg/apache/shiro/session/mgt/SessionKey;)Lorg/apache/shiro/session/Session;
+  key
+    +c:SessionKey must be an HTTP compatible implementation.
+
+org.apache.shiro.web.session.mgt.ServletContainerSessionManager#createSession(Lorg/apache/shiro/session/mgt/SessionContext;)Lorg/apache/shiro/session/Session;
+  sessionContext
+    +c:SessionContext must be an HTTP compatible implementation.
+
+org.apache.shiro.web.session.mgt.WebSessionKey#<init>(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V
+  request
+    +c:"request argument cannot be null.".
+  response
+    +c:"response argument cannot be null.".
+
+org.apache.shiro.web.session.mgt.DefaultWebSessionManager#storeSessionId(Ljava/io/Serializable;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V
+  currentId
+    +c:sessionId cannot be null when persisting for subsequent requests.
+
+org.apache.shiro.web.subject.WebSubject$Builder#<init>(Lorg/apache/shiro/mgt/SecurityManager;Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V
+  request
+    +c:"ServletRequest argument cannot be null.".
+  response
+    +c:"ServletResponse argument cannot be null.".
+
+org.apache.shiro.web.util.WebUtils#getRequiredWebEnvironment(Ljavax/servlet/ServletContext;)Lorg/apache/shiro/web/env/WebEnvironment;
+  sc
+    +c:
+
+org.apache.shiro.web.util.WebUtils#getWebEnvironment(Ljavax/servlet/ServletContext;)Lorg/apache/shiro/web/env/WebEnvironment;
+  sc
+    +c:
+
+org.apache.shiro.web.util.WebUtils#getWebEnvironment(Ljavax/servlet/ServletContext;Ljava/lang/String;)Lorg/apache/shiro/web/env/WebEnvironment;
+  sc
+    +c:"ServletContext argument must not be null.".
+
+org.apache.shiro.web.util.WebUtils#redirectToSavedRequest(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/String;)V
+  fallbackUrl
+    +c:
+

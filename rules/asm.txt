@@ -1,0 +1,925 @@
+org.objectweb.asm.tree.analysis.Frame#getLocal(I)Lorg/objectweb/asm/tree/analysis/Value;
+  index
+    +c:"Trying to access an inexistant local variable".
+
+org.objectweb.asm.tree.analysis.Frame#setLocal(ILorg/objectweb/asm/tree/analysis/Value;)V
+  index
+    +c:Trying to access an inexistant local variable.
+
+org.objectweb.asm.tree.analysis.Frame#execute(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/analysis/Interpreter;)V
+  insn
+    +c:"Illegal use of POP"."Illegal use of POP2"."Illegal use of DUP"."Illegal use of DUP_X1"."Illegal use of DUP_X2"."Illegal use of DUP2"."Illegal use of DUP2_X1"."Illegal use of DUP2_X2"."Illegal use of SWAP"."Incompatible return type".Illegal opcode.
+
+org.objectweb.asm.tree.analysis.Frame#merge(Lorg/objectweb/asm/tree/analysis/Frame;Lorg/objectweb/asm/tree/analysis/Interpreter;)Z
+  frame
+    +c:"Incompatible stack heights".
+
+org.objectweb.asm.tree.analysis.SimpleVerifier#<init>(ILorg/objectweb/asm/Type;Lorg/objectweb/asm/Type;Ljava/util/List;Z)V
+  api
+    +d: the ASM API version supported by this verifier. Must be one of org.objectweb.asm.Opcodes#ASM4 , org.objectweb.asm.Opcodes#ASM5 , org.objectweb.asm.Opcodes#ASM6 or org.objectweb.asm.Opcodes#ASM7 .
+
+org.objectweb.asm.tree.analysis.SimpleVerifier#getElementValue(Lorg/objectweb/asm/tree/analysis/BasicValue;)Lorg/objectweb/asm/tree/analysis/BasicValue;
+  objectArrayValue
+    +c:
+
+org.objectweb.asm.tree.analysis.SourceValue#<init>(ILjava/util/Set;)V
+  insnSet
+    +d: the instructions that can produce this value.
+
+org.objectweb.asm.tree.analysis.SourceInterpreter#<init>(I)V
+  api
+    +d: the ASM API version supported by this interpreter. Must be one of org.objectweb.asm.Opcodes#ASM4 , org.objectweb.asm.Opcodes#ASM5 , org.objectweb.asm.Opcodes#ASM6 or org.objectweb.asm.Opcodes#ASM7 .
+
+org.objectweb.asm.tree.analysis.BasicVerifier#<init>(I)V
+  api
+    +d: the ASM API version supported by this interpreter. Must be one of org.objectweb.asm.Opcodes#ASM4 , org.objectweb.asm.Opcodes#ASM5 , org.objectweb.asm.Opcodes#ASM6 or org.objectweb.asm.Opcodes#ASM7 .
+
+org.objectweb.asm.tree.analysis.BasicVerifier#copyOperation(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/analysis/BasicValue;)Lorg/objectweb/asm/tree/analysis/BasicValue;
+  value
+    +c:"an object reference"."an object reference or a return address"..
+
+org.objectweb.asm.tree.analysis.BasicVerifier#unaryOperation(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/analysis/BasicValue;)Lorg/objectweb/asm/tree/analysis/BasicValue;
+  insn
+    +c:.
+  value
+    +c:"an array reference"."an object reference"..
+
+org.objectweb.asm.tree.analysis.BasicVerifier#binaryOperation(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/analysis/BasicValue;Lorg/objectweb/asm/tree/analysis/BasicValue;)Lorg/objectweb/asm/tree/analysis/BasicValue;
+  insn
+    +c:.
+  value1
+    +c:"First argument"    [I  [Z  [B  [C  [S  [J  [F  [D  [Ljava/lang/Object;.
+  value2
+    +c:"Second argument".
+
+org.objectweb.asm.tree.analysis.BasicVerifier#ternaryOperation(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/analysis/BasicValue;Lorg/objectweb/asm/tree/analysis/BasicValue;Lorg/objectweb/asm/tree/analysis/BasicValue;)Lorg/objectweb/asm/tree/analysis/BasicValue;
+  insn
+    +c:.
+  value1
+    +c:"First argument"  a    [I  [Z  [B  [C  [S  [J  [F  [D   array reference.
+  value2
+    +c:"Second argument".
+  value3
+    +c:"Third argument".
+
+org.objectweb.asm.tree.analysis.BasicVerifier#naryOperation(Lorg/objectweb/asm/tree/AbstractInsnNode;Ljava/util/List;)Lorg/objectweb/asm/tree/analysis/BasicValue;
+  insn
+    +c:.Argument.
+  values
+    +c:"Method owner".
+
+org.objectweb.asm.tree.analysis.BasicVerifier#returnOperation(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/analysis/BasicValue;Lorg/objectweb/asm/tree/analysis/BasicValue;)V
+  expected
+    +c:"Incompatible return type".
+
+org.objectweb.asm.tree.analysis.BasicInterpreter#<init>(I)V
+  api
+    +d: the ASM API version supported by this interpreter. Must be one of org.objectweb.asm.Opcodes#ASM4 , org.objectweb.asm.Opcodes#ASM5 , org.objectweb.asm.Opcodes#ASM6 or org.objectweb.asm.Opcodes#ASM7 .
+
+org.objectweb.asm.tree.analysis.BasicInterpreter#newValue(Lorg/objectweb/asm/Type;)Lorg/objectweb/asm/tree/analysis/BasicValue;
+  type
+    +c:.
+
+org.objectweb.asm.tree.analysis.BasicInterpreter#newOperation(Lorg/objectweb/asm/tree/AbstractInsnNode;)Lorg/objectweb/asm/tree/analysis/BasicValue;
+  insn
+    +c:Illegal LDC value.Illegal LDC value..
+
+org.objectweb.asm.tree.analysis.BasicInterpreter#unaryOperation(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/analysis/BasicValue;)Lorg/objectweb/asm/tree/analysis/BasicValue;
+  insn
+    +c:"Invalid array type"..
+
+org.objectweb.asm.tree.analysis.BasicInterpreter#binaryOperation(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/analysis/BasicValue;Lorg/objectweb/asm/tree/analysis/BasicValue;)Lorg/objectweb/asm/tree/analysis/BasicValue;
+  insn
+    +c:.
+
+org.objectweb.asm.tree.analysis.Analyzer#analyze(Ljava/lang/String;Lorg/objectweb/asm/tree/MethodNode;)[Lorg/objectweb/asm/tree/analysis/Frame;
+  method
+    +c:
+
+org.objectweb.asm.commons.LocalVariablesSorter#<init>(IILjava/lang/String;Lorg/objectweb/asm/MethodVisitor;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.commons.LocalVariablesSorter#visitVarInsn(II)V
+  opcode
+    +c:Invalid opcode.
+
+org.objectweb.asm.commons.LocalVariablesSorter#visitFrame(II[Ljava/lang/Object;I[Ljava/lang/Object;)V
+  type
+    +c:"LocalVariablesSorter only accepts expanded frames (see ClassReader.EXPAND_FRAMES)".
+
+org.objectweb.asm.commons.LocalVariablesSorter#newLocal(Lorg/objectweb/asm/Type;)I
+  type
+    +c:.
+
+org.objectweb.asm.commons.LocalVariablesSorter#updateNewLocals([Ljava/lang/Object;)V
+  newLocals
+    +d: the stack map frame types corresponding to the local variables added with #newLocal (and null for the others). The format of this array is the same as in MethodVisitor#visitFrame , except that long and double types use two slots. The types for the current stack map frame must be updated in place in this array.
+
+org.objectweb.asm.commons.Method#getMethod(Ljava/lang/String;)Lorg/objectweb/asm/commons/Method;
+  method
+    +d: a Java method declaration, without argument names, of the form "returnType name (argumentType1, ... argumentTypeN)", where the types are in plain Java (e.g. "int", "float", "java.util.List", ...). Classes of the java.lang package can be specified by their unqualified name; all other classes names must be fully qualified.
+    +c:
+
+org.objectweb.asm.commons.Method#getMethod(Ljava/lang/String;Z)Lorg/objectweb/asm/commons/Method;
+  method
+    +c:
+
+org.objectweb.asm.commons.ModuleResolutionAttribute#<init>(I)V
+  resolution
+    +d: the resolution state of the module. Must be one of #RESOLUTION_WARN_DEPRECATED , #RESOLUTION_WARN_DEPRECATED_FOR_REMOVAL , and #RESOLUTION_WARN_INCUBATING .
+
+org.objectweb.asm.commons.TryCatchBlockSorter#<init>(Lorg/objectweb/asm/MethodVisitor;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
+  methodVisitor
+    +d: the method visitor to which this visitor must delegate method calls. May be  null .
+
+org.objectweb.asm.commons.GeneratorAdapter#<init>(ILorg/objectweb/asm/MethodVisitor;ILjava/lang/String;Ljava/lang/String;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.commons.GeneratorAdapter#cast(Lorg/objectweb/asm/Type;Lorg/objectweb/asm/Type;)V
+  from
+    +c:Cannot cast from    to.
+
+org.objectweb.asm.commons.GeneratorAdapter#ifCmp(Lorg/objectweb/asm/Type;ILorg/objectweb/asm/Label;)V
+  mode
+    +c:Bad comparison for type.Bad comparison mode.
+
+org.objectweb.asm.commons.GeneratorAdapter#tableSwitch([ILorg/objectweb/asm/commons/TableSwitchGenerator;Z)V
+  keys
+    +c:"keys must be sorted in ascending order".
+
+org.objectweb.asm.commons.GeneratorAdapter#invokeDynamic(Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)V
+  bootstrapMethodArguments
+    +d: the bootstrap method constant arguments. Each argument must be an Integer , Float , Long , Double , String , Type or Handle value. This method is allowed to modify the content of the array so a caller should expect that this array may change.
+
+org.objectweb.asm.commons.SerialVersionUIDAdder#<init>(ILorg/objectweb/asm/ClassVisitor;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.commons.ModuleHashesAttribute#<init>(Ljava/lang/String;Ljava/util/List;Ljava/util/List;)V
+  hashes
+    +d: the hash of the modules in 'modules'. The two lists must have the same size.
+
+org.objectweb.asm.commons.InstructionAdapter#<init>(ILorg/objectweb/asm/MethodVisitor;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.commons.InstructionAdapter#visitInsn(I)V
+  opcode
+    +c:.
+
+org.objectweb.asm.commons.InstructionAdapter#visitIntInsn(II)V
+  opcode
+    +c:.
+  operand
+    +c:.
+
+org.objectweb.asm.commons.InstructionAdapter#visitVarInsn(II)V
+  opcode
+    +c:.
+
+org.objectweb.asm.commons.InstructionAdapter#visitTypeInsn(ILjava/lang/String;)V
+  opcode
+    +c:.
+
+org.objectweb.asm.commons.InstructionAdapter#visitFieldInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  opcode
+    +c:.
+
+org.objectweb.asm.commons.InstructionAdapter#doVisitMethodInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+  opcode
+    +c:.
+
+org.objectweb.asm.commons.InstructionAdapter#visitJumpInsn(ILorg/objectweb/asm/Label;)V
+  opcode
+    +c:.
+
+org.objectweb.asm.commons.InstructionAdapter#visitLdcInsn(Ljava/lang/Object;)V
+  value
+    +c:"This feature requires ASM5"."This feature requires ASM7"..
+
+org.objectweb.asm.commons.InstructionAdapter#aconst(Ljava/lang/Object;)V
+  value
+    +d: the constant to be pushed on the stack. This parameter must be an Integer , a Float , a Long , a Double , a String , a Type of OBJECT or ARRAY sort for  .class constants, for classes whose version is 49, a Type of METHOD sort for MethodType, a Handle for MethodHandle constants, for classes whose version is 51 or a ConstantDynamic for a constant dynamic for classes whose version is 55.
+
+org.objectweb.asm.commons.InstructionAdapter#invokevirtual(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+  isInterface
+    +c:"INVOKEVIRTUAL on interfaces require ASM 5".
+
+org.objectweb.asm.commons.InstructionAdapter#invokespecial(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+  isInterface
+    +c:"INVOKESPECIAL on interfaces require ASM 5".
+
+org.objectweb.asm.commons.InstructionAdapter#invokestatic(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+  isInterface
+    +c:"INVOKESTATIC on interfaces require ASM 5".
+
+org.objectweb.asm.commons.InstructionAdapter#invokedynamic(Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)V
+  bootstrapMethodArguments
+    +d: the bootstrap method constant arguments. Each argument must be an Integer , Float , Long , Double , String , Type , Handle or ConstantDynamic value. This method is allowed to modify the content of the array so a caller should expect that this array may change.
+
+org.objectweb.asm.commons.AnalyzerAdapter#<init>(ILjava/lang/String;ILjava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/MethodVisitor;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.commons.AnalyzerAdapter#visitFrame(II[Ljava/lang/Object;I[Ljava/lang/Object;)V
+  type
+    +c:"AnalyzerAdapter only accepts expanded frames (see ClassReader.EXPAND_FRAMES)".
+
+org.objectweb.asm.commons.AnalyzerAdapter#visitInsn(I)V
+  opcode
+    +c:
+
+org.objectweb.asm.commons.AnalyzerAdapter#visitIntInsn(II)V
+  opcode
+    +c:
+
+org.objectweb.asm.commons.AnalyzerAdapter#visitVarInsn(II)V
+  opcode
+    +c:
+
+org.objectweb.asm.commons.AnalyzerAdapter#visitTypeInsn(ILjava/lang/String;)V
+  opcode
+    +c:
+
+org.objectweb.asm.commons.AnalyzerAdapter#visitFieldInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  opcode
+    +c:
+
+org.objectweb.asm.commons.AnalyzerAdapter#visitMethodInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  descriptor
+    +c:
+
+org.objectweb.asm.commons.AnalyzerAdapter#visitMethodInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+  descriptor
+    +c:
+
+org.objectweb.asm.commons.AnalyzerAdapter#visitInvokeDynamicInsn(Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)V
+  descriptor
+    +c:
+
+org.objectweb.asm.commons.AnalyzerAdapter#visitJumpInsn(ILorg/objectweb/asm/Label;)V
+  opcode
+    +c:
+
+org.objectweb.asm.commons.AnalyzerAdapter#visitLdcInsn(Ljava/lang/Object;)V
+  value
+    +c:.
+
+org.objectweb.asm.commons.ClassRemapper#<init>(ILorg/objectweb/asm/ClassVisitor;Lorg/objectweb/asm/commons/Remapper;)V
+  api
+    +d: the ASM API version supported by this remapper. Must be one of org.objectweb.asm.Opcodes#ASM4 , org.objectweb.asm.Opcodes#ASM5 , org.objectweb.asm.Opcodes#ASM6 or org.objectweb.asm.Opcodes#ASM7 .
+
+org.objectweb.asm.commons.JSRInlinerAdapter#<init>(ILorg/objectweb/asm/MethodVisitor;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.commons.StaticInitMerger#<init>(Ljava/lang/String;Lorg/objectweb/asm/ClassVisitor;)V
+  classVisitor
+    +d: the class visitor to which this visitor must delegate method calls. May be null.
+
+org.objectweb.asm.commons.StaticInitMerger#<init>(ILjava/lang/String;Lorg/objectweb/asm/ClassVisitor;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 or Opcodes#ASM6 .
+  classVisitor
+    +d: the class visitor to which this visitor must delegate method calls. May be null.
+
+org.objectweb.asm.tree.IntInsnNode#<init>(II)V
+  opcode
+    +d: the opcode of the instruction to be constructed. This opcode must be BIPUSH, SIPUSH or NEWARRAY.
+
+org.objectweb.asm.tree.IntInsnNode#setOpcode(I)V
+  opcode
+    +d: the new instruction opcode. This opcode must be BIPUSH, SIPUSH or NEWARRAY.
+
+org.objectweb.asm.tree.FrameNode#<init>(II[Ljava/lang/Object;I[Ljava/lang/Object;)V
+  type
+    +d: the type of this frame. Must be Opcodes#F_NEW for expanded frames, or Opcodes#F_FULL , Opcodes#F_APPEND , Opcodes#F_CHOP , Opcodes#F_SAME or Opcodes#F_APPEND , Opcodes#F_SAME1 for compressed frames.
+    +c:.
+  local
+    +d: the types of the local variables of this stack map frame. Elements of this list can be Integer, String or LabelNode objects (for primitive, reference and uninitialized types respectively - see MethodVisitor ).
+  stack
+    +d: the types of the operand stack elements of this stack map frame. Elements of this list can be Integer, String or LabelNode objects (for primitive, reference and uninitialized types respectively - see MethodVisitor ).
+
+org.objectweb.asm.tree.JumpInsnNode#<init>(ILorg/objectweb/asm/tree/LabelNode;)V
+  opcode
+    +d: the opcode of the type instruction to be constructed. This opcode must be IFEQ, IFNE, IFLT, IFGE, IFGT, IFLE, IF_ICMPEQ, IF_ICMPNE, IF_ICMPLT, IF_ICMPGE, IF_ICMPGT, IF_ICMPLE, IF_ACMPEQ, IF_ACMPNE, GOTO, JSR, IFNULL or IFNONNULL.
+
+org.objectweb.asm.tree.JumpInsnNode#setOpcode(I)V
+  opcode
+    +d: the new instruction opcode. This opcode must be IFEQ, IFNE, IFLT, IFGE, IFGT, IFLE, IF_ICMPEQ, IF_ICMPNE, IF_ICMPLT, IF_ICMPGE, IF_ICMPGT, IF_ICMPLE, IF_ACMPEQ, IF_ACMPNE, GOTO, JSR, IFNULL or IFNONNULL.
+
+org.objectweb.asm.tree.VarInsnNode#<init>(II)V
+  opcode
+    +d: the opcode of the local variable instruction to be constructed. This opcode must be ILOAD, LLOAD, FLOAD, DLOAD, ALOAD, ISTORE, LSTORE, FSTORE, DSTORE, ASTORE or RET.
+
+org.objectweb.asm.tree.VarInsnNode#setOpcode(I)V
+  opcode
+    +d: the new instruction opcode. This opcode must be ILOAD, LLOAD, FLOAD, DLOAD, ALOAD, ISTORE, LSTORE, FSTORE, DSTORE, ASTORE or RET.
+
+org.objectweb.asm.tree.InsnNode#<init>(I)V
+  opcode
+    +d: the opcode of the instruction to be constructed. This opcode must be NOP, ACONST_NULL, ICONST_M1, ICONST_0, ICONST_1, ICONST_2, ICONST_3, ICONST_4, ICONST_5, LCONST_0, LCONST_1, FCONST_0, FCONST_1, FCONST_2, DCONST_0, DCONST_1, IALOAD, LALOAD, FALOAD, DALOAD, AALOAD, BALOAD, CALOAD, SALOAD, IASTORE, LASTORE, FASTORE, DASTORE, AASTORE, BASTORE, CASTORE, SASTORE, POP, POP2, DUP, DUP_X1, DUP_X2, DUP2, DUP2_X1, DUP2_X2, SWAP, IADD, LADD, FADD, DADD, ISUB, LSUB, FSUB, DSUB, IMUL, LMUL, FMUL, DMUL, IDIV, LDIV, FDIV, DDIV, IREM, LREM, FREM, DREM, INEG, LNEG, FNEG, DNEG, ISHL, LSHL, ISHR, LSHR, IUSHR, LUSHR, IAND, LAND, IOR, LOR, IXOR, LXOR, I2L, I2F, I2D, L2I, L2F, L2D, F2I, F2L, F2D, D2I, D2L, D2F, I2B, I2C, I2S, LCMP, FCMPL, FCMPG, DCMPL, DCMPG, IRETURN, LRETURN, FRETURN, DRETURN, ARETURN, RETURN, ARRAYLENGTH, ATHROW, MONITORENTER, or MONITOREXIT.
+
+org.objectweb.asm.tree.ModuleNode#<init>(ILjava/lang/String;ILjava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.tree.LocalVariableAnnotationNode#<init>(ILorg/objectweb/asm/TypePath;[Lorg/objectweb/asm/tree/LabelNode;[Lorg/objectweb/asm/tree/LabelNode;[ILjava/lang/String;)V
+  end
+    +d: the last instructions corresponding to the continuous ranges that make the scope of this local variable (exclusive). This array must have the same size as the 'start' array.
+  index
+    +d: the local variable's index in each range. This array must have the same size as the 'start' array.
+
+org.objectweb.asm.tree.LocalVariableAnnotationNode#<init>(IILorg/objectweb/asm/TypePath;[Lorg/objectweb/asm/tree/LabelNode;[Lorg/objectweb/asm/tree/LabelNode;[ILjava/lang/String;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+  end
+    +d: the last instructions corresponding to the continuous ranges that make the scope of this local variable (exclusive). This array must have the same size as the 'start' array.
+  index
+    +d: the local variable's index in each range. This array must have the same size as the 'start' array.
+
+org.objectweb.asm.tree.LdcInsnNode#<init>(Ljava/lang/Object;)V
+  value
+    +d: the constant to be loaded on the stack. This parameter must be a non null Integer , a Float , a Long , a Double or a String .
+
+org.objectweb.asm.tree.MethodNode#<init>(I)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.tree.MethodNode#<init>(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.tree.MethodNode#check(I)V
+  api
+    +d: an ASM API version. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+    +c:
+
+org.objectweb.asm.tree.TypeAnnotationNode#<init>(IILorg/objectweb/asm/TypePath;Ljava/lang/String;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.tree.ClassNode#<init>(I)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.tree.ClassNode#check(I)V
+  api
+    +d: an ASM API version. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+    +c:..
+
+org.objectweb.asm.tree.InvokeDynamicInsnNode#<init>(Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)V
+  bootstrapMethodArguments
+    +d: the bootstrap method constant arguments. Each argument must be an Integer , Float , Long , Double , String , org.objectweb.asm.Type or Handle value. This method is allowed to modify the content of the array so a caller should expect that this array may change.
+
+org.objectweb.asm.tree.MethodInsnNode#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  opcode
+    +d: the opcode of the type instruction to be constructed. This opcode must be INVOKEVIRTUAL, INVOKESPECIAL, INVOKESTATIC or INVOKEINTERFACE.
+
+org.objectweb.asm.tree.MethodInsnNode#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+  opcode
+    +d: the opcode of the type instruction to be constructed. This opcode must be INVOKEVIRTUAL, INVOKESPECIAL, INVOKESTATIC or INVOKEINTERFACE.
+
+org.objectweb.asm.tree.MethodInsnNode#setOpcode(I)V
+  opcode
+    +d: the new instruction opcode. This opcode must be INVOKEVIRTUAL, INVOKESPECIAL, INVOKESTATIC or INVOKEINTERFACE.
+
+org.objectweb.asm.tree.TypeInsnNode#<init>(ILjava/lang/String;)V
+  opcode
+    +d: the opcode of the type instruction to be constructed. This opcode must be NEW, ANEWARRAY, CHECKCAST or INSTANCEOF.
+
+org.objectweb.asm.tree.TypeInsnNode#setOpcode(I)V
+  opcode
+    +d: the new instruction opcode. This opcode must be NEW, ANEWARRAY, CHECKCAST or INSTANCEOF.
+
+org.objectweb.asm.tree.InsnList#get(I)Lorg/objectweb/asm/tree/AbstractInsnNode;
+  index
+    +c:.
+
+org.objectweb.asm.tree.InsnList#add(Lorg/objectweb/asm/tree/InsnList;)V
+  insnList
+    +d: an instruction list, which is cleared during the process. This list must be different from 'this'.
+
+org.objectweb.asm.tree.InsnList#insert(Lorg/objectweb/asm/tree/InsnList;)V
+  insnList
+    +d: an instruction list, which is cleared during the process. This list must be different from 'this'.
+
+org.objectweb.asm.tree.InsnList#insert(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/InsnList;)V
+  insnList
+    +d: the instruction list to be inserted, which is cleared during the process. This list must be different from 'this'.
+
+org.objectweb.asm.tree.InsnList#insertBefore(Lorg/objectweb/asm/tree/AbstractInsnNode;Lorg/objectweb/asm/tree/InsnList;)V
+  insnList
+    +d: the instruction list to be inserted, which is cleared during the process. This list must be different from 'this'.
+
+org.objectweb.asm.tree.FieldNode#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+  value
+    +d: the field's initial value. This parameter, which may be  null if the field does not have an initial value, must be an Integer , a Float , a Long , a Double or a String .
+
+org.objectweb.asm.tree.FieldNode#<init>(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 or Opcodes#ASM5 .
+  value
+    +d: the field's initial value. This parameter, which may be  null if the field does not have an initial value, must be an Integer , a Float , a Long , a Double or a String .
+
+org.objectweb.asm.tree.FieldNode#check(I)V
+  api
+    +d: an ASM API version. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.tree.AnnotationNode#<init>(ILjava/lang/String;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.tree.AnnotationNode#check(I)V
+  api
+    +d: an ASM API version. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.tree.FieldInsnNode#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  opcode
+    +d: the opcode of the type instruction to be constructed. This opcode must be GETSTATIC, PUTSTATIC, GETFIELD or PUTFIELD.
+
+org.objectweb.asm.tree.FieldInsnNode#setOpcode(I)V
+  opcode
+    +d: the new instruction opcode. This opcode must be GETSTATIC, PUTSTATIC, GETFIELD or PUTFIELD.
+
+org.objectweb.asm.util.CheckFieldAdapter#<init>(ILorg/objectweb/asm/FieldVisitor;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.util.CheckFieldAdapter#visitAttribute(Lorg/objectweb/asm/Attribute;)V
+  attribute
+    +c:"Invalid attribute (must not be null)".
+
+org.objectweb.asm.util.ASMifier#<init>(ILjava/lang/String;I)V
+  api
+    +d: the ASM API version implemented by this class. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.util.ASMifier#visitFrame(II[Ljava/lang/Object;I[Ljava/lang/Object;)V
+  type
+    +c:.
+
+org.objectweb.asm.util.ASMifier#visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/util/ASMifier;
+  typeRef
+    +d: a reference to the annotated type. The sort of this type reference must be org.objectweb.asm.TypeReference#FIELD . See org.objectweb.asm.TypeReference .
+
+org.objectweb.asm.util.ASMifier#visitTypeAnnotation(Ljava/lang/String;ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/util/ASMifier;
+  typeRef
+    +d: a reference to the annotated type. The sort of this type reference must be org.objectweb.asm.TypeReference#FIELD . See org.objectweb.asm.TypeReference .
+
+org.objectweb.asm.util.ASMifier#appendFrameTypes(I[Ljava/lang/Object;)V
+  frameTypes
+    +c:.
+
+org.objectweb.asm.util.CheckMethodAdapter#<init>(ILorg/objectweb/asm/MethodVisitor;Ljava/util/Map;)V
+  api
+    +d: the ASM API version implemented by this CheckMethodAdapter. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.util.CheckMethodAdapter#<init>(IILjava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/MethodVisitor;Ljava/util/Map;)V
+  api
+    +d: the ASM API version implemented by this CheckMethodAdapter. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.util.CheckMethodAdapter#visitParameter(Ljava/lang/String;I)V
+  name
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitAnnotation(Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;
+  descriptor
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;
+  descriptor
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitParameterAnnotation(ILjava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;
+  parameter
+    +c:"Invalid parameter index".
+  descriptor
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitAttribute(Lorg/objectweb/asm/Attribute;)V
+  attribute
+    +c:"Invalid attribute (must not be null)".
+
+org.objectweb.asm.util.CheckMethodAdapter#visitFrame(II[Ljava/lang/Object;I[Ljava/lang/Object;)V
+  type
+    +c:Invalid frame type.
+  numLocal
+    +c:Invalid numLocal=   for frame type."Array local[] is shorter than numLocal".
+  local
+    +c:
+  numStack
+    +c:Invalid numStack=   for frame type."Array stack[] is shorter than numStack".
+  stack
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitInsn(I)V
+  opcode
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitIntInsn(II)V
+  opcode
+    +c:.
+  operand
+    +c:Invalid operand (must be an array type code T_...):.
+
+org.objectweb.asm.util.CheckMethodAdapter#visitVarInsn(II)V
+  opcode
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitTypeInsn(ILjava/lang/String;)V
+  opcode
+    +c:
+  type
+    +c:NEW cannot be used to create arrays:.
+
+org.objectweb.asm.util.CheckMethodAdapter#visitFieldInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  opcode
+    +c:
+  name
+    +c:
+  descriptor
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitMethodInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  opcode
+    +c:
+  name
+    +c:
+  descriptor
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitMethodInsn(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+  opcode
+    +c:
+  name
+    +c:
+  descriptor
+    +c:
+  isInterface
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitInvokeDynamicInsn(Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)V
+  name
+    +c:
+  descriptor
+    +c:
+  bootstrapMethodHandle
+    +c:invalid handle tag.
+
+org.objectweb.asm.util.CheckMethodAdapter#visitJumpInsn(ILorg/objectweb/asm/Label;)V
+  opcode
+    +c:
+  label
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitLabel(Lorg/objectweb/asm/Label;)V
+  label
+    +c:"Already visited label".
+
+org.objectweb.asm.util.CheckMethodAdapter#visitLdcInsn(Ljava/lang/Object;)V
+  value
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitTableSwitchInsn(IILorg/objectweb/asm/Label;[Lorg/objectweb/asm/Label;)V
+  min
+    +c:Max =    must be greater than or equal to min =.
+  labels
+    +c:"There must be max - min + 1 labels".
+
+org.objectweb.asm.util.CheckMethodAdapter#visitLookupSwitchInsn(Lorg/objectweb/asm/Label;[I[Lorg/objectweb/asm/Label;)V
+  keys
+    +c:"There must be the same number of keys and labels".
+
+org.objectweb.asm.util.CheckMethodAdapter#visitMultiANewArrayInsn(Ljava/lang/String;I)V
+  descriptor
+    +c:Invalid descriptor (must be an array type descriptor):.
+  numDimensions
+    +c:Invalid dimensions (must be greater than 0):.Invalid dimensions (must not be greater than numDimensions(descriptor)):.
+
+org.objectweb.asm.util.CheckMethodAdapter#visitInsnAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;
+  descriptor
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitTryCatchBlock(Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;Ljava/lang/String;)V
+  handler
+    +c:"Try catch blocks must be visited before their labels".
+
+org.objectweb.asm.util.CheckMethodAdapter#visitTryCatchAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;
+  descriptor
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitLocalVariable(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Label;Lorg/objectweb/asm/Label;I)V
+  name
+    +c:
+  descriptor
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#visitLocalVariableAnnotation(ILorg/objectweb/asm/TypePath;[Lorg/objectweb/asm/Label;[Lorg/objectweb/asm/Label;[ILjava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;
+  start
+    +c:"Invalid start, end and index arrays (must be non null and of identical length".
+  end
+    +c:
+  index
+    +c:
+  descriptor
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#checkConstant(Ljava/lang/Object;)V
+  value
+    +c:Invalid constant:.
+
+org.objectweb.asm.util.CheckMethodAdapter#checkUnqualifiedName(ILjava/lang/String;Ljava/lang/String;)V
+  name
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#checkIdentifier(ILjava/lang/String;IILjava/lang/String;)V
+  name
+    +c:(must not contain . ; [ or /):.(must be a valid Java identifier):.
+  startPos
+    +c:
+  endPos
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#checkMethodIdentifier(ILjava/lang/String;Ljava/lang/String;)V
+  name
+    +c:.(must be a valid unqualified name):.(must be a '<init>', '<clinit>' or a valid Java identifier):.
+
+org.objectweb.asm.util.CheckMethodAdapter#checkInternalName(ILjava/lang/String;Ljava/lang/String;)V
+  name
+    +c:.
+
+org.objectweb.asm.util.CheckMethodAdapter#checkDescriptor(ILjava/lang/String;Z)V
+  descriptor
+    +c:.
+  canBeVoid
+    +c:
+
+org.objectweb.asm.util.CheckMethodAdapter#checkMethodDescriptor(ILjava/lang/String;)V
+  descriptor
+    +c:"Invalid method descriptor (must not be null or empty)"....
+
+org.objectweb.asm.util.CheckAnnotationAdapter#visit(Ljava/lang/String;Ljava/lang/Object;)V
+  value
+    +c:"Invalid annotation value"."Invalid annotation value".
+
+org.objectweb.asm.util.CheckAnnotationAdapter#visitEnum(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  value
+    +c:"Invalid enum value".
+
+org.objectweb.asm.util.CheckAnnotationAdapter#checkName(Ljava/lang/String;)V
+  name
+    +c:"Annotation value name must not be null".
+
+org.objectweb.asm.util.CheckClassAdapter#<init>(ILorg/objectweb/asm/ClassVisitor;Z)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.util.CheckClassAdapter#visit(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
+  access
+    +c:
+  name
+    +c:"Illegal class name (null)".
+  signature
+    +c:
+  superName
+    +c:"The super class name of the Object class must be 'null'"."The super class name of a module-info class must be 'null'"."The super class name of interfaces must be 'java/lang/Object'".
+
+org.objectweb.asm.util.CheckClassAdapter#visitModule(Ljava/lang/String;ILjava/lang/String;)Lorg/objectweb/asm/ModuleVisitor;
+  name
+    +c:
+  access
+    +c:
+
+org.objectweb.asm.util.CheckClassAdapter#visitNestMember(Ljava/lang/String;)V
+  nestMember
+    +c:nest member    should be in the package.
+
+org.objectweb.asm.util.CheckClassAdapter#visitOuterClass(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  owner
+    +c:"Illegal outer class owner".
+
+org.objectweb.asm.util.CheckClassAdapter#visitInnerClass(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+  access
+    +c:
+
+org.objectweb.asm.util.CheckClassAdapter#visitField(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Lorg/objectweb/asm/FieldVisitor;
+  access
+    +c:
+  signature
+    +c:
+
+org.objectweb.asm.util.CheckClassAdapter#visitMethod(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Lorg/objectweb/asm/MethodVisitor;
+  access
+    +c:
+  signature
+    +c:
+
+org.objectweb.asm.util.CheckClassAdapter#visitTypeAnnotation(ILorg/objectweb/asm/TypePath;Ljava/lang/String;Z)Lorg/objectweb/asm/AnnotationVisitor;
+  typeRef
+    +c:
+
+org.objectweb.asm.util.CheckClassAdapter#visitAttribute(Lorg/objectweb/asm/Attribute;)V
+  attribute
+    +c:"Invalid attribute (must not be null)".
+
+org.objectweb.asm.util.CheckClassAdapter#checkAccess(II)V
+  access
+    +c:Invalid access flags:.public, protected and private are mutually exclusive:.final and abstract are mutually exclusive:.
+
+org.objectweb.asm.util.CheckClassAdapter#checkFullyQualifiedName(ILjava/lang/String;Ljava/lang/String;)V
+  name
+    +c:Invalid    (must be a fully qualified name):.
+
+org.objectweb.asm.util.CheckClassAdapter#checkClassSignature(Ljava/lang/String;)V
+  signature
+    +c:.
+
+org.objectweb.asm.util.CheckClassAdapter#checkMethodSignature(Ljava/lang/String;)V
+  signature
+    +c:.
+
+org.objectweb.asm.util.CheckClassAdapter#checkFieldSignature(Ljava/lang/String;)V
+  signature
+    +c:.
+
+org.objectweb.asm.util.CheckClassAdapter#checkTypeRef(I)V
+  typeRef
+    +c:.Invalid type reference 0x.
+
+org.objectweb.asm.util.CheckModuleAdapter#<init>(ILorg/objectweb/asm/ModuleVisitor;Z)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.util.CheckModuleAdapter#visitRequire(Ljava/lang/String;ILjava/lang/String;)V
+  access
+    +c:Invalid access flags:    java.base can not be declared ACC_TRANSITIVE or ACC_STATIC_PHASE.
+
+org.objectweb.asm.util.CheckModuleAdapter#visitProvide(Ljava/lang/String;[Ljava/lang/String;)V
+  providers
+    +c:"Providers cannot be null or empty".
+
+org.objectweb.asm.util.Textifier#<init>(I)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.util.Textifier#visitFrame(II[Ljava/lang/Object;I[Ljava/lang/Object;)V
+  type
+    +c:.
+
+org.objectweb.asm.util.Textifier#appendDescriptor(ILjava/lang/String;)V
+  type
+    +d: the type of 'value'. Must be one of #INTERNAL_NAME , #FIELD_DESCRIPTOR , #FIELD_SIGNATURE , #METHOD_DESCRIPTOR , #METHOD_SIGNATURE , #CLASS_SIGNATURE , #TYPE_DECLARATION , #CLASS_DECLARATION , #PARAMETERS_DECLARATION of #HANDLE_DESCRIPTOR .
+
+org.objectweb.asm.util.CheckSignatureAdapter#<init>(IILorg/objectweb/asm/signature/SignatureVisitor;)V
+  api
+    +d: the ASM API version implemented by this visitor. Must be one of Opcodes#ASM4 , Opcodes#ASM5 , Opcodes#ASM6 or Opcodes#ASM7 .
+
+org.objectweb.asm.util.CheckSignatureAdapter#visitFormalTypeParameter(Ljava/lang/String;)V
+  name
+    +c:
+
+org.objectweb.asm.util.CheckSignatureAdapter#visitBaseType(C)V
+  descriptor
+    +c:.
+
+org.objectweb.asm.util.CheckSignatureAdapter#visitTypeVariable(Ljava/lang/String;)V
+  name
+    +c:
+
+org.objectweb.asm.util.CheckSignatureAdapter#visitClassType(Ljava/lang/String;)V
+  name
+    +c:
+
+org.objectweb.asm.util.CheckSignatureAdapter#visitInnerClassType(Ljava/lang/String;)V
+  name
+    +c:
+
+org.objectweb.asm.util.CheckSignatureAdapter#visitTypeArgument(C)Lorg/objectweb/asm/signature/SignatureVisitor;
+  wildcard
+    +c:.
+
+org.objectweb.asm.util.TraceSignatureVisitor#visitBaseType(C)V
+  descriptor
+    +c:.
+
+org.objectweb.asm.TypeReference#putTarget(ILorg/objectweb/asm/ByteVector;)V
+  targetTypeAndInfo
+    +c:.
+
+org.objectweb.asm.Handle#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  tag
+    +d: the kind of field or method designated by this Handle. Must be Opcodes#H_GETFIELD , Opcodes#H_GETSTATIC , Opcodes#H_PUTFIELD , Opcodes#H_PUTSTATIC , Opcodes#H_INVOKEVIRTUAL , Opcodes#H_INVOKESTATIC , Opcodes#H_INVOKESPECIAL , Opcodes#H_NEWINVOKESPECIAL or Opcodes#H_INVOKEINTERFACE .
+
+org.objectweb.asm.Handle#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+  tag
+    +d: the kind of field or method designated by this Handle. Must be Opcodes#H_GETFIELD , Opcodes#H_GETSTATIC , Opcodes#H_PUTFIELD , Opcodes#H_PUTSTATIC , Opcodes#H_INVOKEVIRTUAL , Opcodes#H_INVOKESTATIC , Opcodes#H_INVOKESPECIAL , Opcodes#H_NEWINVOKESPECIAL or Opcodes#H_INVOKEINTERFACE .
+
+org.objectweb.asm.ClassWriter#<init>(I)V
+  flags
+    +d: option flags that can be used to modify the default behavior of this class. Must be zero or more of #COMPUTE_MAXS and #COMPUTE_FRAMES .
+
+org.objectweb.asm.ClassWriter#newConst(Ljava/lang/Object;)I
+  value
+    +d: the value of the constant to be added to the constant pool. This parameter must be an Integer , a Float , a Long , a Double or a String .
+
+org.objectweb.asm.ClassWriter#newHandle(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+  tag
+    +d: the kind of this handle. Must be Opcodes#H_GETFIELD , Opcodes#H_GETSTATIC , Opcodes#H_PUTFIELD , Opcodes#H_PUTSTATIC , Opcodes#H_INVOKEVIRTUAL , Opcodes#H_INVOKESTATIC , Opcodes#H_INVOKESPECIAL , Opcodes#H_NEWINVOKESPECIAL or Opcodes#H_INVOKEINTERFACE .
+
+org.objectweb.asm.ClassWriter#newHandle(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)I
+  tag
+    +d: the kind of this handle. Must be Opcodes#H_GETFIELD , Opcodes#H_GETSTATIC , Opcodes#H_PUTFIELD , Opcodes#H_PUTSTATIC , Opcodes#H_INVOKEVIRTUAL , Opcodes#H_INVOKESTATIC , Opcodes#H_INVOKESPECIAL , Opcodes#H_NEWINVOKESPECIAL or Opcodes#H_INVOKEINTERFACE .
+
+org.objectweb.asm.ClassWriter#getCommonSuperClass(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  type1
+    +c:.
+  type2
+    +c:.
+
+org.objectweb.asm.Label#put(Lorg/objectweb/asm/ByteVector;IZ)V
+  wideReference
+    +d: whether the reference must be stored in 4 bytes (instead of 2 bytes).
+
+org.objectweb.asm.Attribute#write(Lorg/objectweb/asm/ClassWriter;[BIII)Lorg/objectweb/asm/ByteVector;
+  classWriter
+    +d: the class to which this attribute must be added. This parameter can be used to add the items that corresponds to this attribute to the constant pool of this class.
+
+org.objectweb.asm.ConstantDynamic#<init>(Ljava/lang/String;Ljava/lang/String;Lorg/objectweb/asm/Handle;[Ljava/lang/Object;)V
+  name
+    +d: the constant name (can be arbitrary).
+  descriptor
+    +d: the constant type (must be a field descriptor).
+
+org.objectweb.asm.ClassReader#<init>([BIZ)V
+  classFileBuffer
+    +c:.
+  checkClassVersion
+    +c:Unsupported class file major version.
+
+org.objectweb.asm.ClassReader#<init>(Ljava/io/InputStream;)V
+  inputStream
+    +d: an input stream of the JVMS ClassFile structure to be read. This input stream must contain nothing more than the ClassFile structure itself. It is read from its current position to its end.
+    +c:
+
+org.objectweb.asm.ClassReader#readLabel(I[Lorg/objectweb/asm/Label;)Lorg/objectweb/asm/Label;
+  labels
+    +d: the already created labels, indexed by their offset. If a label already exists for bytecodeOffset this method must not create a new one. Otherwise it must store the new label in this array.
+
+org.objectweb.asm.ClassReader#readUTF8(I[C)Ljava/lang/String;
+  charBuffer
+    +d: the buffer to be used to read the string. This buffer must be sufficiently large. It is not automatically resized.
+
+org.objectweb.asm.ClassReader#readUtf(I[C)Ljava/lang/String;
+  charBuffer
+    +d: the buffer to be used to read the string. This buffer must be sufficiently large. It is not automatically resized.
+
+org.objectweb.asm.ClassReader#readClass(I[C)Ljava/lang/String;
+  charBuffer
+    +d: the buffer to be used to read the item. This buffer must be sufficiently large. It is not automatically resized.
+
+org.objectweb.asm.ClassReader#readModule(I[C)Ljava/lang/String;
+  charBuffer
+    +d: the buffer to be used to read the item. This buffer must be sufficiently large. It is not automatically resized.
+
+org.objectweb.asm.ClassReader#readPackage(I[C)Ljava/lang/String;
+  charBuffer
+    +d: the buffer to be used to read the item. This buffer must be sufficiently large. It is not automatically resized.
+
+org.objectweb.asm.ClassReader#readConst(I[C)Ljava/lang/Object;
+  charBuffer
+    +d: the buffer to be used to read strings. This buffer must be sufficiently large. It is not automatically resized.
+
+org.objectweb.asm.ByteVector#putUTF8(Ljava/lang/String;)Lorg/objectweb/asm/ByteVector;
+  stringValue
+    +d: a String whose UTF8 encoded length must be less than 65536.
+    +c:
+
+org.objectweb.asm.ByteVector#encodeUtf8(Ljava/lang/String;II)Lorg/objectweb/asm/ByteVector;
+  maxByteLength
+    +c:"UTF8 string too large".
+
+org.objectweb.asm.TypePath#fromString(Ljava/lang/String;)Lorg/objectweb/asm/TypePath;
+  typePath
+    +c:
+
+org.objectweb.asm.Type#getType(Ljava/lang/Class;)Lorg/objectweb/asm/Type;
+  clazz
+    +c:.
+
+org.objectweb.asm.Type#getDescriptor(Ljava/lang/Class;)Ljava/lang/String;
+  clazz
+    +c:
+
+org.objectweb.asm.Type#getOpcode(I)I
+  opcode
+    +d: a JVM instruction opcode. This opcode must be one of ILOAD, ISTORE, IALOAD, IASTORE, IADD, ISUB, IMUL, IDIV, IREM, INEG, ISHL, ISHR, IUSHR, IAND, IOR, IXOR and IRETURN.
+    +c:..
+
+org.objectweb.asm.tools.Retrofitter#retrofit(Ljava/io/File;Ljava/io/File;)V
+  src
+    +c:Unable to read files of.
+  dst
+    +c:Cannot create directory.
+

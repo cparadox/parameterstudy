@@ -1,0 +1,1458 @@
+org.jfree.chart.ChartTransferable#getTransferData(Ljava/awt/datatransfer/DataFlavor;)Ljava/lang/Object;
+  flavor
+    +c:.
+
+org.jfree.chart.JFreeChart#getSubtitle(I)Lorg/jfree/chart/title/Title;
+  index
+    +c:"Index out of range.".
+
+org.jfree.chart.JFreeChart#addSubtitle(ILorg/jfree/chart/title/Title;)V
+  index
+    +c:"The 'index' argument is out of range.".
+
+org.jfree.chart.ChartPanel#<init>(Lorg/jfree/chart/JFreeChart;ZZZZZ)V
+  print
+    +d:  a flag indicating whether or not the print option should be available via the popup menu.
+
+org.jfree.chart.ChartPanel#<init>(Lorg/jfree/chart/JFreeChart;IIIIIIZZZZZZ)V
+  print
+    +d:  a flag indicating whether or not the print option should be available via the popup menu.
+
+org.jfree.chart.ChartPanel#<init>(Lorg/jfree/chart/JFreeChart;IIIIIIZZZZZZZ)V
+  copy
+    +d:  a flag indicating whether or not a copy option should be available via the popup menu.
+  print
+    +d:  a flag indicating whether or not the print option should be available via the popup menu.
+
+org.jfree.chart.ChartPanel#setDefaultDirectoryForSaveAs(Ljava/io/File;)V
+  directory
+    +c:"The 'directory' argument is not a directory.".
+
+org.jfree.chart.annotations.XYPolygonAnnotation#<init>([DLjava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Paint;)V
+  polygon
+    +c:The 'polygon' array must  contain an even number of items.
+
+org.jfree.chart.axis.AxisSpace#add(DLorg/jfree/chart/ui/RectangleEdge;)V
+  edge
+    +c:"Unrecognised 'edge' argument.".
+
+org.jfree.chart.axis.AxisSpace#ensureAtLeast(DLorg/jfree/chart/ui/RectangleEdge;)V
+  edge
+    +c:"AxisSpace.ensureAtLeast(): unrecognised AxisLocation.".
+
+org.jfree.chart.axis.CategoryLabelPositions#createUpRotationLabelPositions(D)Lorg/jfree/chart/axis/CategoryLabelPositions;
+  angle
+    +d:  the rotation angle (should be < Math.PI / 2.0).
+
+org.jfree.chart.axis.CategoryLabelPositions#createDownRotationLabelPositions(D)Lorg/jfree/chart/axis/CategoryLabelPositions;
+  angle
+    +d:  the rotation angle (should be < Math.PI / 2.0).
+
+org.jfree.chart.axis.DateTickUnit#<init>(Lorg/jfree/chart/axis/DateTickUnitType;I)V
+  multiple
+    +d:  the multiple (of the unit type, must be > 0).
+
+org.jfree.chart.axis.DateTickUnit#<init>(Lorg/jfree/chart/axis/DateTickUnitType;ILjava/text/DateFormat;)V
+  multiple
+    +d:  the multiple (of the unit type, must be > 0).
+
+org.jfree.chart.axis.DateTickUnit#<init>(Lorg/jfree/chart/axis/DateTickUnitType;ILorg/jfree/chart/axis/DateTickUnitType;ILjava/text/DateFormat;)V
+  multiple
+    +c:"Requires 'multiple' > 0.".
+  rollMultiple
+    +c:"Requires 'rollMultiple' > 0.".
+
+org.jfree.chart.axis.DateTickUnit#getMillisecondCount(Lorg/jfree/chart/axis/DateTickUnitType;I)J
+  unit
+    +c:The 'unit' argument has a  value that is not recognised.
+
+org.jfree.chart.axis.LogAxis#setBase(D)V
+  base
+    +d:  the base value (must be > 1.0).
+    +c:"Requires 'base' > 1.0.".
+
+org.jfree.chart.axis.LogAxis#setSmallestValue(D)V
+  value
+    +c:"Requires 'value' > 0.0.".
+
+org.jfree.chart.axis.LogAxis#resizeRange2(DD)V
+  percent
+    +d:  the percentage (must be greater than zero).
+
+org.jfree.chart.axis.DateAxis#setRange(Ljava/util/Date;Ljava/util/Date;)V
+  lower
+    +c:"Requires 'lower' < 'upper'.".
+
+org.jfree.chart.axis.DateAxis#setRange(DD)V
+  lower
+    +c:"Requires 'lower' < 'upper'.".
+
+org.jfree.chart.axis.CompassFormat#<init>([Ljava/lang/String;)V
+  directions
+    +c:The 'directions' array must  contain exactly 16 elements.
+
+org.jfree.chart.axis.NumberTickUnitSource#getCeilingTickUnit(D)Lorg/jfree/chart/axis/TickUnit;
+  size
+    +c:"Must be finite.".
+
+org.jfree.chart.axis.TickUnits#add(Lorg/jfree/chart/axis/TickUnit;)V
+  unit
+    +c:"Null 'unit' argument.".
+
+org.jfree.chart.axis.AxisLocation#getOpposite(Lorg/jfree/chart/axis/AxisLocation;)Lorg/jfree/chart/axis/AxisLocation;
+  location
+    +c:"AxisLocation not recognised.".
+
+org.jfree.chart.axis.CategoryAxis#getCategoryMiddle(IILjava/awt/geom/Rectangle2D;Lorg/jfree/chart/ui/RectangleEdge;)D
+  category
+    +c:Invalid category index:.
+
+org.jfree.chart.date.SpreadsheetDate#<init>(III)V
+  day
+    +c:"Invalid 'day' argument.".
+  month
+    +c:"The 'month' argument must be in the range 1 to 12.".
+  year
+    +c:"The 'year' argument must be in range 1900 to 9999.".
+
+org.jfree.chart.date.SpreadsheetDate#<init>(I)V
+  serial
+    +c:"SpreadsheetDate: Serial must be in range 2 to 2958465.".
+
+org.jfree.chart.encoders.SunJPEGEncoderAdapter#setQuality(F)V
+  quality
+    +c:"The 'quality' must be in the range 0.0f to 1.0f".
+
+org.jfree.chart.encoders.ImageEncoderFactory#newInstance(Ljava/lang/String;)Lorg/jfree/chart/encoders/ImageEncoder;
+  format
+    +c:Unsupported image format -.
+
+org.jfree.chart.encoders.ImageEncoderFactory#newInstance(Ljava/lang/String;F)Lorg/jfree/chart/encoders/ImageEncoder;
+  format
+    +c:
+
+org.jfree.chart.encoders.ImageEncoderFactory#newInstance(Ljava/lang/String;Z)Lorg/jfree/chart/encoders/ImageEncoder;
+  format
+    +c:
+
+org.jfree.chart.encoders.ImageEncoderFactory#newInstance(Ljava/lang/String;FZ)Lorg/jfree/chart/encoders/ImageEncoder;
+  format
+    +c:
+
+org.jfree.chart.labels.StandardCrosshairLabelGenerator#<init>(Ljava/lang/String;Ljava/text/NumberFormat;)V
+  labelTemplate
+    +c:"Null 'labelTemplate' argument.".
+  numberFormat
+    +c:"Null 'numberFormat' argument.".
+
+org.jfree.chart.labels.HighLowItemLabelGenerator#<init>(Ljava/text/DateFormat;Ljava/text/NumberFormat;)V
+  dateFormatter
+    +c:"Null 'dateFormatter' argument.".
+  numberFormatter
+    +c:"Null 'numberFormatter' argument.".
+
+org.jfree.chart.plot.ThermometerPlot#setValueLocation(I)V
+  location
+    +c:"Location not recognised.".
+
+org.jfree.chart.plot.ThermometerPlot#setAxisLocation(I)V
+  location
+    +c:"Location not recognised.".
+
+org.jfree.chart.plot.CombinedRangeXYPlot#add(Lorg/jfree/chart/plot/XYPlot;I)V
+  weight
+    +d:  the weight (must be 1 or greater).
+    +c:The 'weight' must be positive.
+
+org.jfree.chart.plot.SpiderWebPlot#setInteriorGap(D)V
+  percent
+    +c:"Percentage outside valid range.".
+
+org.jfree.chart.plot.CategoryPlot#setDomainAxisLocation(ILorg/jfree/chart/axis/AxisLocation;)V
+  index
+    +c:
+
+org.jfree.chart.plot.CategoryPlot#setDomainAxisLocation(ILorg/jfree/chart/axis/AxisLocation;Z)V
+  index
+    +c:"Null 'location' for index 0 not permitted.".
+
+org.jfree.chart.plot.CategoryPlot#setRangeAxisLocation(ILorg/jfree/chart/axis/AxisLocation;)V
+  index
+    +c:
+
+org.jfree.chart.plot.CategoryPlot#setRangeAxisLocation(ILorg/jfree/chart/axis/AxisLocation;Z)V
+  index
+    +c:"Null 'location' for index 0 not permitted.".
+
+org.jfree.chart.plot.CategoryPlot#getDataset(I)Lorg/jfree/data/category/CategoryDataset;
+  index
+    +d:  the dataset index (must be >= 0).
+
+org.jfree.chart.plot.CategoryPlot#setDataset(ILorg/jfree/data/category/CategoryDataset;)V
+  index
+    +d:  the dataset index (must be >= 0).
+
+org.jfree.chart.plot.CategoryPlot#getDomainAxisForDataset(I)Lorg/jfree/chart/axis/CategoryAxis;
+  index
+    +d:  the dataset index (must be >= 0).
+
+org.jfree.chart.plot.CategoryPlot#getRangeAxisForDataset(I)Lorg/jfree/chart/axis/ValueAxis;
+  index
+    +d:  the dataset index (must be >= 0).
+
+org.jfree.chart.plot.XYPlot#getDomainAxisLocation(I)Lorg/jfree/chart/axis/AxisLocation;
+  index
+    +d:  the axis index (must be >= 0).
+
+org.jfree.chart.plot.XYPlot#setDomainAxisLocation(ILorg/jfree/chart/axis/AxisLocation;)V
+  index
+    +c:
+
+org.jfree.chart.plot.XYPlot#setDomainAxisLocation(ILorg/jfree/chart/axis/AxisLocation;Z)V
+  index
+    +d:  the axis index (must be >= 0).
+    +c:"Null 'location' for index 0 not permitted.".
+
+org.jfree.chart.plot.XYPlot#getRangeAxis(I)Lorg/jfree/chart/axis/ValueAxis;
+  index
+    +d:  the axis index (must be >= 0).
+
+org.jfree.chart.plot.XYPlot#getRangeAxisLocation(I)Lorg/jfree/chart/axis/AxisLocation;
+  index
+    +d:  the axis index (must be >= 0).
+
+org.jfree.chart.plot.XYPlot#setRangeAxisLocation(ILorg/jfree/chart/axis/AxisLocation;)V
+  index
+    +c:
+
+org.jfree.chart.plot.XYPlot#setRangeAxisLocation(ILorg/jfree/chart/axis/AxisLocation;Z)V
+  index
+    +c:"Null 'location' for index 0 not permitted.".
+
+org.jfree.chart.plot.XYPlot#getDataset(I)Lorg/jfree/data/xy/XYDataset;
+  index
+    +d:  the dataset index (must be >= 0).
+
+org.jfree.chart.plot.XYPlot#setDataset(ILorg/jfree/data/xy/XYDataset;)V
+  index
+    +d:  the dataset index (must be >= 0).
+
+org.jfree.chart.plot.XYPlot#getRenderer(I)Lorg/jfree/chart/renderer/xy/XYItemRenderer;
+  index
+    +d:  the renderer index (must be >= 0).
+
+org.jfree.chart.plot.XYPlot#setRenderer(ILorg/jfree/chart/renderer/xy/XYItemRenderer;)V
+  index
+    +d:  the index (must be >= 0).
+
+org.jfree.chart.plot.XYPlot#setRenderer(ILorg/jfree/chart/renderer/xy/XYItemRenderer;Z)V
+  index
+    +d:  the index (must be >= 0).
+
+org.jfree.chart.plot.XYPlot#getQuadrantPaint(I)Ljava/awt/Paint;
+  index
+    +c:The index value (  ) should be in the range 0 to 3.
+
+org.jfree.chart.plot.XYPlot#setQuadrantPaint(ILjava/awt/Paint;)V
+  index
+    +c:The index value (  ) should be in the range 0 to 3.
+
+org.jfree.chart.plot.XYPlot#getDomainAxisForDataset(I)Lorg/jfree/chart/axis/ValueAxis;
+  index
+    +d:  the dataset index (must be >= 0).
+
+org.jfree.chart.plot.XYPlot#getRangeAxisForDataset(I)Lorg/jfree/chart/axis/ValueAxis;
+  index
+    +d:  the dataset index (must be >= 0).
+
+org.jfree.chart.plot.CombinedDomainCategoryPlot#add(Lorg/jfree/chart/plot/CategoryPlot;I)V
+  weight
+    +d:  the weight (must be >= 1).
+    +c:"Require weight >= 1.".
+
+org.jfree.chart.plot.PolarPlot#mapDatasetToAxis(II)V
+  index
+    +c:
+
+org.jfree.chart.plot.PolarPlot#mapDatasetToAxes(ILjava/util/List;)V
+  index
+    +c:"Requires 'index' >= 0.".
+
+org.jfree.chart.plot.MultiplePiePlot#setPieChart(Lorg/jfree/chart/JFreeChart;)V
+  pieChart
+    +c:The 'pieChart' argument must  be a chart based on a PiePlot.
+
+org.jfree.chart.plot.MeterPlot#setMeterAngle(I)V
+  angle
+    +c:Invalid 'angle' (  ).
+
+org.jfree.chart.plot.MeterPlot#setRange(Lorg/jfree/data/Range;)V
+  range
+    +c:"Range length must be positive.".
+
+org.jfree.chart.plot.MeterPlot#setTickSize(D)V
+  size
+    +d:  the tick size (must be > 0).
+    +c:"Requires 'size' > 0.".
+
+org.jfree.chart.plot.PiePlot#setInteriorGap(D)V
+  percent
+    +c:Invalid 'percent' (  ) argument.
+
+org.jfree.chart.plot.CombinedDomainXYPlot#add(Lorg/jfree/chart/plot/XYPlot;I)V
+  weight
+    +d:  the weight (must be >= 1).
+    +c:"Require weight >= 1.".
+
+org.jfree.chart.plot.CombinedRangeCategoryPlot#add(Lorg/jfree/chart/plot/CategoryPlot;I)V
+  weight
+    +d:  the weight (must be >= 1).
+    +c:"Require weight >= 1.".
+
+org.jfree.chart.plot.CompassPlot#setLabelType(I)V
+  type
+    +c:"MeterPlot.setLabelType(int): unrecognised type.".
+
+org.jfree.chart.plot.CompassPlot#setSeriesNeedle(II)V
+  type
+    +c:"Unrecognised type.".
+
+org.jfree.chart.plot.dial.DialTextAnnotation#setRadius(D)V
+  radius
+    +c:"The 'radius' cannot be negative.".
+
+org.jfree.chart.plot.dial.StandardDialScale#<init>(DDDDDI)V
+  majorTickIncrement
+    +d:  the interval between major tick marks (must be > 0).
+    +c:"Requires 'majorTickIncrement' > 0.".
+
+org.jfree.chart.plot.dial.StandardDialScale#setTickRadius(D)V
+  radius
+    +c:"The 'radius' must be positive.".
+
+org.jfree.chart.plot.dial.StandardDialScale#setMajorTickIncrement(D)V
+  increment
+    +d:  the increment (must be > 0).
+    +c:"The 'increment' must be positive.".
+
+org.jfree.chart.plot.dial.StandardDialScale#setMajorTickLength(D)V
+  length
+    +c:"Negative 'length' argument.".
+
+org.jfree.chart.plot.dial.StandardDialScale#setMinorTickCount(I)V
+  count
+    +c:"The 'count' cannot be negative.".
+
+org.jfree.chart.plot.dial.StandardDialScale#setMinorTickLength(D)V
+  length
+    +c:"Negative 'length' argument.".
+
+org.jfree.chart.plot.dial.StandardDialFrame#setRadius(D)V
+  radius
+    +d:  the radius (must be positive).
+    +c:"The 'radius' must be positive.".
+
+org.jfree.chart.plot.dial.StandardDialRange#setLowerBound(D)V
+  bound
+    +c:"Lower bound must be less than upper bound.".
+
+org.jfree.chart.plot.dial.StandardDialRange#setUpperBound(D)V
+  bound
+    +c:"Lower bound must be less than upper bound.".
+
+org.jfree.chart.plot.dial.StandardDialRange#setBounds(DD)V
+  upper
+    +c:"Lower must be less than upper.".
+
+org.jfree.chart.plot.dial.DialPlot#rectangleByRadius(Ljava/awt/geom/Rectangle2D;DD)Ljava/awt/geom/Rectangle2D;
+  radiusW
+    +d:  the width radius (must be > 0.0)
+
+org.jfree.chart.plot.dial.DialCap#setRadius(D)V
+  radius
+    +d:  the radius (must be greater than zero).
+    +c:"Requires radius > 0.0.".
+
+org.jfree.chart.plot.dial.DialValueIndicator#fixToRange(DDD)D
+  minX
+    +c:"Requires 'minX' <= 'maxX'.".
+
+org.jfree.chart.plot.dial.ArcDialFrame#setInnerRadius(D)V
+  radius
+    +c:"Negative 'radius' argument.".
+
+org.jfree.chart.plot.dial.ArcDialFrame#setOuterRadius(D)V
+  radius
+    +c:"Negative 'radius' argument.".
+
+org.jfree.chart.renderer.GrayPaintScale#<init>(DDI)V
+  lowerBound
+    +c:"Requires lowerBound < upperBound.".
+  alpha
+    +c:"Requires alpha in the range 0 to 255.".
+
+org.jfree.chart.renderer.GrayPaintScale#getPaint(D)Ljava/awt/Paint;
+  value
+    +d:  the value (must be within the range specified by the lower and upper bounds for the scale).
+
+org.jfree.chart.renderer.LookupPaintScale#<init>(DDLjava/awt/Paint;)V
+  lowerBound
+    +c:"Requires lowerBound < upperBound.".
+
+org.jfree.chart.renderer.RendererUtils#findLiveItemsLowerBound(Lorg/jfree/data/xy/XYDataset;IDD)I
+  xLow
+    +c:"Requires xLow < xHigh.".
+
+org.jfree.chart.renderer.RendererUtils#findLiveItemsUpperBound(Lorg/jfree/data/xy/XYDataset;IDD)I
+  xLow
+    +c:"Requires xLow < xHigh.".
+
+org.jfree.chart.renderer.category.ScatterRenderer#setItemMargin(D)V
+  margin
+    +c:"Requires 0.0 <= margin < 1.0.".
+
+org.jfree.chart.renderer.category.BoxAndWhiskerRenderer#setWhiskerWidth(D)V
+  width
+    +c:"Value for whisker width out of range".
+
+org.jfree.chart.renderer.category.BoxAndWhiskerRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/category/CategoryItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/CategoryPlot;Lorg/jfree/chart/axis/CategoryAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/category/CategoryDataset;III)V
+  dataset
+    +d:  the data (must be an instance of BoxAndWhiskerCategoryDataset ).
+    +c:BoxAndWhiskerRenderer.drawItem() : the data should be  of type BoxAndWhiskerCategoryDataset only.
+
+org.jfree.chart.renderer.category.BoxAndWhiskerRenderer#drawHorizontalItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/category/CategoryItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/CategoryPlot;Lorg/jfree/chart/axis/CategoryAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/category/CategoryDataset;II)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+  dataset
+    +d:  the dataset (must be an instance of BoxAndWhiskerCategoryDataset ).
+
+org.jfree.chart.renderer.category.BoxAndWhiskerRenderer#drawVerticalItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/category/CategoryItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/CategoryPlot;Lorg/jfree/chart/axis/CategoryAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/category/CategoryDataset;II)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+  dataset
+    +d:  the dataset (must be an instance of BoxAndWhiskerCategoryDataset ).
+
+org.jfree.chart.renderer.category.LineAndShapeRenderer#setItemMargin(D)V
+  margin
+    +c:"Requires 0.0 <= margin < 1.0.".
+
+org.jfree.chart.renderer.category.StatisticalBarRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/category/CategoryItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/CategoryPlot;Lorg/jfree/chart/axis/CategoryAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/category/CategoryDataset;III)V
+  data
+    +c:"Requires StatisticalCategoryDataset.".
+
+org.jfree.chart.renderer.category.BarRenderer#setMinimumBarLength(D)V
+  min
+    +d:  the minimum bar length (in Java2D units, must be >= 0.0).
+    +c:"Requires 'min' >= 0.0".
+
+org.jfree.chart.renderer.xy.CandlestickRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYAreaRenderer2#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYBarRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYBubbleRenderer#<init>(I)V
+  scaleType
+    +d:  the type of scaling (must be one of: #SCALE_ON_BOTH_AXES , #SCALE_ON_DOMAIN_AXIS , #SCALE_ON_RANGE_AXIS ).
+    +c:"Invalid 'scaleType'.".
+
+org.jfree.chart.renderer.xy.XYBubbleRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYStepAreaRenderer#setStepPoint(D)V
+  stepPoint
+    +c:"Requires stepPoint in [0.0;1.0]".
+
+org.jfree.chart.renderer.xy.XYStepAreaRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYStepAreaRenderer#restrictValueToDataArea(DLorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;)D
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYStepRenderer#setStepPoint(D)V
+  stepPoint
+    +c:"Requires stepPoint in [0.0;1.0]".
+
+org.jfree.chart.renderer.xy.XYStepRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYAreaRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYSplineRenderer#<init>(ILorg/jfree/chart/renderer/xy/XYSplineRenderer$FillType;)V
+  precision
+    +c:"Requires precision > 0.".
+
+org.jfree.chart.renderer.xy.XYSplineRenderer#setPrecision(I)V
+  p
+    +d:  number of line segments between points (must be > 0).
+    +c:"Requires p > 0.".
+
+org.jfree.chart.renderer.xy.XYSplineRenderer#drawPrimaryLineAsPath(Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/data/xy/XYDataset;IIILorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Ljava/awt/geom/Rectangle2D;)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYLineAndShapeRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYLineAndShapeRenderer#drawPrimaryLine(Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/data/xy/XYDataset;IIILorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Ljava/awt/geom/Rectangle2D;)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYLineAndShapeRenderer#drawPrimaryLineAsPath(Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/data/xy/XYDataset;IIILorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Ljava/awt/geom/Rectangle2D;)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYLineAndShapeRenderer#drawSecondaryPass(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/data/xy/XYDataset;IIILorg/jfree/chart/axis/ValueAxis;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/plot/CrosshairState;Lorg/jfree/chart/entity/EntityCollection;)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.StackedXYAreaRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.YIntervalRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.ClusteredXYBarRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.StandardXYItemRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.StandardXYItemRenderer#getImage(Lorg/jfree/chart/plot/Plot;IIDD)Ljava/awt/Image;
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.StandardXYItemRenderer#getImageHotspot(Lorg/jfree/chart/plot/Plot;IIDDLjava/awt/Image;)Ljava/awt/Point;
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+  image
+    +d:  the image (can be used to get size information about the image)
+
+org.jfree.chart.renderer.xy.DeviationRenderer#setAlpha(F)V
+  alpha
+    +c:"Requires 'alpha' in the range 0.0 to 1.0.".
+
+org.jfree.chart.renderer.xy.DeviationRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.SamplingXYLineRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYDotRenderer#setDotWidth(I)V
+  w
+    +d:  the new width (must be greater than zero).
+    +c:"Requires w > 0.".
+
+org.jfree.chart.renderer.xy.XYDotRenderer#setDotHeight(I)V
+  h
+    +d:  the new height (must be greater than zero).
+    +c:"Requires h > 0.".
+
+org.jfree.chart.renderer.xy.XYDotRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.StackedXYBarRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+  dataset
+    +c:dataset (type  ) has wrong type:   it is no IntervalXYDataset   and   it is no TableXYDataset.
+
+org.jfree.chart.renderer.xy.HighLowRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.StackedXYAreaRenderer2#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYBlockRenderer#setBlockWidth(D)V
+  width
+    +d:  the new width, in data/axis units (must be > 0.0).
+    +c:"The 'width' argument must be > 0.0".
+
+org.jfree.chart.renderer.xy.XYBlockRenderer#setBlockHeight(D)V
+  height
+    +d:  the new height, in data/axis units (must be > 0.0).
+    +c:"The 'height' argument must be > 0.0".
+
+org.jfree.chart.renderer.xy.WindItemRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYDifferenceRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYDifferenceRenderer#drawItemPass0(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;)V
+  x_plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYDifferenceRenderer#drawItemPass1(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;)V
+  x_plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYDifferenceRenderer#createPolygon(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ZLjava/util/LinkedList;Ljava/util/LinkedList;)V
+  x_plot
+    +d:  the plot (can be used to obtain standard color information etc).
+
+org.jfree.chart.renderer.xy.XYBoxAndWhiskerRenderer#drawItem(Ljava/awt/Graphics2D;Lorg/jfree/chart/renderer/xy/XYItemRendererState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+  dataset
+    +d:  the dataset (must be an instance of BoxAndWhiskerXYDataset ).
+
+org.jfree.chart.renderer.xy.XYBoxAndWhiskerRenderer#drawHorizontalItem(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+  dataset
+    +d:  the dataset (must be an instance of BoxAndWhiskerXYDataset ).
+
+org.jfree.chart.renderer.xy.XYBoxAndWhiskerRenderer#drawVerticalItem(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/XYPlot;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/data/xy/XYDataset;IILorg/jfree/chart/plot/CrosshairState;I)V
+  plot
+    +d:  the plot (can be used to obtain standard color information etc).
+  dataset
+    +d:  the dataset (must be an instance of BoxAndWhiskerXYDataset ).
+
+org.jfree.chart.text.TextBlock#setLineAlignment(Lorg/jfree/chart/ui/HorizontalAlignment;)V
+  alignment
+    +c:"Null 'alignment' argument.".
+
+org.jfree.chart.text.TextLine#<init>(Ljava/lang/String;Ljava/awt/Font;Ljava/awt/Paint;)V
+  text
+    +c:"Null 'text' argument.".
+  font
+    +c:"Null 'font' argument.".
+  paint
+    +c:"Null 'paint' argument.".
+
+org.jfree.chart.text.TextFragment#<init>(Ljava/lang/String;Ljava/awt/Font;Ljava/awt/Paint;F)V
+  text
+    +c:"Null 'text' argument.".
+  font
+    +c:"Null 'font' argument.".
+  paint
+    +c:"Null 'paint' argument.".
+
+org.jfree.chart.text.TextUtils#createTextBlock(Ljava/lang/String;Ljava/awt/Font;Ljava/awt/Paint;)Lorg/jfree/chart/text/TextBlock;
+  text
+    +c:"Null 'text' argument.".
+
+org.jfree.chart.title.TextTitle#<init>(Ljava/lang/String;Ljava/awt/Font;Ljava/awt/Paint;Lorg/jfree/chart/ui/RectangleEdge;Lorg/jfree/chart/ui/HorizontalAlignment;Lorg/jfree/chart/ui/VerticalAlignment;Lorg/jfree/chart/ui/RectangleInsets;)V
+  text
+    +c:"Null 'text' argument.".
+  font
+    +c:"Null 'font' argument.".
+  paint
+    +c:"Null 'paint' argument.".
+
+org.jfree.chart.title.PaintScaleLegend#setSubdivisionCount(I)V
+  count
+    +c:"Requires 'count' > 0.".
+
+org.jfree.chart.title.ImageTitle#<init>(Ljava/awt/Image;IILorg/jfree/chart/ui/RectangleEdge;Lorg/jfree/chart/ui/HorizontalAlignment;Lorg/jfree/chart/ui/VerticalAlignment;Lorg/jfree/chart/ui/RectangleInsets;)V
+  image
+    +c:"Null 'image' argument.".
+
+org.jfree.chart.title.ImageTitle#setImage(Ljava/awt/Image;)V
+  image
+    +c:"Null 'image' argument.".
+
+org.jfree.chart.ui.StandardGradientPaintTransformer#<init>(Lorg/jfree/chart/ui/GradientPaintTransformType;)V
+  type
+    +c:"Null 'type' argument.".
+
+org.jfree.chart.ui.RectangleInsets#<init>(Lorg/jfree/chart/util/UnitType;DDDD)V
+  unitType
+    +c:"Null 'unitType' argument.".
+
+org.jfree.chart.ui.RectangleInsets#createAdjustedRectangle(Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/ui/LengthAdjustmentType;Lorg/jfree/chart/ui/LengthAdjustmentType;)Ljava/awt/geom/Rectangle2D;
+  base
+    +c:"Null 'base' argument.".
+
+org.jfree.chart.ui.RectangleInsets#createInsetRectangle(Ljava/awt/geom/Rectangle2D;ZZ)Ljava/awt/geom/Rectangle2D;
+  base
+    +c:"Null 'base' argument.".
+
+org.jfree.chart.ui.RectangleInsets#createOutsetRectangle(Ljava/awt/geom/Rectangle2D;ZZ)Ljava/awt/geom/Rectangle2D;
+  base
+    +c:"Null 'base' argument.".
+
+org.jfree.chart.ui.FontChooserPanel#setSelectedFont(Ljava/awt/Font;)V
+  font
+    +c:.
+
+org.jfree.chart.util.ObjectUtils#clone(Ljava/lang/Object;)Ljava/lang/Object;
+  object
+    +c:"Null 'object' argument."."Object without clone() method is impossible."."Object.clone(): unable to call method."."Object without clone() method is impossible.".
+
+org.jfree.chart.util.ObjectUtils#deepClone(Ljava/util/Collection;)Ljava/util/Collection;
+  collection
+    +c:"Null 'collection' argument.".
+
+org.jfree.chart.util.ShapeUtils#createTranslatedShape(Ljava/awt/Shape;DD)Ljava/awt/Shape;
+  shape
+    +c:"Null 'shape' argument.".
+
+org.jfree.chart.util.ShapeUtils#createTranslatedShape(Ljava/awt/Shape;Lorg/jfree/chart/ui/RectangleAnchor;DD)Ljava/awt/Shape;
+  shape
+    +c:"Null 'shape' argument.".
+  anchor
+    +c:"Null 'anchor' argument.".
+
+org.jfree.chart.util.AbstractObjectList#set(ILjava/lang/Object;)V
+  index
+    +c:"Requires index >= 0.".
+
+org.jfree.chart.util.SerialUtils#readPaint(Ljava/io/ObjectInputStream;)Ljava/awt/Paint;
+  stream
+    +c:"Null 'stream' argument.".
+
+org.jfree.chart.util.SerialUtils#writePaint(Ljava/awt/Paint;Ljava/io/ObjectOutputStream;)V
+  stream
+    +c:"Null 'stream' argument.".
+
+org.jfree.chart.util.SerialUtils#readStroke(Ljava/io/ObjectInputStream;)Ljava/awt/Stroke;
+  stream
+    +c:"Null 'stream' argument.".
+
+org.jfree.chart.util.SerialUtils#writeStroke(Ljava/awt/Stroke;Ljava/io/ObjectOutputStream;)V
+  stream
+    +c:"Null 'stream' argument.".
+
+org.jfree.chart.util.SerialUtils#readComposite(Ljava/io/ObjectInputStream;)Ljava/awt/Composite;
+  stream
+    +c:"Null 'stream' argument.".
+
+org.jfree.chart.util.SerialUtils#writeComposite(Ljava/awt/Composite;Ljava/io/ObjectOutputStream;)V
+  stream
+    +c:"Null 'stream' argument.".
+
+org.jfree.chart.util.SerialUtils#readShape(Ljava/io/ObjectInputStream;)Ljava/awt/Shape;
+  stream
+    +c:"Null 'stream' argument.".
+
+org.jfree.chart.util.SerialUtils#writeShape(Ljava/awt/Shape;Ljava/io/ObjectOutputStream;)V
+  stream
+    +c:"Null 'stream' argument.".
+
+org.jfree.chart.util.SerialUtils#readPoint2D(Ljava/io/ObjectInputStream;)Ljava/awt/geom/Point2D;
+  stream
+    +c:"Null 'stream' argument.".
+
+org.jfree.chart.util.SerialUtils#writePoint2D(Ljava/awt/geom/Point2D;Ljava/io/ObjectOutputStream;)V
+  stream
+    +c:"Null 'stream' argument.".
+
+org.jfree.chart.util.SerialUtils#readAttributedString(Ljava/io/ObjectInputStream;)Ljava/text/AttributedString;
+  stream
+    +c:"Null 'stream' argument.".
+
+org.jfree.chart.util.SerialUtils#writeAttributedString(Ljava/text/AttributedString;Ljava/io/ObjectOutputStream;)V
+  stream
+    +c:"Null 'stream' argument.".
+
+org.jfree.chart.util.Args#nullNotPermitted(Ljava/lang/Object;Ljava/lang/String;)V
+  param
+    +c:Null '  ' argument.
+
+org.jfree.chart.util.Args#requireNonNegative(ILjava/lang/String;)V
+  value
+    +c:Require '  ' (  ) to be non-negative.
+
+org.jfree.chart.util.Args#requireInRange(ILjava/lang/String;II)V
+  value
+    +c:Require '  ' (  ) to be in the range    to.
+
+org.jfree.data.KeyToGroupMap#clone(Ljava/util/Collection;)Ljava/util/Collection;
+  list
+    +c:"Exception.".
+
+org.jfree.data.DefaultKeyedValues#getValue(Ljava/lang/Comparable;)Ljava/lang/Number;
+  key
+    +c:Key not found:.
+
+org.jfree.data.DefaultKeyedValues#insertValue(ILjava/lang/Comparable;Ljava/lang/Number;)V
+  position
+    +c:"'position' out of bounds.".
+
+org.jfree.data.DefaultKeyedValues#removeValue(Ljava/lang/Comparable;)V
+  key
+    +c:The key (  ) is not recognised.
+
+org.jfree.data.DefaultKeyedValues2D#getValue(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Number;
+  rowKey
+    +c:Unrecognised rowKey:.
+  columnKey
+    +c:Unrecognised columnKey:.
+
+org.jfree.data.DefaultKeyedValues2D#removeRow(Ljava/lang/Comparable;)V
+  rowKey
+    +c:Unknown key:.
+
+org.jfree.data.DefaultKeyedValues2D#removeColumn(Ljava/lang/Comparable;)V
+  columnKey
+    +c:Unknown key:.
+
+org.jfree.data.DefaultKeyedValue#<init>(Ljava/lang/Comparable;Ljava/lang/Number;)V
+  key
+    +d:  the key (should be immutable,  null not permitted).
+
+org.jfree.data.Range#<init>(DD)V
+  lower
+    +d:  the lower bound (must be <= upper bound).
+    +c:Range(double, double): require lower ( ) <= upper ( ).
+  upper
+    +d:  the upper bound (must be >= lower bound).
+
+org.jfree.data.Range#intersects(DD)Z
+  b0
+    +d:  the lower bound (should be <= b1).
+  b1
+    +d:  the upper bound (should be >= b0).
+
+org.jfree.data.Range#scale(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;
+  factor
+    +d: the scaling factor (must be non-negative).
+    +c:"Negative 'factor' argument.".
+
+org.jfree.data.KeyedObjects#getObject(Ljava/lang/Comparable;)Ljava/lang/Object;
+  key
+    +c:The key (  ) is not recognised.
+
+org.jfree.data.KeyedObjects#insertValue(ILjava/lang/Comparable;Ljava/lang/Object;)V
+  position
+    +c:"'position' out of bounds.".
+
+org.jfree.data.KeyedObjects#removeValue(Ljava/lang/Comparable;)V
+  key
+    +c:The key (   ) is not recognised.
+
+org.jfree.data.KeyedObjects2D#getObject(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Object;
+  rowKey
+    +c:Row key (  ) not recognised.
+  columnKey
+    +c:Column key (  ) not recognised.
+
+org.jfree.data.KeyedObjects2D#removeObject(Ljava/lang/Comparable;Ljava/lang/Comparable;)V
+  rowKey
+    +c:Row key (  ) not recognised.
+  columnKey
+    +c:Column key (  ) not recognised.
+
+org.jfree.data.KeyedObjects2D#removeRow(Ljava/lang/Comparable;)V
+  rowKey
+    +c:Row key (  ) not recognised.
+
+org.jfree.data.KeyedObjects2D#removeColumn(Ljava/lang/Comparable;)V
+  columnKey
+    +c:Column key (  ) not recognised.
+
+org.jfree.data.ComparableObjectSeries#update(Ljava/lang/Comparable;Ljava/lang/Object;)V
+  x
+    +c:No observation for x =.
+
+org.jfree.data.category.DefaultIntervalCategoryDataset#<init>([Ljava/lang/Comparable;[Ljava/lang/Comparable;[[Ljava/lang/Number;[[Ljava/lang/Number;)V
+  seriesKeys
+    +c:The number of series keys does not  match the number of series in the data.
+  categoryKeys
+    +c:The number of category keys does not match  the number of categories in the data.
+  ends
+    +c:DefaultIntervalCategoryDataset: the number  of series in the start value dataset does  not match the number of series in the end  value dataset.  DefaultIntervalCategoryDataset: the  number of categories in the start value  dataset does not match the number of  categories in the end value dataset.DefaultIntervalCategoryDataset: the number  of series in the start value dataset does  not match the number of series in the end  value dataset.  DefaultIntervalCategoryDataset: the  number of categories in the start value  dataset does not match the number of  categories in the end value dataset.
+
+org.jfree.data.category.DefaultIntervalCategoryDataset#getSeriesKey(I)Ljava/lang/Comparable;
+  series
+    +c:No such series :.
+
+org.jfree.data.category.DefaultIntervalCategoryDataset#setSeriesKeys([Ljava/lang/Comparable;)V
+  seriesKeys
+    +d:  the new keys ( null not permitted, the length of the array must match the number of series in the dataset).
+    +c:"The number of series keys does not match the data.".
+
+org.jfree.data.category.DefaultIntervalCategoryDataset#setCategoryKeys([Ljava/lang/Comparable;)V
+  categoryKeys
+    +c:"The number of categories does not match the data.".DefaultIntervalCategoryDataset.setCategoryKeys():  null category not permitted.
+
+org.jfree.data.category.DefaultIntervalCategoryDataset#getValue(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Number;
+  series
+    +c:
+  category
+    +c:
+
+org.jfree.data.category.DefaultIntervalCategoryDataset#getValue(II)Ljava/lang/Number;
+  series
+    +c:
+  category
+    +c:
+
+org.jfree.data.category.DefaultIntervalCategoryDataset#getStartValue(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Number;
+  series
+    +c:
+  category
+    +c:
+
+org.jfree.data.category.DefaultIntervalCategoryDataset#getStartValue(II)Ljava/lang/Number;
+  series
+    +c:DefaultIntervalCategoryDataset.getValue():  series index out of range.
+  category
+    +c:DefaultIntervalCategoryDataset.getValue():  category index out of range.
+
+org.jfree.data.category.DefaultIntervalCategoryDataset#getEndValue(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Number;
+  series
+    +c:
+  category
+    +c:
+
+org.jfree.data.category.DefaultIntervalCategoryDataset#getEndValue(II)Ljava/lang/Number;
+  series
+    +c:DefaultIntervalCategoryDataset.getValue():  series index out of range.
+  category
+    +c:DefaultIntervalCategoryDataset.getValue():  category index out of range.
+
+org.jfree.data.category.DefaultIntervalCategoryDataset#setStartValue(ILjava/lang/Comparable;Ljava/lang/Number;)V
+  series
+    +c:DefaultIntervalCategoryDataset.setValue:  series outside valid range.
+  category
+    +c:
+
+org.jfree.data.category.DefaultIntervalCategoryDataset#setEndValue(ILjava/lang/Comparable;Ljava/lang/Number;)V
+  series
+    +c:DefaultIntervalCategoryDataset.setValue:  series outside valid range.
+  category
+    +c:
+
+org.jfree.data.category.DefaultIntervalCategoryDataset#getRowKey(I)Ljava/lang/Comparable;
+  row
+    +c:"The 'row' argument is out of bounds.".
+
+org.jfree.data.category.CategoryToPieDataset#getValue(I)Ljava/lang/Number;
+  item
+    +c:"The 'item' index is out of bounds.".
+
+org.jfree.data.category.CategoryToPieDataset#getKey(I)Ljava/lang/Comparable;
+  index
+    +c:Invalid 'index':.
+
+org.jfree.data.category.SlidingCategoryDataset#setFirstCategoryIndex(I)V
+  first
+    +c:"Invalid index.".
+
+org.jfree.data.category.SlidingCategoryDataset#setMaximumCategoryCount(I)V
+  max
+    +c:"Requires 'max' >= 0.".
+
+org.jfree.data.category.SlidingCategoryDataset#getValue(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Number;
+  rowKey
+    +c:Unknown rowKey:.
+  columnKey
+    +c:Unknown columnKey:.
+
+org.jfree.data.function.NormalDistributionFunction2D#<init>(DD)V
+  std
+    +c:"Requires 'std' > 0.".
+
+org.jfree.data.gantt.SlidingGanttCategoryDataset#setFirstCategoryIndex(I)V
+  first
+    +c:"Invalid index.".
+
+org.jfree.data.gantt.SlidingGanttCategoryDataset#setMaximumCategoryCount(I)V
+  max
+    +c:"Requires 'max' >= 0.".
+
+org.jfree.data.gantt.SlidingGanttCategoryDataset#getValue(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Number;
+  rowKey
+    +c:Unknown rowKey:.
+  columnKey
+    +c:Unknown columnKey:.
+
+org.jfree.data.gantt.SlidingGanttCategoryDataset#getPercentComplete(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Number;
+  rowKey
+    +c:Unknown rowKey:.
+  columnKey
+    +c:Unknown columnKey:.
+
+org.jfree.data.gantt.SlidingGanttCategoryDataset#getPercentComplete(Ljava/lang/Comparable;Ljava/lang/Comparable;I)Ljava/lang/Number;
+  rowKey
+    +c:Unknown rowKey:.
+  columnKey
+    +c:Unknown columnKey:.
+
+org.jfree.data.gantt.SlidingGanttCategoryDataset#getEndValue(Ljava/lang/Comparable;Ljava/lang/Comparable;I)Ljava/lang/Number;
+  rowKey
+    +c:Unknown rowKey:.
+  columnKey
+    +c:Unknown columnKey:.
+
+org.jfree.data.gantt.SlidingGanttCategoryDataset#getStartValue(Ljava/lang/Comparable;Ljava/lang/Comparable;I)Ljava/lang/Number;
+  rowKey
+    +c:Unknown rowKey:.
+  columnKey
+    +c:Unknown columnKey:.
+
+org.jfree.data.gantt.SlidingGanttCategoryDataset#getSubIntervalCount(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
+  rowKey
+    +c:Unknown rowKey:.
+  columnKey
+    +c:Unknown columnKey:.
+
+org.jfree.data.gantt.SlidingGanttCategoryDataset#getStartValue(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Number;
+  rowKey
+    +c:Unknown rowKey:.
+  columnKey
+    +c:Unknown columnKey:.
+
+org.jfree.data.gantt.SlidingGanttCategoryDataset#getEndValue(Ljava/lang/Comparable;Ljava/lang/Comparable;)Ljava/lang/Number;
+  rowKey
+    +c:Unknown rowKey:.
+  columnKey
+    +c:Unknown columnKey:.
+
+org.jfree.data.gantt.TaskSeriesCollection#getSeries(Ljava/lang/Comparable;)Lorg/jfree/data/gantt/TaskSeries;
+  key
+    +c:"Null 'key' argument.".
+
+org.jfree.data.gantt.TaskSeriesCollection#getSeries(I)Lorg/jfree/data/gantt/TaskSeries;
+  series
+    +c:"Series index out of bounds".
+
+org.jfree.data.gantt.TaskSeriesCollection#remove(I)V
+  series
+    +c:"TaskSeriesCollection.remove(): index outside valid range.".
+
+org.jfree.data.gantt.XYTaskDataset#setSeriesWidth(D)V
+  w
+    +c:"Requires 'w' > 0.0.".
+
+org.jfree.data.general.DefaultHeatMapDataset#<init>(IIDDDD)V
+  xSamples
+    +c:"Requires 'xSamples' > 0".
+  ySamples
+    +c:"Requires 'ySamples' > 0".
+  minX
+    +c:"'minX' cannot be INF or NaN.".
+  maxX
+    +c:"'maxX' cannot be INF or NaN.".
+  minY
+    +c:"'minY' cannot be INF or NaN.".
+  maxY
+    +c:"'maxY' cannot be INF or NaN.".
+
+org.jfree.data.general.DatasetUtils#createCategoryDataset([Ljava/lang/Comparable;[Ljava/lang/Comparable;[[D)Lorg/jfree/data/category/CategoryDataset;
+  rowKeys
+    +c:"Duplicate items in 'rowKeys'.".
+  columnKeys
+    +c:"Duplicate items in 'columnKeys'.".The number of column keys does not match the number of  columns in the data array.
+  data
+    +c:The number of row keys does not match the number of rows in  the data array.
+
+org.jfree.data.general.DatasetUtils#sampleFunction2D(Lorg/jfree/data/function/Function2D;DDILjava/lang/Comparable;)Lorg/jfree/data/xy/XYDataset;
+  samples
+    +d:  the number of sample points (must be > 1).
+
+org.jfree.data.general.DatasetUtils#sampleFunction2DToSeries(Lorg/jfree/data/function/Function2D;DDILjava/lang/Comparable;)Lorg/jfree/data/xy/XYSeries;
+  start
+    +c:"Requires 'start' < 'end'.".
+  samples
+    +d:  the number of sample points (must be > 1).
+    +c:"Requires 'samples' > 1".
+
+org.jfree.data.jdbc.JDBCXYDataset#executeQuery(Ljava/sql/Connection;Ljava/lang/String;)V
+  con
+    +c:"There is no database to execute the query.".
+
+org.jfree.data.jdbc.JDBCCategoryDataset#<init>(Ljava/sql/Connection;)V
+  connection
+    +c:"A connection must be supplied.".
+
+org.jfree.data.jdbc.JDBCPieDataset#<init>(Ljava/sql/Connection;)V
+  con
+    +c:"A connection must be supplied.".
+
+org.jfree.data.statistics.SimpleHistogramDataset#addBin(Lorg/jfree/data/statistics/SimpleHistogramBin;)V
+  bin
+    +c:"Overlapping bin".
+
+org.jfree.data.statistics.SimpleHistogramDataset#addObservation(D)V
+  value
+    +c:
+
+org.jfree.data.statistics.SimpleHistogramDataset#addObservation(DZ)V
+  value
+    +c:
+
+org.jfree.data.statistics.HistogramDataset#addSeries(Ljava/lang/Comparable;[DI)V
+  values
+    +c:
+  bins
+    +d:  the number of bins (must be at least 1).
+    +c:
+
+org.jfree.data.statistics.HistogramDataset#addSeries(Ljava/lang/Comparable;[DIDD)V
+  bins
+    +d:  the number of bins (must be at least 1).
+    +c:"The 'bins' value must be at least 1.".
+
+org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset#setFaroutCoefficient(D)V
+  faroutCoefficient
+    +c:Farout value must be greater  than the outlier value, which is currently set at: (  ).
+
+org.jfree.data.statistics.HistogramBin#<init>(DD)V
+  startBoundary
+    +c:"HistogramBin():  startBoundary > endBoundary.".
+
+org.jfree.data.statistics.SimpleHistogramBin#<init>(DDZZ)V
+  lowerBound
+    +c:"Invalid bounds".
+
+org.jfree.data.time.MovingAverage#createMovingAverage(Lorg/jfree/data/time/TimeSeriesCollection;Ljava/lang/String;II)Lorg/jfree/data/time/TimeSeriesCollection;
+  periodCount
+    +c:periodCount must be greater  than or equal to 1.
+
+org.jfree.data.time.MovingAverage#createMovingAverage(Lorg/jfree/data/time/TimeSeries;Ljava/lang/String;II)Lorg/jfree/data/time/TimeSeries;
+  periodCount
+    +c:periodCount must be greater  than or equal to 1.
+
+org.jfree.data.time.MovingAverage#createPointMovingAverage(Lorg/jfree/data/time/TimeSeries;Ljava/lang/String;I)Lorg/jfree/data/time/TimeSeries;
+  pointCount
+    +c:periodCount must be greater  than or equal to 2.
+
+org.jfree.data.time.MovingAverage#createMovingAverage(Lorg/jfree/data/xy/XYDataset;ILjava/lang/String;DD)Lorg/jfree/data/xy/XYSeries;
+  period
+    +c:"period must be positive.".
+  skip
+    +c:"skip must be >= 0.0.".
+
+org.jfree.data.time.TimeSeries#setMaximumItemCount(I)V
+  maximum
+    +c:"Negative 'maximum' argument.".
+
+org.jfree.data.time.TimeSeries#setMaximumItemAge(J)V
+  periods
+    +c:"Negative 'periods' argument.".
+
+org.jfree.data.time.TimeSeries#delete(II)V
+  end
+    +c:
+
+org.jfree.data.time.TimeSeries#delete(IIZ)V
+  end
+    +c:"Requires start <= end.".
+
+org.jfree.data.time.TimeSeries#createCopy(II)Lorg/jfree/data/time/TimeSeries;
+  start
+    +c:"Requires start >= 0.".
+  end
+    +c:"Requires start <= end.".
+
+org.jfree.data.time.TimeSeries#createCopy(Lorg/jfree/data/time/RegularTimePeriod;Lorg/jfree/data/time/RegularTimePeriod;)Lorg/jfree/data/time/TimeSeries;
+  start
+    +c:"Requires start on or before end.".
+  end
+    +c:
+
+org.jfree.data.time.TimePeriodValuesCollection#getSeries(I)Lorg/jfree/data/time/TimePeriodValues;
+  series
+    +c:"Index 'series' out of range.".
+
+org.jfree.data.time.TimePeriodValuesCollection#getSeriesKey(I)Ljava/lang/Comparable;
+  series
+    +c:
+
+org.jfree.data.time.TimePeriodValuesCollection#getItemCount(I)I
+  series
+    +c:
+
+org.jfree.data.time.TimeSeriesCollection#getSeries(I)Lorg/jfree/data/time/TimeSeries;
+  series
+    +c:The 'series' argument is out of bounds (  ).
+
+org.jfree.data.time.TimeSeriesCollection#getSeriesKey(I)Ljava/lang/Comparable;
+  series
+    +c:
+
+org.jfree.data.time.TimeSeriesCollection#getItemCount(I)I
+  series
+    +c:
+
+org.jfree.data.time.TimeSeriesCollection#getSurroundingItems(IJ)[I
+  series
+    +c:
+
+org.jfree.data.time.TimeSeriesCollection#vetoableChange(Ljava/beans/PropertyChangeEvent;)V
+  e
+    +c:"Duplicate key2".
+
+org.jfree.data.time.Year#<init>(I)V
+  year
+    +c:Year constructor: year (  ) outside valid range.
+
+org.jfree.data.time.Week#<init>(II)V
+  week
+    +c:"The 'week' argument must be in the range 1 - 53.".
+
+org.jfree.data.time.Week#<init>(ILorg/jfree/data/time/Year;)V
+  week
+    +c:"The 'week' argument must be in the range 1 - 53.".
+
+org.jfree.data.time.DynamicTimeSeriesCollection#addSeries([FILjava/lang/Comparable;)V
+  values
+    +c:TimeSeriesDataset.addSeries():  cannot add null array of values.
+  seriesNumber
+    +c:TimeSeriesDataset.addSeries():  cannot add more series than specified in c'tor.
+
+org.jfree.data.time.DynamicTimeSeriesCollection#addValue(IIF)V
+  seriesNumber
+    +c:TimeSeriesDataset.addValue(): series #  unspecified in c'tor.
+
+org.jfree.data.time.DynamicTimeSeriesCollection#appendData([F)V
+  newData
+    +c:
+
+org.jfree.data.time.DynamicTimeSeriesCollection#appendData([FII)V
+  newData
+    +c:
+
+org.jfree.data.time.Month#<init>(II)V
+  month
+    +c:"Month outside valid range.".
+
+org.jfree.data.time.Month#<init>(ILorg/jfree/data/time/Year;)V
+  month
+    +c:"Month outside valid range.".
+
+org.jfree.data.time.Quarter#<init>(II)V
+  quarter
+    +c:"Quarter outside valid range.".
+
+org.jfree.data.time.Quarter#<init>(ILorg/jfree/data/time/Year;)V
+  quarter
+    +c:"Quarter outside valid range.".
+
+org.jfree.data.time.Quarter#parseQuarter(Ljava/lang/String;)Lorg/jfree/data/time/Quarter;
+  s
+    +c:"Q found at end of string.".
+
+org.jfree.data.time.SimpleTimePeriod#<init>(JJ)V
+  start
+    +c:"Requires start <= end.".
+
+org.jfree.data.time.ohlc.OHLCSeriesCollection#getSeries(I)Lorg/jfree/data/time/ohlc/OHLCSeries;
+  series
+    +c:"Series index out of bounds".
+
+org.jfree.data.time.ohlc.OHLCSeries#add(Lorg/jfree/data/time/RegularTimePeriod;DDDD)V
+  period
+    +c:"Can't mix RegularTimePeriod class types.".
+
+org.jfree.data.xml.CategoryDatasetHandler#startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+  qName
+    +c:Element not recognised:.
+
+org.jfree.data.xml.ItemHandler#startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+  qName
+    +c:Expected <Item> or <Value>...found.
+
+org.jfree.data.xml.ValueHandler#startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+  qName
+    +c:Expecting <Value> but found.
+
+org.jfree.data.xml.ValueHandler#endElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  qName
+    +c:Expecting </Value> but found.
+
+org.jfree.data.xml.CategorySeriesHandler#startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+  qName
+    +c:Expecting <Series> or <Item> tag...found.
+
+org.jfree.data.xml.KeyHandler#startElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V
+  qName
+    +c:Expecting <Key> but found.
+
+org.jfree.data.xml.KeyHandler#endElement(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+  qName
+    +c:Expecting </Key> but found.
+
+org.jfree.data.xy.DefaultTableXYDataset#addSeries(Lorg/jfree/data/xy/XYSeries;)V
+  series
+    +c:Cannot accept XYSeries that allow duplicate values.  Use XYSeries(seriesName, <sort>, false) constructor.
+
+org.jfree.data.xy.DefaultTableXYDataset#getSeries(I)Lorg/jfree/data/xy/XYSeries;
+  series
+    +c:"Index outside valid range.".
+
+org.jfree.data.xy.DefaultTableXYDataset#removeSeries(I)V
+  series
+    +c:"Index outside valid range.".
+
+org.jfree.data.xy.DefaultTableXYDataset#setIntervalWidth(D)V
+  d
+    +d:  the new interval width (must be > 0).
+
+org.jfree.data.xy.OHLCDataItem#compareTo(Ljava/lang/Object;)I
+  object
+    +c:"OHLCDataItem.compareTo().".
+
+org.jfree.data.xy.XIntervalSeriesCollection#getSeries(I)Lorg/jfree/data/xy/XIntervalSeries;
+  series
+    +c:"Series index out of bounds".
+
+org.jfree.data.xy.XIntervalSeriesCollection#removeSeries(I)V
+  series
+    +c:"Series index out of bounds.".
+
+org.jfree.data.xy.XYSeriesCollection#addSeries(Lorg/jfree/data/xy/XYSeries;)V
+  series
+    +c:This dataset already contains a series with the key.
+
+org.jfree.data.xy.XYSeriesCollection#removeSeries(I)V
+  series
+    +c:"Series index out of bounds.".
+
+org.jfree.data.xy.XYSeriesCollection#getSeries(I)Lorg/jfree/data/xy/XYSeries;
+  series
+    +c:"Series index out of bounds".
+
+org.jfree.data.xy.XYSeriesCollection#getSeries(Ljava/lang/Comparable;)Lorg/jfree/data/xy/XYSeries;
+  key
+    +c:Key not found:.
+
+org.jfree.data.xy.XYSeriesCollection#getSeriesKey(I)Ljava/lang/Comparable;
+  series
+    +c:
+
+org.jfree.data.xy.XYSeriesCollection#getItemCount(I)I
+  series
+    +c:
+
+org.jfree.data.xy.XYSeriesCollection#setIntervalWidth(D)V
+  width
+    +c:"Negative 'width' argument.".
+
+org.jfree.data.xy.XYSeriesCollection#vetoableChange(Ljava/beans/PropertyChangeEvent;)V
+  e
+    +c:"Duplicate key2".
+
+org.jfree.data.xy.DefaultXYDataset#getSeriesKey(I)Ljava/lang/Comparable;
+  series
+    +c:"Series index out of bounds".
+
+org.jfree.data.xy.DefaultXYDataset#getItemCount(I)I
+  series
+    +c:"Series index out of bounds".
+
+org.jfree.data.xy.DefaultXYDataset#addSeries(Ljava/lang/Comparable;[[D)V
+  seriesKey
+    +c:"The 'seriesKey' cannot be null.".
+  data
+    +d:  the data (must be an array with length 2, containing two arrays of equal length, the first containing the x-values and the second containing the y-values).
+    +c:"The 'data' is null."."The 'data' array must have length == 2."."The 'data' array must contain two arrays with equal length.".
+
+org.jfree.data.xy.MatrixSeriesCollection#getSeries(I)Lorg/jfree/data/xy/MatrixSeries;
+  seriesIndex
+    +c:"Index outside valid range.".
+
+org.jfree.data.xy.MatrixSeriesCollection#removeSeries(I)V
+  seriesIndex
+    +c:"Index outside valid range.".
+
+org.jfree.data.xy.XYSeries#update(Ljava/lang/Number;Ljava/lang/Number;)V
+  x
+    +c:No observation for x =.
+
+org.jfree.data.xy.YIntervalSeriesCollection#getSeries(I)Lorg/jfree/data/xy/YIntervalSeries;
+  series
+    +c:"Series index out of bounds".
+
+org.jfree.data.xy.YIntervalSeriesCollection#removeSeries(I)V
+  series
+    +c:"Series index out of bounds.".
+
+org.jfree.data.xy.VectorSeriesCollection#getSeries(I)Lorg/jfree/data/xy/VectorSeries;
+  series
+    +c:"Series index out of bounds".
+
+org.jfree.data.xy.XYIntervalSeriesCollection#getSeries(I)Lorg/jfree/data/xy/XYIntervalSeries;
+  series
+    +c:"Series index out of bounds".
+
+org.jfree.data.xy.XYIntervalSeriesCollection#removeSeries(I)V
+  series
+    +c:"Series index out of bounds.".
+
+org.jfree.data.xy.XYCoordinate#compareTo(Ljava/lang/Object;)I
+  obj
+    +c:"Incomparable object.".
+
+org.jfree.data.xy.IntervalXYDelegate#setIntervalPositionFactor(D)V
+  d
+    +c:"Argument 'd' outside valid range.".
+
+org.jfree.data.xy.IntervalXYDelegate#setFixedIntervalWidth(D)V
+  w
+    +c:"Negative 'w' argument.".
+
+org.jfree.data.xy.CategoryTableXYDataset#setIntervalWidth(D)V
+  d
+    +d:  the new interval width (must be > 0).
+
+org.jfree.data.xy.DefaultIntervalXYDataset#getSeriesKey(I)Ljava/lang/Comparable;
+  series
+    +c:"Series index out of bounds".
+
+org.jfree.data.xy.DefaultIntervalXYDataset#getItemCount(I)I
+  series
+    +c:"Series index out of bounds".
+
+org.jfree.data.xy.DefaultIntervalXYDataset#addSeries(Ljava/lang/Comparable;[[D)V
+  seriesKey
+    +c:"The 'seriesKey' cannot be null.".
+  data
+    +d:  the data (must be an array with length 6, containing six arrays of equal length, the first three containing the x-values (x, xLow and xHigh) and the last three containing the y-values (y, yLow and yHigh)).
+    +c:"The 'data' is null."."The 'data' array must have length == 6."."The 'data' array must contain six arrays with equal length.".
+
+org.jfree.data.xy.DefaultWindDataset#<init>(Ljava/util/List;[[[Ljava/lang/Object;)V
+  data
+    +c:The number of series keys does  not match the number of series in the data array.
+
+org.jfree.data.xy.DefaultWindDataset#getItemCount(I)I
+  series
+    +c:Invalid series index:.
+
+org.jfree.data.xy.DefaultWindDataset#getSeriesKey(I)Ljava/lang/Comparable;
+  series
+    +c:Invalid series index:.
+
+org.jfree.data.xy.DefaultXYZDataset#getSeriesKey(I)Ljava/lang/Comparable;
+  series
+    +c:"Series index out of bounds".
+
+org.jfree.data.xy.DefaultXYZDataset#getItemCount(I)I
+  series
+    +c:"Series index out of bounds".
+
+org.jfree.data.xy.DefaultXYZDataset#addSeries(Ljava/lang/Comparable;[[D)V
+  seriesKey
+    +c:"The 'seriesKey' cannot be null.".
+  data
+    +d:  the data (must be an array with length 3, containing three arrays of equal length, the first containing the x-values, the second containing the y-values and the third containing the z-values).
+    +c:"The 'data' is null."."The 'data' array must have length == 3.".The 'data' array must contain  three arrays all having the same length.
+
