@@ -12,3 +12,6 @@ In this project, we analyzed 93,643 methods of 9 popular API libraries. The resu
 
 ## Dataset
 [asm](/rep/asm.rar) [commons-io](/rep/commons-io.rar) [itext](/rep/itext.rar) [jfreechart](/rep/jfreechart.rar) [jmonkey](/rep/jmonkey.rar) [lucene](/rep/lucene.rar) [pdfbox](/rep/pdfbox.rar) [poi](/rep/poi.rar) [shiro](/rep/shiro.rar)
+
+## Found parameter rules
+[asm](/rules/asm.txt) [commons-io](/rules/commons-io.txt) [itext](/rules/itext.txt) [jfreechart](/rules/jfreechart.txt) [jmonkey](/rules/jmonkey.txt) [lucene](/rules/lucene.txt) [pdfbox](/rules/pdfbox.txt) [poi](/rules/poi.txt) [shiro](/rules/shiro.txt)
