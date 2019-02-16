@@ -15,3 +15,6 @@ In this project, we analyzed 93,643 methods of 9 popular API libraries. The resu
 
 ## Found parameter rules
 [asm](/rules/asm.txt) [commons-io](/rules/commons-io.txt) [itext](/rules/itext.txt) [jfreechart](/rules/jfreechart.txt) [jmonkey](/rules/jmonkey.txt) [lucene](/rules/lucene.txt) [pdfbox](/rules/pdfbox.txt) [poi](/rules/poi.txt) [shiro](/rules/shiro.txt)
+
++c denotes that a parameter has a code rule.
++d denotes that a parameter has a document rule.
