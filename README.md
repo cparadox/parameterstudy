@@ -18,3 +18,8 @@ In this project, we analyzed 93,643 methods of 9 popular API libraries. The resu
 
 +c denotes that a parameter has a code rule.
 +d denotes that a parameter has a document rule.
+
+## Manual inspection
+[asm](/inspection/asm.xlsx) [commons-io](/inspection/commons-io.xlsx) [itext](/inspection/itext.xlsx) [jfreechart](/inspection/jfreechart.xlsx) [jmonkey](/inspection/jmonkey.xlsx) [lucene](/inspection/lucene.xlsx) [pdfbox](/inspection/pdfbox.xlsx) [poi](/inspection/poi.xlsx) [shiro](/inspection/shiro.xlsx)
+
+
