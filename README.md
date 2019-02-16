@@ -8,4 +8,7 @@ For example, existing approaches typically use predefined templates to mine rule
 reveal API parameter rules. Some researchers built approaches to mine parameter rules from traces or documents, but it is unclear how
 the two research lines complement each other. 
 
-In this project, we analyzed 93,643 methods of 9 popular API libraries.
+In this project, we analyzed 93,643 methods of 9 popular API libraries. The results are reported in our submitted paper. 
+
+## Dataset
+[asm](/asm.rar)
